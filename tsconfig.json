@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+	  "module": "commonjs",
+	  "lib": ["esnext", "dom", "DOM.Iterable"],
+	  "target": "es2019",
+	  "esModuleInterop": true,
+	  "outDir": "build"
+	},
+	"include": ["src"],
+	"exclude": ["**/node_modules"],
+}
