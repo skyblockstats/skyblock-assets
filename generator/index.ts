@@ -137,21 +137,21 @@ async function readModelJson(baseDir: string, modelName: string, vanillaModelsDi
 }
 
 
-async function addItemFromModel(baseDir: string, outputDir: string, modelName: string, vanillaModelsDir: string) {
-	const model = await readFullModel(`${baseDir}/models`, modelName, vanillaModelsDir)
-	const modelTextures: ModelTextures = model.textures
-	const itemTexturePath = modelTextures.layer0
-	// writeJsonFile(baseDir + '')
-	const textureBuffer = await fs.readFile(`${baseDir}/textures/${itemTexturePath}.png`)
-	const textureOutputDir = `${outputDir}/textures/${itemTexturePath}.png`
-	try {
-		await fs.mkdir(path.dirname(textureOutputDir), { recursive: true })
-	} catch {}
-	await fs.writeFile(textureOutputDir, textureBuffer)
-	return {
-		texture: textureOutputDir,
-	}
-}
+// async function addItemFromModel(baseDir: string, outputDir: string, modelName: string, vanillaModelsDir: string) {
+// 	const model = await readFullModel(`${baseDir}/models`, modelName, vanillaModelsDir)
+// 	const modelTextures: ModelTextures = model.textures
+// 	const itemTexturePath = modelTextures.layer0
+// 	// writeJsonFile(baseDir + '')
+// 	const textureBuffer = await fs.readFile(`${baseDir}/textures/${itemTexturePath}.png`)
+// 	const textureOutputDir = `${outputDir}/textures/${itemTexturePath}.png`
+// 	try {
+// 		await fs.mkdir(path.dirname(textureOutputDir), { recursive: true })
+// 	} catch {}
+// 	await fs.writeFile(textureOutputDir, textureBuffer)
+// 	return {
+// 		texture: textureOutputDir,
+// 	}
+// }
 
 
 function setDotNotationAttribute(obj: any, path: string, value: any) {
@@ -234,12 +234,8 @@ interface Matcher {
 }
 
 async function addPack(packName: string) {
-	try {
-		await fs.rmdir(`./textures/${packName}`, { recursive: true })
-	} catch {}
-	await fs.mkdir(`./textures/${packName}`)
 	const packSourceDir = `./packs/${packName}`
-	const outputDir = `./textures/${packName}`
+	const outputDir = `./matchers/`
 
 	const vanillaDir = path.join(path.dirname(__dirname), './packs/vanilla')
 
@@ -256,14 +252,19 @@ async function addPack(packName: string) {
 	// await addItemFromModel(packSourceDir, outputDir, 'item/stick')
 	// await addItemFromModel(packSourceDir, outputDir, 'item/diamond_pickaxe')
 
-	await writeJsonFile(path.join(outputDir, 'matchers.json'), matchers)
+	await writeJsonFile(path.join(outputDir, `${packName}.json`), matchers)
+}
+
+async function makeDir(dir) {
+	try {
+		await fs.rmdir(dir, { recursive: true })
+	} catch {}
+	await fs.mkdir(dir)
 }
 
 async function main() {
-	try {
-		await fs.rmdir('./textures', { recursive: true })
-	} catch {}
-	await fs.mkdir('./textures')
+	await makeDir('./textures')
+	await makeDir(`./matchers`)
 
 	await addPack('packshq')
 	await addPack('furfsky')
