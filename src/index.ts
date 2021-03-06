@@ -145,7 +145,9 @@ async function addItemFromModel(baseDir: string, outputDir: string, modelName: s
 	// writeJsonFile(baseDir + '')
 	const textureBuffer = await fs.readFile(`${baseDir}/textures/${itemTexturePath}.png`)
 	const textureOutputDir = `${outputDir}/textures/${itemTexturePath}.png`
-	await fs.mkdir(path.dirname(textureOutputDir), { recursive: true })
+	try {
+		await fs.mkdir(path.dirname(textureOutputDir), { recursive: true })
+	} catch {}
 	await fs.writeFile(textureOutputDir, textureBuffer)
 	return {
 		texture: textureOutputDir,
@@ -156,12 +158,23 @@ async function addItemFromModel(baseDir: string, outputDir: string, modelName: s
 function setDotNotationAttribute(obj: any, path: string, value: any) {
 	let pointerObj = obj
 	const parts = path.split('.')
+
+	let previousPointerObj = obj
+	let previousPart: string = parts[0]
+
 	const last = parts.pop()
 	for (const part of parts) {
+		previousPointerObj = pointerObj
+		previousPart = part
 		if (!pointerObj[part]) pointerObj[part] = {}
 		pointerObj = pointerObj[part]
 	}
-	pointerObj[last] = value
+	if (typeof pointerObj === 'string') {
+		previousPointerObj[previousPart] = {}
+		previousPointerObj[previousPart][previousPart] = pointerObj
+		Object.assign(previousPointerObj[previousPart], value)
+	} else
+		pointerObj[last] = value
 	return obj
 }
 
@@ -222,6 +235,9 @@ interface Matcher {
 }
 
 async function addPack(packName: string) {
+	try {
+		await fs.rmdir(`./textures/${packName}`, { recursive: true })
+	} catch {}
 	await fs.mkdir(`./textures/${packName}`)
 	const packSourceDir = `./packs/${packName}`
 	const outputDir = `./textures/${packName}`
@@ -251,6 +267,7 @@ async function main() {
 	await fs.mkdir('./textures')
 
 	await addPack('packshq')
+	await addPack('furfsky')
 }
 
 main()
