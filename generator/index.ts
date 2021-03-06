@@ -1,5 +1,4 @@
-import { exception } from 'console'
-import { promises as fs, writeFile } from 'fs'
+import { promises as fs } from 'fs'
 import * as path from 'path'
 type XYZArray = [ number, number, number ]
 type XYXYArray = [ number, number, number, number ]
