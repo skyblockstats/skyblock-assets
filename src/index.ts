@@ -1,7 +1,6 @@
 import { exception } from 'console'
-import { promises as fs } from 'fs'
+import { promises as fs, writeFile } from 'fs'
 import * as path from 'path'
-import { resolve } from 'path'
 type XYZArray = [ number, number, number ]
 type XYXYArray = [ number, number, number, number ]
 
@@ -61,7 +60,8 @@ interface Model {
 async function* getFiles(dir: string): AsyncGenerator<string> {
     const entries = await fs.readdir(dir, { withFileTypes: true })
     for (const entry of entries) {
-        const res = resolve(dir, entry.name)
+        // const res = path.resolve(dir, entry.name)
+        const res = path.join(dir, entry.name)
         if (entry.isDirectory()) {
             yield* getFiles(res)
         } else {
@@ -92,7 +92,7 @@ async function readJsonFile(fileDir: string): Promise<any> {
 }
 
 async function writeJsonFile(fileDir: string, contents: any): Promise<void> {
-	await fs.writeFile(fileDir, contents, { encoding: 'utf8' })
+	await fs.writeFile(fileDir, JSON.stringify(contents, null, 2), { encoding: 'utf8' })
 }
 
 function deepAssign(target, ...sources) {
@@ -141,7 +141,6 @@ async function readModelJson(baseDir: string, modelName: string, vanillaModelsDi
 async function addItemFromModel(baseDir: string, outputDir: string, modelName: string, vanillaModelsDir: string) {
 	const model = await readFullModel(`${baseDir}/models`, modelName, vanillaModelsDir)
 	const modelTextures: ModelTextures = model.textures
-	console.log(modelTextures)
 	const itemTexturePath = modelTextures.layer0
 	// writeJsonFile(baseDir + '')
 	const textureBuffer = await fs.readFile(`${baseDir}/textures/${itemTexturePath}.png`)
@@ -166,11 +165,13 @@ function setDotNotationAttribute(obj: any, path: string, value: any) {
 	return obj
 }
 
-async function addItemFromCIT(baseDir: string, outputDir: string, propertiesDir: string, vanillaDir: string) {
+async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir: string, vanillaDir: string) {
 	const properties = await readPropertiesFile(propertiesDir)
 
+	const matchItems = (properties?.items ?? properties?.matchItems)?.split(' ') ?? null
+
 	const matcher: Matcher = {
-		items: properties?.items?.split(',') ?? null, // TODO: is this actually split by commas?
+		items: matchItems, // TODO: is this actually split by commas?
 		nbt: properties.nbt,
 		type: properties?.type ?? null
 	}
@@ -201,8 +202,12 @@ async function addItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 		}
 		textures = { ...newTextures }
 	}
-	console.log(textures)
+	return {
+		matcher,
+		textures
+	}
 }
+
 
 interface Matcher {
 	type: string
@@ -223,15 +228,20 @@ async function addPack(packName: string) {
 
 	const vanillaDir = path.join(path.dirname(__dirname), './packs/vanilla')
 
+	const matchers = []
+
 	// add cit
 	const customItemTextureDirs = await getFiles(`${packSourceDir}/mcpatcher/cit`)
 	for await (const textureDir of customItemTextureDirs) {
 		if (textureDir.endsWith('.properties')) {
-			await addItemFromCIT(packSourceDir, outputDir, textureDir, vanillaDir)
+			const item = await getItemFromCIT(packSourceDir, outputDir, textureDir, vanillaDir)
+			matchers.push(item)
 		}
 	}
 	// await addItemFromModel(packSourceDir, outputDir, 'item/stick')
 	// await addItemFromModel(packSourceDir, outputDir, 'item/diamond_pickaxe')
+
+	await writeJsonFile(path.join(outputDir, 'matchers.json'), matchers)
 }
 
 async function main() {
