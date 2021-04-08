@@ -239,9 +239,9 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 
 
 interface Matcher {
-	type: string
-	items: string[]
-	nbt: {
+	type?: string
+	items?: string[]
+	nbt?: {
 		ExtraAttributes?: {
 			id?: string
 			[ key: string ]: any
@@ -256,7 +256,7 @@ async function addPack(packName: string) {
 
 	const vanillaDir = path.join(path.dirname(__dirname), './packs/vanilla')
 
-	const matchers = []
+	const matchers: MatcherTextures[] = []
 
 	// add cit
 	const customItemTextureDirs = await getFiles(`${packSourceDir}/mcpatcher/cit`)
@@ -266,9 +266,28 @@ async function addPack(packName: string) {
 			matchers.push(item)
 		}
 	}
-	// console.log("path.join(vanillaDir, 'models')", path.join(vanillaDir, 'models'))
-	// console.log(await readFullModel(packSourceDir, 'item/book', path.join(vanillaDir, 'models')))
-	// await addItemFromModel(packSourceDir, outputDir, 'item/diamond_pickaxe')
+
+	const itemModelDirs = await getFiles(path.join(packSourceDir, 'models', 'item'))
+	for await (const modelDir of itemModelDirs) {
+		const itemName = path.basename(modelDir).split('.')[0]
+		const model = await readFullModel(packSourceDir, `item/${itemName}`, path.join(vanillaDir, 'models'))
+		if (model.textures) {
+			const newTextures = {}
+			for (let [ key, value ] of Object.entries(model.textures)) {
+				if (!value.endsWith('.png')) value += '.png'
+				newTextures[key] = path.join(packSourceDir, 'textures', value)
+			}
+			model.textures = { ...newTextures }
+
+			matchers.push({
+				matcher: {
+					items: [ `minecraft:${itemName}` ]
+				},
+				textures: model.textures
+			})
+		}
+		// await addItemFromModel(packSourceDir, outputDir, 'item/diamond_pickaxe')
+	}
 
 	await writeJsonFile(path.join(outputDir, `${packName}.json`), matchers)
 }
@@ -286,7 +305,7 @@ async function main() {
 
 	await addPack('packshq')
 	await addPack('furfsky')
-	// await addPack('vanilla')
+	await addPack('vanilla')
 }
 
 main()

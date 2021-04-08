@@ -1,0 +1,6324 @@
+[
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_door"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\door_acacia.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_fence"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_fence_gate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_leaves"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\leaves_acacia.png",
+      "particle": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_log"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\log_acacia_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\log_acacia.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_planks"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_sapling"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\sapling_acacia.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:acacia_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:activator_rail"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\rail_activator.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:allium"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_allium.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:andesite"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone_andesite.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:andesite_smooth"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone_andesite_smooth.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:anvil_intact"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
+      "body": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
+      "top": "packs\\vanilla\\textures\\blocks\\anvil_top_damaged_0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:anvil_slightly_damaged"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
+      "body": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
+      "top": "packs\\vanilla\\textures\\blocks\\anvil_top_damaged_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:anvil_very_damaged"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
+      "body": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
+      "top": "packs\\vanilla\\textures\\blocks\\anvil_top_damaged_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:apple"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\apple.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:armor_stand"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\wooden_armorstand.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:arrow"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\arrow.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:baked_potato"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\potato_baked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:barrier"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\barrier.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:beacon"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\glass.png",
+      "glass": "packs\\vanilla\\textures\\blocks\\glass.png",
+      "obsidian": "packs\\vanilla\\textures\\blocks\\obsidian.png",
+      "beacon": "packs\\vanilla\\textures\\blocks\\beacon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bed"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bed.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bedrock"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\bedrock.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:beef"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\beef_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_door"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\door_birch.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_fence"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_fence_gate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_leaves"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\leaves_birch.png",
+      "particle": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_log"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\log_birch_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\log_birch.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_planks"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_sapling"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\sapling_birch.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:birch_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:black_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:black_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_black.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:black_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_black.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:black_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_black.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:black_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blaze_powder"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\blaze_powder.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blaze_rod"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\blaze_rod.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blue_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blue_orchid"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_blue_orchid.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blue_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_blue.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blue_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_blue.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blue_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_blue.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blue_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:boat"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\boat.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bone"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bone.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:book"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\book_normal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bookshelf"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "side": "packs\\vanilla\\textures\\blocks\\bookshelf.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bottle_drinkable"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
+      "layer1": "packs\\vanilla\\textures\\items\\potion_bottle_drinkable.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bottle_splash"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
+      "layer1": "packs\\vanilla\\textures\\items\\potion_bottle_splash.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bow_standby.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bowl"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bowl.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow_pulling_0"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bow_pulling_0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow_pulling_1"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bow_pulling_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow_pulling_2"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bow_pulling_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bread"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bread.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brewing_stand"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\brewing_stand.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brick"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\brick.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brick_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brick_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "top": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "side": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brick_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "top": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "side": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brown_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brown_mushroom"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\mushroom_brown.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brown_mushroom_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_brown.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brown_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_brown.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brown_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_brown.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brown_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_brown.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brown_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bucket"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bucket_empty.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cactus"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\cactus_side.png",
+      "bottom": "packs\\vanilla\\textures\\blocks\\cactus_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\cactus_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\cactus_side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cake"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\cake.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:carrot"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\carrot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:carrot_on_a_stick"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\carrot_on_a_stick.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cauldron"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\cauldron.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_boots"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_chestplate"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_helmet"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_leggings"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:charcoal"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\charcoal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chest_minecart"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\minecart_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chicken"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\chicken_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chiseled_brick_monster_egg"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chiseled_quartz_block"
+      ]
+    },
+    "textures": {
+      "side": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled.png",
+      "end": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled_top.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chiseled_red_sandstone"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\red_sandstone_carved.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chiseled_sandstone"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\sandstone_carved.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chiseled_stonebrick"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\clay.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:clay_ball"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\clay_ball.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:clock"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\clock.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:clownfish"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fish_clownfish_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:coal"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\coal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:coal_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\coal_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:coal_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\coal_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:coarse_dirt"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\coarse_dirt.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cobblestone"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cobblestone_monster_egg"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cobblestone_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "top": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "side": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cobblestone_wall"
+      ]
+    },
+    "textures": {
+      "wall": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "particle": "packs\\vanilla\\textures\\#wall.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cod"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fish_cod_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:command_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\command_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:command_block_minecart"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\minecart_command_block.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:comparator"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\comparator.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:compass"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\compass.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_beef"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\beef_cooked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_chicken"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\chicken_cooked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_cod"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fish_cod_cooked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_mutton"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\mutton_cooked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_porkchop"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\porkchop_cooked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_rabbit"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\rabbit_cooked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_salmon"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fish_salmon_cooked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cookie"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\cookie.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cracked_brick_monster_egg"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cracked_stonebrick"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:crafting_table"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\crafting_table_front.png",
+      "down": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "up": "packs\\vanilla\\textures\\blocks\\crafting_table_top.png",
+      "north": "packs\\vanilla\\textures\\blocks\\crafting_table_front.png",
+      "east": "packs\\vanilla\\textures\\blocks\\crafting_table_side.png",
+      "south": "packs\\vanilla\\textures\\blocks\\crafting_table_side.png",
+      "west": "packs\\vanilla\\textures\\blocks\\crafting_table_front.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cyan_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cyan_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_cyan.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cyan_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_cyan.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cyan_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_cyan.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cyan_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dandelion"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_dandelion.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_door"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\door_dark_oak.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_fence"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_fence_gate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_leaves"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\leaves_big_oak.png",
+      "particle": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_log"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\log_big_oak_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\log_big_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_planks"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_sapling"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\sapling_roofed_oak.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_oak_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dark_prismarine"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\prismarine_dark.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:daylight_detector"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\daylight_detector_top.png",
+      "top": "packs\\vanilla\\textures\\blocks\\daylight_detector_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\daylight_detector_side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dead_bush"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\deadbush.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:detector_rail"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\rail_detector.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_axe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\diamond_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_hoe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_hoe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_horse_armor"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_horse_armor.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\diamond_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_pickaxe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_pickaxe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_shovel"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diorite"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone_diorite.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diorite_smooth"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone_diorite_smooth.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dirt"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dispenser"
+      ]
+    },
+    "textures": {
+      "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
+      "front": "packs\\vanilla\\textures\\blocks\\dispenser_front_horizontal.png",
+      "side": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
+      "particle": "packs\\vanilla\\textures\\#front.png",
+      "down": "packs\\vanilla\\textures\\#top.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#front.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:double_fern"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_fern_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:double_grass"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_grass_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:double_rose"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_rose_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dragon_egg"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\dragon_egg.png",
+      "all": "packs\\vanilla\\textures\\blocks\\dragon_egg.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dropper"
+      ]
+    },
+    "textures": {
+      "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
+      "front": "packs\\vanilla\\textures\\blocks\\dropper_front_horizontal.png",
+      "side": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
+      "particle": "packs\\vanilla\\textures\\#front.png",
+      "down": "packs\\vanilla\\textures\\#top.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#front.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_black"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_black.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_blue"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_blue.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_brown"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_brown.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_cyan"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_cyan.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_gray"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_gray.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_green"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_green.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_light_blue"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_light_blue.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_lime"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_lime.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_magenta"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_magenta.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_orange"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_orange.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_pink"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_pink.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_purple"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_purple.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_red"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_red.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_silver"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_silver.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_white"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_white.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye_yellow"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\dye_powder_yellow.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:egg"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\egg.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:emerald"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\emerald.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:emerald_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\emerald_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:emerald_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\emerald_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:enchanted_book"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\book_enchanted.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:enchanting_table"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\enchanting_table_bottom.png",
+      "bottom": "packs\\vanilla\\textures\\blocks\\enchanting_table_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\enchanting_table_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\enchanting_table_side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\ender_eye.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_pearl"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\ender_pearl.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:end_portal_frame"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\endframe_side.png",
+      "bottom": "packs\\vanilla\\textures\\blocks\\end_stone.png",
+      "top": "packs\\vanilla\\textures\\blocks\\endframe_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\endframe_side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:end_stone"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\end_stone.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\experience_bottle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:farmland"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "dirt": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "top": "packs\\vanilla\\textures\\blocks\\farmland_dry.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:feather"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\feather.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fermented_spider_eye"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\spider_eye_fermented.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fern"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\fern.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:filled_map"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\map_filled.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fireworks"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fireworks.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:firework_charge"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fireworks_charge.png",
+      "layer1": "packs\\vanilla\\textures\\items\\fireworks_charge_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fire_charge"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fireball.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fishing_rod_uncast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod_cast"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fishing_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:flint"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\flint.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:flint_and_steel"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\flint_and_steel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:flower_pot"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\flower_pot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:furnace"
+      ]
+    },
+    "textures": {
+      "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
+      "front": "packs\\vanilla\\textures\\blocks\\furnace_front_off.png",
+      "side": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
+      "particle": "packs\\vanilla\\textures\\#front.png",
+      "down": "packs\\vanilla\\textures\\#top.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#front.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:furnace_minecart"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\minecart_furnace.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ghast_tear"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\ghast_tear.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:glass_bottle"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\potion_bottle_empty.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:glowstone"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glowstone.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:glowstone_dust"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\glowstone_dust.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_apple"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\apple_golden.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_axe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_boots"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_carrot"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\carrot_golden.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_chestplate"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_helmet"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_hoe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_hoe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_horse_armor"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_horse_armor.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_leggings"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_pickaxe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_pickaxe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_rail"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\rail_golden.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_shovel"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\gold_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_ingot"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_ingot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_nugget"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gold_nugget.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\gold_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:granite"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone_granite.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:granite_smooth"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone_granite_smooth.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:grass"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "bottom": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "top": "packs\\vanilla\\textures\\blocks\\grass_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\grass_side.png",
+      "overlay": "packs\\vanilla\\textures\\blocks\\grass_side_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gravel"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\gravel.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gray_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gray_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_gray.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gray_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_gray.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gray_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_gray.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gray_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:green_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:green_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_green.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:green_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_green.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:green_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_green.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:green_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gunpowder"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\gunpowder.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hay_block"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\hay_block_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\hay_block_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:heavy_weighted_pressure_plate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\iron_block.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\hopper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper_minecart"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\minecart_hopper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:houstonia"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_houstonia.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ice"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\ice.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_bars"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\iron_bars.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\iron_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_chestplate"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_door"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\door_iron.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_helmet"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_hoe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_hoe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_horse_armor"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_horse_armor.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_ingot"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_ingot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_leggings"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\iron_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_pickaxe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_pickaxe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_shovel"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\iron_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_trapdoor"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\iron_trapdoor.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:item_frame"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\item_frame.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jukebox"
+      ]
+    },
+    "textures": {
+      "top": "packs\\vanilla\\textures\\blocks\\jukebox_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\jukebox_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#side.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_door"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\door_jungle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_fence"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_fence_gate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_leaves"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\leaves_jungle.png",
+      "particle": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_log"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\log_jungle_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\log_jungle.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_planks"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_sapling"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\sapling_jungle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:jungle_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ladder"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\ladder.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lapis_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\lapis_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lapis_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\lapis_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lava_bucket"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bucket_lava.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lead"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\lead.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\leather.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\leather_boots.png",
+      "layer1": "packs\\vanilla\\textures\\items\\leather_boots_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\leather_chestplate.png",
+      "layer1": "packs\\vanilla\\textures\\items\\leather_chestplate_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\leather_helmet.png",
+      "layer1": "packs\\vanilla\\textures\\items\\leather_helmet_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\leather_leggings.png",
+      "layer1": "packs\\vanilla\\textures\\items\\leather_leggings_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lever"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\lever.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:light_blue_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:light_blue_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:light_blue_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:light_blue_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_light_blue.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:light_blue_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:light_weighted_pressure_plate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\gold_block.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lime_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lime_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_lime.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lime_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_lime.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lime_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_lime.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lime_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lit_furnace"
+      ]
+    },
+    "textures": {
+      "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
+      "front": "packs\\vanilla\\textures\\blocks\\furnace_front_on.png",
+      "side": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
+      "particle": "packs\\vanilla\\textures\\#front.png",
+      "down": "packs\\vanilla\\textures\\#top.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#front.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lit_pumpkin"
+      ]
+    },
+    "textures": {
+      "top": "packs\\vanilla\\textures\\blocks\\pumpkin_top.png",
+      "front": "packs\\vanilla\\textures\\blocks\\pumpkin_face_on.png",
+      "side": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
+      "particle": "packs\\vanilla\\textures\\#front.png",
+      "down": "packs\\vanilla\\textures\\#top.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#front.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:magenta_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:magenta_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_magenta.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:magenta_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_magenta.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:magenta_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_magenta.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:magenta_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:magma_cream"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\magma_cream.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:map"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\map_empty.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:melon"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\melon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:melon_block"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\melon_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\melon_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:melon_seeds"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\seeds_melon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:milk_bucket"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bucket_milk.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:minecart"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\minecart_normal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mob_spawner"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\mob_spawner.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mossy_brick_monster_egg"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mossy_cobblestone"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mossy_cobblestone_wall"
+      ]
+    },
+    "textures": {
+      "wall": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
+      "particle": "packs\\vanilla\\textures\\#wall.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mossy_stonebrick"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mushroom_stew"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\mushroom_stew.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\mutton_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mycelium"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "top": "packs\\vanilla\\textures\\blocks\\mycelium_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\mycelium_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:name_tag"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\name_tag.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:netherbrick"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\netherbrick.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:netherrack"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\netherrack.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_brick"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_brick_fence"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_brick_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "top": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "side": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_brick_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "top": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "side": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\nether_star.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_wart"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\nether_wart.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:noteblock"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\noteblock.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_door"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\door_wood.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_fence"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_fence_gate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_leaves"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\leaves_oak.png",
+      "particle": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_log"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\log_oak_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\log_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_planks"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_sapling"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\sapling_oak.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oak_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:obsidian"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\obsidian.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:old_wood_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:orange_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:orange_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_orange.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:orange_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_orange.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:orange_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_orange.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:orange_tulip"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_orange.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:orange_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:oxeye_daisy"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_oxeye_daisy.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:packed_ice"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\ice_packed.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:paeonia"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_paeonia_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:painting"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\painting.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:paper"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\paper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pink_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pink_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_pink.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pink_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_pink.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pink_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_pink.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pink_tulip"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_pink.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pink_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:piston"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\piston_bottom.png",
+      "side": "packs\\vanilla\\textures\\blocks\\piston_side.png",
+      "top": "packs\\vanilla\\textures\\blocks\\piston_top_normal.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:podzol"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "top": "packs\\vanilla\\textures\\blocks\\dirt_podzol_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\dirt_podzol_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:poisonous_potato"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\potato_poisonous.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:poppy"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_rose.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:porkchop"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\porkchop_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:potato"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\potato.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:prismarine"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\prismarine_rough.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:prismarine_bricks"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\prismarine_bricks.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:prismarine_crystals"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\prismarine_crystals.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:prismarine_shard"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\prismarine_shard.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pufferfish"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fish_pufferfish_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pumpkin"
+      ]
+    },
+    "textures": {
+      "top": "packs\\vanilla\\textures\\blocks\\pumpkin_top.png",
+      "front": "packs\\vanilla\\textures\\blocks\\pumpkin_face_off.png",
+      "side": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
+      "particle": "packs\\vanilla\\textures\\#front.png",
+      "down": "packs\\vanilla\\textures\\#top.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#front.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pumpkin_pie"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\pumpkin_pie.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pumpkin_seeds"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\seeds_pumpkin.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:purple_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:purple_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_purple.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:purple_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_purple.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:purple_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_purple.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:purple_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\quartz.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz_block"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\quartz_block_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz_column"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\quartz_block_lines_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\quartz_block_lines.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\quartz_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\quartz_block_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\quartz_block_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rabbit"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\rabbit_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rabbit_foot"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\rabbit_foot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rabbit_hide"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\rabbit_hide.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rabbit_stew"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\rabbit_stew.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rail"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\rail_normal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_11"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_11.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_13"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_13.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_blocks"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_blocks.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_cat"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_cat.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_chirp"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_chirp.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_far"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_far.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_mall"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_mall.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_mellohi"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_mellohi.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_stal"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_stal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_strad"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_strad.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_wait"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_wait.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_ward"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\record_ward.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\redstone_dust.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\redstone_block.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone_lamp"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\redstone_lamp_off.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone_ore"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\redstone_ore.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone_torch"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\redstone_torch_on.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_mushroom"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\mushroom_red.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_mushroom_block"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_red.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_sand"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\red_sand.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_sandstone"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_sandstone_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_sandstone_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_red.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_red.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_red.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_tulip"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_red.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:red_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:reeds"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\reeds.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:repeater"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\repeater.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\rotten_flesh.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:saddle"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\saddle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:salmon"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\fish_salmon_raw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sand"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\sand.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sandstone"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sandstone_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sandstone_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sea_lantern"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\sea_lantern.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:shears"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\shears.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sign"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\sign.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:silver_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:silver_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_silver.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:silver_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_silver.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:silver_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_silver.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:silver_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:slime"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\slime.png",
+      "texture": "packs\\vanilla\\textures\\blocks\\slime.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:slime_ball"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\slimeball.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:smooth_red_sandstone"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\red_sandstone_smooth.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:smooth_sandstone"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\sandstone_smooth.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:snow"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\snow.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:snowball"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\snowball.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:snow_layer"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\snow.png",
+      "texture": "packs\\vanilla\\textures\\blocks\\snow.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:soul_sand"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\soul_sand.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spawn_egg"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\spawn_egg.png",
+      "layer1": "packs\\vanilla\\textures\\items\\spawn_egg_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:speckled_melon"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\melon_speckled.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spider_eye"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\spider_eye.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sponge"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\sponge.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sponge_wet"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\sponge_wet.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_door"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\door_spruce.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_fence"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_fence_gate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_leaves"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\leaves_spruce.png",
+      "particle": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_log"
+      ]
+    },
+    "textures": {
+      "end": "packs\\vanilla\\textures\\blocks\\log_spruce_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\log_spruce.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#end.png",
+      "up": "packs\\vanilla\\textures\\#end.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_planks"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_sapling"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\sapling_spruce.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spruce_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\stick.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sticky_piston"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\piston_bottom.png",
+      "side": "packs\\vanilla\\textures\\blocks\\piston_side.png",
+      "top": "packs\\vanilla\\textures\\blocks\\piston_top_sticky.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stonebrick"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_axe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\stone_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_brick_monster_egg"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_brick_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "top": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "side": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_brick_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "top": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "side": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_button"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_hoe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\stone_hoe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_monster_egg"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_pickaxe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\stone_pickaxe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_pressure_plate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_shovel"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\stone_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\stone_slab_top.png",
+      "top": "packs\\vanilla\\textures\\blocks\\stone_slab_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\stone_slab_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_stairs"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "top": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "side": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_sword"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\stone_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:string"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\string.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sugar"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\sugar.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sunflower"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_sunflower_front.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:syringa"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_syringa_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:tall_grass"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\tallgrass.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:tnt"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\tnt_bottom.png",
+      "top": "packs\\vanilla\\textures\\blocks\\tnt_top.png",
+      "side": "packs\\vanilla\\textures\\blocks\\tnt_side.png",
+      "particle": "packs\\vanilla\\textures\\#side.png",
+      "down": "packs\\vanilla\\textures\\#bottom.png",
+      "up": "packs\\vanilla\\textures\\#top.png",
+      "north": "packs\\vanilla\\textures\\#side.png",
+      "east": "packs\\vanilla\\textures\\#side.png",
+      "south": "packs\\vanilla\\textures\\#side.png",
+      "west": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:tnt_minecart"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\minecart_tnt.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:torch"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\torch_on.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:trapdoor"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\trapdoor.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:tripwire_hook"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\trip_wire_source.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:vine"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\vine.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:waterlily"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\waterlily.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:water_bucket"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\bucket_water.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\web.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wheat"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\wheat.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wheat_seeds"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\seeds_wheat.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:white_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:white_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_white.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:white_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_white.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:white_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_white.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:white_tulip"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_white.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:white_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_axe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\wood_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_button"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_hoe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\wood_hoe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_pickaxe"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\wood_pickaxe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_pressure_plate"
+      ]
+    },
+    "textures": {
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_shovel"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\wood_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\wood_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wood_old_slab"
+      ]
+    },
+    "textures": {
+      "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "top": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "side": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "particle": "packs\\vanilla\\textures\\#side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:writable_book"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\book_writable.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:written_book"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\items\\book_written.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:yellow_carpet"
+      ]
+    },
+    "textures": {
+      "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:yellow_stained_glass"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\glass_yellow.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:yellow_stained_glass_pane"
+      ]
+    },
+    "textures": {
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_yellow.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:yellow_stained_hardened_clay"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_yellow.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:yellow_wool"
+      ]
+    },
+    "textures": {
+      "all": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
+      "particle": "packs\\vanilla\\textures\\#all.png",
+      "down": "packs\\vanilla\\textures\\#all.png",
+      "up": "packs\\vanilla\\textures\\#all.png",
+      "north": "packs\\vanilla\\textures\\#all.png",
+      "east": "packs\\vanilla\\textures\\#all.png",
+      "south": "packs\\vanilla\\textures\\#all.png",
+      "west": "packs\\vanilla\\textures\\#all.png"
+    }
+  }
+]
