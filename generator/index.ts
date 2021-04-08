@@ -123,7 +123,19 @@ async function readFullModel(baseDir: string, modelName: string, vanillaModelsDi
 	if (model.parent && !model.parent.startsWith('builtin/')) {
 		const modelParentName = model.parent.startsWith('minecraft:') ? model.parent.slice('minecraft:'.length) : model.parent
 		const modelParent = await readFullModel(baseDir, modelParentName, vanillaModelsDir, backupDir)
+
 		deepAssign(model, modelParent)
+
+		if (model.textures)
+			for (const [ key, value ] of Object.entries(model.textures)) {
+				if (value.startsWith('#')) {
+					const copyKey = value.substring(1)
+					const copyValue = model.textures[copyKey]
+					if (copyValue)
+						model.textures[key] = copyValue
+				}
+			}
+
 		delete model.parent
 	}
 	return model
@@ -268,6 +280,8 @@ async function addPack(packName: string) {
 	}
 
 	const itemModelDirs = await getFiles(path.join(packSourceDir, 'models', 'item'))
+	// const itemModelDirs = ['acacia_fence']
+
 	for await (const modelDir of itemModelDirs) {
 		const itemName = path.basename(modelDir).split('.')[0]
 		const model = await readFullModel(packSourceDir, `item/${itemName}`, path.join(vanillaDir, 'models'))

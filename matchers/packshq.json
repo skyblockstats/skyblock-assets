@@ -7709,13 +7709,13 @@
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_top.png",
       "front": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_front.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\#front.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\#top.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\#front.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_front.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_top.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_front.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\0\\comp_side.png"
     }
   },
   {
@@ -7734,13 +7734,13 @@
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\super_top.png",
       "front": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\super_front.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\comp_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\#front.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\#top.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\#front.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\super_front.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\super_top.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\super_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\super_front.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\comp_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\comp_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\3000\\comp_side.png"
     }
   },
   {
@@ -7759,13 +7759,13 @@
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\super_top.png",
       "front": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\super_front.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\comp_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\#front.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\#top.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\#front.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\super_front.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\super_top.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\super_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\super_front.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\comp_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\comp_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\4000\\comp_side.png"
     }
   },
   {
@@ -7784,13 +7784,13 @@
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\super_top.png",
       "front": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\super_front.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\comp_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\#front.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\#top.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\#front.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\super_front.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\super_top.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\super_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\super_front.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\comp_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\comp_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\5000\\comp_side.png"
     }
   },
   {
@@ -7809,13 +7809,13 @@
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\super_top.png",
       "front": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\super_front.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\comp_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\#front.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\#top.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\#front.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\super_front.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\super_top.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\super_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\super_front.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\comp_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\comp_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\6000\\comp_side.png"
     }
   },
   {
@@ -7834,13 +7834,13 @@
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\super_top.png",
       "front": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\super_front.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\comp_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\#front.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\#top.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\#front.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\super_front.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\super_top.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\super_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\super_front.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\comp_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\comp_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\compactors\\7000\\comp_side.png"
     }
   },
   {
@@ -7875,13 +7875,13 @@
       "bottom": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_bottom.png",
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_top.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\#side.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\#bottom.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\#side.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_side.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_bottom.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_side.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\infinityboom\\tnt_side.png"
     }
   },
   {
@@ -7965,13 +7965,13 @@
       "bottom": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_bottom.png",
       "top": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_top.png",
       "side": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_side.png",
-      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\#side.png",
-      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\#bottom.png",
-      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\#top.png",
-      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\#side.png",
-      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\#side.png",
-      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\#side.png",
-      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\#side.png"
+      "particle": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_side.png",
+      "down": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_bottom.png",
+      "up": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_top.png",
+      "north": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_side.png",
+      "east": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_side.png",
+      "south": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_side.png",
+      "west": "packs\\packshq\\mcpatcher\\cit\\blocks\\superboom\\tnt_side.png"
     }
   },
   {

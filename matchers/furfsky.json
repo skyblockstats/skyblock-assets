@@ -1180,13 +1180,13 @@
       "top": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
       "front": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
       "side": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
-      "particle": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\#front.png",
-      "down": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\#top.png",
-      "up": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\#top.png",
-      "north": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\#front.png",
-      "east": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\#side.png",
-      "south": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\#side.png",
-      "west": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\#side.png"
+      "particle": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "down": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "up": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "north": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "east": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "south": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "west": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png"
     }
   },
   {
