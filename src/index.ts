@@ -30,7 +30,6 @@ async function readJsonFile(fileDir: string): Promise<any> {
 
 /** Get the matchers for a pack */
 async function readPackMatchers(packName: string): Promise<any[]> {
-	console.log('readPackMatchers', packName)
 	return await readJsonFile(`matchers/${packName}.json`)
 }
 
@@ -138,19 +137,4 @@ async function getTextureUrl(options: Options) {
 	return baseUrl + '/' + texturePath.replace(/\\/g, '/')
 }
 
-init().then(async() => {
-	console.log(
-		await getTextureUrl({
-			pack: 'furfsky',
-			id: 'minecraft:fishing_rod',
-			nbt: {
-				display: {
-					Name: 'asdf Roda of Champions asdf'
-				},
-				ExtraAttributes: {
-					id: 'CHAMPa_ROD'
-				}
-			}
-		})
-	)
-})
+init()
