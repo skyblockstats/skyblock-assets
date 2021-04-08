@@ -1,7 +1,10 @@
-import { promises as fs } from 'fs'
+import { promises as fs, Dirent } from 'fs'
 import * as path from 'path'
 type XYZArray = [ number, number, number ]
 type XYXYArray = [ number, number, number, number ]
+
+// TODO: generate renders as apng for animated items
+// TODO: generate renders for items with multiple layers (leather armor)
 
 type Direction = 'down' | 'up' | 'north' | 'south' | 'west' | 'east'
 
@@ -57,7 +60,12 @@ interface Model {
 
 // stolen from https://stackoverflow.com/a/65415138
 async function* getFiles(dir: string): AsyncGenerator<string> {
-    const entries = await fs.readdir(dir, { withFileTypes: true })
+	let entries: Dirent[]
+	try {
+	    entries = await fs.readdir(dir, { withFileTypes: true })
+	} catch {
+		return []
+	}
     for (const entry of entries) {
         // const res = path.resolve(dir, entry.name)
         const res = path.join(dir, entry.name)
@@ -69,6 +77,7 @@ async function* getFiles(dir: string): AsyncGenerator<string> {
     }
 }
 
+/** Parse a key=value file */
 async function readPropertiesFile(fileDir: string): Promise<{ [ key: string]: any }> {
 	const contents = {}
 	const fileContents = await fs.readFile(fileDir, { encoding: 'utf8' })
@@ -77,7 +86,6 @@ async function readPropertiesFile(fileDir: string): Promise<{ [ key: string]: an
 		if (!value) continue
 		contents[key] = value.trim()
 	}
-
 	const dotNotationContents = {}
 	for (const property of Object.keys(contents)) {
 		setDotNotationAttribute(dotNotationContents, property, contents[property])
@@ -137,21 +145,21 @@ async function readModelJson(baseDir: string, modelName: string, vanillaModelsDi
 }
 
 
-// async function addItemFromModel(baseDir: string, outputDir: string, modelName: string, vanillaModelsDir: string) {
-// 	const model = await readFullModel(`${baseDir}/models`, modelName, vanillaModelsDir)
-// 	const modelTextures: ModelTextures = model.textures
-// 	const itemTexturePath = modelTextures.layer0
-// 	// writeJsonFile(baseDir + '')
-// 	const textureBuffer = await fs.readFile(`${baseDir}/textures/${itemTexturePath}.png`)
-// 	const textureOutputDir = `${outputDir}/textures/${itemTexturePath}.png`
-// 	try {
-// 		await fs.mkdir(path.dirname(textureOutputDir), { recursive: true })
-// 	} catch {}
-// 	await fs.writeFile(textureOutputDir, textureBuffer)
-// 	return {
-// 		texture: textureOutputDir,
-// 	}
-// }
+async function getItemFromModel(baseDir: string, outputDir: string, modelName: string, vanillaModelsDir: string) {
+	const model = await readFullModel(path.join(baseDir, 'models'), modelName, vanillaModelsDir)
+	const modelTextures: ModelTextures = model.textures
+	const itemTexturePath = modelTextures.layer0
+	// writeJsonFile(baseDir + '')
+	const textureBuffer = await fs.readFile(`${baseDir}/textures/${itemTexturePath}.png`)
+	const textureOutputDir = path.join(outputDir, `/textures/${itemTexturePath}.png`)
+	try {
+		await fs.mkdir(path.dirname(textureOutputDir), { recursive: true })
+	} catch {}
+	await fs.writeFile(textureOutputDir, textureBuffer)
+	return {
+		texture: textureOutputDir,
+	}
+}
 
 
 function setDotNotationAttribute(obj: any, path: string, value: any) {
@@ -168,22 +176,31 @@ function setDotNotationAttribute(obj: any, path: string, value: any) {
 		if (!pointerObj[part]) pointerObj[part] = {}
 		pointerObj = pointerObj[part]
 	}
+
 	if (typeof pointerObj === 'string') {
 		previousPointerObj[previousPart] = {}
 		previousPointerObj[previousPart][previousPart] = pointerObj
-		Object.assign(previousPointerObj[previousPart], value)
+		previousPointerObj[previousPart][last] = value
 	} else
 		pointerObj[last] = value
+
 	return obj
 }
 
-async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir: string, vanillaDir: string) {
+interface MatcherTextures {
+	matcher: Matcher
+	textures: { [ key: string ]: string }
+}
+
+async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir: string, vanillaDir: string): Promise<MatcherTextures> {
 	const properties = await readPropertiesFile(propertiesDir)
 
+	// It can be either `items` or `matchItems`, and it's split by spaces
+	/** The Minecraft item ids that are allowed */
 	const matchItems = (properties?.items ?? properties?.matchItems)?.split(' ') ?? null
 
 	const matcher: Matcher = {
-		items: matchItems, // TODO: is this actually split by commas?
+		items: matchItems,
 		nbt: properties.nbt,
 		type: properties?.type ?? null
 	}
@@ -249,7 +266,8 @@ async function addPack(packName: string) {
 			matchers.push(item)
 		}
 	}
-	// await addItemFromModel(packSourceDir, outputDir, 'item/stick')
+	// console.log("path.join(vanillaDir, 'models')", path.join(vanillaDir, 'models'))
+	// console.log(await readFullModel(packSourceDir, 'item/book', path.join(vanillaDir, 'models')))
 	// await addItemFromModel(packSourceDir, outputDir, 'item/diamond_pickaxe')
 
 	await writeJsonFile(path.join(outputDir, `${packName}.json`), matchers)
@@ -268,6 +286,8 @@ async function main() {
 
 	await addPack('packshq')
 	await addPack('furfsky')
+	// await addPack('vanilla')
 }
 
 main()
+
