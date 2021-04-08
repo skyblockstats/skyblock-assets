@@ -115,7 +115,7 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 }
 
 async function getTextureUrl(options: Options) {
-	const textures = await getTextures(options)
+	const textures = await getTextures(options) ?? {}
 	const texturePath: string = textures.texture
 		?? textures.layer0
 
@@ -141,14 +141,14 @@ async function getTextureUrl(options: Options) {
 init().then(async() => {
 	console.log(
 		await getTextureUrl({
-			pack: 'vanilla',
+			pack: 'furfsky',
 			id: 'minecraft:fishing_rod',
 			nbt: {
 				display: {
-					Name: 'asdf Rod of Champions asdf'
+					Name: 'asdf Roda of Champions asdf'
 				},
 				ExtraAttributes: {
-					id: 'CHAMP_ROD'
+					id: 'CHAMPa_ROD'
 				}
 			}
 		})
