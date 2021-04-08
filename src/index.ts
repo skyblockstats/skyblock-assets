@@ -127,6 +127,14 @@ async function getTextureUrl(options: Options) {
 
 		?? textures.leather_layer_1
 		?? textures.leather_layer_2
+	
+	// if it can't find a texture for this pack, just check using vanilla
+	if (!texturePath && options.pack !== 'vanilla') {
+		return await getTextureUrl({
+			...options,
+			pack: 'vanilla'
+		})
+	}
 	return baseUrl + '/' + texturePath.replace(/\\/g, '/')
 }
 
