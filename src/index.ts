@@ -7,6 +7,9 @@ export interface NBT {
 		id?: string
 		[ key: string ]: string | number | any
 	},
+	display?: {
+		Name?: string
+	}
 	[ key: string ]: string | number | any
 }
 
@@ -45,9 +48,11 @@ async function readPacksMatchers(): Promise<{ [key: string]: any[] }> {
 }
 
 let matchers: { [key: string]: any[] } = {}
+let minecraftIds: { [key: string]: string } = {}
 
 async function init() {
 	matchers = await readPacksMatchers()
+	minecraftIds = await readJsonFile('../data/minecraft_ids.json')
 }
 
 /** Check if all the values from checkerObj are the same in obj */
@@ -98,6 +103,10 @@ async function checkMatches(options: Options, matcher: Matcher) {
 }
 
 async function getTextures(options: Options): Promise<{ [key: string]: string }> {
+	if (minecraftIds[options.id.split(':')[0]]) {
+		options.id = minecraftIds[options.id.split(':')[0]]
+	}
+
 	for (const packName in matchers) {
 		// only check the matchers if we're checking this pack
 		if (options.pack === packName) {
