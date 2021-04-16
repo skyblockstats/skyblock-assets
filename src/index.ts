@@ -114,7 +114,7 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 }
 
 /** Get the URL for the texture for a SkyBlock item */
-async function getTextureUrl(options: Options) {
+export async function getTextureUrl(options: Options) {
 	const textures = await getTextures(options) ?? {}
 	const texturePath: string = textures.texture
 		?? textures.layer0
