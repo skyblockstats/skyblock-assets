@@ -2,7 +2,7 @@ import { promises as fs } from 'fs'
 
 const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
 
-interface NBT {
+export interface NBT {
 	ExtraAttributes?: {
 		id?: string
 		[ key: string ]: string | number | any
@@ -16,7 +16,7 @@ interface Matcher {
 	nbt: NBT
 }
 
-interface Options {
+export interface Options {
 	pack: 'vanilla' | 'packshq' | 'furfsky'
 	id: string
 	nbt: NBT
