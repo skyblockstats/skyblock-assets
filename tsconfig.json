@@ -6,6 +6,6 @@
 	  "esModuleInterop": true,
 	  "outDir": "build"
 	},
-	"include": ["**/*"],
+	"include": ["src/*"],
 	"exclude": ["node_modules"],
 }

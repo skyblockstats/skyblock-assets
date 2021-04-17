@@ -1,20 +1,40 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getTextureUrl = void 0;
 const fs_1 = require("fs");
+const path = __importStar(require("path"));
 const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main';
 /** Read the contents of a json file */
 async function readJsonFile(fileDir) {
-    const fileContents = await fs_1.promises.readFile(fileDir, { encoding: 'utf8' });
+    const fileContents = await fs_1.promises.readFile(path.join(__dirname, fileDir), { encoding: 'utf8' });
     return JSON.parse(fileContents);
 }
 /** Get the matchers for a pack */
 async function readPackMatchers(packName) {
-    return await readJsonFile(`matchers/${packName}.json`);
+    return await readJsonFile(`../matchers/${packName}.json`);
 }
 /** Get all the matchers for each pack */
 async function readPacksMatchers() {
-    const dirFiles = await fs_1.promises.readdir('matchers');
+    const dirFiles = await fs_1.promises.readdir(path.join(__dirname, '../matchers'));
     const matchers = {};
     for (const fileName of dirFiles) {
         const packName = fileName.slice(0, (fileName.length) - ('.json'.length));

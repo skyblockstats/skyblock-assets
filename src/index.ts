@@ -1,4 +1,5 @@
 import { promises as fs } from 'fs'
+import * as path from 'path'
 
 const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
 
@@ -27,18 +28,18 @@ export interface Options {
 
 /** Read the contents of a json file */
 async function readJsonFile(fileDir: string): Promise<any> {
-	const fileContents = await fs.readFile(fileDir, { encoding: 'utf8' })
+	const fileContents = await fs.readFile(path.join(__dirname, fileDir), { encoding: 'utf8' })
 	return JSON.parse(fileContents)
 }
 
 /** Get the matchers for a pack */
 async function readPackMatchers(packName: string): Promise<any[]> {
-	return await readJsonFile(`matchers/${packName}.json`)
+	return await readJsonFile(`../matchers/${packName}.json`)
 }
 
 /** Get all the matchers for each pack */
 async function readPacksMatchers(): Promise<{ [key: string]: any[] }> {
-	const dirFiles = await fs.readdir('matchers')
+	const dirFiles = await fs.readdir(path.join(__dirname, '../matchers'))
 	const matchers = {}
 	for (const fileName of dirFiles) {
 		const packName = fileName.slice(0, (fileName.length) - ('.json'.length))
@@ -56,7 +57,7 @@ async function init() {
 }
 
 /** Check if all the values from checkerObj are the same in obj */
-function objectsPartiallyMatch(obj: NBT, checkerObj: NBT) {
+function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 	for (const [ attribute, checkerValue ] of Object.entries(checkerObj)) {
 		if (checkerValue === obj[attribute]) continue
 
@@ -90,7 +91,7 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT) {
 	return true
 }
 
-async function checkMatches(options: Options, matcher: Matcher) {
+async function checkMatches(options: Options, matcher: Matcher): Promise<boolean> {
 	// check 'items'
 	if (matcher.items && !matcher.items.includes(options.id))
 		return false
@@ -123,7 +124,7 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 }
 
 /** Get the URL for the texture for a SkyBlock item */
-export async function getTextureUrl(options: Options) {
+export async function getTextureUrl(options: Options): Promise<string> {
 	const textures = await getTextures(options) ?? {}
 	const texturePath: string = textures.texture
 		?? textures.layer0
