@@ -68,7 +68,7 @@
     "matcher": {
       "items": [
         "minecraft:diamond_helmet",
-        "leather_chestplate",
+        "minecraft:leather_chestplate",
         "minecraft:leather_leggings",
         "minecraft:leather_boots"
       ],
@@ -2365,7 +2365,7 @@
   {
     "matcher": {
       "items": [
-        "leather_chestplate"
+        "minecraft:leather_chestplate"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -2449,7 +2449,7 @@
     "matcher": {
       "items": [
         "minecraft:leather_helmet",
-        "leather_chestplate",
+        "minecraft:leather_chestplate",
         "minecraft:iron_leggings",
         "minecraft:iron_boots"
       ],
@@ -2724,7 +2724,7 @@
     "matcher": {
       "items": [
         "minecraft:leather_helmet",
-        "leather_chestplate",
+        "minecraft:leather_chestplate",
         "minecraft:leather_leggings",
         "minecraft:leather_boots"
       ],
@@ -2814,7 +2814,7 @@
     "matcher": {
       "items": [
         "minecraft:leather_helmet",
-        "leather_chestplate",
+        "minecraft:leather_chestplate",
         "minecraft:leather_leggings",
         "minecraft:leather_boots"
       ],
@@ -4210,7 +4210,7 @@
   {
     "matcher": {
       "items": [
-        "leather_chestplate"
+        "minecraft:leather_chestplate"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -4690,7 +4690,7 @@
     "matcher": {
       "items": [
         "minecraft:leather_helmet",
-        "leather_chestplate",
+        "minecraft:leather_chestplate",
         "minecraft:leather_leggings",
         "minecraft:leather_boots"
       ],
@@ -4907,7 +4907,7 @@
   {
     "matcher": {
       "items": [
-        "leather_chestplate"
+        "minecraft:leather_chestplate"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -5546,7 +5546,7 @@
   {
     "matcher": {
       "items": [
-        "leather_chestplate"
+        "minecraft:leather_chestplate"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7491,7 +7491,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7507,7 +7507,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7523,7 +7523,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7539,7 +7539,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7555,7 +7555,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7571,7 +7571,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7587,7 +7587,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7603,7 +7603,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7619,7 +7619,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -7635,7 +7635,7 @@
   {
     "matcher": {
       "items": [
-        "stick"
+        "minecraft:stick"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -15260,7 +15260,7 @@
   {
     "matcher": {
       "items": [
-        "mushroom_stew"
+        "minecraft:mushroom_stew"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -16351,7 +16351,7 @@
   {
     "matcher": {
       "items": [
-        "nether_star"
+        "minecraft:nether_star"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -16464,7 +16464,7 @@
   {
     "matcher": {
       "items": [
-        "prismarine_shard"
+        "minecraft:prismarine_shard"
       ],
       "nbt": {
         "ExtraAttributes": {
@@ -16480,7 +16480,7 @@
   {
     "matcher": {
       "items": [
-        "prismarine_shard"
+        "minecraft:prismarine_shard"
       ],
       "nbt": {
         "display": {
@@ -16736,7 +16736,7 @@
   {
     "matcher": {
       "items": [
-        "ender_pearl"
+        "minecraft:ender_pearl"
       ],
       "nbt": {
         "ExtraAttributes": {

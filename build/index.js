@@ -117,6 +117,8 @@ async function getTextureUrl(options) {
             pack: 'vanilla'
         });
     }
+    if (!texturePath)
+        return null;
     return baseUrl + '/' + texturePath.replace(/\\/g, '/');
 }
 exports.getTextureUrl = getTextureUrl;

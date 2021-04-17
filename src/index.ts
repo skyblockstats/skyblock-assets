@@ -145,6 +145,7 @@ export async function getTextureUrl(options: Options): Promise<string> {
 			pack: 'vanilla'
 		})
 	}
+	if (!texturePath) return null
 	return baseUrl + '/' + texturePath.replace(/\\/g, '/')
 }
 

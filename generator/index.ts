@@ -209,7 +209,10 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 
 	// It can be either `items` or `matchItems`, and it's split by spaces
 	/** The Minecraft item ids that are allowed */
-	const matchItems = (properties?.items ?? properties?.matchItems)?.split(' ') ?? null
+	const matchItems = (properties?.items ?? properties?.matchItems)
+		?.split(' ')
+		?.map(item => item.startsWith('minecraft:') ? item : `minecraft:${item}` )
+	?? null
 
 	const matcher: Matcher = {
 		items: matchItems,
