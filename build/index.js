@@ -81,6 +81,8 @@ async function checkMatches(options, matcher) {
     // check 'items'
     if (matcher.items && !matcher.items.includes(options.id))
         return false;
+    if (options.damage !== undefined && matcher.damage !== undefined && options.damage !== matcher.damage)
+        return false;
     // check nbt
     if (matcher.nbt) {
         if (!objectsPartiallyMatch(options.nbt, matcher.nbt))
@@ -90,6 +92,7 @@ async function checkMatches(options, matcher) {
 }
 async function getTextures(options) {
     if (minecraftIds[options.id.split(':')[0]]) {
+        options.damage = parseInt(options.id.split(':')[1]);
         options.id = minecraftIds[options.id.split(':')[0]];
     }
     for (const packName in matchers) {
