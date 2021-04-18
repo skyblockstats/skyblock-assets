@@ -354,8 +354,8 @@ async function main() {
 	await makeDir(`./matchers`)
 
 	await addPack('packshq')
-	// await addPack('furfsky')
-	// await addPack('vanilla')
+	await addPack('furfsky')
+	await addPack('vanilla')
 }
 
 main()

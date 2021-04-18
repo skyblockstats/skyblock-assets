@@ -1,0 +1,7863 @@
+[
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\cactus_armor_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\cactus_armor_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\cactus_armor_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\cactus_armor_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\icons\\cactus_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\icons\\cactus_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\icons\\cactus_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\cactus\\icons\\cactus_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\old\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\old\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\old\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\old\\old_dragon_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\old\\old_dragon_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\old\\old_dragon_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\old\\old_dragon_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\protector\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\protector\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\protector\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\protector\\protector_dragon_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\protector\\protector_dragon_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\protector\\protector_dragon_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\protector\\protector_dragon_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\strong\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\strong\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\strong\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\strong\\strong_dragon_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\strong\\strong_dragon_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\strong\\strong_dragon_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\strong\\strong_dragon_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\superior\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\superior\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\superior\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\superior\\superior_dragon_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\superior\\superior_dragon_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\superior\\superior_dragon_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\superior\\superior_dragon_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\unstable\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\unstable\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\unstable\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\unstable\\unstable_dragon_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\unstable\\unstable_dragon_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\unstable\\unstable_dragon_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\unstable\\unstable_dragon_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\wise\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\wise\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\wise\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\wise\\wise_dragon_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\wise\\wise_dragon_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\wise\\wise_dragon_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\wise\\wise_dragon_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\young\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\young\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\young\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\young\\young_dragon_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\young\\young_dragon_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\young\\young_dragon_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\dragon\\young\\young_dragon_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\emerald_armor_btm.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\emerald_armor_btm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\emerald_armor_top.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\emerald_armor_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\icons\\emerald_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\icons\\emerald_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\icons\\emerald_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\emerald\\icons\\emerald_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\ender\\boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\ender\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:nder Helmet"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {}
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_boots",
+        "minecraft:chainmail_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "chainmail_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\ender\\ender_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "chainmail_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\ender\\ender_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\ender\\leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Growth*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\growth_armor_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\growth_armor_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Growth*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\growth_armor_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\growth_armor_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\icons\\growth_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\icons\\growth_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\icons\\growth_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\growth\\icons\\growth_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_boots",
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\hardened_diamond\\hardened_diamond_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\hardened_diamond\\hardened_diamond_layer2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\hardened_diamond\\icons\\hardened_diamond_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\hardened_diamond\\icons\\hardened_diamond_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\hardened_diamond\\icons\\hardened_diamond_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\hardened_diamond\\icons\\hardened_diamond_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\icons\\lapis_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\icons\\lapis_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\icons\\lapis_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_armor_btm.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_armor_btm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_armor_top.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_armor_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sea_lantern"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "top": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "front": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "side": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "particle": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "down": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "up": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "north": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "east": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "south": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "west": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\icons\\leaf_boots.png",
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\icons\\leaf_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\icons\\leaf_chest.png",
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\icons\\leaf_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\icons\\leaf_legs.png",
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\icons\\leaf_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\leaflet_armor_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\leaflet_armor_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\leaflet_armor_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\leaflet\\leaflet_armor_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\icons\\magma_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\icons\\magma_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\icons\\magma_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\icons\\magma_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\magma_armor_btm.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\magma_armor_btm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\magma_armor_top.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\magma\\magma_armor_top.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\icons\\miner_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\icons\\miner_chest.png",
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\icons\\miner_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\icons\\miner_helm.png",
+      "leather_helmet_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\icons\\miner_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\icons\\miner_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\miners_outfit_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\miners_outfit_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\miners_outfit_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\miners_outfit\\miners_outfit_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner *"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\miner_armor\\icons\\mine_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner *"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\miner_armor\\icons\\mine_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner *"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\miner_armor\\icons\\mine_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner *"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\miner_armor\\icons\\mine_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_boots",
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\miner_armor\\miner_armor_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\miner_armor\\miner_armor_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Creeper Pants*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\monster_set_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\monster_set_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Guardian Chestplate*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\monster_set_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\monster_set_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Creeper Pants*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\icons\\creeper_pants.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Guardian Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\icons\\guardian_chest.png",
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\icons\\guardian_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Skeleton's Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\icons\\skeleton_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider's Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\icons\\spider_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\cactus_armor_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\cactus_armor_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Skeleton's Helmet*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "iron_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\monster_set_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider's Boots*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "iron_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\monster_hunter\\monster_set_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\icons\\mush_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\icons\\mush_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\icons\\mush_helm.png",
+      "leather_helmet_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\icons\\mush_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\icons\\mush_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\mushroom_armor_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\mushroom_armor_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\mushroom_armor_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\mushroom\\mushroom_armor_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Obsidian Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\obsidian\\chestplate.png",
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\obsidian\\chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Obsidian Chestplate*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\obsidian\\obsidian_chestplate.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\obsidian\\obsidian_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\icons\\speedster_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\icons\\speedster_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\icons\\speedster_helm.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\icons\\speedster_legs.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_boots",
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\speedster_armor_layer0.png",
+      "leather_layer_1_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\speedster_armor_layer0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\speedster_armor_layer1.png",
+      "leather_layer_2_overlay": "packs\\furfsky\\mcpatcher\\cit\\armor\\speedster\\speedster_armor_layer1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Item to*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\anvil\\anvil_notready.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Item to*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\anvil\\anvil_ready.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_carrot"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*View Bids*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\activebids.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "pattern:* Common*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\auctionsort\\common.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "pattern:* Epic*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\auctionsort\\epic.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "pattern:* Legendary*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\auctionsort\\legendary.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "pattern:* No filter*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\auctionsort\\notier.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "pattern:* Rare*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\auctionsort\\rare.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "pattern:* Special*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\auctionsort\\special.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_eye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "pattern:* Uncommon*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\auctionsort\\uncommon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_nugget"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Submit Bid*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\bid.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_horse_armor"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Create Auction*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\createauction.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:filled_map"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bid History*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\history.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:poisonous_potato"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Submit Bid*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\nobid.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:filled_map"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Recent Transactions*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\history.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sign"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Search*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\search_button.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sell Item*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\bid.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_ingot"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bid Amount*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\setbid.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sort*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\sort.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Weapons*",
+          "Lore": {
+            "*": "ipattern:*Currently browsing!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor*",
+          "Lore": {
+            "*": "ipattern:*Currently browsing!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Accessories*",
+          "Lore": {
+            "*": "ipattern:*Currently browsing!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:apple"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Consumables*",
+          "Lore": {
+            "*": "ipattern:*Currently browsing!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cobblestone"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Blocks*",
+          "Lore": {
+            "*": "ipattern:*Currently browsing!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tools & Misc*",
+          "Lore": {
+            "*": "ipattern:*Currently browsing!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_6.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Weapons*",
+          "Lore": {
+            "*": "ipattern:*Click to view items!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor*",
+          "Lore": {
+            "*": "ipattern:*Click to view items!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Accessories*",
+          "Lore": {
+            "*": "ipattern:*Click to view items!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:apple"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Consumables*",
+          "Lore": {
+            "*": "ipattern:*Click to view items!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cobblestone"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Blocks*",
+          "Lore": {
+            "*": "ipattern:*Click to view items!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tools & Misc*",
+          "Lore": {
+            "*": "ipattern:*Click to view items!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_6.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chest"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Deposit Coins*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\bank\\mcpatcher\\cit\\gui\\bank\\deposit.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone_torch"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Information*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\bank\\info.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dropper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Withdraw Coins*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\bank\\mcpatcher\\cit\\gui\\bank\\withdraw.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Place Water Bottles*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\brewing_stand\\brew_empty.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*.*s*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\brewing_stand\\brew_state1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*.*s*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\brewing_stand\\brew_state2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*%*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\gui\\collections\\done.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*%*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\collections\\empty.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*%*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\gui\\collections\\mid.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Aqua Affinity*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\aqua.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Blast Protection*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\blastprot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Depth Strider*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\depth.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Feather Falling*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\feather.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Fire Protection*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\fireprot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Frost Walker*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\frost.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Growth*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\growth.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Projectile Protection*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\proj.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Protection*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\prot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Respiration*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\respiration.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Thorns*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\armor\\thorns.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Aiming*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\bow\\aiming.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Flame*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\bow\\flame.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Infinite Quiver*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\bow\\infinite.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Piercing*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\bow\\piercing.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Power*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\bow\\Power.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Punch*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\bow\\punch.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Snipe*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\bow\\snipe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Enchant Item*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\empty.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Angler*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\angler.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Blessing*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\blessing.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Caster*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\caster.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Frail*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\frail.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Luck of the Sea*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\luckofthesea.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Lure*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\lure.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Magnet*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\magnet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Spiked Hook*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\fishing\\spiked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Bane of Arthropods*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\bane.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Cleave*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\cleave.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Critical*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\crit.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Cubism*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\cube.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Ender Slayer*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\ender.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Execute*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\exec.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:Experience"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\exp.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Fire Aspect*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\fire.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*First Strike*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\first.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Giant Killer*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\giant.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Impaling*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\impale.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Knockback*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\knock.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Lethality*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\lethal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Life Steal*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\lifesteal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Looting*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\loot.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Luck*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\luck.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Scavenger*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\scavenge.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Sharpness*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\sharp.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Smite*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\smite.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Telekinesis*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\telekin.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Thunderlord*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\thunder.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Vampirism*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\vampire.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Venomous*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\sword\\venom.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Efficiency*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\tools\\efficiency.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Fortune*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\tools\\fortune.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Harvest*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\tools\\harvest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Rainbow*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\tools\\rainbow.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Silk Touch*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\tools\\silk.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Smelting Touch*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\enchant_icons\\tools\\smelt.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:arrow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Go Back*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\back_button.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\mcpatcher\\cit\\gui\\general\\empty.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:clock"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Calendar*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\calendar.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:barrier"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Close*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\close_button.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:painting"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Collection*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\collection.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Click to enable!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\disabled.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Click to disable!*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\enabled.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:compass"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Game Menu*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\hypixel_compass.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Skyblock Menu*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\menu_button.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:arrow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Quiver Arrow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\menu_button_arrow.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:arrow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Next*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\next_button.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone_torch"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Settings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\options_button.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:arrow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Previous*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\prev_button.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:name_tag"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Profile Management*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\profile.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:writable_book"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Quest Log*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\quest_log.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:book"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Recipe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\recipes.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Skills*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\skills.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:emerald"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Trades*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\trades.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fuel*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\fuel_icon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:redstone_torch"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ideal Layout*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\ideal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Storage unlocked*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\locked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7c\\u003F\\u003F\\u003F*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\locked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_ingot"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Next Tier*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\nexttier.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Automated Shipping*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\shipping_icon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Minion Skin*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\skin_icon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Upgrade Slot*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\minon\\upgrade_icon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "iregex:.*(Item|Rune) to.*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\runic\\runic_notready.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stained_glass_pane"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "iregex:.*(Item|Rune) to.*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\gui\\runic\\runic_ready.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:brewing_stand"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aAlchemy*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_7.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:crafting_table"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aCarpentry*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\mcpatcher\\cit\\gui\\skills\\skill_8.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aCombat*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:enchanting_table"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aEnchanting*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\mcpatcher\\cit\\gui\\skills\\skill_6.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aFarming*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aFishing*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sapling"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aForaging*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aMining*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:magma_cream"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aRunecrafting*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_9.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aSlayer*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_10.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_nugget"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Boss Drops*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\boss_drops.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Broodfather*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\spider\\icon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Broodfather I*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\spider\\l1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Broodfather II*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\spider\\l2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Broodfather III*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\spider\\l3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Broodfather IV*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\spider\\l4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*RTarantula Broodfather V*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\spider\\l5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sven Packmaster*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\wolf\\icon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sven Packmaster I*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\wolf\\l1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sven Packmaster II*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\wolf\\l2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sven Packmaster III*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\wolf\\l3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sven Packmaster IV*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\wolf\\l4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sven Packmaster V*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\wolf\\l5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Horror*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\zombie\\icon.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Horror I*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\zombie\\l1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Horror II*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\zombie\\l2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Horror III*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\zombie\\l3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Horror IV*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\zombie\\l4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Horror V*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\slayer\\zombie\\l5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a79*Crit Chance*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\mcpatcher\\cit\\gui\\stats\\stat5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a79*Crit Damage*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\mcpatcher\\cit\\gui\\stats\\stat6.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7a*Defense*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\stat2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_apple"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7c*Health*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\stat1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:enchanted_book"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7b*Intelligence*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\stat7.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:sugar"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7f*Speed*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\stat4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blaze_powder"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7c*Strength*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\stat3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Birch Forest Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\birch.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Roofed Forest Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\roofed.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Deep Ocean Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\deepocean.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Desert Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\desert.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*End Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\end.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Forest Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\forest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Jungle Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\jungle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Nether Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\nether.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Savanna Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\savanna.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Taiga Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\biomesticks\\taiga.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\ender\\ender_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\ender\\ender_bow_1.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\ender\\ender_bow_2.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\ender\\ender_bow_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*End Stone Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\endstone\\endstone_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\endstone\\endstone_bow_0.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\endstone\\endstone_bow_1.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\endstone\\endstone_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Explosive Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\explosive\\explosive_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\explosive\\explosive_bow_0.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\explosive\\explosive_bow_1.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\explosive\\explosive_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hurricane Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "renders\\furfsky\\mcpatcher\\cit\\items\\bows\\hurricane\\hurricane_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\hurricane\\hurricane_bow_0.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\hurricane\\hurricane_bow_1.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\hurricane\\hurricane_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Magma Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "renders\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_1.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_2.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mosquito Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\mosquito\\mosquito_bow_0.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\mosquito\\mosquito_bow_1.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\mosquito\\mosquito_bow_2.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\mosquito\\mosquito_bow_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Prismarine Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "renders\\furfsky\\mcpatcher\\cit\\items\\bows\\prismarine\\prismarine_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\prismarine\\prismarine_bow_0.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\prismarine\\prismarine_bow_1.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\prismarine\\prismarine_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Runaan's Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "renders\\furfsky\\mcpatcher\\cit\\items\\bows\\runaan\\runaan_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\runaan\\runaan_bow_0.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\runaan\\runaan_bow_1.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\runaan\\runaan_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Savanna Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\savanna\\savanna_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\savanna\\savanna_bow_0.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\savanna\\savanna_bow_1.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\savanna\\savanna_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Scorpion Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\scorpion\\scorpion_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\scorpion\\scorpion_bow_1.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\scorpion\\scorpion_bow_2.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\scorpion\\scorpion_bow_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Slime Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\slime\\slime_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\slime\\slime_bow_1.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\slime\\slime_bow_2.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\slime\\slime_bow_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wither Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\wither\\wither_bow_standby.png",
+      "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\wither\\wither_bow_0.png",
+      "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\wither\\wither_bow_1.png",
+      "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\wither\\wither_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Budget Hopper*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\budget_hopper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Catalyst*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\catalyst.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Crystal Fragment*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\crystal_fragment.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Day Crystal*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\day_crystal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Digested Mosquito*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\digested_mosquito.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Enchanted Hopper*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\enchanted_hopper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:enchanted_book"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Experience Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\experience_artifact.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:coal"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Foul Flesh*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\foul_flesh.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Grand Experience*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\grand_bottle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:trapdoor"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hamster Wheel*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\mcpatcher\\cit\\items\\items\\hamster_wheel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:book"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hot Potato Book*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\hot_potato_book.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:water_bucket"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Magical Water Bucket*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\magical_bucket.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mushroom_stew"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Magical Mushroom Soup*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\magic_stew.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:string"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Melody*s Hair*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\melodyshair.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Night Crystal*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\night_crystal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Overflux Capacitor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\overflux.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Flesh*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\revenant_flesh.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_porkchop"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Viscera*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\revenant_viscera.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Saving Grace*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\saving_grace.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Scythe Blade*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\scythe_blade.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_pearl"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Silent Pearl*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\silent_pearl.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Titanic Experience*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\titanic_bottle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ghast_tear"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wolf Tooth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\wolf_tooth.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Aspect of The Dragon*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\aspect_dragon_new.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Aspect of The End*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\aspect_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cleaver*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\cleaver.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Edible Mace*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\edible_mace.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blaze_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ember Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\ember_rod.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:emerald"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Blade*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\emerald_blade.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*End Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\ender_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fancy Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\fancy_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Flaming Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\flaming_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Frozen Scythe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\frozen_scythe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golem Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\golem_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hunter Knife*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\hunter_knife.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ink Wand*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\ink_wand.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaping Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\leaping_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Midas* Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\midas\\midas_sword_0.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Midas* Sword*",
+          "Lore": {
+            "*": "iregex:.*Price paid: \\u00a76(10|11|12|13|14|15|16|17|18|19),.*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\midas\\midas_sword_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Midas* Sword*",
+          "Lore": {
+            "*": "iregex:.*Price paid: \\u00a76(20|21|22|23|24|25|26|27|28|29),.*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\midas\\midas_sword_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Midas* Sword*",
+          "Lore": {
+            "*": "iregex:.*Price paid: \\u00a76(30|31|32|33|34|35|36|37|38|39),.*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\midas\\midas_sword_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Midas* Sword*",
+          "Lore": {
+            "*": "iregex:.*Price paid: \\u00a76(40|41|42|43|44|45|46|47|48|49),.*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\midas\\midas_sword_4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Midas* Sword*",
+          "Lore": {
+            "*": "ipattern:*Damage Bonus*120*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\midas\\midas_sword_5.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ornate Zombie Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\ornatezombiesword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pigman Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\pigman_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pooch Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\pooch_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:prismarine_shard"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Prismarine Blade*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\prismarine_blade.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Raider Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\raider_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Reaper Falchion*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\reaper_falchion.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Reaper Scythe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\reaper_scythe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Falchion*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\revenant_falchion.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rogue Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\rogue_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Scorpion Foil*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\scorpion_foil.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Silk-Edge*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\silkedge.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ghast_tear"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Silver Fang*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\silver_fang.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\spider_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tactician*s Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\tacticians_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Thick Scorpion Foil*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\thick_scorpion_foil.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Thick Tactician*s Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\thick_tacticians_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Undead Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\undead_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Yeti Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\yeti_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\zombiesword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Auger Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\rods\\auger\\auger_rod_uncast.png",
+      "fishing_rod_cast": "renders\\furfsky\\mcpatcher\\cit\\items\\rods\\auger\\auger_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Challenging Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\challenging_rod\\challenging_rod_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\challenging_rod\\challenging_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farmer's Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\farmers\\farmers_rod_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\farmers\\farmers_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ice Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\ice\\ice_rod_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\ice\\ice_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Prismarine Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\rods\\prismarine\\prismarine_rod_uncast.png",
+      "fishing_rod_cast": "renders\\furfsky\\mcpatcher\\cit\\items\\rods\\prismarine\\prismarine_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rod of Champions*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\rods\\rod_of_champions\\rod_of_champions_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\rod_of_champions\\rod_of_champions_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rod of Legends*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\rods\\rod_of_legends\\rod_of_legends_uncast.png",
+      "fishing_rod_cast": "renders\\furfsky\\mcpatcher\\cit\\items\\rods\\rod_of_legends\\rod_of_legends_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Shredder*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\shredder\\shredder_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\shredder\\shredder_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\speedster\\speedster_rod_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\speedster\\speedster_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sponge Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\sponge\\sponge_rod_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\sponge\\sponge_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Winter Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\winter\\winter_rod_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\winter\\winter_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Yeti Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\yeti\\yeti_rod_uncast.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\rods\\yeti\\yeti_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Efficient Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\efficient_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_shovel"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Flint Shovel*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\flint_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Grappling Hook*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\grapple_hook.png",
+      "fishing_rod_cast": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\grapple_hook_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Jungle Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\jungle_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Stonk*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\tools\\stonk.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wand of Healing*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\wand_of_healing.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wand of Mending*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\wand_of_mending.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wand of Restoration*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\tools\\wand_of_restoration.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Pickaxe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\tools\\zombie_pickaxe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\bat\\mcpatcher\\cit\\skulls\\artifact\\bat\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Candy Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\candy\\mcpatcher\\cit\\skulls\\artifact\\candy\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\ender\\mcpatcher\\cit\\skulls\\artifact\\ender\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Feather Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\feather\\mcpatcher\\cit\\skulls\\artifact\\feather\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Intimidation Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\intimidation\\mcpatcher\\cit\\skulls\\artifact\\intimidation\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Potion Affinity Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\potion\\mcpatcher\\cit\\skulls\\artifact\\potion\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Red Claw Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\redclaw\\mcpatcher\\cit\\skulls\\artifact\\redclaw\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sea Creature Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\seacreature\\mcpatcher\\cit\\skulls\\artifact\\seacreature\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\spider\\mcpatcher\\cit\\skulls\\artifact\\spider\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wither Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\wither\\mcpatcher\\cit\\skulls\\artifact\\wither\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\zombie\\mcpatcher\\cit\\skulls\\artifact\\zombie\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Greater Backpack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Large Backpack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Medium Backpack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Small Backpack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Campfire Adept Badge*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\adept\\mcpatcher\\cit\\skulls\\badge\\adept\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Campfire Cultist Badge*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\cultist\\mcpatcher\\cit\\skulls\\badge\\cultist\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Campfire God Badge*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\god\\mcpatcher\\cit\\skulls\\badge\\god\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Campfire Initiate Badge*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\initiate\\mcpatcher\\cit\\skulls\\badge\\initiate\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Campfire Scion Badge*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\scion\\mcpatcher\\cit\\skulls\\badge\\scion\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cheap Coffee*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\cheapcoffee\\mcpatcher\\cit\\skulls\\brews\\cheapcoffee\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Knockoff*Cola*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\cola\\mcpatcher\\cit\\skulls\\brews\\cola\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Decent Coffee*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\decentcoffee\\mcpatcher\\cit\\skulls\\brews\\decentcoffee\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Dctr. Paper*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\drpaper\\mcpatcher\\cit\\skulls\\brews\\drpaper\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tepid Green Tea*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\greentea\\mcpatcher\\cit\\skulls\\brews\\greentea\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bitter Ice Tea*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\icetea\\mcpatcher\\cit\\skulls\\brews\\icetea\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pulpous Orange Juice*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\oj\\mcpatcher\\cit\\skulls\\brews\\oj\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tutti-Frutti Flavored Poison*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\poison\\mcpatcher\\cit\\skulls\\brews\\poison\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Slayer*Energy Drink*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\slayer\\mcpatcher\\cit\\skulls\\brews\\slayer\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Viking's Tear*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\tear\\mcpatcher\\cit\\skulls\\brews\\tear\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Accessory Bag*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\accessory_bag\\mcpatcher\\cit\\skulls\\gui\\accessory_bag\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:crafting_table"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aCrafting Table*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\crafting\\mcpatcher\\cit\\skulls\\gui\\crafting\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_chest"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*\\u00a7aEnder Chest*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\enderchest\\mcpatcher\\cit\\skulls\\gui\\enderchest\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fishing Bag*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\fishing_bag\\mcpatcher\\cit\\skulls\\gui\\fishing_bag\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Warp to:*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\globe\\mcpatcher\\cit\\skulls\\gui\\globe\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "ipattern:*Unlock*LVL*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\locked\\mcpatcher\\cit\\skulls\\gui\\locked\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye"
+      ],
+      "nbt": {
+        "display": {
+          "Lore": {
+            "*": "iregex:.*(Unlocked in the|You haven't crafted this minion|Progress through your item).*"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\locked\\locked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Potion Bag*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\potion_bag\\mcpatcher\\cit\\skulls\\gui\\potion_bag\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Quiver*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\quiver\\mcpatcher\\cit\\skulls\\gui\\quiver\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Desert Island*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\desert\\mcpatcher\\cit\\skulls\\islands\\desert\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farming Island*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\farm\\mcpatcher\\cit\\skulls\\islands\\farm\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pond Island*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\pond\\mcpatcher\\cit\\skulls\\islands\\pond\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Roofed Forest Island*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\roof\\mcpatcher\\cit\\skulls\\islands\\roof\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Nether Wart Island*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\wart\\mcpatcher\\cit\\skulls\\islands\\wart\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mana Flux Power Orb*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\mcpatcher\\cit\\skulls\\orbs\\mana_orb.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Overflux Power Orb*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\mcpatcher\\cit\\skulls\\orbs\\overflux_orb.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Radiant Power Orb*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\mcpatcher\\cit\\skulls\\orbs\\radiant_orb.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bait Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\bait\\mcpatcher\\cit\\skulls\\ring\\bait\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\bat\\mcpatcher\\cit\\skulls\\ring\\bat\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Candy Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\candy\\mcpatcher\\cit\\skulls\\ring\\candy\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Devour Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\devour\\mcpatcher\\cit\\skulls\\ring\\devour\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Feather Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\feather\\mcpatcher\\cit\\skulls\\ring\\feather\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Haste Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\haste\\mcpatcher\\cit\\skulls\\ring\\haste\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Healing Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\healing\\mcpatcher\\cit\\skulls\\ring\\healing\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hunter Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\hunter\\mcpatcher\\cit\\skulls\\ring\\hunter\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Intimidation Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\intimidation\\mcpatcher\\cit\\skulls\\ring\\intimidation\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Potion Affinity Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\potion\\mcpatcher\\cit\\skulls\\ring\\potion\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Red Claw Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\redclaw\\mcpatcher\\cit\\skulls\\ring\\redclaw\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sea Creature Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\seacreature\\mcpatcher\\cit\\skulls\\ring\\seacreature\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\spider\\mcpatcher\\cit\\skulls\\ring\\spider\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wolf Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\wolf\\mcpatcher\\cit\\skulls\\ring\\wolf\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Ring*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\zombie\\mcpatcher\\cit\\skulls\\ring\\zombie\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\bat\\mcpatcher\\cit\\skulls\\talisman\\bat\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Candy Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\candy\\mcpatcher\\cit\\skulls\\talisman\\candy\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Talisman of Coins*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\coins\\mcpatcher\\cit\\skulls\\talisman\\coins\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farming Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\farming\\mcpatcher\\cit\\skulls\\talisman\\farming\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Feather Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\feather\\mcpatcher\\cit\\skulls\\talisman\\feather\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fire Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\fire\\mcpatcher\\cit\\skulls\\talisman\\fire\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fish Affinity Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\fishing\\mcpatcher\\cit\\skulls\\talisman\\fishing\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Gravity Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\gravity\\mcpatcher\\cit\\skulls\\talisman\\gravity\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Healing Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\healing\\mcpatcher\\cit\\skulls\\talisman\\healing\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hunter Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\hunter\\mcpatcher\\cit\\skulls\\talisman\\hunter\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Intimidation Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\intimidation\\mcpatcher\\cit\\skulls\\talisman\\intimidation\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lava Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\lava\\mcpatcher\\cit\\skulls\\talisman\\lava\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Magnetic Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\magnet\\mcpatcher\\cit\\skulls\\talisman\\magnet\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mine Affinity Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\mine\\mcpatcher\\cit\\skulls\\talisman\\mine\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Potion Affinity Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\potion\\mcpatcher\\cit\\skulls\\talisman\\potion\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Red Claw Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\redclaw\\mcpatcher\\cit\\skulls\\talisman\\redclaw\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Scavenger Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\scavenger\\mcpatcher\\cit\\skulls\\talisman\\scavenger\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sea Creature Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\seacreature\\mcpatcher\\cit\\skulls\\talisman\\seacreature\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Skeleton Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\skeleton\\mcpatcher\\cit\\skulls\\talisman\\skeleton\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speed Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\speed\\mcpatcher\\cit\\skulls\\talisman\\speed\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\spider\\mcpatcher\\cit\\skulls\\talisman\\spider\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\tarantula\\mcpatcher\\cit\\skulls\\talisman\\tarantula\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Vaccine Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\vaccine\\mcpatcher\\cit\\skulls\\talisman\\vaccine\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Village Affinity Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\village\\mcpatcher\\cit\\skulls\\talisman\\village\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wolf Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\wolf\\mcpatcher\\cit\\skulls\\talisman\\wolf\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wood Affinity Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\wood\\mcpatcher\\cit\\skulls\\talisman\\wood\\texture.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Talisman*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\zombie\\mcpatcher\\cit\\skulls\\talisman\\zombie\\texture.png"
+    }
+  }
+]
