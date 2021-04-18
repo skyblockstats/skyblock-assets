@@ -112,6 +112,8 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 		options.damage = parseInt(options.id.split(':')[1])
 		options.id = minecraftIds[options.id.split(':')[0]]
 	}
+	if (options.damage === undefined || isNaN(options.damage))
+		options.damage = 0
 
 	for (const packName in matchers) {
 		// only check the matchers if we're checking this pack
