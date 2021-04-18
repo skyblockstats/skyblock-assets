@@ -104,6 +104,15 @@ async function writeJsonFile(fileDir: string, contents: any): Promise<void> {
 	await fs.writeFile(fileDir, JSON.stringify(contents, null, 2), { encoding: 'utf8' })
 }
 
+async function fileExists(fileDir: string): Promise<boolean> {
+	try {
+		await fs.access(fileDir)
+		return true
+	} catch {
+		return false
+	}
+}
+
 function deepAssign(target, ...sources) {
 	for (const source of sources) {
 		for (const k in source) {
@@ -245,11 +254,20 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 			const newTextures = {}
 			for (let [ key, value ] of Object.entries(model.textures)) {
 				if (!value.endsWith('.png')) value += '.png'
-				newTextures[key] = path.join(path.dirname(propertiesDir), value as string)
+
+				let newDirectory: string = path.join(path.dirname(propertiesDir), value as string)
+
+				if (!value.startsWith('/') && !value.startsWith('./')) {
+					if (await fileExists(path.join(baseDir, value)))
+						newDirectory = path.join(baseDir, value)
+				}
+
+				newTextures[key] = newDirectory
 			}
 			textures = { ...newTextures }
 		}
 	}
+
 	const propertiesTexture: string | { [ key: string ]: string} = properties.texture
 	if (typeof propertiesTexture === 'string') {
 		let newTexture = path.join(path.dirname(propertiesDir), propertiesTexture)

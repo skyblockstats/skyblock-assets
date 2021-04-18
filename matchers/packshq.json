@@ -7676,7 +7676,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\blocks\\mcpatcher\\cit\\blocks\\coin.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\blocks\\coin.png"
     }
   },
   {
@@ -7690,7 +7690,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\blocks\\mcpatcher\\cit\\blocks\\coins.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\blocks\\coins.png"
     }
   },
   {
@@ -7856,7 +7856,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\blocks\\mcpatcher\\cit\\blocks\\yeti_sword_hilt.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\blocks\\yeti_sword_hilt.png"
     }
   },
   {
@@ -32430,7 +32430,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\accessorysack.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\accessorysack.png"
     }
   },
   {
@@ -32493,7 +32493,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\20purse.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\20purse.png"
     }
   },
   {
@@ -32509,7 +32509,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\account_upgrade.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\account_upgrade.png"
     }
   },
   {
@@ -32557,7 +32557,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\deposit.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\deposit.png"
     }
   },
   {
@@ -32573,7 +32573,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\wholepurse.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\wholepurse.png"
     }
   },
   {
@@ -32605,7 +32605,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\halfpurse.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\halfpurse.png"
     }
   },
   {
@@ -32717,7 +32717,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\halfpurse.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\halfpurse.png"
     }
   },
   {
@@ -32733,7 +32733,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\wholepurse.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\wholepurse.png"
     }
   },
   {
@@ -32749,7 +32749,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\mcpatcher\\cit\\ui\\bank\\withdraw.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\bank\\withdraw.png"
     }
   },
   {
@@ -33799,7 +33799,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\fishingsack.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\fishingsack.png"
     }
   },
   {
@@ -34023,7 +34023,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\potionsack.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\potionsack.png"
     }
   },
   {
@@ -34144,7 +34144,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\reforge.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\reforge.png"
     }
   },
   {
@@ -34160,7 +34160,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\reforge_gold.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\reforge_gold.png"
     }
   },
   {
@@ -34176,7 +34176,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\reforge.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\reforge.png"
     }
   },
   {
@@ -34195,7 +34195,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\reforge_gold.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\reforge_gold.png"
     }
   },
   {
@@ -34211,7 +34211,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\mcpatcher\\cit\\ui\\sacks.png"
+      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\sacks.png"
     }
   },
   {

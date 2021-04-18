@@ -1177,16 +1177,16 @@
       "type": "item"
     },
     "textures": {
-      "top": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
-      "front": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
-      "side": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
-      "particle": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
-      "down": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
-      "up": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
-      "north": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
-      "east": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
-      "south": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
-      "west": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png"
+      "top": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "front": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "side": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "particle": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "down": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "up": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_top.png",
+      "north": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_front.png",
+      "east": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "south": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png",
+      "west": "packs\\furfsky\\mcpatcher\\cit\\armor\\lapis\\lapis_helm_side.png"
     }
   },
   {
@@ -2330,7 +2330,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_3.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_3.png"
     }
   },
   {
@@ -2368,7 +2368,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_5.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tabpick_5.png"
     }
   },
   {
@@ -2444,7 +2444,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_3.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_3.png"
     }
   },
   {
@@ -2482,7 +2482,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_5.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\auction\\tabs\\tab_5.png"
     }
   },
   {
@@ -2517,7 +2517,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\bank\\mcpatcher\\cit\\gui\\bank\\deposit.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\bank\\deposit.png"
     }
   },
   {
@@ -2549,7 +2549,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\bank\\mcpatcher\\cit\\gui\\bank\\withdraw.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\bank\\withdraw.png"
     }
   },
   {
@@ -3689,7 +3689,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\mcpatcher\\cit\\gui\\general\\empty.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\general\\empty.png"
     }
   },
   {
@@ -4141,7 +4141,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\mcpatcher\\cit\\gui\\skills\\skill_8.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_8.png"
     }
   },
   {
@@ -4173,7 +4173,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\mcpatcher\\cit\\gui\\skills\\skill_6.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\skills\\skill_6.png"
     }
   },
   {
@@ -4589,7 +4589,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\mcpatcher\\cit\\gui\\stats\\stat5.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\stat5.png"
     }
   },
   {
@@ -4605,7 +4605,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\mcpatcher\\cit\\gui\\stats\\stat6.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\gui\\stats\\stat6.png"
     }
   },
   {
@@ -5233,7 +5233,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\mcpatcher\\cit\\items\\items\\hamster_wheel.png"
+      "layer0": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\hamster_wheel.png"
     }
   },
   {
@@ -6445,7 +6445,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\bat\\mcpatcher\\cit\\skulls\\artifact\\bat\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\bat\\texture.png"
     }
   },
   {
@@ -6461,7 +6461,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\candy\\mcpatcher\\cit\\skulls\\artifact\\candy\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\candy\\texture.png"
     }
   },
   {
@@ -6477,7 +6477,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\ender\\mcpatcher\\cit\\skulls\\artifact\\ender\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\ender\\texture.png"
     }
   },
   {
@@ -6493,7 +6493,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\feather\\mcpatcher\\cit\\skulls\\artifact\\feather\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\feather\\texture.png"
     }
   },
   {
@@ -6509,7 +6509,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\intimidation\\mcpatcher\\cit\\skulls\\artifact\\intimidation\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\intimidation\\texture.png"
     }
   },
   {
@@ -6525,7 +6525,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\potion\\mcpatcher\\cit\\skulls\\artifact\\potion\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\potion\\texture.png"
     }
   },
   {
@@ -6541,7 +6541,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\redclaw\\mcpatcher\\cit\\skulls\\artifact\\redclaw\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\redclaw\\texture.png"
     }
   },
   {
@@ -6557,7 +6557,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\seacreature\\mcpatcher\\cit\\skulls\\artifact\\seacreature\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\seacreature\\texture.png"
     }
   },
   {
@@ -6573,7 +6573,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\spider\\mcpatcher\\cit\\skulls\\artifact\\spider\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\spider\\texture.png"
     }
   },
   {
@@ -6589,7 +6589,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\wither\\mcpatcher\\cit\\skulls\\artifact\\wither\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\wither\\texture.png"
     }
   },
   {
@@ -6605,7 +6605,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\zombie\\mcpatcher\\cit\\skulls\\artifact\\zombie\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\artifact\\zombie\\texture.png"
     }
   },
   {
@@ -6621,7 +6621,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_4.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\backpack_4.png"
     }
   },
   {
@@ -6637,7 +6637,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_3.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\backpack_3.png"
     }
   },
   {
@@ -6653,7 +6653,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_2.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\backpack_2.png"
     }
   },
   {
@@ -6669,7 +6669,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\mcpatcher\\cit\\skulls\\backpack\\backpack_1.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\backpack\\backpack_1.png"
     }
   },
   {
@@ -6685,7 +6685,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\adept\\mcpatcher\\cit\\skulls\\badge\\adept\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\adept\\texture.png"
     }
   },
   {
@@ -6701,7 +6701,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\cultist\\mcpatcher\\cit\\skulls\\badge\\cultist\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\cultist\\texture.png"
     }
   },
   {
@@ -6717,7 +6717,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\god\\mcpatcher\\cit\\skulls\\badge\\god\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\god\\texture.png"
     }
   },
   {
@@ -6733,7 +6733,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\initiate\\mcpatcher\\cit\\skulls\\badge\\initiate\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\initiate\\texture.png"
     }
   },
   {
@@ -6749,7 +6749,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\scion\\mcpatcher\\cit\\skulls\\badge\\scion\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\badge\\scion\\texture.png"
     }
   },
   {
@@ -6765,7 +6765,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\cheapcoffee\\mcpatcher\\cit\\skulls\\brews\\cheapcoffee\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\cheapcoffee\\texture.png"
     }
   },
   {
@@ -6781,7 +6781,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\cola\\mcpatcher\\cit\\skulls\\brews\\cola\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\cola\\texture.png"
     }
   },
   {
@@ -6797,7 +6797,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\decentcoffee\\mcpatcher\\cit\\skulls\\brews\\decentcoffee\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\decentcoffee\\texture.png"
     }
   },
   {
@@ -6813,7 +6813,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\drpaper\\mcpatcher\\cit\\skulls\\brews\\drpaper\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\drpaper\\texture.png"
     }
   },
   {
@@ -6829,7 +6829,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\greentea\\mcpatcher\\cit\\skulls\\brews\\greentea\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\greentea\\texture.png"
     }
   },
   {
@@ -6845,7 +6845,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\icetea\\mcpatcher\\cit\\skulls\\brews\\icetea\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\icetea\\texture.png"
     }
   },
   {
@@ -6861,7 +6861,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\oj\\mcpatcher\\cit\\skulls\\brews\\oj\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\oj\\texture.png"
     }
   },
   {
@@ -6877,7 +6877,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\poison\\mcpatcher\\cit\\skulls\\brews\\poison\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\poison\\texture.png"
     }
   },
   {
@@ -6893,7 +6893,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\slayer\\mcpatcher\\cit\\skulls\\brews\\slayer\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\slayer\\texture.png"
     }
   },
   {
@@ -6909,7 +6909,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\tear\\mcpatcher\\cit\\skulls\\brews\\tear\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\brews\\tear\\texture.png"
     }
   },
   {
@@ -6925,7 +6925,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\accessory_bag\\mcpatcher\\cit\\skulls\\gui\\accessory_bag\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\accessory_bag\\texture.png"
     }
   },
   {
@@ -6941,7 +6941,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\crafting\\mcpatcher\\cit\\skulls\\gui\\crafting\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\crafting\\texture.png"
     }
   },
   {
@@ -6957,7 +6957,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\enderchest\\mcpatcher\\cit\\skulls\\gui\\enderchest\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\enderchest\\texture.png"
     }
   },
   {
@@ -6973,7 +6973,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\fishing_bag\\mcpatcher\\cit\\skulls\\gui\\fishing_bag\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\fishing_bag\\texture.png"
     }
   },
   {
@@ -6989,7 +6989,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\globe\\mcpatcher\\cit\\skulls\\gui\\globe\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\globe\\texture.png"
     }
   },
   {
@@ -7007,7 +7007,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\locked\\mcpatcher\\cit\\skulls\\gui\\locked\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\locked\\texture.png"
     }
   },
   {
@@ -7041,7 +7041,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\potion_bag\\mcpatcher\\cit\\skulls\\gui\\potion_bag\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\potion_bag\\texture.png"
     }
   },
   {
@@ -7057,7 +7057,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\quiver\\mcpatcher\\cit\\skulls\\gui\\quiver\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\gui\\quiver\\texture.png"
     }
   },
   {
@@ -7073,7 +7073,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\desert\\mcpatcher\\cit\\skulls\\islands\\desert\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\desert\\texture.png"
     }
   },
   {
@@ -7089,7 +7089,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\farm\\mcpatcher\\cit\\skulls\\islands\\farm\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\farm\\texture.png"
     }
   },
   {
@@ -7105,7 +7105,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\pond\\mcpatcher\\cit\\skulls\\islands\\pond\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\pond\\texture.png"
     }
   },
   {
@@ -7121,7 +7121,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\roof\\mcpatcher\\cit\\skulls\\islands\\roof\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\roof\\texture.png"
     }
   },
   {
@@ -7137,7 +7137,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\wart\\mcpatcher\\cit\\skulls\\islands\\wart\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\islands\\wart\\texture.png"
     }
   },
   {
@@ -7153,7 +7153,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\mcpatcher\\cit\\skulls\\orbs\\mana_orb.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\mana_orb.png"
     }
   },
   {
@@ -7169,7 +7169,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\mcpatcher\\cit\\skulls\\orbs\\overflux_orb.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\overflux_orb.png"
     }
   },
   {
@@ -7185,7 +7185,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\mcpatcher\\cit\\skulls\\orbs\\radiant_orb.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\orbs\\radiant_orb.png"
     }
   },
   {
@@ -7201,7 +7201,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\bait\\mcpatcher\\cit\\skulls\\ring\\bait\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\bait\\texture.png"
     }
   },
   {
@@ -7217,7 +7217,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\bat\\mcpatcher\\cit\\skulls\\ring\\bat\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\bat\\texture.png"
     }
   },
   {
@@ -7233,7 +7233,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\candy\\mcpatcher\\cit\\skulls\\ring\\candy\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\candy\\texture.png"
     }
   },
   {
@@ -7249,7 +7249,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\devour\\mcpatcher\\cit\\skulls\\ring\\devour\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\devour\\texture.png"
     }
   },
   {
@@ -7265,7 +7265,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\feather\\mcpatcher\\cit\\skulls\\ring\\feather\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\feather\\texture.png"
     }
   },
   {
@@ -7281,7 +7281,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\haste\\mcpatcher\\cit\\skulls\\ring\\haste\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\haste\\texture.png"
     }
   },
   {
@@ -7297,7 +7297,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\healing\\mcpatcher\\cit\\skulls\\ring\\healing\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\healing\\texture.png"
     }
   },
   {
@@ -7313,7 +7313,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\hunter\\mcpatcher\\cit\\skulls\\ring\\hunter\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\hunter\\texture.png"
     }
   },
   {
@@ -7329,7 +7329,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\intimidation\\mcpatcher\\cit\\skulls\\ring\\intimidation\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\intimidation\\texture.png"
     }
   },
   {
@@ -7345,7 +7345,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\potion\\mcpatcher\\cit\\skulls\\ring\\potion\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\potion\\texture.png"
     }
   },
   {
@@ -7361,7 +7361,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\redclaw\\mcpatcher\\cit\\skulls\\ring\\redclaw\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\redclaw\\texture.png"
     }
   },
   {
@@ -7377,7 +7377,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\seacreature\\mcpatcher\\cit\\skulls\\ring\\seacreature\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\seacreature\\texture.png"
     }
   },
   {
@@ -7393,7 +7393,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\spider\\mcpatcher\\cit\\skulls\\ring\\spider\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\spider\\texture.png"
     }
   },
   {
@@ -7409,7 +7409,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\wolf\\mcpatcher\\cit\\skulls\\ring\\wolf\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\wolf\\texture.png"
     }
   },
   {
@@ -7425,7 +7425,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\zombie\\mcpatcher\\cit\\skulls\\ring\\zombie\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\ring\\zombie\\texture.png"
     }
   },
   {
@@ -7441,7 +7441,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\bat\\mcpatcher\\cit\\skulls\\talisman\\bat\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\bat\\texture.png"
     }
   },
   {
@@ -7457,7 +7457,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\candy\\mcpatcher\\cit\\skulls\\talisman\\candy\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\candy\\texture.png"
     }
   },
   {
@@ -7473,7 +7473,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\coins\\mcpatcher\\cit\\skulls\\talisman\\coins\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\coins\\texture.png"
     }
   },
   {
@@ -7489,7 +7489,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\farming\\mcpatcher\\cit\\skulls\\talisman\\farming\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\farming\\texture.png"
     }
   },
   {
@@ -7505,7 +7505,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\feather\\mcpatcher\\cit\\skulls\\talisman\\feather\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\feather\\texture.png"
     }
   },
   {
@@ -7521,7 +7521,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\fire\\mcpatcher\\cit\\skulls\\talisman\\fire\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\fire\\texture.png"
     }
   },
   {
@@ -7537,7 +7537,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\fishing\\mcpatcher\\cit\\skulls\\talisman\\fishing\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\fishing\\texture.png"
     }
   },
   {
@@ -7553,7 +7553,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\gravity\\mcpatcher\\cit\\skulls\\talisman\\gravity\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\gravity\\texture.png"
     }
   },
   {
@@ -7569,7 +7569,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\healing\\mcpatcher\\cit\\skulls\\talisman\\healing\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\healing\\texture.png"
     }
   },
   {
@@ -7585,7 +7585,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\hunter\\mcpatcher\\cit\\skulls\\talisman\\hunter\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\hunter\\texture.png"
     }
   },
   {
@@ -7601,7 +7601,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\intimidation\\mcpatcher\\cit\\skulls\\talisman\\intimidation\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\intimidation\\texture.png"
     }
   },
   {
@@ -7617,7 +7617,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\lava\\mcpatcher\\cit\\skulls\\talisman\\lava\\texture.png"
+      "layer0": "renders\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\lava\\texture.png"
     }
   },
   {
@@ -7633,7 +7633,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\magnet\\mcpatcher\\cit\\skulls\\talisman\\magnet\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\magnet\\texture.png"
     }
   },
   {
@@ -7649,7 +7649,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\mine\\mcpatcher\\cit\\skulls\\talisman\\mine\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\mine\\texture.png"
     }
   },
   {
@@ -7665,7 +7665,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\potion\\mcpatcher\\cit\\skulls\\talisman\\potion\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\potion\\texture.png"
     }
   },
   {
@@ -7681,7 +7681,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\redclaw\\mcpatcher\\cit\\skulls\\talisman\\redclaw\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\redclaw\\texture.png"
     }
   },
   {
@@ -7697,7 +7697,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\scavenger\\mcpatcher\\cit\\skulls\\talisman\\scavenger\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\scavenger\\texture.png"
     }
   },
   {
@@ -7713,7 +7713,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\seacreature\\mcpatcher\\cit\\skulls\\talisman\\seacreature\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\seacreature\\texture.png"
     }
   },
   {
@@ -7729,7 +7729,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\skeleton\\mcpatcher\\cit\\skulls\\talisman\\skeleton\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\skeleton\\texture.png"
     }
   },
   {
@@ -7745,7 +7745,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\speed\\mcpatcher\\cit\\skulls\\talisman\\speed\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\speed\\texture.png"
     }
   },
   {
@@ -7761,7 +7761,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\spider\\mcpatcher\\cit\\skulls\\talisman\\spider\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\spider\\texture.png"
     }
   },
   {
@@ -7777,7 +7777,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\tarantula\\mcpatcher\\cit\\skulls\\talisman\\tarantula\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\tarantula\\texture.png"
     }
   },
   {
@@ -7793,7 +7793,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\vaccine\\mcpatcher\\cit\\skulls\\talisman\\vaccine\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\vaccine\\texture.png"
     }
   },
   {
@@ -7809,7 +7809,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\village\\mcpatcher\\cit\\skulls\\talisman\\village\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\village\\texture.png"
     }
   },
   {
@@ -7825,7 +7825,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\wolf\\mcpatcher\\cit\\skulls\\talisman\\wolf\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\wolf\\texture.png"
     }
   },
   {
@@ -7841,7 +7841,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\wood\\mcpatcher\\cit\\skulls\\talisman\\wood\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\wood\\texture.png"
     }
   },
   {
@@ -7857,7 +7857,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\zombie\\mcpatcher\\cit\\skulls\\talisman\\zombie\\texture.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\skulls\\talisman\\zombie\\texture.png"
     }
   }
 ]
