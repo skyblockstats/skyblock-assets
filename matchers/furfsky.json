@@ -824,6 +824,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:nder Helmet"
@@ -1963,6 +1964,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "ipattern:*Item to*"
@@ -1979,6 +1981,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "5",
       "nbt": {
         "display": {
           "Name": "ipattern:*Item to*"
@@ -2319,6 +2322,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Accessories*",
@@ -2433,6 +2437,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Accessories*",
@@ -2573,6 +2578,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "ipattern:*.*s*"
@@ -2589,6 +2595,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "1",
       "nbt": {
         "display": {
           "Name": "ipattern:*.*s*"
@@ -2605,6 +2612,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "5",
       "nbt": {
         "display": {
           "Lore": {
@@ -2623,6 +2631,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Lore": {
@@ -2641,6 +2650,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Lore": {
@@ -3681,6 +3691,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "15",
       "nbt": {
         "display": {
           "Name": "ipattern:"
@@ -4005,6 +4016,7 @@
       "items": [
         "minecraft:dye"
       ],
+      "damage": "8",
       "nbt": {
         "display": {
           "Name": "ipattern:*\\u00a7c\\u003F\\u003F\\u003F*"
@@ -4085,6 +4097,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "0",
       "nbt": {
         "display": {
           "Name": "iregex:.*(Item|Rune) to.*"
@@ -4101,6 +4114,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "10",
       "nbt": {
         "display": {
           "Name": "iregex:.*(Item|Rune) to.*"
@@ -4581,6 +4595,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*\\u00a79*Crit Chance*"
@@ -4597,6 +4612,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*\\u00a79*Crit Damage*"
@@ -5193,6 +5209,7 @@
       "items": [
         "minecraft:coal"
       ],
+      "damage": "1",
       "nbt": {
         "display": {
           "Name": "ipattern:*Foul Flesh*"
@@ -6437,6 +6454,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Bat Artifact*"
@@ -6453,6 +6471,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Candy Artifact*"
@@ -6469,6 +6488,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Ender Artifact*"
@@ -6485,6 +6505,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Feather Artifact*"
@@ -6501,6 +6522,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Intimidation Artifact*"
@@ -6517,6 +6539,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Potion Affinity Artifact*"
@@ -6533,6 +6556,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Red Claw Artifact*"
@@ -6549,6 +6573,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Sea Creature Artifact*"
@@ -6565,6 +6590,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Spider Artifact*"
@@ -6581,6 +6607,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Wither Artifact*"
@@ -6597,6 +6624,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Zombie Artifact*"
@@ -6613,6 +6641,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Greater Backpack*"
@@ -6629,6 +6658,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Large Backpack*"
@@ -6645,6 +6675,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Medium Backpack*"
@@ -6661,6 +6692,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Small Backpack*"
@@ -6677,6 +6709,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Campfire Adept Badge*"
@@ -6693,6 +6726,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Campfire Cultist Badge*"
@@ -6709,6 +6743,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Campfire God Badge*"
@@ -6725,6 +6760,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Campfire Initiate Badge*"
@@ -6741,6 +6777,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Campfire Scion Badge*"
@@ -6757,6 +6794,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Cheap Coffee*"
@@ -6773,6 +6811,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Knockoff*Cola*"
@@ -6789,6 +6828,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Decent Coffee*"
@@ -6805,6 +6845,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Dctr. Paper*"
@@ -6821,6 +6862,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Tepid Green Tea*"
@@ -6837,6 +6879,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Bitter Ice Tea*"
@@ -6853,6 +6896,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Pulpous Orange Juice*"
@@ -6869,6 +6913,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Tutti-Frutti Flavored Poison*"
@@ -6885,6 +6930,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Slayer*Energy Drink*"
@@ -6901,6 +6947,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Viking's Tear*"
@@ -6917,6 +6964,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Accessory Bag*"
@@ -6965,6 +7013,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Fishing Bag*"
@@ -6981,6 +7030,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Warp to:*"
@@ -6997,6 +7047,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Lore": {
@@ -7015,6 +7066,7 @@
       "items": [
         "minecraft:dye"
       ],
+      "damage": "8",
       "nbt": {
         "display": {
           "Lore": {
@@ -7033,6 +7085,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Potion Bag*"
@@ -7049,6 +7102,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Quiver*"
@@ -7065,6 +7119,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Desert Island*"
@@ -7081,6 +7136,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Farming Island*"
@@ -7097,6 +7153,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Pond Island*"
@@ -7113,6 +7170,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Roofed Forest Island*"
@@ -7129,6 +7187,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Nether Wart Island*"
@@ -7145,6 +7204,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Mana Flux Power Orb*"
@@ -7161,6 +7221,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Overflux Power Orb*"
@@ -7177,6 +7238,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Radiant Power Orb*"
@@ -7193,6 +7255,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Bait Ring*"
@@ -7209,6 +7272,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Bat Ring*"
@@ -7225,6 +7289,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Candy Ring*"
@@ -7241,6 +7306,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Devour Ring*"
@@ -7257,6 +7323,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Feather Ring*"
@@ -7273,6 +7340,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Haste Ring*"
@@ -7289,6 +7357,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Healing Ring*"
@@ -7305,6 +7374,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Hunter Ring*"
@@ -7321,6 +7391,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Intimidation Ring*"
@@ -7337,6 +7408,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Potion Affinity Ring*"
@@ -7353,6 +7425,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Red Claw Ring*"
@@ -7369,6 +7442,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Sea Creature Ring*"
@@ -7385,6 +7459,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Spider Ring*"
@@ -7401,6 +7476,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Wolf Ring*"
@@ -7417,6 +7493,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Zombie Ring*"
@@ -7433,6 +7510,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Bat Talisman*"
@@ -7449,6 +7527,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Candy Talisman*"
@@ -7465,6 +7544,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Talisman of Coins*"
@@ -7481,6 +7561,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Farming Talisman*"
@@ -7497,6 +7578,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Feather Talisman*"
@@ -7513,6 +7595,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Fire Talisman*"
@@ -7529,6 +7612,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Fish Affinity Talisman*"
@@ -7545,6 +7629,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Gravity Talisman*"
@@ -7561,6 +7646,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Healing Talisman*"
@@ -7577,6 +7663,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Hunter Talisman*"
@@ -7593,6 +7680,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Intimidation Talisman*"
@@ -7609,6 +7697,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Lava Talisman*"
@@ -7625,6 +7714,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Magnetic Talisman*"
@@ -7641,6 +7731,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Mine Affinity Talisman*"
@@ -7657,6 +7748,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Potion Affinity Talisman*"
@@ -7673,6 +7765,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Red Claw Talisman*"
@@ -7689,6 +7782,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Scavenger Talisman*"
@@ -7705,6 +7799,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Sea Creature Talisman*"
@@ -7721,6 +7816,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "0",
       "nbt": {
         "display": {
           "Name": "ipattern:*Skeleton Talisman*"
@@ -7737,6 +7833,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Speed Talisman*"
@@ -7753,6 +7850,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Spider Talisman*"
@@ -7769,6 +7867,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Tarantula Talisman*"
@@ -7785,6 +7884,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Vaccine Talisman*"
@@ -7801,6 +7901,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Village Affinity Talisman*"
@@ -7817,6 +7918,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Wolf Talisman*"
@@ -7833,6 +7935,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Wood Affinity Talisman*"
@@ -7849,6 +7952,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "2",
       "nbt": {
         "display": {
           "Name": "ipattern:*Zombie Talisman*"

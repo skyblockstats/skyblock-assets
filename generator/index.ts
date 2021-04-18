@@ -10,6 +10,8 @@ type XYXYArray = [ number, number, number, number ]
 
 type Direction = 'down' | 'up' | 'north' | 'south' | 'west' | 'east'
 
+let vanillaDamages: { [ key: string ]: string }
+
 interface ModelFace {
 	uv: XYXYArray,
 	texture: string,
@@ -104,6 +106,7 @@ async function writeJsonFile(fileDir: string, contents: any): Promise<void> {
 	await fs.writeFile(fileDir, JSON.stringify(contents, null, 2), { encoding: 'utf8' })
 }
 
+/** Returns whether a file exists */
 async function fileExists(fileDir: string): Promise<boolean> {
 	try {
 		await fs.access(fileDir)
@@ -167,24 +170,6 @@ async function readModelJson(baseDir: string, modelName: string, vanillaModelsDi
 		throw Error(`Couldn\'t find model. baseDir: ${baseDir}, modelName: ${modelName}, vanillaModelsDir: ${vanillaModelsDir}`)
 }
 
-
-async function getItemFromModel(baseDir: string, outputDir: string, modelName: string, vanillaModelsDir: string) {
-	const model = await readFullModel(path.join(baseDir, 'models'), modelName, vanillaModelsDir)
-	const modelTextures: ModelTextures = model.textures
-	const itemTexturePath = modelTextures.layer0
-	// writeJsonFile(baseDir + '')
-	const textureBuffer = await fs.readFile(`${baseDir}/textures/${itemTexturePath}.png`)
-	const textureOutputDir = path.join(outputDir, `/textures/${itemTexturePath}.png`)
-	try {
-		await fs.mkdir(path.dirname(textureOutputDir), { recursive: true })
-	} catch {}
-	await fs.writeFile(textureOutputDir, textureBuffer)
-	return {
-		texture: textureOutputDir,
-	}
-}
-
-
 function setDotNotationAttribute(obj: any, path: string, value: any) {
 	let pointerObj = obj
 	const parts = path.split('.')
@@ -242,6 +227,7 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 
 	const matcher: Matcher = {
 		items: matchItems,
+		damage: properties.damage,
 		nbt: properties.nbt,
 		type: properties?.type ?? null
 	}
@@ -250,6 +236,7 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 	
 	if (properties.model) {
 		const model = await readFullModel(path.dirname(propertiesDir), properties.model, path.join(vanillaDir, 'models'), path.join(baseDir, './models'))
+
 		if (model.textures) {
 			const newTextures = {}
 			for (let [ key, value ] of Object.entries(model.textures)) {
@@ -264,11 +251,13 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 
 				newTextures[key] = newDirectory
 			}
+
 			textures = { ...newTextures }
 		}
 	}
 
 	const propertiesTexture: string | { [ key: string ]: string} = properties.texture
+
 	if (typeof propertiesTexture === 'string') {
 		let newTexture = path.join(path.dirname(propertiesDir), propertiesTexture)
 		if (!newTexture.endsWith('.png')) newTexture += '.png'
@@ -307,6 +296,7 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 interface Matcher {
 	type?: string
 	items?: string[]
+	damage?: number
 	nbt?: {
 		ExtraAttributes?: {
 			id?: string
@@ -334,10 +324,9 @@ async function addPack(packName: string) {
 	}
 
 	const itemModelDirs = await getFiles(path.join(packSourceDir, 'models', 'item'))
-	// const itemModelDirs = ['acacia_fence']
 
 	for await (const modelDir of itemModelDirs) {
-		const itemName = path.basename(modelDir).split('.')[0]
+		let itemName: string = path.basename(modelDir).split('.')[0]
 		const model = await readFullModel(packSourceDir, `item/${itemName}`, path.join(vanillaDir, 'models'))
 		if (model.textures) {
 			const newTextures = {}
@@ -347,14 +336,23 @@ async function addPack(packName: string) {
 			}
 			model.textures = { ...newTextures }
 
+			let minecraftItemName: string
+			let damage: number = 0
+
+			// if possible, convert stuff like "pufferfish" to "fish" and 3
+			if (vanillaDamages[itemName])
+				[ itemName, damage ] = [ vanillaDamages[itemName].split(':')[0], parseInt(vanillaDamages[itemName].split(':')[1]) ]
+
+			minecraftItemName = `minecraft:${itemName}`
+
 			matchers.push({
 				matcher: {
-					items: [ `minecraft:${itemName}` ]
+					items: [ minecraftItemName ],
+					damage: damage
 				},
 				textures: model.textures
 			})
 		}
-		// await addItemFromModel(packSourceDir, outputDir, 'item/diamond_pickaxe')
 	}
 
 	await writeJsonFile(path.join(outputDir, `${packName}.json`), matchers)
@@ -368,6 +366,8 @@ async function makeDir(dir) {
 }
 
 async function main() {
+	vanillaDamages = await readJsonFile('data/vanilla_damages.json')
+
 	await makeDir('./textures')
 	await makeDir(`./matchers`)
 

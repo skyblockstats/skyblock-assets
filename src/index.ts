@@ -17,12 +17,14 @@ export interface NBT {
 interface Matcher {
 	type: string
 	items: string[]
+	damage?: number
 	nbt: NBT
 }
 
 export interface Options {
 	pack: 'vanilla' | 'packshq' | 'furfsky'
 	id: string
+	damage?: number
 	nbt: NBT
 }
 
@@ -95,6 +97,8 @@ async function checkMatches(options: Options, matcher: Matcher): Promise<boolean
 	// check 'items'
 	if (matcher.items && !matcher.items.includes(options.id))
 		return false
+	if (options.damage !== undefined && matcher.damage !== undefined && options.damage !== matcher.damage)
+		return false
 	// check nbt
 	if (matcher.nbt) {
 		if (!objectsPartiallyMatch(options.nbt, matcher.nbt))
@@ -105,6 +109,7 @@ async function checkMatches(options: Options, matcher: Matcher): Promise<boolean
 
 async function getTextures(options: Options): Promise<{ [key: string]: string }> {
 	if (minecraftIds[options.id.split(':')[0]]) {
+		options.damage = parseInt(options.id.split(':')[1])
 		options.id = minecraftIds[options.id.split(':')[0]]
 	}
 

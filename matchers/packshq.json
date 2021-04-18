@@ -14027,6 +14027,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "BITTER_ICE_TEA"
@@ -14043,6 +14044,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "CHEAP_COFFEE"
@@ -14059,6 +14061,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "DR_PAPER"
@@ -14075,6 +14078,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "DECENT_COFFEE"
@@ -14091,6 +14095,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "SLAYER_ENERGY_DRINK"
@@ -14107,6 +14112,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "TUTTI_FRUTTI_POISON"
@@ -14123,6 +14129,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "TEPID_GREEN_TEA"
@@ -14139,6 +14146,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "KNOCKOFF_COLA"
@@ -14155,6 +14163,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "PULPOUS_ORANGE_JUICE"
@@ -14171,6 +14180,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "ExtraAttributes": {
           "id": "VIKING_TEAR"
@@ -32422,6 +32432,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Accessory Bag*"
@@ -33791,6 +33802,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Fishing Bag*"
@@ -33983,6 +33995,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "15",
       "nbt": {
         "display": {
           "Name": "regex:."
@@ -34015,6 +34028,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Potion Bag*"
@@ -34203,6 +34217,7 @@
       "items": [
         "minecraft:skull"
       ],
+      "damage": "3",
       "nbt": {
         "display": {
           "Name": "ipattern:*Sack of Sacks*"
@@ -34495,6 +34510,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "5",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7a(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (IV|4|IX|9|XIV|14|XIX|19|XXIX|29|XXXIV|34|XXXIX|39|XLIV|44|LIV|54|LIX|59)"
@@ -34511,6 +34527,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "5",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7a(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (III|3|XIII|13|XXVIII|28|XXXVIII|38|LIII|53)"
@@ -34527,6 +34544,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "5",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7a(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (VIII|8|XVIII|18|XXXIII|33|XLIII|43|LVIII|58)"
@@ -34597,6 +34615,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "5",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7a(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (I|1|II|2|VI|6|VII|7|XI|11|XII|12|XVI|16|XVII|17|XXI|21|XXII|22|XXIII|23|XXIV|24|XXVI|26|XXVII|27|XXXI|31|XXXII|32|XXXVI|36|XXXVII|37|XLI|41|XLII|42|XLVI|46|XLVII|47|XLVIII|48|XLIX|49|LI|51|LII|52|LVI|56|LVII|57)"
@@ -34645,6 +34664,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (IV|4|IX|9|XIV|14|XIX|19|XXIX|29|XXXIV|34|XXXIX|39|XLIV|44|LIV|54|LIX|59)"
@@ -34661,6 +34681,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (III|3|XIII|13|XXVIII|28|XXXVIII|38|LIII|53)"
@@ -34677,6 +34698,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (VIII|8|XVIII|18|XXXIII|33|XLIII|43|LVIII|58)"
@@ -34693,6 +34715,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (XXV|25|L|50)"
@@ -34709,6 +34732,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (LX|60)"
@@ -34725,6 +34749,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (V|5|XV|15|XXX|30|XL|40|LV|55)"
@@ -34741,6 +34766,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (X|10|XX|20|XXXV|35|XLV|45)"
@@ -34757,6 +34783,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "14",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7c(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (I|1|II|2|VI|6|VII|7|XI|11|XII|12|XVI|16|XVII|17|XXI|21|XXII|22|XXIII|23|XXIV|24|XXVI|26|XXVII|27|XXXI|31|XXXII|32|XXXVI|36|XXXVII|37|XLI|41|XLII|42|XLVI|46|XLVII|47|XLVIII|48|XLIX|49|LI|51|LII|52|LVI|56|LVII|57)"
@@ -34773,6 +34800,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (IV|4|IX|9|XIV|14|XIX|19|XXIX|29|XXXIV|34|XXXIX|39|XLIV|44|LIV|54|LIX|59)"
@@ -34789,6 +34817,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (III|3|XIII|13|XXVIII|28|XXXVIII|38|LIII|53)"
@@ -34805,6 +34834,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (VIII|8|XVIII|18|XXXIII|33|XLIII|43|LVIII|58)"
@@ -34821,6 +34851,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (XXV|25|L|50)"
@@ -34837,6 +34868,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (LX|60)"
@@ -34853,6 +34885,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (V|5|XV|15|XXX|30|XL|40|LV|55)"
@@ -34869,6 +34902,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (X|10|XX|20|XXXV|35|XLV|45)"
@@ -34885,6 +34919,7 @@
       "items": [
         "minecraft:stained_glass_pane"
       ],
+      "damage": "4",
       "nbt": {
         "display": {
           "Name": "iregex:\\u00a7e(Farming|Mining|Combat|Foraging|Fishing|Enchanting|Alchemy|Carpentry|Runecrafting|Social|Taming|Healer|Mage|Berserk|Archer|Tank|Catacombs) Level (I|1|II|2|VI|6|VII|7|XI|11|XII|12|XVI|16|XVII|17|XXI|21|XXII|22|XXIII|23|XXIV|24|XXVI|26|XXVII|27|XXXI|31|XXXII|32|XXXVI|36|XXXVII|37|XLI|41|XLII|42|XLVI|46|XLVII|47|XLVIII|48|XLIX|49|LI|51|LII|52|LVI|56|LVII|57)"

@@ -3,7 +3,8 @@
     "matcher": {
       "items": [
         "minecraft:acacia_door"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_acacia.png"
@@ -13,7 +14,8 @@
     "matcher": {
       "items": [
         "minecraft:acacia_fence"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
@@ -24,7 +26,8 @@
     "matcher": {
       "items": [
         "minecraft:acacia_fence_gate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
@@ -34,8 +37,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:acacia_leaves"
-      ]
+        "minecraft:leaves2"
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_acacia.png",
@@ -45,8 +49,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:acacia_log"
-      ]
+        "minecraft:log2"
+      ],
+      "damage": 0
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\log_acacia_top.png",
@@ -63,8 +68,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:acacia_planks"
-      ]
+        "minecraft:planks"
+      ],
+      "damage": 4
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
@@ -80,8 +86,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:acacia_sapling"
-      ]
+        "minecraft:sapling"
+      ],
+      "damage": 4
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\sapling_acacia.png"
@@ -90,8 +97,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:acacia_slab"
-      ]
+        "minecraft:wooden_slab"
+      ],
+      "damage": 4
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
@@ -104,7 +112,8 @@
     "matcher": {
       "items": [
         "minecraft:acacia_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
@@ -117,7 +126,8 @@
     "matcher": {
       "items": [
         "minecraft:activator_rail"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\rail_activator.png"
@@ -126,8 +136,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:allium"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 2
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_allium.png"
@@ -136,8 +147,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:andesite"
-      ]
+        "minecraft:stone"
+      ],
+      "damage": 5
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone_andesite.png",
@@ -153,8 +165,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:andesite_smooth"
-      ]
+        "minecraft:stone"
+      ],
+      "damage": 6
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone_andesite_smooth.png",
@@ -171,7 +184,8 @@
     "matcher": {
       "items": [
         "minecraft:anvil_intact"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
@@ -183,7 +197,8 @@
     "matcher": {
       "items": [
         "minecraft:anvil_slightly_damaged"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
@@ -195,7 +210,8 @@
     "matcher": {
       "items": [
         "minecraft:anvil_very_damaged"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
@@ -207,7 +223,8 @@
     "matcher": {
       "items": [
         "minecraft:apple"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\apple.png"
@@ -217,7 +234,8 @@
     "matcher": {
       "items": [
         "minecraft:armor_stand"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\wooden_armorstand.png"
@@ -227,7 +245,8 @@
     "matcher": {
       "items": [
         "minecraft:arrow"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\arrow.png"
@@ -237,7 +256,8 @@
     "matcher": {
       "items": [
         "minecraft:baked_potato"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potato_baked.png"
@@ -247,7 +267,8 @@
     "matcher": {
       "items": [
         "minecraft:barrier"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\barrier.png"
@@ -257,7 +278,8 @@
     "matcher": {
       "items": [
         "minecraft:beacon"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\glass.png",
@@ -270,7 +292,8 @@
     "matcher": {
       "items": [
         "minecraft:bed"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bed.png"
@@ -280,7 +303,8 @@
     "matcher": {
       "items": [
         "minecraft:bedrock"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\bedrock.png",
@@ -297,7 +321,8 @@
     "matcher": {
       "items": [
         "minecraft:beef"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\beef_raw.png"
@@ -307,7 +332,8 @@
     "matcher": {
       "items": [
         "minecraft:birch_door"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_birch.png"
@@ -317,7 +343,8 @@
     "matcher": {
       "items": [
         "minecraft:birch_fence"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
@@ -328,7 +355,8 @@
     "matcher": {
       "items": [
         "minecraft:birch_fence_gate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
@@ -338,8 +366,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:birch_leaves"
-      ]
+        "minecraft:leaves"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_birch.png",
@@ -349,8 +378,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:birch_log"
-      ]
+        "minecraft:log"
+      ],
+      "damage": 2
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\log_birch_top.png",
@@ -367,8 +397,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:birch_planks"
-      ]
+        "minecraft:planks"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
@@ -384,8 +415,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:birch_sapling"
-      ]
+        "minecraft:sapling"
+      ],
+      "damage": 2
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\sapling_birch.png"
@@ -394,8 +426,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:birch_slab"
-      ]
+        "minecraft:wooden_slab"
+      ],
+      "damage": 2
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
@@ -408,7 +441,8 @@
     "matcher": {
       "items": [
         "minecraft:birch_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
@@ -420,8 +454,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:black_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 15
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
@@ -431,8 +466,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:black_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 15
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_black.png",
@@ -448,8 +484,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:black_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 15
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_black.png"
@@ -458,8 +495,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:black_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 15
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_black.png",
@@ -475,8 +513,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:black_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 15
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
@@ -493,7 +532,8 @@
     "matcher": {
       "items": [
         "minecraft:blaze_powder"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\blaze_powder.png"
@@ -503,7 +543,8 @@
     "matcher": {
       "items": [
         "minecraft:blaze_rod"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\blaze_rod.png"
@@ -512,8 +553,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:blue_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 11
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
@@ -523,8 +565,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:blue_orchid"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_blue_orchid.png"
@@ -533,8 +576,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:blue_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 11
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_blue.png",
@@ -550,8 +594,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:blue_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 11
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_blue.png"
@@ -560,8 +605,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:blue_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 11
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_blue.png",
@@ -577,8 +623,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:blue_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 11
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
@@ -595,7 +642,8 @@
     "matcher": {
       "items": [
         "minecraft:boat"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\boat.png"
@@ -605,7 +653,8 @@
     "matcher": {
       "items": [
         "minecraft:bone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bone.png"
@@ -615,7 +664,8 @@
     "matcher": {
       "items": [
         "minecraft:book"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\book_normal.png"
@@ -625,7 +675,8 @@
     "matcher": {
       "items": [
         "minecraft:bookshelf"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -643,7 +694,8 @@
     "matcher": {
       "items": [
         "minecraft:bottle_drinkable"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
@@ -654,7 +706,8 @@
     "matcher": {
       "items": [
         "minecraft:bottle_splash"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
@@ -665,7 +718,8 @@
     "matcher": {
       "items": [
         "minecraft:bow"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bow_standby.png"
@@ -675,7 +729,8 @@
     "matcher": {
       "items": [
         "minecraft:bowl"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bowl.png"
@@ -685,7 +740,8 @@
     "matcher": {
       "items": [
         "minecraft:bow_pulling_0"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bow_pulling_0.png"
@@ -695,7 +751,8 @@
     "matcher": {
       "items": [
         "minecraft:bow_pulling_1"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bow_pulling_1.png"
@@ -705,7 +762,8 @@
     "matcher": {
       "items": [
         "minecraft:bow_pulling_2"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bow_pulling_2.png"
@@ -715,7 +773,8 @@
     "matcher": {
       "items": [
         "minecraft:bread"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bread.png"
@@ -725,7 +784,8 @@
     "matcher": {
       "items": [
         "minecraft:brewing_stand"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\brewing_stand.png"
@@ -735,7 +795,8 @@
     "matcher": {
       "items": [
         "minecraft:brick"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\brick.png"
@@ -745,7 +806,8 @@
     "matcher": {
       "items": [
         "minecraft:brick_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\brick.png",
@@ -761,8 +823,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:brick_slab"
-      ]
+        "minecraft:stone_slab"
+      ],
+      "damage": 4
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\brick.png",
@@ -775,7 +838,8 @@
     "matcher": {
       "items": [
         "minecraft:brick_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\brick.png",
@@ -787,8 +851,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:brown_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 12
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
@@ -799,7 +864,8 @@
     "matcher": {
       "items": [
         "minecraft:brown_mushroom"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\mushroom_brown.png"
@@ -809,7 +875,8 @@
     "matcher": {
       "items": [
         "minecraft:brown_mushroom_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_brown.png",
@@ -825,8 +892,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:brown_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 12
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_brown.png",
@@ -842,8 +910,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:brown_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 12
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_brown.png"
@@ -852,8 +921,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:brown_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 12
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_brown.png",
@@ -869,8 +939,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:brown_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 12
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
@@ -887,7 +958,8 @@
     "matcher": {
       "items": [
         "minecraft:bucket"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bucket_empty.png"
@@ -897,7 +969,8 @@
     "matcher": {
       "items": [
         "minecraft:cactus"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\cactus_side.png",
@@ -910,7 +983,8 @@
     "matcher": {
       "items": [
         "minecraft:cake"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\cake.png"
@@ -920,7 +994,8 @@
     "matcher": {
       "items": [
         "minecraft:carrot"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\carrot.png"
@@ -930,7 +1005,8 @@
     "matcher": {
       "items": [
         "minecraft:carrot_on_a_stick"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\carrot_on_a_stick.png"
@@ -940,7 +1016,8 @@
     "matcher": {
       "items": [
         "minecraft:cauldron"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\cauldron.png"
@@ -950,7 +1027,8 @@
     "matcher": {
       "items": [
         "minecraft:chainmail_boots"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\chainmail_boots.png"
@@ -960,7 +1038,8 @@
     "matcher": {
       "items": [
         "minecraft:chainmail_chestplate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\chainmail_chestplate.png"
@@ -970,7 +1049,8 @@
     "matcher": {
       "items": [
         "minecraft:chainmail_helmet"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\chainmail_helmet.png"
@@ -980,7 +1060,8 @@
     "matcher": {
       "items": [
         "minecraft:chainmail_leggings"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\chainmail_leggings.png"
@@ -990,7 +1071,8 @@
     "matcher": {
       "items": [
         "minecraft:charcoal"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\charcoal.png"
@@ -1000,7 +1082,8 @@
     "matcher": {
       "items": [
         "minecraft:chest_minecart"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\minecart_chest.png"
@@ -1010,7 +1093,8 @@
     "matcher": {
       "items": [
         "minecraft:chicken"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\chicken_raw.png"
@@ -1019,8 +1103,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:chiseled_brick_monster_egg"
-      ]
+        "minecraft:monster_egg"
+      ],
+      "damage": 5
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
@@ -1036,8 +1121,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:chiseled_quartz_block"
-      ]
+        "minecraft:quartz_block"
+      ],
+      "damage": 1
     },
     "textures": {
       "side": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled.png",
@@ -1054,8 +1140,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:chiseled_red_sandstone"
-      ]
+        "minecraft:red_sandstone"
+      ],
+      "damage": 1
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
@@ -1072,8 +1159,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:chiseled_sandstone"
-      ]
+        "minecraft:sandstone"
+      ],
+      "damage": 1
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
@@ -1090,8 +1178,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:chiseled_stonebrick"
-      ]
+        "minecraft:stonebrick"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
@@ -1108,7 +1197,8 @@
     "matcher": {
       "items": [
         "minecraft:clay"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\clay.png",
@@ -1125,7 +1215,8 @@
     "matcher": {
       "items": [
         "minecraft:clay_ball"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\clay_ball.png"
@@ -1135,7 +1226,8 @@
     "matcher": {
       "items": [
         "minecraft:clock"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\clock.png"
@@ -1144,8 +1236,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:clownfish"
-      ]
+        "minecraft:fish"
+      ],
+      "damage": 2
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fish_clownfish_raw.png"
@@ -1155,7 +1248,8 @@
     "matcher": {
       "items": [
         "minecraft:coal"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\coal.png"
@@ -1165,7 +1259,8 @@
     "matcher": {
       "items": [
         "minecraft:coal_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\coal_block.png",
@@ -1182,7 +1277,8 @@
     "matcher": {
       "items": [
         "minecraft:coal_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\coal_ore.png",
@@ -1198,8 +1294,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:coarse_dirt"
-      ]
+        "minecraft:dirt"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\coarse_dirt.png",
@@ -1216,7 +1313,8 @@
     "matcher": {
       "items": [
         "minecraft:cobblestone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
@@ -1232,8 +1330,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cobblestone_monster_egg"
-      ]
+        "minecraft:monster_egg"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
@@ -1249,8 +1348,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cobblestone_slab"
-      ]
+        "minecraft:stone_slab"
+      ],
+      "damage": 3
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
@@ -1263,7 +1363,8 @@
     "matcher": {
       "items": [
         "minecraft:cobblestone_wall"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "wall": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
@@ -1273,8 +1374,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cod"
-      ]
+        "minecraft:fish"
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fish_cod_raw.png"
@@ -1284,7 +1386,8 @@
     "matcher": {
       "items": [
         "minecraft:command_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\command_block.png",
@@ -1301,7 +1404,8 @@
     "matcher": {
       "items": [
         "minecraft:command_block_minecart"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\minecart_command_block.png"
@@ -1311,7 +1415,8 @@
     "matcher": {
       "items": [
         "minecraft:comparator"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\comparator.png"
@@ -1321,7 +1426,8 @@
     "matcher": {
       "items": [
         "minecraft:compass"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\compass.png"
@@ -1331,7 +1437,8 @@
     "matcher": {
       "items": [
         "minecraft:cooked_beef"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\beef_cooked.png"
@@ -1341,7 +1448,8 @@
     "matcher": {
       "items": [
         "minecraft:cooked_chicken"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\chicken_cooked.png"
@@ -1351,7 +1459,8 @@
     "matcher": {
       "items": [
         "minecraft:cooked_cod"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fish_cod_cooked.png"
@@ -1361,7 +1470,8 @@
     "matcher": {
       "items": [
         "minecraft:cooked_mutton"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\mutton_cooked.png"
@@ -1371,7 +1481,8 @@
     "matcher": {
       "items": [
         "minecraft:cooked_porkchop"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\porkchop_cooked.png"
@@ -1381,7 +1492,8 @@
     "matcher": {
       "items": [
         "minecraft:cooked_rabbit"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\rabbit_cooked.png"
@@ -1391,7 +1503,8 @@
     "matcher": {
       "items": [
         "minecraft:cooked_salmon"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fish_salmon_cooked.png"
@@ -1401,7 +1514,8 @@
     "matcher": {
       "items": [
         "minecraft:cookie"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\cookie.png"
@@ -1410,8 +1524,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cracked_brick_monster_egg"
-      ]
+        "minecraft:monster_egg"
+      ],
+      "damage": 4
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
@@ -1427,8 +1542,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cracked_stonebrick"
-      ]
+        "minecraft:stonebrick"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
@@ -1445,7 +1561,8 @@
     "matcher": {
       "items": [
         "minecraft:crafting_table"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\crafting_table_front.png",
@@ -1460,8 +1577,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cyan_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 9
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
@@ -1471,8 +1589,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cyan_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 9
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_cyan.png",
@@ -1488,8 +1607,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cyan_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 9
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_cyan.png"
@@ -1498,8 +1618,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cyan_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 9
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_cyan.png",
@@ -1515,8 +1636,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cyan_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 9
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
@@ -1533,7 +1655,8 @@
     "matcher": {
       "items": [
         "minecraft:dandelion"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_dandelion.png"
@@ -1543,7 +1666,8 @@
     "matcher": {
       "items": [
         "minecraft:dark_oak_door"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_dark_oak.png"
@@ -1553,7 +1677,8 @@
     "matcher": {
       "items": [
         "minecraft:dark_oak_fence"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
@@ -1564,7 +1689,8 @@
     "matcher": {
       "items": [
         "minecraft:dark_oak_fence_gate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
@@ -1574,8 +1700,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dark_oak_leaves"
-      ]
+        "minecraft:leaves2"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_big_oak.png",
@@ -1585,8 +1712,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dark_oak_log"
-      ]
+        "minecraft:log2"
+      ],
+      "damage": 1
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\log_big_oak_top.png",
@@ -1603,8 +1731,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dark_oak_planks"
-      ]
+        "minecraft:planks"
+      ],
+      "damage": 5
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
@@ -1620,8 +1749,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dark_oak_sapling"
-      ]
+        "minecraft:sapling"
+      ],
+      "damage": 5
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\sapling_roofed_oak.png"
@@ -1630,8 +1760,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dark_oak_slab"
-      ]
+        "minecraft:wooden_slab"
+      ],
+      "damage": 5
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
@@ -1644,7 +1775,8 @@
     "matcher": {
       "items": [
         "minecraft:dark_oak_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
@@ -1656,8 +1788,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dark_prismarine"
-      ]
+        "minecraft:prismarine"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\prismarine_dark.png",
@@ -1674,7 +1807,8 @@
     "matcher": {
       "items": [
         "minecraft:daylight_detector"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\daylight_detector_top.png",
@@ -1686,7 +1820,8 @@
     "matcher": {
       "items": [
         "minecraft:dead_bush"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\deadbush.png"
@@ -1696,7 +1831,8 @@
     "matcher": {
       "items": [
         "minecraft:detector_rail"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\rail_detector.png"
@@ -1706,7 +1842,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond.png"
@@ -1716,7 +1853,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_axe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_axe.png"
@@ -1726,7 +1864,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\diamond_block.png",
@@ -1743,7 +1882,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_boots"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_boots.png"
@@ -1753,7 +1893,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_chestplate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_chestplate.png"
@@ -1763,7 +1904,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_helmet"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_helmet.png"
@@ -1773,7 +1915,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_hoe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_hoe.png"
@@ -1783,7 +1926,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_horse_armor"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_horse_armor.png"
@@ -1793,7 +1937,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_leggings"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_leggings.png"
@@ -1803,7 +1948,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\diamond_ore.png",
@@ -1820,7 +1966,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_pickaxe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_pickaxe.png"
@@ -1830,7 +1977,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_shovel"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_shovel.png"
@@ -1840,7 +1988,8 @@
     "matcher": {
       "items": [
         "minecraft:diamond_sword"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\diamond_sword.png"
@@ -1849,8 +1998,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:diorite"
-      ]
+        "minecraft:stone"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone_diorite.png",
@@ -1866,8 +2016,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:diorite_smooth"
-      ]
+        "minecraft:stone"
+      ],
+      "damage": 4
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone_diorite_smooth.png",
@@ -1884,7 +2035,8 @@
     "matcher": {
       "items": [
         "minecraft:dirt"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\dirt.png",
@@ -1901,7 +2053,8 @@
     "matcher": {
       "items": [
         "minecraft:dispenser"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
@@ -1919,8 +2072,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:double_fern"
-      ]
+        "minecraft:double_plant"
+      ],
+      "damage": 3
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_fern_top.png"
@@ -1929,8 +2083,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:double_grass"
-      ]
+        "minecraft:double_plant"
+      ],
+      "damage": 2
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_grass_top.png"
@@ -1939,8 +2094,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:double_rose"
-      ]
+        "minecraft:double_plant"
+      ],
+      "damage": 4
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_rose_top.png"
@@ -1950,7 +2106,8 @@
     "matcher": {
       "items": [
         "minecraft:dragon_egg"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\dragon_egg.png",
@@ -1961,7 +2118,8 @@
     "matcher": {
       "items": [
         "minecraft:dropper"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
@@ -1979,8 +2137,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_black"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_black.png"
@@ -1989,8 +2148,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_blue"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 4
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_blue.png"
@@ -1999,8 +2159,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_brown"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 3
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_brown.png"
@@ -2009,8 +2170,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_cyan"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 6
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_cyan.png"
@@ -2019,8 +2181,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_gray"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 8
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_gray.png"
@@ -2029,8 +2192,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_green"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 2
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_green.png"
@@ -2039,8 +2203,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_light_blue"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 12
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_light_blue.png"
@@ -2049,8 +2214,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_lime"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 10
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_lime.png"
@@ -2059,8 +2225,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_magenta"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 13
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_magenta.png"
@@ -2069,8 +2236,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_orange"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 14
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_orange.png"
@@ -2079,8 +2247,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_pink"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 9
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_pink.png"
@@ -2089,8 +2258,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_purple"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 5
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_purple.png"
@@ -2099,8 +2269,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_red"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_red.png"
@@ -2110,7 +2281,8 @@
     "matcher": {
       "items": [
         "minecraft:dye_silver"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_silver.png"
@@ -2119,8 +2291,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_white"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 15
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_white.png"
@@ -2129,8 +2302,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dye_yellow"
-      ]
+        "minecraft:dye"
+      ],
+      "damage": 11
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\dye_powder_yellow.png"
@@ -2140,7 +2314,8 @@
     "matcher": {
       "items": [
         "minecraft:egg"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\egg.png"
@@ -2150,7 +2325,8 @@
     "matcher": {
       "items": [
         "minecraft:emerald"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\emerald.png"
@@ -2160,7 +2336,8 @@
     "matcher": {
       "items": [
         "minecraft:emerald_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\emerald_block.png",
@@ -2177,7 +2354,8 @@
     "matcher": {
       "items": [
         "minecraft:emerald_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\emerald_ore.png",
@@ -2194,7 +2372,8 @@
     "matcher": {
       "items": [
         "minecraft:enchanted_book"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\book_enchanted.png"
@@ -2204,7 +2383,8 @@
     "matcher": {
       "items": [
         "minecraft:enchanting_table"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\enchanting_table_bottom.png",
@@ -2217,7 +2397,8 @@
     "matcher": {
       "items": [
         "minecraft:ender_eye"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\ender_eye.png"
@@ -2227,7 +2408,8 @@
     "matcher": {
       "items": [
         "minecraft:ender_pearl"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\ender_pearl.png"
@@ -2237,7 +2419,8 @@
     "matcher": {
       "items": [
         "minecraft:end_portal_frame"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\endframe_side.png",
@@ -2250,7 +2433,8 @@
     "matcher": {
       "items": [
         "minecraft:end_stone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\end_stone.png",
@@ -2267,7 +2451,8 @@
     "matcher": {
       "items": [
         "minecraft:experience_bottle"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\experience_bottle.png"
@@ -2277,7 +2462,8 @@
     "matcher": {
       "items": [
         "minecraft:farmland"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\dirt.png",
@@ -2289,7 +2475,8 @@
     "matcher": {
       "items": [
         "minecraft:feather"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\feather.png"
@@ -2299,7 +2486,8 @@
     "matcher": {
       "items": [
         "minecraft:fermented_spider_eye"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\spider_eye_fermented.png"
@@ -2308,8 +2496,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:fern"
-      ]
+        "minecraft:tallgrass"
+      ],
+      "damage": 2
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\fern.png"
@@ -2319,7 +2508,8 @@
     "matcher": {
       "items": [
         "minecraft:filled_map"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\map_filled.png"
@@ -2329,7 +2519,8 @@
     "matcher": {
       "items": [
         "minecraft:fireworks"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fireworks.png"
@@ -2339,7 +2530,8 @@
     "matcher": {
       "items": [
         "minecraft:firework_charge"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fireworks_charge.png",
@@ -2350,7 +2542,8 @@
     "matcher": {
       "items": [
         "minecraft:fire_charge"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fireball.png"
@@ -2360,7 +2553,8 @@
     "matcher": {
       "items": [
         "minecraft:fishing_rod"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fishing_rod_uncast.png"
@@ -2370,7 +2564,8 @@
     "matcher": {
       "items": [
         "minecraft:fishing_rod_cast"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fishing_rod_cast.png"
@@ -2380,7 +2575,8 @@
     "matcher": {
       "items": [
         "minecraft:flint"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\flint.png"
@@ -2390,7 +2586,8 @@
     "matcher": {
       "items": [
         "minecraft:flint_and_steel"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\flint_and_steel.png"
@@ -2400,7 +2597,8 @@
     "matcher": {
       "items": [
         "minecraft:flower_pot"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\flower_pot.png"
@@ -2410,7 +2608,8 @@
     "matcher": {
       "items": [
         "minecraft:furnace"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
@@ -2429,7 +2628,8 @@
     "matcher": {
       "items": [
         "minecraft:furnace_minecart"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\minecart_furnace.png"
@@ -2439,7 +2639,8 @@
     "matcher": {
       "items": [
         "minecraft:ghast_tear"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\ghast_tear.png"
@@ -2449,7 +2650,8 @@
     "matcher": {
       "items": [
         "minecraft:glass"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass.png",
@@ -2466,7 +2668,8 @@
     "matcher": {
       "items": [
         "minecraft:glass_bottle"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potion_bottle_empty.png"
@@ -2476,7 +2679,8 @@
     "matcher": {
       "items": [
         "minecraft:glass_pane"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass.png"
@@ -2486,7 +2690,8 @@
     "matcher": {
       "items": [
         "minecraft:glowstone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glowstone.png",
@@ -2503,7 +2708,8 @@
     "matcher": {
       "items": [
         "minecraft:glowstone_dust"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\glowstone_dust.png"
@@ -2513,7 +2719,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_apple"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\apple_golden.png"
@@ -2523,7 +2730,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_axe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_axe.png"
@@ -2533,7 +2741,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_boots"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_boots.png"
@@ -2543,7 +2752,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_carrot"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\carrot_golden.png"
@@ -2553,7 +2763,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_chestplate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_chestplate.png"
@@ -2563,7 +2774,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_helmet"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_helmet.png"
@@ -2573,7 +2785,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_hoe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_hoe.png"
@@ -2583,7 +2796,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_horse_armor"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_horse_armor.png"
@@ -2593,7 +2807,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_leggings"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_leggings.png"
@@ -2603,7 +2818,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_pickaxe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_pickaxe.png"
@@ -2613,7 +2829,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_rail"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\rail_golden.png"
@@ -2623,7 +2840,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_shovel"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_shovel.png"
@@ -2633,7 +2851,8 @@
     "matcher": {
       "items": [
         "minecraft:golden_sword"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_sword.png"
@@ -2643,7 +2862,8 @@
     "matcher": {
       "items": [
         "minecraft:gold_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\gold_block.png",
@@ -2660,7 +2880,8 @@
     "matcher": {
       "items": [
         "minecraft:gold_ingot"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_ingot.png"
@@ -2670,7 +2891,8 @@
     "matcher": {
       "items": [
         "minecraft:gold_nugget"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gold_nugget.png"
@@ -2680,7 +2902,8 @@
     "matcher": {
       "items": [
         "minecraft:gold_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\gold_ore.png",
@@ -2696,8 +2919,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:granite"
-      ]
+        "minecraft:stone"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone_granite.png",
@@ -2713,8 +2937,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:granite_smooth"
-      ]
+        "minecraft:stone"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone_granite_smooth.png",
@@ -2731,7 +2956,8 @@
     "matcher": {
       "items": [
         "minecraft:grass"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\dirt.png",
@@ -2745,7 +2971,8 @@
     "matcher": {
       "items": [
         "minecraft:gravel"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\gravel.png",
@@ -2761,8 +2988,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:gray_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 7
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
@@ -2772,8 +3000,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:gray_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 7
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_gray.png",
@@ -2789,8 +3018,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:gray_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 7
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_gray.png"
@@ -2799,8 +3029,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:gray_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 7
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_gray.png",
@@ -2816,8 +3047,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:gray_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 7
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
@@ -2833,8 +3065,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:green_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 13
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
@@ -2844,8 +3077,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:green_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 13
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_green.png",
@@ -2861,8 +3095,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:green_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 13
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_green.png"
@@ -2871,8 +3106,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:green_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 13
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_green.png",
@@ -2888,8 +3124,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:green_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 13
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
@@ -2906,7 +3143,8 @@
     "matcher": {
       "items": [
         "minecraft:gunpowder"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\gunpowder.png"
@@ -2916,7 +3154,8 @@
     "matcher": {
       "items": [
         "minecraft:hardened_clay"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay.png",
@@ -2933,7 +3172,8 @@
     "matcher": {
       "items": [
         "minecraft:hay_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\hay_block_top.png",
@@ -2951,7 +3191,8 @@
     "matcher": {
       "items": [
         "minecraft:heavy_weighted_pressure_plate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\iron_block.png",
@@ -2962,7 +3203,8 @@
     "matcher": {
       "items": [
         "minecraft:hopper"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\hopper.png"
@@ -2972,7 +3214,8 @@
     "matcher": {
       "items": [
         "minecraft:hopper_minecart"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\minecart_hopper.png"
@@ -2981,8 +3224,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:houstonia"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 3
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_houstonia.png"
@@ -2992,7 +3236,8 @@
     "matcher": {
       "items": [
         "minecraft:ice"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\ice.png",
@@ -3009,7 +3254,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_axe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_axe.png"
@@ -3019,7 +3265,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_bars"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\iron_bars.png"
@@ -3029,7 +3276,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\iron_block.png",
@@ -3046,7 +3294,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_boots"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_boots.png"
@@ -3056,7 +3305,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_chestplate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_chestplate.png"
@@ -3066,7 +3316,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_door"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_iron.png"
@@ -3076,7 +3327,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_helmet"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_helmet.png"
@@ -3086,7 +3338,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_hoe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_hoe.png"
@@ -3096,7 +3349,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_horse_armor"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_horse_armor.png"
@@ -3106,7 +3360,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_ingot"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_ingot.png"
@@ -3116,7 +3371,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_leggings"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_leggings.png"
@@ -3126,7 +3382,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\iron_ore.png",
@@ -3143,7 +3400,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_pickaxe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_pickaxe.png"
@@ -3153,7 +3411,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_shovel"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_shovel.png"
@@ -3163,7 +3422,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_sword"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\iron_sword.png"
@@ -3173,7 +3433,8 @@
     "matcher": {
       "items": [
         "minecraft:iron_trapdoor"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\iron_trapdoor.png",
@@ -3184,7 +3445,8 @@
     "matcher": {
       "items": [
         "minecraft:item_frame"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\item_frame.png"
@@ -3194,7 +3456,8 @@
     "matcher": {
       "items": [
         "minecraft:jukebox"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "top": "packs\\vanilla\\textures\\blocks\\jukebox_top.png",
@@ -3212,7 +3475,8 @@
     "matcher": {
       "items": [
         "minecraft:jungle_door"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_jungle.png"
@@ -3222,7 +3486,8 @@
     "matcher": {
       "items": [
         "minecraft:jungle_fence"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
@@ -3233,7 +3498,8 @@
     "matcher": {
       "items": [
         "minecraft:jungle_fence_gate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
@@ -3243,8 +3509,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:jungle_leaves"
-      ]
+        "minecraft:leaves"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_jungle.png",
@@ -3254,8 +3521,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:jungle_log"
-      ]
+        "minecraft:log"
+      ],
+      "damage": 3
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\log_jungle_top.png",
@@ -3272,8 +3540,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:jungle_planks"
-      ]
+        "minecraft:planks"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
@@ -3289,8 +3558,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:jungle_sapling"
-      ]
+        "minecraft:sapling"
+      ],
+      "damage": 3
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\sapling_jungle.png"
@@ -3299,8 +3569,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:jungle_slab"
-      ]
+        "minecraft:wooden_slab"
+      ],
+      "damage": 3
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
@@ -3313,7 +3584,8 @@
     "matcher": {
       "items": [
         "minecraft:jungle_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
@@ -3326,7 +3598,8 @@
     "matcher": {
       "items": [
         "minecraft:ladder"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\ladder.png"
@@ -3336,7 +3609,8 @@
     "matcher": {
       "items": [
         "minecraft:lapis_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\lapis_block.png",
@@ -3353,7 +3627,8 @@
     "matcher": {
       "items": [
         "minecraft:lapis_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\lapis_ore.png",
@@ -3370,7 +3645,8 @@
     "matcher": {
       "items": [
         "minecraft:lava_bucket"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bucket_lava.png"
@@ -3380,7 +3656,8 @@
     "matcher": {
       "items": [
         "minecraft:lead"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\lead.png"
@@ -3390,7 +3667,8 @@
     "matcher": {
       "items": [
         "minecraft:leather"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather.png"
@@ -3400,7 +3678,8 @@
     "matcher": {
       "items": [
         "minecraft:leather_boots"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_boots.png",
@@ -3411,7 +3690,8 @@
     "matcher": {
       "items": [
         "minecraft:leather_chestplate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_chestplate.png",
@@ -3422,7 +3702,8 @@
     "matcher": {
       "items": [
         "minecraft:leather_helmet"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_helmet.png",
@@ -3433,7 +3714,8 @@
     "matcher": {
       "items": [
         "minecraft:leather_leggings"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_leggings.png",
@@ -3444,7 +3726,8 @@
     "matcher": {
       "items": [
         "minecraft:lever"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\lever.png"
@@ -3453,8 +3736,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:light_blue_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 3
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
@@ -3464,8 +3748,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:light_blue_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png",
@@ -3481,8 +3766,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:light_blue_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 3
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png"
@@ -3491,8 +3777,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:light_blue_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_light_blue.png",
@@ -3508,8 +3795,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:light_blue_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
@@ -3526,7 +3814,8 @@
     "matcher": {
       "items": [
         "minecraft:light_weighted_pressure_plate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\gold_block.png",
@@ -3536,8 +3825,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:lime_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 5
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
@@ -3547,8 +3837,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:lime_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 5
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_lime.png",
@@ -3564,8 +3855,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:lime_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 5
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_lime.png"
@@ -3574,8 +3866,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:lime_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 5
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_lime.png",
@@ -3591,8 +3884,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:lime_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 5
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
@@ -3609,7 +3903,8 @@
     "matcher": {
       "items": [
         "minecraft:lit_furnace"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "top": "packs\\vanilla\\textures\\blocks\\furnace_top.png",
@@ -3628,7 +3923,8 @@
     "matcher": {
       "items": [
         "minecraft:lit_pumpkin"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "top": "packs\\vanilla\\textures\\blocks\\pumpkin_top.png",
@@ -3646,8 +3942,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:magenta_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 2
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
@@ -3657,8 +3954,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:magenta_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_magenta.png",
@@ -3674,8 +3972,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:magenta_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 2
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_magenta.png"
@@ -3684,8 +3983,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:magenta_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_magenta.png",
@@ -3701,8 +4001,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:magenta_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
@@ -3719,7 +4020,8 @@
     "matcher": {
       "items": [
         "minecraft:magma_cream"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\magma_cream.png"
@@ -3729,7 +4031,8 @@
     "matcher": {
       "items": [
         "minecraft:map"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\map_empty.png"
@@ -3739,7 +4042,8 @@
     "matcher": {
       "items": [
         "minecraft:melon"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\melon.png"
@@ -3749,7 +4053,8 @@
     "matcher": {
       "items": [
         "minecraft:melon_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\melon_top.png",
@@ -3767,7 +4072,8 @@
     "matcher": {
       "items": [
         "minecraft:melon_seeds"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\seeds_melon.png"
@@ -3777,7 +4083,8 @@
     "matcher": {
       "items": [
         "minecraft:milk_bucket"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bucket_milk.png"
@@ -3787,7 +4094,8 @@
     "matcher": {
       "items": [
         "minecraft:minecart"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\minecart_normal.png"
@@ -3797,7 +4105,8 @@
     "matcher": {
       "items": [
         "minecraft:mob_spawner"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\mob_spawner.png",
@@ -3813,8 +4122,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:mossy_brick_monster_egg"
-      ]
+        "minecraft:monster_egg"
+      ],
+      "damage": 3
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
@@ -3831,7 +4141,8 @@
     "matcher": {
       "items": [
         "minecraft:mossy_cobblestone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
@@ -3847,8 +4158,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:mossy_cobblestone_wall"
-      ]
+        "minecraft:cobblestone_wall"
+      ],
+      "damage": 1
     },
     "textures": {
       "wall": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
@@ -3858,8 +4170,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:mossy_stonebrick"
-      ]
+        "minecraft:stonebrick"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
@@ -3876,7 +4189,8 @@
     "matcher": {
       "items": [
         "minecraft:mushroom_stew"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\mushroom_stew.png"
@@ -3886,7 +4200,8 @@
     "matcher": {
       "items": [
         "minecraft:mutton"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\mutton_raw.png"
@@ -3896,7 +4211,8 @@
     "matcher": {
       "items": [
         "minecraft:mycelium"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\dirt.png",
@@ -3915,7 +4231,8 @@
     "matcher": {
       "items": [
         "minecraft:name_tag"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\name_tag.png"
@@ -3925,7 +4242,8 @@
     "matcher": {
       "items": [
         "minecraft:netherbrick"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\netherbrick.png"
@@ -3935,7 +4253,8 @@
     "matcher": {
       "items": [
         "minecraft:netherrack"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\netherrack.png",
@@ -3952,7 +4271,8 @@
     "matcher": {
       "items": [
         "minecraft:nether_brick"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
@@ -3969,7 +4289,8 @@
     "matcher": {
       "items": [
         "minecraft:nether_brick_fence"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
@@ -3979,8 +4300,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:nether_brick_slab"
-      ]
+        "minecraft:stone_slab"
+      ],
+      "damage": 6
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
@@ -3993,7 +4315,8 @@
     "matcher": {
       "items": [
         "minecraft:nether_brick_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
@@ -4006,7 +4329,8 @@
     "matcher": {
       "items": [
         "minecraft:nether_star"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\nether_star.png"
@@ -4016,7 +4340,8 @@
     "matcher": {
       "items": [
         "minecraft:nether_wart"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\nether_wart.png"
@@ -4026,7 +4351,8 @@
     "matcher": {
       "items": [
         "minecraft:noteblock"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\noteblock.png",
@@ -4043,7 +4369,8 @@
     "matcher": {
       "items": [
         "minecraft:oak_door"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_wood.png"
@@ -4053,7 +4380,8 @@
     "matcher": {
       "items": [
         "minecraft:oak_fence"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -4064,7 +4392,8 @@
     "matcher": {
       "items": [
         "minecraft:oak_fence_gate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -4075,7 +4404,8 @@
     "matcher": {
       "items": [
         "minecraft:oak_leaves"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_oak.png",
@@ -4085,8 +4415,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:oak_log"
-      ]
+        "minecraft:log"
+      ],
+      "damage": 0
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\log_oak_top.png",
@@ -4103,8 +4434,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:oak_planks"
-      ]
+        "minecraft:planks"
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -4120,8 +4452,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:oak_sapling"
-      ]
+        "minecraft:sapling"
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\sapling_oak.png"
@@ -4130,8 +4463,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:oak_slab"
-      ]
+        "minecraft:wooden_slab"
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -4144,7 +4478,8 @@
     "matcher": {
       "items": [
         "minecraft:oak_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -4157,7 +4492,8 @@
     "matcher": {
       "items": [
         "minecraft:obsidian"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\obsidian.png",
@@ -4174,7 +4510,8 @@
     "matcher": {
       "items": [
         "minecraft:old_wood_slab"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -4186,8 +4523,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:orange_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 1
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
@@ -4197,8 +4535,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:orange_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_orange.png",
@@ -4214,8 +4553,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:orange_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_orange.png"
@@ -4224,8 +4564,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:orange_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_orange.png",
@@ -4241,8 +4582,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:orange_tulip"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 5
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_orange.png"
@@ -4251,8 +4593,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:orange_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
@@ -4268,8 +4611,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:oxeye_daisy"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 8
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_oxeye_daisy.png"
@@ -4279,7 +4623,8 @@
     "matcher": {
       "items": [
         "minecraft:packed_ice"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\ice_packed.png",
@@ -4295,8 +4640,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:paeonia"
-      ]
+        "minecraft:double_plant"
+      ],
+      "damage": 5
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_paeonia_top.png"
@@ -4306,7 +4652,8 @@
     "matcher": {
       "items": [
         "minecraft:painting"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\painting.png"
@@ -4316,7 +4663,8 @@
     "matcher": {
       "items": [
         "minecraft:paper"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\paper.png"
@@ -4325,8 +4673,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:pink_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 6
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
@@ -4336,8 +4685,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:pink_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 6
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_pink.png",
@@ -4353,8 +4703,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:pink_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 6
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_pink.png"
@@ -4363,8 +4714,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:pink_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 6
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_pink.png",
@@ -4380,8 +4732,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:pink_tulip"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 7
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_pink.png"
@@ -4390,8 +4743,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:pink_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 6
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
@@ -4408,7 +4762,8 @@
     "matcher": {
       "items": [
         "minecraft:piston"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\piston_bottom.png",
@@ -4426,8 +4781,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:podzol"
-      ]
+        "minecraft:dirt"
+      ],
+      "damage": 2
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\dirt.png",
@@ -4446,7 +4802,8 @@
     "matcher": {
       "items": [
         "minecraft:poisonous_potato"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potato_poisonous.png"
@@ -4456,7 +4813,8 @@
     "matcher": {
       "items": [
         "minecraft:poppy"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_rose.png"
@@ -4466,7 +4824,8 @@
     "matcher": {
       "items": [
         "minecraft:porkchop"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\porkchop_raw.png"
@@ -4476,7 +4835,8 @@
     "matcher": {
       "items": [
         "minecraft:potato"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potato.png"
@@ -4486,7 +4846,8 @@
     "matcher": {
       "items": [
         "minecraft:prismarine"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\prismarine_rough.png",
@@ -4502,8 +4863,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:prismarine_bricks"
-      ]
+        "minecraft:prismarine"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\prismarine_bricks.png",
@@ -4520,7 +4882,8 @@
     "matcher": {
       "items": [
         "minecraft:prismarine_crystals"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\prismarine_crystals.png"
@@ -4530,7 +4893,8 @@
     "matcher": {
       "items": [
         "minecraft:prismarine_shard"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\prismarine_shard.png"
@@ -4539,8 +4903,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:pufferfish"
-      ]
+        "minecraft:fish"
+      ],
+      "damage": 3
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fish_pufferfish_raw.png"
@@ -4550,7 +4915,8 @@
     "matcher": {
       "items": [
         "minecraft:pumpkin"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "top": "packs\\vanilla\\textures\\blocks\\pumpkin_top.png",
@@ -4569,7 +4935,8 @@
     "matcher": {
       "items": [
         "minecraft:pumpkin_pie"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\pumpkin_pie.png"
@@ -4579,7 +4946,8 @@
     "matcher": {
       "items": [
         "minecraft:pumpkin_seeds"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\seeds_pumpkin.png"
@@ -4588,8 +4956,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:purple_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 10
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
@@ -4599,8 +4968,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:purple_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 10
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_purple.png",
@@ -4616,8 +4986,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:purple_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 10
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_purple.png"
@@ -4626,8 +4997,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:purple_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 10
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_purple.png",
@@ -4643,8 +5015,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:purple_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 10
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
@@ -4661,7 +5034,8 @@
     "matcher": {
       "items": [
         "minecraft:quartz"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\quartz.png"
@@ -4671,7 +5045,8 @@
     "matcher": {
       "items": [
         "minecraft:quartz_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
@@ -4689,8 +5064,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:quartz_column"
-      ]
+        "minecraft:quartz_block"
+      ],
+      "damage": 2
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\quartz_block_lines_top.png",
@@ -4708,7 +5084,8 @@
     "matcher": {
       "items": [
         "minecraft:quartz_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\quartz_ore.png",
@@ -4724,8 +5101,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:quartz_slab"
-      ]
+        "minecraft:stone_slab"
+      ],
+      "damage": 7
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
@@ -4738,7 +5116,8 @@
     "matcher": {
       "items": [
         "minecraft:quartz_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
@@ -4751,7 +5130,8 @@
     "matcher": {
       "items": [
         "minecraft:rabbit"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\rabbit_raw.png"
@@ -4761,7 +5141,8 @@
     "matcher": {
       "items": [
         "minecraft:rabbit_foot"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\rabbit_foot.png"
@@ -4771,7 +5152,8 @@
     "matcher": {
       "items": [
         "minecraft:rabbit_hide"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\rabbit_hide.png"
@@ -4781,7 +5163,8 @@
     "matcher": {
       "items": [
         "minecraft:rabbit_stew"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\rabbit_stew.png"
@@ -4791,7 +5174,8 @@
     "matcher": {
       "items": [
         "minecraft:rail"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\rail_normal.png"
@@ -4801,7 +5185,8 @@
     "matcher": {
       "items": [
         "minecraft:record_11"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_11.png"
@@ -4811,7 +5196,8 @@
     "matcher": {
       "items": [
         "minecraft:record_13"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_13.png"
@@ -4821,7 +5207,8 @@
     "matcher": {
       "items": [
         "minecraft:record_blocks"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_blocks.png"
@@ -4831,7 +5218,8 @@
     "matcher": {
       "items": [
         "minecraft:record_cat"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_cat.png"
@@ -4841,7 +5229,8 @@
     "matcher": {
       "items": [
         "minecraft:record_chirp"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_chirp.png"
@@ -4851,7 +5240,8 @@
     "matcher": {
       "items": [
         "minecraft:record_far"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_far.png"
@@ -4861,7 +5251,8 @@
     "matcher": {
       "items": [
         "minecraft:record_mall"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_mall.png"
@@ -4871,7 +5262,8 @@
     "matcher": {
       "items": [
         "minecraft:record_mellohi"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_mellohi.png"
@@ -4881,7 +5273,8 @@
     "matcher": {
       "items": [
         "minecraft:record_stal"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_stal.png"
@@ -4891,7 +5284,8 @@
     "matcher": {
       "items": [
         "minecraft:record_strad"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_strad.png"
@@ -4901,7 +5295,8 @@
     "matcher": {
       "items": [
         "minecraft:record_wait"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_wait.png"
@@ -4911,7 +5306,8 @@
     "matcher": {
       "items": [
         "minecraft:record_ward"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\record_ward.png"
@@ -4921,7 +5317,8 @@
     "matcher": {
       "items": [
         "minecraft:redstone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\redstone_dust.png"
@@ -4931,7 +5328,8 @@
     "matcher": {
       "items": [
         "minecraft:redstone_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\redstone_block.png",
@@ -4948,7 +5346,8 @@
     "matcher": {
       "items": [
         "minecraft:redstone_lamp"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\redstone_lamp_off.png",
@@ -4965,7 +5364,8 @@
     "matcher": {
       "items": [
         "minecraft:redstone_ore"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\redstone_ore.png",
@@ -4982,7 +5382,8 @@
     "matcher": {
       "items": [
         "minecraft:redstone_torch"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\redstone_torch_on.png"
@@ -4991,8 +5392,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 14
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
@@ -5003,7 +5405,8 @@
     "matcher": {
       "items": [
         "minecraft:red_mushroom"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\mushroom_red.png"
@@ -5013,7 +5416,8 @@
     "matcher": {
       "items": [
         "minecraft:red_mushroom_block"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_red.png",
@@ -5029,8 +5433,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_sand"
-      ]
+        "minecraft:sand"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\red_sand.png",
@@ -5047,7 +5452,8 @@
     "matcher": {
       "items": [
         "minecraft:red_sandstone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
@@ -5066,7 +5472,8 @@
     "matcher": {
       "items": [
         "minecraft:red_sandstone_slab"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
@@ -5079,7 +5486,8 @@
     "matcher": {
       "items": [
         "minecraft:red_sandstone_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
@@ -5091,8 +5499,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 14
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_red.png",
@@ -5108,8 +5517,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 14
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_red.png"
@@ -5118,8 +5528,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 14
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_red.png",
@@ -5135,8 +5546,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_tulip"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 4
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_red.png"
@@ -5145,8 +5557,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 14
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
@@ -5163,7 +5576,8 @@
     "matcher": {
       "items": [
         "minecraft:reeds"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\reeds.png"
@@ -5173,7 +5587,8 @@
     "matcher": {
       "items": [
         "minecraft:repeater"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\repeater.png"
@@ -5183,7 +5598,8 @@
     "matcher": {
       "items": [
         "minecraft:rotten_flesh"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\rotten_flesh.png"
@@ -5193,7 +5609,8 @@
     "matcher": {
       "items": [
         "minecraft:saddle"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\saddle.png"
@@ -5202,8 +5619,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:salmon"
-      ]
+        "minecraft:fish"
+      ],
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fish_salmon_raw.png"
@@ -5213,7 +5631,8 @@
     "matcher": {
       "items": [
         "minecraft:sand"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\sand.png",
@@ -5230,7 +5649,8 @@
     "matcher": {
       "items": [
         "minecraft:sandstone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
@@ -5248,8 +5668,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:sandstone_slab"
-      ]
+        "minecraft:stone_slab"
+      ],
+      "damage": 1
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
@@ -5262,7 +5683,8 @@
     "matcher": {
       "items": [
         "minecraft:sandstone_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
@@ -5275,7 +5697,8 @@
     "matcher": {
       "items": [
         "minecraft:sea_lantern"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\sea_lantern.png",
@@ -5292,7 +5715,8 @@
     "matcher": {
       "items": [
         "minecraft:shears"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\shears.png"
@@ -5302,7 +5726,8 @@
     "matcher": {
       "items": [
         "minecraft:sign"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\sign.png"
@@ -5312,7 +5737,8 @@
     "matcher": {
       "items": [
         "minecraft:silver_carpet"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
@@ -5323,7 +5749,8 @@
     "matcher": {
       "items": [
         "minecraft:silver_stained_glass"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_silver.png",
@@ -5340,7 +5767,8 @@
     "matcher": {
       "items": [
         "minecraft:silver_stained_glass_pane"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_silver.png"
@@ -5350,7 +5778,8 @@
     "matcher": {
       "items": [
         "minecraft:silver_stained_hardened_clay"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_silver.png",
@@ -5367,7 +5796,8 @@
     "matcher": {
       "items": [
         "minecraft:silver_wool"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
@@ -5384,7 +5814,8 @@
     "matcher": {
       "items": [
         "minecraft:slime"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\slime.png",
@@ -5395,7 +5826,8 @@
     "matcher": {
       "items": [
         "minecraft:slime_ball"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\slimeball.png"
@@ -5404,8 +5836,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:smooth_red_sandstone"
-      ]
+        "minecraft:red_sandstone"
+      ],
+      "damage": 2
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
@@ -5422,8 +5855,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:smooth_sandstone"
-      ]
+        "minecraft:sandstone"
+      ],
+      "damage": 2
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
@@ -5441,7 +5875,8 @@
     "matcher": {
       "items": [
         "minecraft:snow"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\snow.png",
@@ -5458,7 +5893,8 @@
     "matcher": {
       "items": [
         "minecraft:snowball"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\snowball.png"
@@ -5468,7 +5904,8 @@
     "matcher": {
       "items": [
         "minecraft:snow_layer"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\snow.png",
@@ -5479,7 +5916,8 @@
     "matcher": {
       "items": [
         "minecraft:soul_sand"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\soul_sand.png",
@@ -5496,7 +5934,8 @@
     "matcher": {
       "items": [
         "minecraft:spawn_egg"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\spawn_egg.png",
@@ -5507,7 +5946,8 @@
     "matcher": {
       "items": [
         "minecraft:speckled_melon"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\melon_speckled.png"
@@ -5517,7 +5957,8 @@
     "matcher": {
       "items": [
         "minecraft:spider_eye"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\spider_eye.png"
@@ -5527,7 +5968,8 @@
     "matcher": {
       "items": [
         "minecraft:sponge"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\sponge.png",
@@ -5543,8 +5985,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:sponge_wet"
-      ]
+        "minecraft:sponge"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\sponge_wet.png",
@@ -5561,7 +6004,8 @@
     "matcher": {
       "items": [
         "minecraft:spruce_door"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_spruce.png"
@@ -5571,7 +6015,8 @@
     "matcher": {
       "items": [
         "minecraft:spruce_fence"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
@@ -5582,7 +6027,8 @@
     "matcher": {
       "items": [
         "minecraft:spruce_fence_gate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
@@ -5592,8 +6038,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:spruce_leaves"
-      ]
+        "minecraft:leaves"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_spruce.png",
@@ -5603,8 +6050,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:spruce_log"
-      ]
+        "minecraft:log"
+      ],
+      "damage": 1
     },
     "textures": {
       "end": "packs\\vanilla\\textures\\blocks\\log_spruce_top.png",
@@ -5621,8 +6069,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:spruce_planks"
-      ]
+        "minecraft:planks"
+      ],
+      "damage": 1
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
@@ -5638,8 +6087,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:spruce_sapling"
-      ]
+        "minecraft:sapling"
+      ],
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\sapling_spruce.png"
@@ -5648,8 +6098,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:spruce_slab"
-      ]
+        "minecraft:wooden_slab"
+      ],
+      "damage": 1
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
@@ -5662,7 +6113,8 @@
     "matcher": {
       "items": [
         "minecraft:spruce_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
@@ -5675,7 +6127,8 @@
     "matcher": {
       "items": [
         "minecraft:stick"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\stick.png"
@@ -5685,7 +6138,8 @@
     "matcher": {
       "items": [
         "minecraft:sticky_piston"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\piston_bottom.png",
@@ -5704,7 +6158,8 @@
     "matcher": {
       "items": [
         "minecraft:stone"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone.png",
@@ -5721,7 +6176,8 @@
     "matcher": {
       "items": [
         "minecraft:stonebrick"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
@@ -5738,7 +6194,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_axe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\stone_axe.png"
@@ -5747,8 +6204,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:stone_brick_monster_egg"
-      ]
+        "minecraft:monster_egg"
+      ],
+      "damage": 2
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
@@ -5764,8 +6222,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:stone_brick_slab"
-      ]
+        "minecraft:stone_slab"
+      ],
+      "damage": 5
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
@@ -5778,7 +6237,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_brick_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
@@ -5791,7 +6251,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_button"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\stone.png",
@@ -5802,7 +6263,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_hoe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\stone_hoe.png"
@@ -5811,8 +6273,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:stone_monster_egg"
-      ]
+        "minecraft:monster_egg"
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\stone.png",
@@ -5829,7 +6292,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_pickaxe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\stone_pickaxe.png"
@@ -5839,7 +6303,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_pressure_plate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\stone.png",
@@ -5850,7 +6315,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_shovel"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\stone_shovel.png"
@@ -5860,7 +6326,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_slab"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\stone_slab_top.png",
@@ -5873,7 +6340,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_stairs"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
@@ -5886,7 +6354,8 @@
     "matcher": {
       "items": [
         "minecraft:stone_sword"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\stone_sword.png"
@@ -5896,7 +6365,8 @@
     "matcher": {
       "items": [
         "minecraft:string"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\string.png"
@@ -5906,7 +6376,8 @@
     "matcher": {
       "items": [
         "minecraft:sugar"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\sugar.png"
@@ -5916,7 +6387,8 @@
     "matcher": {
       "items": [
         "minecraft:sunflower"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_sunflower_front.png"
@@ -5925,8 +6397,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:syringa"
-      ]
+        "minecraft:double_plant"
+      ],
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\double_plant_syringa_top.png"
@@ -5935,8 +6408,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:tall_grass"
-      ]
+        "minecraft:tallgrass"
+      ],
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\tallgrass.png"
@@ -5946,7 +6420,8 @@
     "matcher": {
       "items": [
         "minecraft:tnt"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\tnt_bottom.png",
@@ -5965,7 +6440,8 @@
     "matcher": {
       "items": [
         "minecraft:tnt_minecart"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\minecart_tnt.png"
@@ -5975,7 +6451,8 @@
     "matcher": {
       "items": [
         "minecraft:torch"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\torch_on.png"
@@ -5985,7 +6462,8 @@
     "matcher": {
       "items": [
         "minecraft:trapdoor"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\trapdoor.png",
@@ -5996,7 +6474,8 @@
     "matcher": {
       "items": [
         "minecraft:tripwire_hook"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\trip_wire_source.png"
@@ -6006,7 +6485,8 @@
     "matcher": {
       "items": [
         "minecraft:vine"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\vine.png"
@@ -6016,7 +6496,8 @@
     "matcher": {
       "items": [
         "minecraft:waterlily"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\waterlily.png"
@@ -6026,7 +6507,8 @@
     "matcher": {
       "items": [
         "minecraft:water_bucket"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\bucket_water.png"
@@ -6036,7 +6518,8 @@
     "matcher": {
       "items": [
         "minecraft:web"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\web.png"
@@ -6046,7 +6529,8 @@
     "matcher": {
       "items": [
         "minecraft:wheat"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\wheat.png"
@@ -6056,7 +6540,8 @@
     "matcher": {
       "items": [
         "minecraft:wheat_seeds"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\seeds_wheat.png"
@@ -6065,8 +6550,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:white_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 0
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
@@ -6076,8 +6562,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:white_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_white.png",
@@ -6093,8 +6580,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:white_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_white.png"
@@ -6103,8 +6591,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:white_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_white.png",
@@ -6120,8 +6609,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:white_tulip"
-      ]
+        "minecraft:red_flower"
+      ],
+      "damage": 6
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\flower_tulip_white.png"
@@ -6130,8 +6620,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:white_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 0
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
@@ -6148,7 +6639,8 @@
     "matcher": {
       "items": [
         "minecraft:wooden_axe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\wood_axe.png"
@@ -6158,7 +6650,8 @@
     "matcher": {
       "items": [
         "minecraft:wooden_button"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -6169,7 +6662,8 @@
     "matcher": {
       "items": [
         "minecraft:wooden_hoe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\wood_hoe.png"
@@ -6179,7 +6673,8 @@
     "matcher": {
       "items": [
         "minecraft:wooden_pickaxe"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\wood_pickaxe.png"
@@ -6189,7 +6684,8 @@
     "matcher": {
       "items": [
         "minecraft:wooden_pressure_plate"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -6200,7 +6696,8 @@
     "matcher": {
       "items": [
         "minecraft:wooden_shovel"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\wood_shovel.png"
@@ -6210,7 +6707,8 @@
     "matcher": {
       "items": [
         "minecraft:wooden_sword"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\wood_sword.png"
@@ -6220,7 +6718,8 @@
     "matcher": {
       "items": [
         "minecraft:wood_old_slab"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
@@ -6233,7 +6732,8 @@
     "matcher": {
       "items": [
         "minecraft:writable_book"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\book_writable.png"
@@ -6243,7 +6743,8 @@
     "matcher": {
       "items": [
         "minecraft:written_book"
-      ]
+      ],
+      "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\book_written.png"
@@ -6252,8 +6753,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:yellow_carpet"
-      ]
+        "minecraft:carpet"
+      ],
+      "damage": 4
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
@@ -6263,8 +6765,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:yellow_stained_glass"
-      ]
+        "minecraft:stained_glass"
+      ],
+      "damage": 4
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\glass_yellow.png",
@@ -6280,8 +6783,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:yellow_stained_glass_pane"
-      ]
+        "minecraft:stained_glass_pane"
+      ],
+      "damage": 4
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\glass_yellow.png"
@@ -6290,8 +6794,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:yellow_stained_hardened_clay"
-      ]
+        "minecraft:stained_hardened_clay"
+      ],
+      "damage": 4
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_yellow.png",
@@ -6307,8 +6812,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:yellow_wool"
-      ]
+        "minecraft:wool"
+      ],
+      "damage": 4
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
