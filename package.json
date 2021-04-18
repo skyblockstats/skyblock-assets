@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/skyblockstats/skyblock-assets/issues"
   },
-  "homepage": "https://github.com/skyblockstats/skyblock-assets#readme"
+  "homepage": "https://github.com/skyblockstats/skyblock-assets#readme",
+  "devDependencies": {
+    "canvas": "^2.7.0",
+    "crc": "^3.8.0"
+  }
 }

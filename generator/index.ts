@@ -1,9 +1,11 @@
 import { promises as fs, Dirent } from 'fs'
 import * as path from 'path'
+import { loadImage, createCanvas } from 'canvas'
+import { makeApng } from './apng'
+
 type XYZArray = [ number, number, number ]
 type XYXYArray = [ number, number, number, number ]
 
-// TODO: generate renders as apng for animated items
 // TODO: generate renders for items with multiple layers (leather armor)
 
 type Direction = 'down' | 'up' | 'north' | 'south' | 'west' | 'east'
@@ -204,6 +206,21 @@ interface MatcherTextures {
 	textures: { [ key: string ]: string }
 }
 
+async function createAPng(textureFileName: string, frameTime: number): Promise<Buffer> {
+	const sourceImage = await loadImage(textureFileName)
+	const frames = sourceImage.height / sourceImage.width
+	const frameSize = sourceImage.width
+	const frameBuffers = []
+
+	for (let frameNumber = 0; frameNumber < frames; frameNumber ++) {
+		const canvas = createCanvas(frameSize, frameSize)
+		const ctx = canvas.getContext('2d')
+		ctx.drawImage(sourceImage, 0, -frameNumber * frameSize)
+		frameBuffers.push(canvas.toBuffer())
+	}
+	return await makeApng(frameBuffers, (index) => ({ numerator: frameTime, denominator: 20 * 1000 }))
+}
+
 async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir: string, vanillaDir: string): Promise<MatcherTextures> {
 	const properties = await readPropertiesFile(propertiesDir)
 
@@ -246,6 +263,22 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 		}
 		textures = { ...newTextures }
 	}
+
+	// we read the .png.mcmeta file to see if there's animations
+	for (const [ textureName, textureFileName ] of Object.entries(textures)) {
+		try {
+			const textureProperties = await readJsonFile(textureFileName + '.mcmeta')
+			const apng = await createAPng(textureFileName, textureProperties.animation.frametime)
+			const apngDir = textureFileName.replace(/^packs\\/, 'renders\\')
+			await fs.mkdir(path.dirname(apngDir), { recursive: true })
+			await fs.writeFile(apngDir, apng)
+			textures[textureName] = apngDir
+		} catch {
+			continue
+		}
+	}
+	// console.log(textures)
+
 	return {
 		matcher,
 		textures
@@ -321,8 +354,8 @@ async function main() {
 	await makeDir(`./matchers`)
 
 	await addPack('packshq')
-	await addPack('furfsky')
-	await addPack('vanilla')
+	// await addPack('furfsky')
+	// await addPack('vanilla')
 }
 
 main()

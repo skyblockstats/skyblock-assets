@@ -492,7 +492,7 @@
       "type": "item"
     },
     "textures": {
-      "leather_boots_overlay": "packs\\packshq\\mcpatcher\\cit\\armor\\crown_of_greed\\crown_of_greed.png"
+      "leather_boots_overlay": "renders\\packshq\\mcpatcher\\cit\\armor\\crown_of_greed\\crown_of_greed.png"
     }
   },
   {
@@ -6765,7 +6765,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_boots_12.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_boots_12.png"
     }
   },
   {
@@ -6781,7 +6781,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_chestplate_12.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_chestplate_12.png"
     }
   },
   {
@@ -6797,7 +6797,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_helmet_12.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_helmet_12.png"
     }
   },
   {
@@ -6813,7 +6813,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_leggings_12.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\armor\\_perfect\\perfect_12\\perfect_leggings_12.png"
     }
   },
   {
@@ -13755,7 +13755,7 @@
       "type": "item"
     },
     "textures": {
-      "bow": "packs\\packshq\\mcpatcher\\cit\\bows\\runaans_bow\\runaans_bow.png",
+      "bow": "renders\\packshq\\mcpatcher\\cit\\bows\\runaans_bow\\runaans_bow.png",
       "bow_pulling_0": "packs\\packshq\\mcpatcher\\cit\\bows\\runaans_bow\\runaans_bow_pulling_0.png",
       "bow_pulling_1": "packs\\packshq\\mcpatcher\\cit\\bows\\runaans_bow\\runaans_bow_pulling_1.png",
       "bow_pulling_2": "packs\\packshq\\mcpatcher\\cit\\bows\\runaans_bow\\runaans_bow_pulling_2.png"
@@ -13902,7 +13902,7 @@
       "type": "item"
     },
     "textures": {
-      "bow": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\last_breath\\last_breath.png",
+      "bow": "renders\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\last_breath\\last_breath.png",
       "bow_pulling_0": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\last_breath\\last_breath_pulling_0.png",
       "bow_pulling_1": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\last_breath\\last_breath_pulling_1.png",
       "bow_pulling_2": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\last_breath\\last_breath_pulling_2.png"
@@ -13924,7 +13924,7 @@
       "bow": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\machine_gun_bow\\machine_gun_bow.png",
       "bow_pulling_0": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\machine_gun_bow\\machine_gun_bow_pulling_0.png",
       "bow_pulling_1": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\machine_gun_bow\\machine_gun_bow_pulling_1.png",
-      "bow_pulling_2": "packs\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\machine_gun_bow\\machine_gun_bow_pulling_2.png"
+      "bow_pulling_2": "renders\\packshq\\mcpatcher\\cit\\bows\\_dungeon\\machine_gun_bow\\machine_gun_bow_pulling_2.png"
     }
   },
   {
@@ -14179,7 +14179,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\brews\\viking_tears.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\brews\\viking_tears.png"
     }
   },
   {
@@ -14292,7 +14292,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\booster_cookie.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\booster_cookie.png"
     }
   },
   {
@@ -14388,7 +14388,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\colossal_xp.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\colossal_xp.png"
     }
   },
   {
@@ -14404,7 +14404,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\colossal_xp.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\colossal_xp.png"
     }
   },
   {
@@ -14645,7 +14645,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\fel_pearl.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\fel_pearl.png"
     }
   },
   {
@@ -15190,7 +15190,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\lasr_eye.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\lasr_eye.png"
     }
   },
   {
@@ -15270,7 +15270,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\magical_soup.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\magical_soup.png"
     }
   },
   {
@@ -15286,7 +15286,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\magical_water_bucket.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\magical_water_bucket.png"
     }
   },
   {
@@ -15350,7 +15350,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\mystical_soup.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\mystical_soup.png"
     }
   },
   {
@@ -15407,8 +15407,8 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\archer_dun_orb.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\archer_dun_orb.png"
     }
   },
   {
@@ -15433,8 +15433,8 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\beserk_dun_orb.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\beserk_dun_orb.png"
     }
   },
   {
@@ -15450,8 +15450,8 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png"
     }
   },
   {
@@ -15476,8 +15476,8 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\healer_dun_orb.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\healer_dun_orb.png"
     }
   },
   {
@@ -15502,8 +15502,8 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\mage_dun_orb.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\mage_dun_orb.png"
     }
   },
   {
@@ -15528,8 +15528,8 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\orbs\\tank_dun_orb.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\empty_dun_orb.png",
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\orbs\\tank_dun_orb.png"
     }
   },
   {
@@ -16762,7 +16762,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\items\\super_egg.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\items\\super_egg.png"
     }
   },
   {
@@ -27403,7 +27403,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\bat\\bat.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\bat\\bat.png"
     }
   },
   {
@@ -27425,7 +27425,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\bee\\bee.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\bee\\bee.png"
     }
   },
   {
@@ -27450,7 +27450,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\blaze\\blaze.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\blaze\\blaze.png"
     }
   },
   {
@@ -27516,7 +27516,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\chicken\\chicken.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\chicken\\chicken.png"
     }
   },
   {
@@ -27560,7 +27560,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\dragon\\dragon.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\dragon\\dragon.png"
     }
   },
   {
@@ -27827,7 +27827,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\griffin\\griffin.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\griffin\\griffin.png"
     }
   },
   {
@@ -28092,7 +28092,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\parrot\\parrot_red_blue.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\parrot\\parrot_red_blue.png"
     }
   },
   {
@@ -28114,7 +28114,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\pheonix\\phoenix.png"
+      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\pheonix\\phoenix.png"
     }
   },
   {
@@ -29095,7 +29095,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\swords\\daedalus_axe.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\swords\\daedalus_axe.png"
     }
   },
   {
@@ -29255,7 +29255,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\swords\\ghoul_buster.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\swords\\ghoul_buster.png"
     }
   },
   {
@@ -29337,7 +29337,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\swords\\midas_staff_100.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\swords\\midas_staff_100.png"
     }
   },
   {
@@ -29417,7 +29417,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\swords\\pigman_sword.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\swords\\pigman_sword.png"
     }
   },
   {
@@ -29482,7 +29482,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\swords\\reaper_falchion.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\swords\\reaper_falchion.png"
     }
   },
   {
@@ -30179,7 +30179,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\swords\\_dungeon\\livid_dagger.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\swords\\_dungeon\\livid_dagger.png"
     }
   },
   {
@@ -32787,7 +32787,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\bcookie.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\bcookie.png"
     }
   },
   {
@@ -32884,7 +32884,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\archer.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\archer.png"
     }
   },
   {
@@ -32903,7 +32903,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\archer.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\archer.png"
     }
   },
   {
@@ -32919,7 +32919,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\berserk.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\berserk.png"
     }
   },
   {
@@ -32938,7 +32938,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\berserk.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\berserk.png"
     }
   },
   {
@@ -32954,8 +32954,8 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\healer.png",
-      "layer1": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\healer.png"
+      "layer0": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\healer.png",
+      "layer1": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\healer.png"
     }
   },
   {
@@ -32974,7 +32974,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\healer.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\healer.png"
     }
   },
   {
@@ -32990,7 +32990,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\mage.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\mage.png"
     }
   },
   {
@@ -33009,7 +33009,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\mage.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\mage.png"
     }
   },
   {
@@ -33089,8 +33089,8 @@
       "type": "item"
     },
     "textures": {
-      "leather_chestplate": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\tank.png",
-      "leather_chestplate_overlay": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\tank.png"
+      "leather_chestplate": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\tank.png",
+      "leather_chestplate_overlay": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\tank.png"
     }
   },
   {
@@ -33109,7 +33109,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\dungeons\\tank.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\dungeons\\tank.png"
     }
   },
   {
@@ -36821,7 +36821,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\ws\\rain.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\ws\\rain.png"
     }
   },
   {
@@ -36853,7 +36853,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\ui\\ws\\thunder.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\ui\\ws\\thunder.png"
     }
   },
   {
@@ -36885,7 +36885,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\packshq\\mcpatcher\\cit\\wands\\ink_wand.png"
+      "texture": "renders\\packshq\\mcpatcher\\cit\\wands\\ink_wand.png"
     }
   },
   {
