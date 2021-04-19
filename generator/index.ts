@@ -361,6 +361,40 @@ async function addPack(packName: string) {
 		}
 	}
 
+	// add vanilla skulls that weren't auto matched
+	if (packName === 'vanilla') {
+		matchers.push({
+			matcher: { items: [ 'minecraft:skull' ], damage: 0 },
+			textures: {
+				texture: path.join('renders', 'vanilla', 'skeleton_skull.png')
+			}
+		})
+		matchers.push({
+			matcher: { items: [ 'minecraft:skull' ], damage: 1 },
+			textures: {
+				texture: path.join('renders', 'vanilla', 'wither_skeleton_skull.png')
+			}
+		})
+		matchers.push({
+			matcher: { items: [ 'minecraft:skull' ], damage: 2 },
+			textures: {
+				texture: path.join('renders', 'vanilla', 'zombie_head.png')
+			}
+		})
+		matchers.push({
+			matcher: { items: [ 'minecraft:skull' ], damage: 3 },
+			textures: {
+				texture: path.join('renders', 'vanilla', 'head.png')
+			}
+		})
+		matchers.push({
+			matcher: { items: [ 'minecraft:skull' ], damage: 4 },
+			textures: {
+				texture: path.join('renders', 'vanilla', 'creeper_head.png')
+			}
+		})
+	}
+
 	await writeJsonFile(path.join(outputDir, `${packName}.json`), matchers)
 }
 

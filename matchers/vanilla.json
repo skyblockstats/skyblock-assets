@@ -7019,5 +7019,60 @@
       "west": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
       "texture": "renders\\vanilla\\yellow_wool.png"
     }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "damage": 0
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\skeleton_skull.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "damage": 1
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\wither_skeleton_skull.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "damage": 2
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\zombie_head.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "damage": 3
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\head.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull"
+      ],
+      "damage": 4
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\creeper_head.png"
+    }
   }
 ]
