@@ -1,7 +1,7 @@
+import { loadImage, createCanvas, Image } from 'canvas'
 import { promises as fs, Dirent } from 'fs'
-import * as path from 'path'
-import { loadImage, createCanvas } from 'canvas'
 import { makeApng } from './apng'
+import * as path from 'path'
 
 type XYZArray = [ number, number, number ]
 type XYXYArray = [ number, number, number, number ]
@@ -306,6 +306,26 @@ interface Matcher {
 	}
 }
 
+
+/** Combines an array of directories and returns a buffer */
+async function combineLayers(directories: string[]): Promise<Buffer> {
+	const sourceImages: Image[] = []
+
+	for (const directory of directories) {
+		const image = await loadImage(directory)
+		sourceImages.push(image)
+	}
+
+	const canvas = createCanvas(sourceImages[0].width, sourceImages[0].height)
+	const ctx = canvas.getContext('2d')
+
+	for (const image of sourceImages) {
+		ctx.drawImage(image, 0, 0)
+	}
+	return canvas.toBuffer()
+}
+
+
 async function addPack(packName: string) {
 	const packSourceDir = `./packs/${packName}`
 	const outputDir = `./matchers/`
@@ -348,6 +368,21 @@ async function addPack(packName: string) {
 			minecraftItemName = `minecraft:${itemName}`
 
 			if (vanillaRenders.includes(path.join('renders', 'vanilla', `${fileItemName}.png`))) {
+				model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
+			}
+
+			else if (packName === 'vanilla' && !model.textures.texture && model.textures.layer1) {
+				const layerDirs = []
+				for (let i = 0; i < Object.keys(model.textures).length; i ++) {
+					if (model.textures[`layer${i}`]) {
+						layerDirs.push(model.textures[`layer${i}`])
+					}
+				}
+				const combinedPngBuffer = await combineLayers(layerDirs)
+				console.log(fileItemName)
+				const combinedPngDir = path.join('renders', 'vanilla', `${fileItemName}.png`)
+				// await fs.mkdir(path.dirname(apngDir), { recursive: true })
+				await fs.writeFile(combinedPngDir, combinedPngBuffer)
 				model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
 			}
 

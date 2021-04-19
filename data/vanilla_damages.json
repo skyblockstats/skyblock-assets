@@ -207,5 +207,8 @@
 	"dye_light_blue": "dye:12",
 	"dye_magenta": "dye:13",
 	"dye_orange": "dye:14",
-	"dye_white": "dye:15"
+	"dye_white": "dye:15",
+
+	"bottle_drinkable": "glass_bottle:0",
+	"bottle_splash": "splash_potion:0"
 }

@@ -716,25 +716,27 @@
   {
     "matcher": {
       "items": [
-        "minecraft:bottle_drinkable"
+        "minecraft:glass_bottle"
       ],
       "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
-      "layer1": "packs\\vanilla\\textures\\items\\potion_bottle_drinkable.png"
+      "layer1": "packs\\vanilla\\textures\\items\\potion_bottle_drinkable.png",
+      "texture": "renders\\vanilla\\bottle_drinkable.png"
     }
   },
   {
     "matcher": {
       "items": [
-        "minecraft:bottle_splash"
+        "minecraft:splash_potion"
       ],
       "damage": 0
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
-      "layer1": "packs\\vanilla\\textures\\items\\potion_bottle_splash.png"
+      "layer1": "packs\\vanilla\\textures\\items\\potion_bottle_splash.png",
+      "texture": "renders\\vanilla\\bottle_splash.png"
     }
   },
   {
@@ -1075,8 +1077,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_chestplate.png",
-      "texture": "renders\\vanilla\\chainmail_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_chestplate.png"
     }
   },
   {
@@ -1087,8 +1088,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_helmet.png",
-      "texture": "renders\\vanilla\\chainmail_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_helmet.png"
     }
   },
   {
@@ -1099,8 +1099,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_leggings.png",
-      "texture": "renders\\vanilla\\chainmail_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_leggings.png"
     }
   },
   {
@@ -1945,8 +1944,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_boots.png",
-      "texture": "renders\\vanilla\\diamond_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_boots.png"
     }
   },
   {
@@ -1957,8 +1955,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_chestplate.png",
-      "texture": "renders\\vanilla\\diamond_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_chestplate.png"
     }
   },
   {
@@ -1969,8 +1966,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_helmet.png",
-      "texture": "renders\\vanilla\\diamond_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_helmet.png"
     }
   },
   {
@@ -2003,8 +1999,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_leggings.png",
-      "texture": "renders\\vanilla\\diamond_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_leggings.png"
     }
   },
   {
@@ -2609,7 +2604,8 @@
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fireworks_charge.png",
-      "layer1": "packs\\vanilla\\textures\\items\\fireworks_charge_overlay.png"
+      "layer1": "packs\\vanilla\\textures\\items\\fireworks_charge_overlay.png",
+      "texture": "renders\\vanilla\\firework_charge.png"
     }
   },
   {
@@ -2822,8 +2818,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_boots.png",
-      "texture": "renders\\vanilla\\golden_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_boots.png"
     }
   },
   {
@@ -2845,8 +2840,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_chestplate.png",
-      "texture": "renders\\vanilla\\golden_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_chestplate.png"
     }
   },
   {
@@ -2857,8 +2851,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_helmet.png",
-      "texture": "renders\\vanilla\\golden_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_helmet.png"
     }
   },
   {
@@ -2891,8 +2884,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_leggings.png",
-      "texture": "renders\\vanilla\\golden_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_leggings.png"
     }
   },
   {
@@ -3392,8 +3384,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_boots.png",
-      "texture": "renders\\vanilla\\iron_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_boots.png"
     }
   },
   {
@@ -3404,8 +3395,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_chestplate.png",
-      "texture": "renders\\vanilla\\iron_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_chestplate.png"
     }
   },
   {
@@ -3427,8 +3417,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_helmet.png",
-      "texture": "renders\\vanilla\\iron_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_helmet.png"
     }
   },
   {
@@ -3472,8 +3461,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_leggings.png",
-      "texture": "renders\\vanilla\\iron_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_leggings.png"
     }
   },
   {
@@ -6113,7 +6101,8 @@
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\spawn_egg.png",
-      "layer1": "packs\\vanilla\\textures\\items\\spawn_egg_overlay.png"
+      "layer1": "packs\\vanilla\\textures\\items\\spawn_egg_overlay.png",
+      "texture": "renders\\vanilla\\spawn_egg.png"
     }
   },
   {
