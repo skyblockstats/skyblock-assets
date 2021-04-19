@@ -7,7 +7,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\door_acacia.png"
+      "layer0": "packs\\vanilla\\textures\\items\\door_acacia.png",
+      "texture": "renders\\vanilla\\acacia_door.png"
     }
   },
   {
@@ -43,7 +44,8 @@
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_acacia.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\leaves_acacia.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\leaves_acacia.png",
+      "texture": "renders\\vanilla\\acacia_leaves.png"
     }
   },
   {
@@ -62,7 +64,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\log_acacia.png",
       "east": "packs\\vanilla\\textures\\blocks\\log_acacia.png",
       "south": "packs\\vanilla\\textures\\blocks\\log_acacia.png",
-      "west": "packs\\vanilla\\textures\\blocks\\log_acacia.png"
+      "west": "packs\\vanilla\\textures\\blocks\\log_acacia.png",
+      "texture": "renders\\vanilla\\acacia_log.png"
     }
   },
   {
@@ -80,7 +83,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
       "east": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
       "south": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
-      "west": "packs\\vanilla\\textures\\blocks\\planks_acacia.png"
+      "west": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "texture": "renders\\vanilla\\acacia_planks.png"
     }
   },
   {
@@ -105,7 +109,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_acacia.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "texture": "renders\\vanilla\\acacia_slab.png"
     }
   },
   {
@@ -119,7 +124,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_acacia.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "texture": "renders\\vanilla\\acacia_stairs.png"
     }
   },
   {
@@ -159,7 +165,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone_andesite.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone_andesite.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone_andesite.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone_andesite.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone_andesite.png",
+      "texture": "renders\\vanilla\\andesite.png"
     }
   },
   {
@@ -285,7 +292,8 @@
       "particle": "packs\\vanilla\\textures\\blocks\\glass.png",
       "glass": "packs\\vanilla\\textures\\blocks\\glass.png",
       "obsidian": "packs\\vanilla\\textures\\blocks\\obsidian.png",
-      "beacon": "packs\\vanilla\\textures\\blocks\\beacon.png"
+      "beacon": "packs\\vanilla\\textures\\blocks\\beacon.png",
+      "texture": "renders\\vanilla\\beacon.png"
     }
   },
   {
@@ -314,7 +322,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\bedrock.png",
       "east": "packs\\vanilla\\textures\\blocks\\bedrock.png",
       "south": "packs\\vanilla\\textures\\blocks\\bedrock.png",
-      "west": "packs\\vanilla\\textures\\blocks\\bedrock.png"
+      "west": "packs\\vanilla\\textures\\blocks\\bedrock.png",
+      "texture": "renders\\vanilla\\bedrock.png"
     }
   },
   {
@@ -372,7 +381,8 @@
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_birch.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\leaves_birch.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\leaves_birch.png",
+      "texture": "renders\\vanilla\\birch_leaves.png"
     }
   },
   {
@@ -391,7 +401,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\log_birch.png",
       "east": "packs\\vanilla\\textures\\blocks\\log_birch.png",
       "south": "packs\\vanilla\\textures\\blocks\\log_birch.png",
-      "west": "packs\\vanilla\\textures\\blocks\\log_birch.png"
+      "west": "packs\\vanilla\\textures\\blocks\\log_birch.png",
+      "texture": "renders\\vanilla\\birch_log.png"
     }
   },
   {
@@ -409,7 +420,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
       "east": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
       "south": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
-      "west": "packs\\vanilla\\textures\\blocks\\planks_birch.png"
+      "west": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "texture": "renders\\vanilla\\birch_planks.png"
     }
   },
   {
@@ -434,7 +446,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_birch.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "texture": "renders\\vanilla\\birch_slab.png"
     }
   },
   {
@@ -448,7 +461,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_birch.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "texture": "renders\\vanilla\\birch_stairs.png"
     }
   },
   {
@@ -460,7 +474,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
+      "texture": "renders\\vanilla\\black_carpet.png"
     }
   },
   {
@@ -478,7 +493,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_black.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_black.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_black.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_black.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_black.png",
+      "texture": "renders\\vanilla\\black_stained_glass.png"
     }
   },
   {
@@ -489,7 +505,8 @@
       "damage": 15
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\blocks\\glass_black.png"
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_black.png",
+      "texture": "renders\\vanilla\\black_stained_glass_pane.png"
     }
   },
   {
@@ -525,7 +542,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_black.png",
+      "texture": "renders\\vanilla\\black_wool.png"
     }
   },
   {
@@ -559,7 +577,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
+      "texture": "renders\\vanilla\\blue_carpet.png"
     }
   },
   {
@@ -588,7 +607,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_blue.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_blue.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_blue.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_blue.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_blue.png",
+      "texture": "renders\\vanilla\\blue_stained_glass.png"
     }
   },
   {
@@ -599,7 +619,8 @@
       "damage": 11
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\blocks\\glass_blue.png"
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_blue.png",
+      "texture": "renders\\vanilla\\blue_stained_glass_pane.png"
     }
   },
   {
@@ -635,7 +656,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_blue.png",
+      "texture": "renders\\vanilla\\blue_wool.png"
     }
   },
   {
@@ -687,7 +709,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\bookshelf.png",
       "east": "packs\\vanilla\\textures\\blocks\\bookshelf.png",
       "south": "packs\\vanilla\\textures\\blocks\\bookshelf.png",
-      "west": "packs\\vanilla\\textures\\blocks\\bookshelf.png"
+      "west": "packs\\vanilla\\textures\\blocks\\bookshelf.png",
+      "texture": "renders\\vanilla\\bookshelf.png"
     }
   },
   {
@@ -831,7 +854,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\brick.png",
       "top": "packs\\vanilla\\textures\\blocks\\brick.png",
       "side": "packs\\vanilla\\textures\\blocks\\brick.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\brick.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "texture": "renders\\vanilla\\brick_slab.png"
     }
   },
   {
@@ -845,7 +869,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\brick.png",
       "top": "packs\\vanilla\\textures\\blocks\\brick.png",
       "side": "packs\\vanilla\\textures\\blocks\\brick.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\brick.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "texture": "renders\\vanilla\\brick_stairs.png"
     }
   },
   {
@@ -857,7 +882,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
+      "texture": "renders\\vanilla\\brown_carpet.png"
     }
   },
   {
@@ -886,7 +912,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_brown.png",
       "east": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_brown.png",
       "south": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_brown.png",
-      "west": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_brown.png"
+      "west": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_brown.png",
+      "texture": "renders\\vanilla\\brown_mushroom_block.png"
     }
   },
   {
@@ -904,7 +931,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_brown.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_brown.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_brown.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_brown.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_brown.png",
+      "texture": "renders\\vanilla\\brown_stained_glass.png"
     }
   },
   {
@@ -915,7 +943,8 @@
       "damage": 12
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\blocks\\glass_brown.png"
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_brown.png",
+      "texture": "renders\\vanilla\\brown_stained_glass_pane.png"
     }
   },
   {
@@ -951,7 +980,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_brown.png",
+      "texture": "renders\\vanilla\\brown_wool.png"
     }
   },
   {
@@ -976,7 +1006,8 @@
       "particle": "packs\\vanilla\\textures\\blocks\\cactus_side.png",
       "bottom": "packs\\vanilla\\textures\\blocks\\cactus_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\cactus_top.png",
-      "side": "packs\\vanilla\\textures\\blocks\\cactus_side.png"
+      "side": "packs\\vanilla\\textures\\blocks\\cactus_side.png",
+      "texture": "renders\\vanilla\\cactus.png"
     }
   },
   {
@@ -987,7 +1018,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\cake.png"
+      "layer0": "packs\\vanilla\\textures\\items\\cake.png",
+      "texture": "renders\\vanilla\\cake.png"
     }
   },
   {
@@ -1031,7 +1063,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_boots.png",
+      "texture": "renders\\vanilla\\chainmail_boots.png"
     }
   },
   {
@@ -1042,7 +1075,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_chestplate.png",
+      "texture": "renders\\vanilla\\chainmail_chestplate.png"
     }
   },
   {
@@ -1053,7 +1087,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_helmet.png",
+      "texture": "renders\\vanilla\\chainmail_helmet.png"
     }
   },
   {
@@ -1064,7 +1099,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_leggings.png",
+      "texture": "renders\\vanilla\\chainmail_leggings.png"
     }
   },
   {
@@ -1134,7 +1170,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled.png",
       "east": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled.png",
       "south": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled.png",
-      "west": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled.png"
+      "west": "packs\\vanilla\\textures\\blocks\\quartz_block_chiseled.png",
+      "texture": "renders\\vanilla\\chiseled_quartz_block.png"
     }
   },
   {
@@ -1153,7 +1190,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\red_sandstone_carved.png",
       "east": "packs\\vanilla\\textures\\blocks\\red_sandstone_carved.png",
       "south": "packs\\vanilla\\textures\\blocks\\red_sandstone_carved.png",
-      "west": "packs\\vanilla\\textures\\blocks\\red_sandstone_carved.png"
+      "west": "packs\\vanilla\\textures\\blocks\\red_sandstone_carved.png",
+      "texture": "renders\\vanilla\\chiseled_red_sandstone.png"
     }
   },
   {
@@ -1172,7 +1210,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\sandstone_carved.png",
       "east": "packs\\vanilla\\textures\\blocks\\sandstone_carved.png",
       "south": "packs\\vanilla\\textures\\blocks\\sandstone_carved.png",
-      "west": "packs\\vanilla\\textures\\blocks\\sandstone_carved.png"
+      "west": "packs\\vanilla\\textures\\blocks\\sandstone_carved.png",
+      "texture": "renders\\vanilla\\chiseled_sandstone.png"
     }
   },
   {
@@ -1270,7 +1309,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\coal_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\coal_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\coal_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\coal_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\coal_block.png",
+      "texture": "renders\\vanilla\\coal_block.png"
     }
   },
   {
@@ -1288,7 +1328,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\coal_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\coal_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\coal_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\coal_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\coal_ore.png",
+      "texture": "renders\\vanilla\\coal_ore.png"
     }
   },
   {
@@ -1306,7 +1347,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\coarse_dirt.png",
       "east": "packs\\vanilla\\textures\\blocks\\coarse_dirt.png",
       "south": "packs\\vanilla\\textures\\blocks\\coarse_dirt.png",
-      "west": "packs\\vanilla\\textures\\blocks\\coarse_dirt.png"
+      "west": "packs\\vanilla\\textures\\blocks\\coarse_dirt.png",
+      "texture": "renders\\vanilla\\coarse_dirt.png"
     }
   },
   {
@@ -1324,7 +1366,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
       "east": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
       "south": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
-      "west": "packs\\vanilla\\textures\\blocks\\cobblestone.png"
+      "west": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "texture": "renders\\vanilla\\cobblestone.png"
     }
   },
   {
@@ -1356,7 +1399,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
       "top": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
       "side": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "texture": "renders\\vanilla\\cobblestone_slab.png"
     }
   },
   {
@@ -1368,7 +1412,8 @@
     },
     "textures": {
       "wall": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "texture": "renders\\vanilla\\cobblestone_wall.png"
     }
   },
   {
@@ -1397,7 +1442,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\command_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\command_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\command_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\command_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\command_block.png",
+      "texture": "renders\\vanilla\\command_block.png"
     }
   },
   {
@@ -1571,7 +1617,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\crafting_table_front.png",
       "east": "packs\\vanilla\\textures\\blocks\\crafting_table_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\crafting_table_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\crafting_table_front.png"
+      "west": "packs\\vanilla\\textures\\blocks\\crafting_table_front.png",
+      "texture": "renders\\vanilla\\crafting_table.png"
     }
   },
   {
@@ -1583,7 +1630,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
+      "texture": "renders\\vanilla\\cyan_carpet.png"
     }
   },
   {
@@ -1601,7 +1649,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_cyan.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_cyan.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_cyan.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_cyan.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_cyan.png",
+      "texture": "renders\\vanilla\\cyan_stained_glass.png"
     }
   },
   {
@@ -1612,7 +1661,8 @@
       "damage": 9
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\blocks\\glass_cyan.png"
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_cyan.png",
+      "texture": "renders\\vanilla\\cyan_stained_glass_pane.png"
     }
   },
   {
@@ -1648,7 +1698,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_cyan.png",
+      "texture": "renders\\vanilla\\cyan_wool.png"
     }
   },
   {
@@ -1706,7 +1757,8 @@
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_big_oak.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\leaves_big_oak.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\leaves_big_oak.png",
+      "texture": "renders\\vanilla\\dark_oak_leaves.png"
     }
   },
   {
@@ -1725,7 +1777,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\log_big_oak.png",
       "east": "packs\\vanilla\\textures\\blocks\\log_big_oak.png",
       "south": "packs\\vanilla\\textures\\blocks\\log_big_oak.png",
-      "west": "packs\\vanilla\\textures\\blocks\\log_big_oak.png"
+      "west": "packs\\vanilla\\textures\\blocks\\log_big_oak.png",
+      "texture": "renders\\vanilla\\dark_oak_log.png"
     }
   },
   {
@@ -1743,7 +1796,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
       "east": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
       "south": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
-      "west": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png"
+      "west": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "texture": "renders\\vanilla\\dark_oak_planks.png"
     }
   },
   {
@@ -1768,7 +1822,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "texture": "renders\\vanilla\\dark_oak_slab.png"
     }
   },
   {
@@ -1782,7 +1837,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "texture": "renders\\vanilla\\dark_oak_stairs.png"
     }
   },
   {
@@ -1800,7 +1856,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\prismarine_dark.png",
       "east": "packs\\vanilla\\textures\\blocks\\prismarine_dark.png",
       "south": "packs\\vanilla\\textures\\blocks\\prismarine_dark.png",
-      "west": "packs\\vanilla\\textures\\blocks\\prismarine_dark.png"
+      "west": "packs\\vanilla\\textures\\blocks\\prismarine_dark.png",
+      "texture": "renders\\vanilla\\dark_prismarine.png"
     }
   },
   {
@@ -1813,7 +1870,8 @@
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\daylight_detector_top.png",
       "top": "packs\\vanilla\\textures\\blocks\\daylight_detector_top.png",
-      "side": "packs\\vanilla\\textures\\blocks\\daylight_detector_side.png"
+      "side": "packs\\vanilla\\textures\\blocks\\daylight_detector_side.png",
+      "texture": "renders\\vanilla\\daylight_detector.png"
     }
   },
   {
@@ -1875,7 +1933,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\diamond_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\diamond_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\diamond_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\diamond_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\diamond_block.png",
+      "texture": "renders\\vanilla\\diamond_block.png"
     }
   },
   {
@@ -1886,7 +1945,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_boots.png",
+      "texture": "renders\\vanilla\\diamond_boots.png"
     }
   },
   {
@@ -1897,7 +1957,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_chestplate.png",
+      "texture": "renders\\vanilla\\diamond_chestplate.png"
     }
   },
   {
@@ -1908,7 +1969,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_helmet.png",
+      "texture": "renders\\vanilla\\diamond_helmet.png"
     }
   },
   {
@@ -1941,7 +2003,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\diamond_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\diamond_leggings.png",
+      "texture": "renders\\vanilla\\diamond_leggings.png"
     }
   },
   {
@@ -1959,7 +2022,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\diamond_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\diamond_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\diamond_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\diamond_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\diamond_ore.png",
+      "texture": "renders\\vanilla\\diamond_ore.png"
     }
   },
   {
@@ -2010,7 +2074,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone_diorite.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone_diorite.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone_diorite.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone_diorite.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone_diorite.png",
+      "texture": "renders\\vanilla\\diorite.png"
     }
   },
   {
@@ -2046,7 +2111,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\dirt.png",
       "east": "packs\\vanilla\\textures\\blocks\\dirt.png",
       "south": "packs\\vanilla\\textures\\blocks\\dirt.png",
-      "west": "packs\\vanilla\\textures\\blocks\\dirt.png"
+      "west": "packs\\vanilla\\textures\\blocks\\dirt.png",
+      "texture": "renders\\vanilla\\dirt.png"
     }
   },
   {
@@ -2066,7 +2132,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\dispenser_front_horizontal.png",
       "east": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\furnace_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
+      "texture": "renders\\vanilla\\dispenser.png"
     }
   },
   {
@@ -2111,7 +2178,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\dragon_egg.png",
-      "all": "packs\\vanilla\\textures\\blocks\\dragon_egg.png"
+      "all": "packs\\vanilla\\textures\\blocks\\dragon_egg.png",
+      "texture": "renders\\vanilla\\dragon_egg.png"
     }
   },
   {
@@ -2131,7 +2199,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\dropper_front_horizontal.png",
       "east": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\furnace_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
+      "texture": "renders\\vanilla\\dropper.png"
     }
   },
   {
@@ -2347,7 +2416,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\emerald_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\emerald_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\emerald_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\emerald_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\emerald_block.png",
+      "texture": "renders\\vanilla\\emerald_block.png"
     }
   },
   {
@@ -2365,7 +2435,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\emerald_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\emerald_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\emerald_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\emerald_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\emerald_ore.png",
+      "texture": "renders\\vanilla\\emerald_ore.png"
     }
   },
   {
@@ -2426,7 +2497,8 @@
       "particle": "packs\\vanilla\\textures\\blocks\\endframe_side.png",
       "bottom": "packs\\vanilla\\textures\\blocks\\end_stone.png",
       "top": "packs\\vanilla\\textures\\blocks\\endframe_top.png",
-      "side": "packs\\vanilla\\textures\\blocks\\endframe_side.png"
+      "side": "packs\\vanilla\\textures\\blocks\\endframe_side.png",
+      "texture": "renders\\vanilla\\end_portal_frame.png"
     }
   },
   {
@@ -2444,7 +2516,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\end_stone.png",
       "east": "packs\\vanilla\\textures\\blocks\\end_stone.png",
       "south": "packs\\vanilla\\textures\\blocks\\end_stone.png",
-      "west": "packs\\vanilla\\textures\\blocks\\end_stone.png"
+      "west": "packs\\vanilla\\textures\\blocks\\end_stone.png",
+      "texture": "renders\\vanilla\\end_stone.png"
     }
   },
   {
@@ -2468,7 +2541,8 @@
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\dirt.png",
       "dirt": "packs\\vanilla\\textures\\blocks\\dirt.png",
-      "top": "packs\\vanilla\\textures\\blocks\\farmland_dry.png"
+      "top": "packs\\vanilla\\textures\\blocks\\farmland_dry.png",
+      "texture": "renders\\vanilla\\farmland.png"
     }
   },
   {
@@ -2621,7 +2695,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\furnace_front_off.png",
       "east": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\furnace_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\furnace_side.png",
+      "texture": "renders\\vanilla\\furnace.png"
     }
   },
   {
@@ -2661,7 +2736,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass.png",
+      "texture": "renders\\vanilla\\glass.png"
     }
   },
   {
@@ -2701,7 +2777,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glowstone.png",
       "east": "packs\\vanilla\\textures\\blocks\\glowstone.png",
       "south": "packs\\vanilla\\textures\\blocks\\glowstone.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glowstone.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glowstone.png",
+      "texture": "renders\\vanilla\\glowstone.png"
     }
   },
   {
@@ -2745,7 +2822,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_boots.png",
+      "texture": "renders\\vanilla\\golden_boots.png"
     }
   },
   {
@@ -2767,7 +2845,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_chestplate.png",
+      "texture": "renders\\vanilla\\golden_chestplate.png"
     }
   },
   {
@@ -2778,7 +2857,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_helmet.png",
+      "texture": "renders\\vanilla\\golden_helmet.png"
     }
   },
   {
@@ -2811,7 +2891,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\gold_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gold_leggings.png",
+      "texture": "renders\\vanilla\\golden_leggings.png"
     }
   },
   {
@@ -2873,7 +2954,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\gold_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\gold_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\gold_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\gold_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\gold_block.png",
+      "texture": "renders\\vanilla\\gold_block.png"
     }
   },
   {
@@ -2913,7 +2995,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\gold_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\gold_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\gold_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\gold_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\gold_ore.png",
+      "texture": "renders\\vanilla\\gold_ore.png"
     }
   },
   {
@@ -2931,7 +3014,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone_granite.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone_granite.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone_granite.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone_granite.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone_granite.png",
+      "texture": "renders\\vanilla\\granite.png"
     }
   },
   {
@@ -2982,7 +3066,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\gravel.png",
       "east": "packs\\vanilla\\textures\\blocks\\gravel.png",
       "south": "packs\\vanilla\\textures\\blocks\\gravel.png",
-      "west": "packs\\vanilla\\textures\\blocks\\gravel.png"
+      "west": "packs\\vanilla\\textures\\blocks\\gravel.png",
+      "texture": "renders\\vanilla\\gravel.png"
     }
   },
   {
@@ -2994,7 +3079,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
+      "texture": "renders\\vanilla\\gray_carpet.png"
     }
   },
   {
@@ -3012,7 +3098,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_gray.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_gray.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_gray.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_gray.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_gray.png",
+      "texture": "renders\\vanilla\\gray_stained_glass.png"
     }
   },
   {
@@ -3059,7 +3146,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_gray.png",
+      "texture": "renders\\vanilla\\gray_wool.png"
     }
   },
   {
@@ -3071,7 +3159,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
+      "texture": "renders\\vanilla\\green_carpet.png"
     }
   },
   {
@@ -3089,7 +3178,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_green.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_green.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_green.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_green.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_green.png",
+      "texture": "renders\\vanilla\\green_stained_glass.png"
     }
   },
   {
@@ -3136,7 +3226,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_green.png",
+      "texture": "renders\\vanilla\\green_wool.png"
     }
   },
   {
@@ -3207,7 +3298,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\hopper.png"
+      "layer0": "packs\\vanilla\\textures\\items\\hopper.png",
+      "texture": "renders\\vanilla\\hopper.png"
     }
   },
   {
@@ -3247,7 +3339,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\ice.png",
       "east": "packs\\vanilla\\textures\\blocks\\ice.png",
       "south": "packs\\vanilla\\textures\\blocks\\ice.png",
-      "west": "packs\\vanilla\\textures\\blocks\\ice.png"
+      "west": "packs\\vanilla\\textures\\blocks\\ice.png",
+      "texture": "renders\\vanilla\\ice.png"
     }
   },
   {
@@ -3287,7 +3380,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\iron_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\iron_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\iron_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\iron_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\iron_block.png",
+      "texture": "renders\\vanilla\\iron_block.png"
     }
   },
   {
@@ -3298,7 +3392,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_boots.png",
+      "texture": "renders\\vanilla\\iron_boots.png"
     }
   },
   {
@@ -3309,7 +3404,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_chestplate.png",
+      "texture": "renders\\vanilla\\iron_chestplate.png"
     }
   },
   {
@@ -3331,7 +3427,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_helmet.png",
+      "texture": "renders\\vanilla\\iron_helmet.png"
     }
   },
   {
@@ -3375,7 +3472,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\iron_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_leggings.png",
+      "texture": "renders\\vanilla\\iron_leggings.png"
     }
   },
   {
@@ -3393,7 +3491,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\iron_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\iron_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\iron_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\iron_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\iron_ore.png",
+      "texture": "renders\\vanilla\\iron_ore.png"
     }
   },
   {
@@ -3468,7 +3567,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\jukebox_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\jukebox_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\jukebox_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\jukebox_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\jukebox_side.png",
+      "texture": "renders\\vanilla\\jukebox.png"
     }
   },
   {
@@ -3515,7 +3615,8 @@
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_jungle.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\leaves_jungle.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\leaves_jungle.png",
+      "texture": "renders\\vanilla\\jungle_leaves.png"
     }
   },
   {
@@ -3534,7 +3635,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\log_jungle.png",
       "east": "packs\\vanilla\\textures\\blocks\\log_jungle.png",
       "south": "packs\\vanilla\\textures\\blocks\\log_jungle.png",
-      "west": "packs\\vanilla\\textures\\blocks\\log_jungle.png"
+      "west": "packs\\vanilla\\textures\\blocks\\log_jungle.png",
+      "texture": "renders\\vanilla\\jungle_log.png"
     }
   },
   {
@@ -3552,7 +3654,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
       "east": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
       "south": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
-      "west": "packs\\vanilla\\textures\\blocks\\planks_jungle.png"
+      "west": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "texture": "renders\\vanilla\\jungle_planks.png"
     }
   },
   {
@@ -3577,7 +3680,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_jungle.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "texture": "renders\\vanilla\\jungle_slab.png"
     }
   },
   {
@@ -3591,7 +3695,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_jungle.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "texture": "renders\\vanilla\\jungle_stairs.png"
     }
   },
   {
@@ -3620,7 +3725,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\lapis_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\lapis_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\lapis_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\lapis_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\lapis_block.png",
+      "texture": "renders\\vanilla\\lapis_block.png"
     }
   },
   {
@@ -3638,7 +3744,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\lapis_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\lapis_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\lapis_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\lapis_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\lapis_ore.png",
+      "texture": "renders\\vanilla\\lapis_ore.png"
     }
   },
   {
@@ -3683,7 +3790,8 @@
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_boots.png",
-      "layer1": "packs\\vanilla\\textures\\items\\leather_boots_overlay.png"
+      "layer1": "packs\\vanilla\\textures\\items\\leather_boots_overlay.png",
+      "texture": "renders\\vanilla\\leather_boots.png"
     }
   },
   {
@@ -3695,7 +3803,8 @@
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_chestplate.png",
-      "layer1": "packs\\vanilla\\textures\\items\\leather_chestplate_overlay.png"
+      "layer1": "packs\\vanilla\\textures\\items\\leather_chestplate_overlay.png",
+      "texture": "renders\\vanilla\\leather_chestplate.png"
     }
   },
   {
@@ -3707,7 +3816,8 @@
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_helmet.png",
-      "layer1": "packs\\vanilla\\textures\\items\\leather_helmet_overlay.png"
+      "layer1": "packs\\vanilla\\textures\\items\\leather_helmet_overlay.png",
+      "texture": "renders\\vanilla\\leather_helmet.png"
     }
   },
   {
@@ -3719,7 +3829,8 @@
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\leather_leggings.png",
-      "layer1": "packs\\vanilla\\textures\\items\\leather_leggings_overlay.png"
+      "layer1": "packs\\vanilla\\textures\\items\\leather_leggings_overlay.png",
+      "texture": "renders\\vanilla\\leather_leggings.png"
     }
   },
   {
@@ -3742,7 +3853,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
+      "texture": "renders\\vanilla\\light_blue_carpet.png"
     }
   },
   {
@@ -3760,7 +3872,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_light_blue.png",
+      "texture": "renders\\vanilla\\light_blue_stained_glass.png"
     }
   },
   {
@@ -3807,7 +3920,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_light_blue.png",
+      "texture": "renders\\vanilla\\light_blue_wool.png"
     }
   },
   {
@@ -3831,7 +3945,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
+      "texture": "renders\\vanilla\\lime_carpet.png"
     }
   },
   {
@@ -3849,7 +3964,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_lime.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_lime.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_lime.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_lime.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_lime.png",
+      "texture": "renders\\vanilla\\lime_stained_glass.png"
     }
   },
   {
@@ -3896,7 +4012,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_lime.png",
+      "texture": "renders\\vanilla\\lime_wool.png"
     }
   },
   {
@@ -3948,7 +4065,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
+      "texture": "renders\\vanilla\\magenta_carpet.png"
     }
   },
   {
@@ -3966,7 +4084,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_magenta.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_magenta.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_magenta.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_magenta.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_magenta.png",
+      "texture": "renders\\vanilla\\magenta_stained_glass.png"
     }
   },
   {
@@ -4013,7 +4132,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_magenta.png",
+      "texture": "renders\\vanilla\\magenta_wool.png"
     }
   },
   {
@@ -4046,7 +4166,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\melon.png"
+      "layer0": "packs\\vanilla\\textures\\items\\melon.png",
+      "texture": "renders\\vanilla\\melon.png"
     }
   },
   {
@@ -4065,7 +4186,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\melon_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\melon_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\melon_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\melon_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\melon_side.png",
+      "texture": "renders\\vanilla\\melon_block.png"
     }
   },
   {
@@ -4152,7 +4274,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
       "east": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
       "south": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
-      "west": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png"
+      "west": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
+      "texture": "renders\\vanilla\\mossy_cobblestone.png"
     }
   },
   {
@@ -4164,7 +4287,8 @@
     },
     "textures": {
       "wall": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone_mossy.png",
+      "texture": "renders\\vanilla\\mossy_cobblestone_wall.png"
     }
   },
   {
@@ -4224,7 +4348,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\mycelium_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\mycelium_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\mycelium_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\mycelium_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\mycelium_side.png",
+      "texture": "renders\\vanilla\\mycelium.png"
     }
   },
   {
@@ -4264,7 +4389,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\netherrack.png",
       "east": "packs\\vanilla\\textures\\blocks\\netherrack.png",
       "south": "packs\\vanilla\\textures\\blocks\\netherrack.png",
-      "west": "packs\\vanilla\\textures\\blocks\\netherrack.png"
+      "west": "packs\\vanilla\\textures\\blocks\\netherrack.png",
+      "texture": "renders\\vanilla\\netherrack.png"
     }
   },
   {
@@ -4282,7 +4408,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
       "east": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
       "south": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
-      "west": "packs\\vanilla\\textures\\blocks\\nether_brick.png"
+      "west": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "texture": "renders\\vanilla\\nether_brick.png"
     }
   },
   {
@@ -4308,7 +4435,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
       "top": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
       "side": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\nether_brick.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "texture": "renders\\vanilla\\nether_brick_slab.png"
     }
   },
   {
@@ -4322,7 +4450,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
       "top": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
       "side": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\nether_brick.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "texture": "renders\\vanilla\\nether_brick_stairs.png"
     }
   },
   {
@@ -4409,7 +4538,8 @@
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_oak.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\leaves_oak.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\leaves_oak.png",
+      "texture": "renders\\vanilla\\oak_leaves.png"
     }
   },
   {
@@ -4428,7 +4558,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\log_oak.png",
       "east": "packs\\vanilla\\textures\\blocks\\log_oak.png",
       "south": "packs\\vanilla\\textures\\blocks\\log_oak.png",
-      "west": "packs\\vanilla\\textures\\blocks\\log_oak.png"
+      "west": "packs\\vanilla\\textures\\blocks\\log_oak.png",
+      "texture": "renders\\vanilla\\oak_log.png"
     }
   },
   {
@@ -4446,7 +4577,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
       "east": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
       "south": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
-      "west": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
+      "west": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "texture": "renders\\vanilla\\oak_planks.png"
     }
   },
   {
@@ -4471,7 +4603,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "texture": "renders\\vanilla\\oak_slab.png"
     }
   },
   {
@@ -4485,7 +4618,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "texture": "renders\\vanilla\\oak_stairs.png"
     }
   },
   {
@@ -4503,7 +4637,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\obsidian.png",
       "east": "packs\\vanilla\\textures\\blocks\\obsidian.png",
       "south": "packs\\vanilla\\textures\\blocks\\obsidian.png",
-      "west": "packs\\vanilla\\textures\\blocks\\obsidian.png"
+      "west": "packs\\vanilla\\textures\\blocks\\obsidian.png",
+      "texture": "renders\\vanilla\\obsidian.png"
     }
   },
   {
@@ -4529,7 +4664,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
+      "texture": "renders\\vanilla\\orange_carpet.png"
     }
   },
   {
@@ -4547,7 +4683,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_orange.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_orange.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_orange.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_orange.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_orange.png",
+      "texture": "renders\\vanilla\\orange_stained_glass.png"
     }
   },
   {
@@ -4605,7 +4742,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_orange.png",
+      "texture": "renders\\vanilla\\orange_wool.png"
     }
   },
   {
@@ -4634,7 +4772,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\ice_packed.png",
       "east": "packs\\vanilla\\textures\\blocks\\ice_packed.png",
       "south": "packs\\vanilla\\textures\\blocks\\ice_packed.png",
-      "west": "packs\\vanilla\\textures\\blocks\\ice_packed.png"
+      "west": "packs\\vanilla\\textures\\blocks\\ice_packed.png",
+      "texture": "renders\\vanilla\\packed_ice.png"
     }
   },
   {
@@ -4679,7 +4818,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
+      "texture": "renders\\vanilla\\pink_carpet.png"
     }
   },
   {
@@ -4697,7 +4837,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_pink.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_pink.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_pink.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_pink.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_pink.png",
+      "texture": "renders\\vanilla\\pink_stained_glass.png"
     }
   },
   {
@@ -4708,7 +4849,8 @@
       "damage": 6
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\blocks\\glass_pink.png"
+      "layer0": "packs\\vanilla\\textures\\blocks\\glass_pink.png",
+      "texture": "renders\\vanilla\\pink_stained_glass_pane.png"
     }
   },
   {
@@ -4755,7 +4897,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_pink.png",
+      "texture": "renders\\vanilla\\pink_wool.png"
     }
   },
   {
@@ -4775,7 +4918,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\piston_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\piston_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\piston_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\piston_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\piston_side.png",
+      "texture": "renders\\vanilla\\piston.png"
     }
   },
   {
@@ -4795,7 +4939,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\dirt_podzol_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\dirt_podzol_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\dirt_podzol_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\dirt_podzol_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\dirt_podzol_side.png",
+      "texture": "renders\\vanilla\\podzol.png"
     }
   },
   {
@@ -4857,7 +5002,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\prismarine_rough.png",
       "east": "packs\\vanilla\\textures\\blocks\\prismarine_rough.png",
       "south": "packs\\vanilla\\textures\\blocks\\prismarine_rough.png",
-      "west": "packs\\vanilla\\textures\\blocks\\prismarine_rough.png"
+      "west": "packs\\vanilla\\textures\\blocks\\prismarine_rough.png",
+      "texture": "renders\\vanilla\\prismarine.png"
     }
   },
   {
@@ -4875,7 +5021,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\prismarine_bricks.png",
       "east": "packs\\vanilla\\textures\\blocks\\prismarine_bricks.png",
       "south": "packs\\vanilla\\textures\\blocks\\prismarine_bricks.png",
-      "west": "packs\\vanilla\\textures\\blocks\\prismarine_bricks.png"
+      "west": "packs\\vanilla\\textures\\blocks\\prismarine_bricks.png",
+      "texture": "renders\\vanilla\\prismarine_bricks.png"
     }
   },
   {
@@ -4928,7 +5075,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\pumpkin_face_off.png",
       "east": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
+      "texture": "renders\\vanilla\\pumpkin.png"
     }
   },
   {
@@ -4962,7 +5110,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
+      "texture": "renders\\vanilla\\purple_carpet.png"
     }
   },
   {
@@ -4980,7 +5129,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_purple.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_purple.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_purple.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_purple.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_purple.png",
+      "texture": "renders\\vanilla\\purple_stained_glass.png"
     }
   },
   {
@@ -5027,7 +5177,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_purple.png",
+      "texture": "renders\\vanilla\\purple_wool.png"
     }
   },
   {
@@ -5058,7 +5209,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
+      "texture": "renders\\vanilla\\quartz_block.png"
     }
   },
   {
@@ -5109,7 +5261,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\quartz_block_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
+      "texture": "renders\\vanilla\\quartz_slab.png"
     }
   },
   {
@@ -5123,7 +5276,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\quartz_block_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\quartz_block_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\quartz_block_side.png",
+      "texture": "renders\\vanilla\\quartz_stairs.png"
     }
   },
   {
@@ -5339,7 +5493,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\redstone_block.png",
       "east": "packs\\vanilla\\textures\\blocks\\redstone_block.png",
       "south": "packs\\vanilla\\textures\\blocks\\redstone_block.png",
-      "west": "packs\\vanilla\\textures\\blocks\\redstone_block.png"
+      "west": "packs\\vanilla\\textures\\blocks\\redstone_block.png",
+      "texture": "renders\\vanilla\\redstone_block.png"
     }
   },
   {
@@ -5357,7 +5512,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\redstone_lamp_off.png",
       "east": "packs\\vanilla\\textures\\blocks\\redstone_lamp_off.png",
       "south": "packs\\vanilla\\textures\\blocks\\redstone_lamp_off.png",
-      "west": "packs\\vanilla\\textures\\blocks\\redstone_lamp_off.png"
+      "west": "packs\\vanilla\\textures\\blocks\\redstone_lamp_off.png",
+      "texture": "renders\\vanilla\\redstone_lamp.png"
     }
   },
   {
@@ -5375,7 +5531,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\redstone_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\redstone_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\redstone_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\redstone_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\redstone_ore.png",
+      "texture": "renders\\vanilla\\redstone_ore.png"
     }
   },
   {
@@ -5398,7 +5555,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
+      "texture": "renders\\vanilla\\red_carpet.png"
     }
   },
   {
@@ -5427,7 +5585,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_red.png",
       "east": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_red.png",
       "south": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_red.png",
-      "west": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_red.png"
+      "west": "packs\\vanilla\\textures\\blocks\\mushroom_block_skin_red.png",
+      "texture": "renders\\vanilla\\red_mushroom_block.png"
     }
   },
   {
@@ -5445,7 +5604,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\red_sand.png",
       "east": "packs\\vanilla\\textures\\blocks\\red_sand.png",
       "south": "packs\\vanilla\\textures\\blocks\\red_sand.png",
-      "west": "packs\\vanilla\\textures\\blocks\\red_sand.png"
+      "west": "packs\\vanilla\\textures\\blocks\\red_sand.png",
+      "texture": "renders\\vanilla\\red_sand.png"
     }
   },
   {
@@ -5465,7 +5625,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
       "east": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
       "south": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
-      "west": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png"
+      "west": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
+      "texture": "renders\\vanilla\\red_sandstone.png"
     }
   },
   {
@@ -5479,7 +5640,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
+      "texture": "renders\\vanilla\\red_sandstone_slab.png"
     }
   },
   {
@@ -5493,7 +5655,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\red_sandstone_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\red_sandstone_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\red_sandstone_normal.png",
+      "texture": "renders\\vanilla\\red_sandstone_stairs.png"
     }
   },
   {
@@ -5511,7 +5674,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_red.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_red.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_red.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_red.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_red.png",
+      "texture": "renders\\vanilla\\red_stained_glass.png"
     }
   },
   {
@@ -5569,7 +5733,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_red.png",
+      "texture": "renders\\vanilla\\red_wool.png"
     }
   },
   {
@@ -5642,7 +5807,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\sand.png",
       "east": "packs\\vanilla\\textures\\blocks\\sand.png",
       "south": "packs\\vanilla\\textures\\blocks\\sand.png",
-      "west": "packs\\vanilla\\textures\\blocks\\sand.png"
+      "west": "packs\\vanilla\\textures\\blocks\\sand.png",
+      "texture": "renders\\vanilla\\sand.png"
     }
   },
   {
@@ -5662,7 +5828,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
       "east": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
       "south": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
-      "west": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png"
+      "west": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
+      "texture": "renders\\vanilla\\sandstone.png"
     }
   },
   {
@@ -5676,7 +5843,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
+      "texture": "renders\\vanilla\\sandstone_slab.png"
     }
   },
   {
@@ -5690,7 +5858,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\sandstone_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\sandstone_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\sandstone_normal.png",
+      "texture": "renders\\vanilla\\sandstone_stairs.png"
     }
   },
   {
@@ -5708,7 +5877,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\sea_lantern.png",
       "east": "packs\\vanilla\\textures\\blocks\\sea_lantern.png",
       "south": "packs\\vanilla\\textures\\blocks\\sea_lantern.png",
-      "west": "packs\\vanilla\\textures\\blocks\\sea_lantern.png"
+      "west": "packs\\vanilla\\textures\\blocks\\sea_lantern.png",
+      "texture": "renders\\vanilla\\sea_lantern.png"
     }
   },
   {
@@ -5849,7 +6019,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\red_sandstone_smooth.png",
       "east": "packs\\vanilla\\textures\\blocks\\red_sandstone_smooth.png",
       "south": "packs\\vanilla\\textures\\blocks\\red_sandstone_smooth.png",
-      "west": "packs\\vanilla\\textures\\blocks\\red_sandstone_smooth.png"
+      "west": "packs\\vanilla\\textures\\blocks\\red_sandstone_smooth.png",
+      "texture": "renders\\vanilla\\smooth_red_sandstone.png"
     }
   },
   {
@@ -5868,7 +6039,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\sandstone_smooth.png",
       "east": "packs\\vanilla\\textures\\blocks\\sandstone_smooth.png",
       "south": "packs\\vanilla\\textures\\blocks\\sandstone_smooth.png",
-      "west": "packs\\vanilla\\textures\\blocks\\sandstone_smooth.png"
+      "west": "packs\\vanilla\\textures\\blocks\\sandstone_smooth.png",
+      "texture": "renders\\vanilla\\smooth_sandstone.png"
     }
   },
   {
@@ -5886,7 +6058,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\snow.png",
       "east": "packs\\vanilla\\textures\\blocks\\snow.png",
       "south": "packs\\vanilla\\textures\\blocks\\snow.png",
-      "west": "packs\\vanilla\\textures\\blocks\\snow.png"
+      "west": "packs\\vanilla\\textures\\blocks\\snow.png",
+      "texture": "renders\\vanilla\\snow.png"
     }
   },
   {
@@ -5927,7 +6100,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\soul_sand.png",
       "east": "packs\\vanilla\\textures\\blocks\\soul_sand.png",
       "south": "packs\\vanilla\\textures\\blocks\\soul_sand.png",
-      "west": "packs\\vanilla\\textures\\blocks\\soul_sand.png"
+      "west": "packs\\vanilla\\textures\\blocks\\soul_sand.png",
+      "texture": "renders\\vanilla\\soul_sand.png"
     }
   },
   {
@@ -5979,7 +6153,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\sponge.png",
       "east": "packs\\vanilla\\textures\\blocks\\sponge.png",
       "south": "packs\\vanilla\\textures\\blocks\\sponge.png",
-      "west": "packs\\vanilla\\textures\\blocks\\sponge.png"
+      "west": "packs\\vanilla\\textures\\blocks\\sponge.png",
+      "texture": "renders\\vanilla\\sponge.png"
     }
   },
   {
@@ -6044,7 +6219,8 @@
     },
     "textures": {
       "all": "packs\\vanilla\\textures\\blocks\\leaves_spruce.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\leaves_spruce.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\leaves_spruce.png",
+      "texture": "renders\\vanilla\\spruce_leaves.png"
     }
   },
   {
@@ -6063,7 +6239,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\log_spruce.png",
       "east": "packs\\vanilla\\textures\\blocks\\log_spruce.png",
       "south": "packs\\vanilla\\textures\\blocks\\log_spruce.png",
-      "west": "packs\\vanilla\\textures\\blocks\\log_spruce.png"
+      "west": "packs\\vanilla\\textures\\blocks\\log_spruce.png",
+      "texture": "renders\\vanilla\\spruce_log.png"
     }
   },
   {
@@ -6081,7 +6258,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
       "east": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
       "south": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
-      "west": "packs\\vanilla\\textures\\blocks\\planks_spruce.png"
+      "west": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "texture": "renders\\vanilla\\spruce_planks.png"
     }
   },
   {
@@ -6106,7 +6284,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_spruce.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "texture": "renders\\vanilla\\spruce_slab.png"
     }
   },
   {
@@ -6120,7 +6299,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
       "top": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
       "side": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\planks_spruce.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "texture": "renders\\vanilla\\spruce_stairs.png"
     }
   },
   {
@@ -6151,7 +6331,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\piston_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\piston_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\piston_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\piston_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\piston_side.png",
+      "texture": "renders\\vanilla\\sticky_piston.png"
     }
   },
   {
@@ -6169,7 +6350,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "texture": "renders\\vanilla\\stone.png"
     }
   },
   {
@@ -6216,7 +6398,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "texture": "renders\\vanilla\\stone_brick_monster_egg.png"
     }
   },
   {
@@ -6244,7 +6427,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "top": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "side": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\stonebrick.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "texture": "renders\\vanilla\\stone_brick_stairs.png"
     }
   },
   {
@@ -6285,7 +6469,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "texture": "renders\\vanilla\\stone_monster_egg.png"
     }
   },
   {
@@ -6333,7 +6518,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\stone_slab_top.png",
       "top": "packs\\vanilla\\textures\\blocks\\stone_slab_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\stone_slab_side.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\stone_slab_side.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\stone_slab_side.png",
+      "texture": "renders\\vanilla\\stone_slab.png"
     }
   },
   {
@@ -6511,7 +6697,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\bucket_water.png"
+      "layer0": "packs\\vanilla\\textures\\items\\bucket_water.png",
+      "texture": "renders\\vanilla\\water_bucket.png"
     }
   },
   {
@@ -6556,7 +6743,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
+      "texture": "renders\\vanilla\\white_carpet.png"
     }
   },
   {
@@ -6574,7 +6762,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_white.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_white.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_white.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_white.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_white.png",
+      "texture": "renders\\vanilla\\white_stained_glass.png"
     }
   },
   {
@@ -6632,7 +6821,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_white.png",
+      "texture": "renders\\vanilla\\white_wool.png"
     }
   },
   {
@@ -6759,7 +6949,8 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
+      "texture": "renders\\vanilla\\yellow_carpet.png"
     }
   },
   {
@@ -6777,7 +6968,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_yellow.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_yellow.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_yellow.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_yellow.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_yellow.png",
+      "texture": "renders\\vanilla\\yellow_stained_glass.png"
     }
   },
   {
@@ -6824,7 +7016,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_yellow.png",
+      "texture": "renders\\vanilla\\yellow_wool.png"
     }
   }
 ]

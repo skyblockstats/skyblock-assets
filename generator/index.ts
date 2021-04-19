@@ -11,6 +11,7 @@ type XYXYArray = [ number, number, number, number ]
 type Direction = 'down' | 'up' | 'north' | 'south' | 'west' | 'east'
 
 let vanillaDamages: { [ key: string ]: string }
+let vanillaRenders: string[] = []
 
 interface ModelFace {
 	uv: XYXYArray,
@@ -71,7 +72,6 @@ async function* getFiles(dir: string): AsyncGenerator<string> {
 		return []
 	}
     for (const entry of entries) {
-        // const res = path.resolve(dir, entry.name)
         const res = path.join(dir, entry.name)
         if (entry.isDirectory()) {
             yield* getFiles(res)
@@ -339,12 +339,17 @@ async function addPack(packName: string) {
 			let minecraftItemName: string
 			let damage: number = 0
 
+			const fileItemName = itemName
+
 			// if possible, convert stuff like "pufferfish" to "fish" and 3
 			if (vanillaDamages[itemName])
 				[ itemName, damage ] = [ vanillaDamages[itemName].split(':')[0], parseInt(vanillaDamages[itemName].split(':')[1]) ]
 
 			minecraftItemName = `minecraft:${itemName}`
 
+			if (!model.textures.texture && vanillaRenders.includes(path.join('renders', 'vanilla', `${fileItemName}.png`))) {
+				model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
+			}
 			matchers.push({
 				matcher: {
 					items: [ minecraftItemName ],
@@ -367,6 +372,9 @@ async function makeDir(dir) {
 
 async function main() {
 	vanillaDamages = await readJsonFile('data/vanilla_damages.json')
+
+	for await (const dir of await getFiles('renders/vanilla'))
+		vanillaRenders.push(dir)
 
 	await makeDir('./textures')
 	await makeDir(`./matchers`)
