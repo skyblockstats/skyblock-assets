@@ -362,8 +362,15 @@ async function addPack(packName: string) {
 			const fileItemName = itemName
 
 			// if possible, convert stuff like "pufferfish" to "fish" and 3
-			if (vanillaDamages[itemName])
-				[ itemName, damage ] = [ vanillaDamages[itemName].split(':')[0], parseInt(vanillaDamages[itemName].split(':')[1]) ]
+			if (vanillaDamages[itemName]) {
+				const [ tempItemName, damageString ] = vanillaDamages[itemName].split(':')
+				itemName = tempItemName
+				try {
+					damage = parseInt(damageString)
+				} catch {
+					damage = undefined
+				}
+			}
 
 			minecraftItemName = `minecraft:${itemName}`
 

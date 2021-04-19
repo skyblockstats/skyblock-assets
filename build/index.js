@@ -81,7 +81,7 @@ async function checkMatches(options, matcher) {
     // check 'items'
     if (matcher.items && !matcher.items.includes(options.id))
         return false;
-    if (options.damage !== undefined && matcher.damage !== undefined && options.damage !== matcher.damage)
+    if (options.damage !== undefined && matcher.damage != undefined && options.damage !== matcher.damage)
         return false;
     // check nbt
     if (matcher.nbt) {

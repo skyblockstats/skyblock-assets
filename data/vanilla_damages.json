@@ -209,6 +209,6 @@
 	"dye_orange": "dye:14",
 	"dye_white": "dye:15",
 
-	"bottle_drinkable": "glass_bottle:0",
-	"bottle_splash": "splash_potion:0"
+	"bottle_drinkable": "potion",
+	"bottle_splash": "splash_potion"
 }

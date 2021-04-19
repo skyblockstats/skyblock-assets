@@ -716,9 +716,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:glass_bottle"
+        "minecraft:potion"
       ],
-      "damage": 0
+      "damage": null
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
@@ -731,7 +731,7 @@
       "items": [
         "minecraft:splash_potion"
       ],
-      "damage": 0
+      "damage": null
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potion_overlay.png",
