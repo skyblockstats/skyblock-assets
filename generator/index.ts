@@ -347,9 +347,10 @@ async function addPack(packName: string) {
 
 			minecraftItemName = `minecraft:${itemName}`
 
-			if (!model.textures.texture && vanillaRenders.includes(path.join('renders', 'vanilla', `${fileItemName}.png`))) {
+			if (vanillaRenders.includes(path.join('renders', 'vanilla', `${fileItemName}.png`))) {
 				model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
 			}
+
 			matchers.push({
 				matcher: {
 					items: [ minecraftItemName ],

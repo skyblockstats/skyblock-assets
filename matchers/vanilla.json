@@ -19,7 +19,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "texture": "renders\\vanilla\\acacia_fence.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_acacia.png"
     }
   },
@@ -31,7 +31,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_acacia.png",
+      "texture": "renders\\vanilla\\acacia_fence_gate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_acacia.png"
     }
   },
@@ -356,7 +356,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "texture": "renders\\vanilla\\birch_fence.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_birch.png"
     }
   },
@@ -368,7 +368,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_birch.png",
+      "texture": "renders\\vanilla\\birch_fence_gate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_birch.png"
     }
   },
@@ -1732,7 +1732,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "texture": "renders\\vanilla\\dark_oak_fence.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png"
     }
   },
@@ -1744,7 +1744,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png",
+      "texture": "renders\\vanilla\\dark_oak_fence_gate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_big_oak.png"
     }
   },
@@ -3536,7 +3536,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\iron_trapdoor.png",
+      "texture": "renders\\vanilla\\iron_trapdoor.png",
       "particle": "packs\\vanilla\\textures\\blocks\\iron_trapdoor.png"
     }
   },
@@ -3590,7 +3590,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "texture": "renders\\vanilla\\jungle_fence.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_jungle.png"
     }
   },
@@ -3602,7 +3602,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_jungle.png",
+      "texture": "renders\\vanilla\\jungle_fence_gate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_jungle.png"
     }
   },
@@ -4420,7 +4420,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\nether_brick.png",
+      "texture": "renders\\vanilla\\nether_brick_fence.png",
       "particle": "packs\\vanilla\\textures\\blocks\\nether_brick.png"
     }
   },
@@ -4513,7 +4513,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "texture": "renders\\vanilla\\oak_fence.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
     }
   },
@@ -4525,7 +4525,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "texture": "renders\\vanilla\\oak_fence_gate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
     }
   },
@@ -5989,7 +5989,7 @@
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\slime.png",
-      "texture": "packs\\vanilla\\textures\\blocks\\slime.png"
+      "texture": "renders\\vanilla\\slime.png"
     }
   },
   {
@@ -6194,7 +6194,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "texture": "renders\\vanilla\\spruce_fence.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_spruce.png"
     }
   },
@@ -6206,7 +6206,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_spruce.png",
+      "texture": "renders\\vanilla\\spruce_fence_gate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_spruce.png"
     }
   },
@@ -6439,7 +6439,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "texture": "renders\\vanilla\\stone_button.png",
       "particle": "packs\\vanilla\\textures\\blocks\\stone.png"
     }
   },
@@ -6492,7 +6492,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\stone.png",
+      "texture": "renders\\vanilla\\stone_pressure_plate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\stone.png"
     }
   },
@@ -6844,7 +6844,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "texture": "renders\\vanilla\\wooden_button.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
     }
   },
@@ -6878,7 +6878,7 @@
       "damage": 0
     },
     "textures": {
-      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
+      "texture": "renders\\vanilla\\wooden_pressure_plate.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
     }
   },
