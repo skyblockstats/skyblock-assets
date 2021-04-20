@@ -6,8 +6,6 @@ import * as path from 'path'
 type XYZArray = [ number, number, number ]
 type XYXYArray = [ number, number, number, number ]
 
-// TODO: generate renders for items with multiple layers (leather armor)
-
 type Direction = 'down' | 'up' | 'north' | 'south' | 'west' | 'east'
 
 let vanillaDamages: { [ key: string ]: string }
@@ -284,7 +282,6 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 			continue
 		}
 	}
-	// console.log(textures)
 
 	return {
 		matcher,
@@ -386,7 +383,6 @@ async function addPack(packName: string) {
 					}
 				}
 				const combinedPngBuffer = await combineLayers(layerDirs)
-				console.log(fileItemName)
 				const combinedPngDir = path.join('renders', 'vanilla', `${fileItemName}.png`)
 				// await fs.mkdir(path.dirname(apngDir), { recursive: true })
 				await fs.writeFile(combinedPngDir, combinedPngBuffer)

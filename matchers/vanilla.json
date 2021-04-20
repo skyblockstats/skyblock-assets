@@ -184,20 +184,22 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone_andesite_smooth.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone_andesite_smooth.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone_andesite_smooth.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone_andesite_smooth.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone_andesite_smooth.png",
+      "texture": "renders\\vanilla\\andesite_smooth.png"
     }
   },
   {
     "matcher": {
       "items": [
-        "minecraft:anvil_intact"
+        "minecraft:anvil"
       ],
-      "damage": 0
+      "damage": null
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
       "body": "packs\\vanilla\\textures\\blocks\\anvil_base.png",
-      "top": "packs\\vanilla\\textures\\blocks\\anvil_top_damaged_0.png"
+      "top": "packs\\vanilla\\textures\\blocks\\anvil_top_damaged_0.png",
+      "texture": "renders\\vanilla\\anvil_intact.png"
     }
   },
   {
@@ -304,7 +306,8 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\bed.png"
+      "layer0": "packs\\vanilla\\textures\\items\\bed.png",
+      "texture": "renders\\vanilla\\bed.png"
     }
   },
   {
@@ -524,7 +527,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_black.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_black.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_black.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_black.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_black.png",
+      "texture": "renders\\vanilla\\black_stained_hardened_clay.png"
     }
   },
   {
@@ -638,7 +642,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_blue.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_blue.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_blue.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_blue.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_blue.png",
+      "texture": "renders\\vanilla\\blue_stained_hardened_clay.png"
     }
   },
   {
@@ -964,7 +969,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_brown.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_brown.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_brown.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_brown.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_brown.png",
+      "texture": "renders\\vanilla\\brown_stained_hardened_clay.png"
     }
   },
   {
@@ -1065,8 +1071,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\chainmail_boots.png",
-      "texture": "renders\\vanilla\\chainmail_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chainmail_boots.png"
     }
   },
   {
@@ -1150,7 +1155,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
+      "texture": "renders\\vanilla\\chiseled_brick_monster_egg.png"
     }
   },
   {
@@ -1228,7 +1234,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_carved.png",
+      "texture": "renders\\vanilla\\chiseled_stonebrick.png"
     }
   },
   {
@@ -1503,7 +1510,7 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cooked_cod"
+        "minecraft:cooked_fish"
       ],
       "damage": 0
     },
@@ -1547,9 +1554,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:cooked_salmon"
+        "minecraft:cooked_fish"
       ],
-      "damage": 0
+      "damage": 1
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\fish_salmon_cooked.png"
@@ -1581,7 +1588,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
+      "texture": "renders\\vanilla\\cracked_brick_monster_egg.png"
     }
   },
   {
@@ -1599,7 +1607,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_cracked.png",
+      "texture": "renders\\vanilla\\cracked_stonebrick.png"
     }
   },
   {
@@ -1679,7 +1688,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_cyan.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_cyan.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_cyan.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_cyan.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_cyan.png",
+      "texture": "renders\\vanilla\\cyan_stained_hardened_clay.png"
     }
   },
   {
@@ -1876,9 +1886,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dead_bush"
+        "minecraft:deadbush"
       ],
-      "damage": 0
+      "damage": null
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\blocks\\deadbush.png"
@@ -2088,7 +2098,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone_diorite_smooth.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone_diorite_smooth.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone_diorite_smooth.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone_diorite_smooth.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone_diorite_smooth.png",
+      "texture": "renders\\vanilla\\diorite_smooth.png"
     }
   },
   {
@@ -3025,7 +3036,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stone_granite_smooth.png",
       "east": "packs\\vanilla\\textures\\blocks\\stone_granite_smooth.png",
       "south": "packs\\vanilla\\textures\\blocks\\stone_granite_smooth.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stone_granite_smooth.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stone_granite_smooth.png",
+      "texture": "renders\\vanilla\\granite_smooth.png"
     }
   },
   {
@@ -3120,7 +3132,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_gray.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_gray.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_gray.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_gray.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_gray.png",
+      "texture": "renders\\vanilla\\gray_stained_hardened_clay.png"
     }
   },
   {
@@ -3200,7 +3213,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_green.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_green.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_green.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_green.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_green.png",
+      "texture": "renders\\vanilla\\green_stained_hardened_clay.png"
     }
   },
   {
@@ -3248,7 +3262,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay.png",
+      "texture": "renders\\vanilla\\hardened_clay.png"
     }
   },
   {
@@ -3267,7 +3282,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hay_block_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\hay_block_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\hay_block_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hay_block_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hay_block_side.png",
+      "texture": "renders\\vanilla\\hay_block.png"
     }
   },
   {
@@ -3890,7 +3906,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_light_blue.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_light_blue.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_light_blue.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_light_blue.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_light_blue.png",
+      "texture": "renders\\vanilla\\light_blue_stained_hardened_clay.png"
     }
   },
   {
@@ -3982,7 +3999,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_lime.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_lime.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_lime.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_lime.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_lime.png",
+      "texture": "renders\\vanilla\\lime_stained_hardened_clay.png"
     }
   },
   {
@@ -4102,7 +4120,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_magenta.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_magenta.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_magenta.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_magenta.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_magenta.png",
+      "texture": "renders\\vanilla\\magenta_stained_hardened_clay.png"
     }
   },
   {
@@ -4244,7 +4263,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
+      "texture": "renders\\vanilla\\mossy_brick_monster_egg.png"
     }
   },
   {
@@ -4294,7 +4314,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick_mossy.png",
+      "texture": "renders\\vanilla\\mossy_stonebrick.png"
     }
   },
   {
@@ -4496,9 +4517,9 @@
   {
     "matcher": {
       "items": [
-        "minecraft:oak_fence"
+        "minecraft:fence"
       ],
-      "damage": 0
+      "damage": null
     },
     "textures": {
       "texture": "renders\\vanilla\\oak_fence.png",
@@ -4701,7 +4722,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_orange.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_orange.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_orange.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_orange.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_orange.png",
+      "texture": "renders\\vanilla\\orange_stained_hardened_clay.png"
     }
   },
   {
@@ -4856,7 +4878,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_pink.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_pink.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_pink.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_pink.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_pink.png",
+      "texture": "renders\\vanilla\\pink_stained_hardened_clay.png"
     }
   },
   {
@@ -5147,7 +5170,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_purple.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_purple.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_purple.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_purple.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_purple.png",
+      "texture": "renders\\vanilla\\purple_stained_hardened_clay.png"
     }
   },
   {
@@ -5235,7 +5259,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\quartz_ore.png",
       "east": "packs\\vanilla\\textures\\blocks\\quartz_ore.png",
       "south": "packs\\vanilla\\textures\\blocks\\quartz_ore.png",
-      "west": "packs\\vanilla\\textures\\blocks\\quartz_ore.png"
+      "west": "packs\\vanilla\\textures\\blocks\\quartz_ore.png",
+      "texture": "renders\\vanilla\\quartz_ore.png"
     }
   },
   {
@@ -5692,7 +5717,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_red.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_red.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_red.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_red.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_red.png",
+      "texture": "renders\\vanilla\\red_stained_hardened_clay.png"
     }
   },
   {
@@ -5894,13 +5920,14 @@
   {
     "matcher": {
       "items": [
-        "minecraft:silver_carpet"
+        "minecraft:carpet"
       ],
-      "damage": 0
+      "damage": 8
     },
     "textures": {
       "particle": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
-      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png"
+      "wool": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
+      "texture": "renders\\vanilla\\silver_carpet.png"
     }
   },
   {
@@ -5918,7 +5945,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\glass_silver.png",
       "east": "packs\\vanilla\\textures\\blocks\\glass_silver.png",
       "south": "packs\\vanilla\\textures\\blocks\\glass_silver.png",
-      "west": "packs\\vanilla\\textures\\blocks\\glass_silver.png"
+      "west": "packs\\vanilla\\textures\\blocks\\glass_silver.png",
+      "texture": "renders\\vanilla\\silver_stained_glass.png"
     }
   },
   {
@@ -5947,7 +5975,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_silver.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_silver.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_silver.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_silver.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_silver.png",
+      "texture": "renders\\vanilla\\silver_stained_hardened_clay.png"
     }
   },
   {
@@ -5965,7 +5994,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
       "east": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
       "south": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
-      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png"
+      "west": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
+      "texture": "renders\\vanilla\\silver_wool.png"
     }
   },
   {
@@ -6358,7 +6388,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "east": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "south": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
-      "west": "packs\\vanilla\\textures\\blocks\\stonebrick.png"
+      "west": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "texture": "renders\\vanilla\\stonebrick.png"
     }
   },
   {
@@ -6402,7 +6433,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "top": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
       "side": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\stonebrick.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\stonebrick.png",
+      "texture": "renders\\vanilla\\stone_brick_slab.png"
     }
   },
   {
@@ -6561,7 +6593,7 @@
   {
     "matcher": {
       "items": [
-        "minecraft:sunflower"
+        "minecraft:double_plant"
       ],
       "damage": 0
     },
@@ -6608,7 +6640,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\tnt_side.png",
       "east": "packs\\vanilla\\textures\\blocks\\tnt_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\tnt_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\tnt_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\tnt_side.png",
+      "texture": "renders\\vanilla\\tnt.png"
     }
   },
   {
@@ -6781,7 +6814,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_white.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_white.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_white.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_white.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_white.png",
+      "texture": "renders\\vanilla\\white_stained_hardened_clay.png"
     }
   },
   {
@@ -6987,7 +7021,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_yellow.png",
       "east": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_yellow.png",
       "south": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_yellow.png",
-      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_yellow.png"
+      "west": "packs\\vanilla\\textures\\blocks\\hardened_clay_stained_yellow.png",
+      "texture": "renders\\vanilla\\yellow_stained_hardened_clay.png"
     }
   },
   {

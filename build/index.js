@@ -109,6 +109,20 @@ async function getTextures(options) {
             }
         }
     }
+    // couldn't find anything the first time, we'll try again but without damages
+    for (const packName in matchers) {
+        // only check the matchers if we're checking this pack
+        if (options.pack === packName) {
+            const packMatchers = matchers[packName];
+            for (const packMatcherData of packMatchers) {
+                const packMatcher = packMatcherData.matcher;
+                packMatcher.damage = undefined;
+                const matches = await checkMatches(options, packMatcher);
+                if (matches)
+                    return packMatcherData.textures;
+            }
+        }
+    }
 }
 /** Get the URL for the texture for a SkyBlock item */
 async function getTextureUrl(options) {

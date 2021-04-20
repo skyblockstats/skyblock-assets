@@ -169,7 +169,7 @@
 	"lime_carpet": "carpet:5",
 	"pink_carpet": "carpet:6",
 	"gray_carpet": "carpet:7",
-	"light_gray_carpet": "carpet:8",
+	"silver_carpet": "carpet:8",
 	"cyan_carpet": "carpet:9",
 	"purple_carpet": "carpet:10",
 	"blue_carpet": "carpet:11",
@@ -178,6 +178,7 @@
 	"red_carpet": "carpet:14",
 	"black_carpet": "carpet:15",
 
+	"sunflower": "double_plant:0",
 	"syringa": "double_plant:1",
 	"double_grass": "double_plant:2",
 	"double_fern": "double_plant:3",
@@ -191,6 +192,9 @@
 	"salmon": "fish:1",
 	"clownfish": "fish:2",
 	"pufferfish": "fish:3",
+
+	"cooked_cod": "cooked_fish:0",
+	"cooked_salmon": "cooked_fish:1",
 
 	"dye_black": "dye:0",
 	"dye_red": "dye:1",
@@ -210,5 +214,11 @@
 	"dye_white": "dye:15",
 
 	"bottle_drinkable": "potion",
-	"bottle_splash": "splash_potion"
+	"bottle_splash": "splash_potion",
+
+	"anvil_intact": "anvil",
+
+	"dead_bush": "deadbush",
+
+	"oak_fence": "fence"
 }

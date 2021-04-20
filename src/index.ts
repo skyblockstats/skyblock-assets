@@ -3,6 +3,8 @@ import * as path from 'path'
 
 const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
 
+
+
 export interface NBT {
 	ExtraAttributes?: {
 		id?: string
@@ -122,6 +124,21 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 			for (const packMatcherData of packMatchers) {
 				const packMatcher: Matcher = packMatcherData.matcher
 
+				const matches = await checkMatches(options, packMatcher)
+				if (matches)
+					return packMatcherData.textures
+			}
+		}
+	}
+
+	// couldn't find anything the first time, we'll try again but without damages
+	for (const packName in matchers) {
+		// only check the matchers if we're checking this pack
+		if (options.pack === packName) {
+			const packMatchers = matchers[packName]
+			for (const packMatcherData of packMatchers) {
+				const packMatcher: Matcher = packMatcherData.matcher
+				packMatcher.damage = undefined
 				const matches = await checkMatches(options, packMatcher)
 				if (matches)
 					return packMatcherData.textures
