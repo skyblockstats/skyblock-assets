@@ -91,6 +91,8 @@ function objectsPartiallyMatch(obj, checkerObj) {
 }
 async function checkMatches(options, matcher) {
     // check 'items'
+    if (matcher.type === 'armor')
+        return false;
     if (matcher.items && !matcher.items.includes(options.id))
         return false;
     if (options.damage !== undefined && matcher.damage != undefined && options.damage !== matcher.damage)

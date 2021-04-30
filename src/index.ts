@@ -113,6 +113,8 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 
 async function checkMatches(options: Options, matcher: Matcher): Promise<boolean> {
 	// check 'items'
+	if (matcher.type === 'armor')
+		return false
 	if (matcher.items && !matcher.items.includes(options.id))
 		return false
 	if (options.damage !== undefined && matcher.damage != undefined && options.damage !== matcher.damage)
