@@ -1,0 +1,7 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "./null.png",
+        "layer1": "./c50.png"
+    }
+}

@@ -91,6 +91,10 @@ async function checkMatches(options, matcher) {
     return true;
 }
 async function getTextures(options) {
+    if (Object.keys(matchers).length === 0) {
+        // no matchers found, continue in 200ms because it'll probably have the matchers by then
+        await new Promise(resolve => setTimeout(resolve, 200));
+    }
     if (minecraftIds[options.id.split(':')[0]]) {
         options.damage = parseInt(options.id.split(':')[1]);
         options.id = minecraftIds[options.id.split(':')[0]];

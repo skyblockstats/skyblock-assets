@@ -1,0 +1,7106 @@
+[
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Frozen Blaze *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\frozenblaze_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\frozenblaze_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\frozenblaze_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\frozenblaze_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Angler *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\angler_layer_1.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\angler_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\angler_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\angler_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\angler_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Person *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\batperson_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\batperson_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\batperson_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\batperson_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Blaze *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\blaze_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\blaze_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\blaze_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\blaze_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cactus_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cactus_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cactus_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cactus_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cheap Tuxedo *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cheaptuxedo_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cheaptuxedo_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cheaptuxedo_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\cheaptuxedo_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Creeper Pants"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mob_layer_2.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mob_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Crystal *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\crystal_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\crystal_layer_2_overlay.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\crystal_layer_1_overlay.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\crystal_layer_2_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_helmet",
+        "minecraft:golden_chestplate",
+        "minecraft:golden_leggings",
+        "minecraft:golden_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Diver *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "gold_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\diver_layer_1.png",
+      "gold_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\diver_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Elegant Tuxedo *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\eleganttuxedo_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\eleganttuxedo_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\eleganttuxedo_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\eleganttuxedo_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_helmet",
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_leggings",
+        "minecraft:chainmail_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ember *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "chainmail_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\ember_layer_1.png",
+      "chainmail_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\ember_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\emerald_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\emerald_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\emerald_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\emerald_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_helmet",
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_leggings",
+        "minecraft:chainmail_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "chainmail_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\ender_layer_1.png",
+      "chainmail_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\ender_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fairy's *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fairy_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fairy_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fairy_layer_1_overlay.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fairy_layer_2_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fancy Tuxedo *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fancytuxedo_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fancytuxedo_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fancytuxedo_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\fancytuxedo_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Armor *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmarmor_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmarmor_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmarmor_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmarmor_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Suit *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmer_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmer_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmer_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmer_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farmer *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmerboots_layer_1.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\farmerboots_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_helmet",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_leggings",
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golem Armor *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "iron_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\golem_layer_1.png",
+      "iron_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\golem_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:* of Growth*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\growth_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\growth_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\growth_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\growth_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\hardened_layer_1.png",
+      "diamond_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\hardened_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\lapis_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\lapis_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\lapis_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\lapis_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\leaflet_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\leaflet_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\leaflet_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\leaflet_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\magma_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\magma_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\magma_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\magma_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_helmet",
+        "minecraft:golden_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mastiff *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "gold_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mastiff_layer_1.png",
+      "gold_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mastiff_layer_2.png",
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mastiff_layer_1.png",
+      "diamond_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mastiff_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\miner_layer_1.png",
+      "diamond_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\miner_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mineroutfit_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mineroutfit_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mineroutfit_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mineroutfit_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Skeleton's Helmet"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "iron_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mob_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Guardian Chestplate"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mob_layer_1.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mob_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mushroom_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mushroom_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mushroom_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mushroom_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Obsidian *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\obsidian_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\olddragon_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\olddragon_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\olddragon_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\olddragon_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Helmet of the Pack"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\packarmor_layer_1.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\packarmor_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Chestplate of the Pack"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\packarmor_layer_1.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\packarmor_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leggings of the Pack"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "iron_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\packarmor_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Boots of the Pack"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "iron_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\packarmor_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier I*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier1_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier X*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 10*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier XI*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 11*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier XII*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 12*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 1*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier1_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier II*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier1_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 2*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier1_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier III*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier1_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 3*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier1_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier IV*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier2_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 4*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier2_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier V*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier2_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 5*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier2_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier VI*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier2_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 6*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier2_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier VII*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier3_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 7*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier3_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier VIII*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier3_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 8*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier3_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier IX*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 9*"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier4_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_tier1_layer_1.png",
+      "diamond_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\perfect\\perfect_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\protectordragon_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\protectordragon_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\protectordragon_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\protectordragon_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pumpkin *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\pumpkin_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\pumpkin_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\pumpkin_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\pumpkin_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate",
+        "minecraft:chainmail_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\revenant_layer_1.png",
+      "diamond_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\revenant_layer_2.png",
+      "chainmail_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\revenant_layer_1.png",
+      "chainmail_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\revenant_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Snow Suit *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\snowsuit_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\snowsuit_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\snowsuit_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\snowsuit_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\speedster_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\speedster_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\speedster_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\speedster_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider's Boots"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "iron_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\mob_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sponge *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\sponge_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\sponge_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\sponge_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\sponge_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spooky *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\spooky_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\spooky_layer_2.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\spooky_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\spooky_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Squid *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\squidboots_layer_1.png",
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\squidboots_layer_1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Stereo Pants"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\stereopants_layer_2.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\stereopants_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\strongdragon_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\strongdragon_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\strongdragon_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\strongdragon_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\superiordragon_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\superiordragon_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\superiordragon_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\superiordragon_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:chainmail_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_2.png",
+      "chainmail_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_1.png",
+      "chainmail_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_2.png",
+      "iron_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_1.png",
+      "iron_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\tarantula_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\unstabledragon_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\unstabledragon_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\unstabledragon_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\unstabledragon_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\wisedragon_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\wisedragon_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\wisedragon_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\wisedragon_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "leather_layer_1_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\youngdragon_layer_1.png",
+      "leather_layer_2_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\youngdragon_layer_2.png",
+      "leather_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\youngdragon_layer_1.png",
+      "leather_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\youngdragon_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie *"
+        }
+      },
+      "type": "armor"
+    },
+    "textures": {
+      "diamond_layer_1": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\zombie_layer_1.png",
+      "diamond_layer_2": "packs\\ectoplasm\\mcpatcher\\cit\\armor\\zombie_layer_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Frozen Blaze Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\afrozenblaze\\frozenblaze_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\afrozenblaze\\frozenblaze_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Frozen Blaze Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\afrozenblaze\\frozenblaze_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\afrozenblaze\\frozenblaze_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Frozen Blaze Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\afrozenblaze\\frozenblaze_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\afrozenblaze\\frozenblaze_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Angler Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\angler\\angler_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\angler\\angler_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Angler Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\angler\\angler_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\angler\\angler_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Angler Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "diamond_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\angler\\angler_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Angler Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\angler\\angler_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\angler\\angler_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Person Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\batperson\\batperson_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\batperson\\batperson_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Person Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\batperson\\batperson_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\batperson\\batperson_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Person Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\batperson\\batperson_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\batperson\\batperson_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Blaze Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\blaze\\blaze_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\blaze\\blaze_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Blaze Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\blaze\\blaze_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\blaze\\blaze_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Blaze Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\blaze\\blaze_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\blaze\\blaze_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cactus Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cactus\\cactus_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cheap Tuxedo*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cheap Tuxedo Oxfords*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cheap Tuxedo Jacket*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cheap Tuxedo Pants*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\cheaptuxedo\\cheaptuxedo_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Crystal Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Crystal Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_chestplate_overlay.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Crystal Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_helmet_overlay.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Crystal Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\crystal\\crystal_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Diver's Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\diver\\diver_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Diver's Shirt*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\diver\\diver_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Diver's Trunks*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\diver\\diver_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon Boots"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\old_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon Chestplate"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\old_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Old Dragon Leggings"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\old_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon Boots"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\protector_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon Chestplate"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\protector_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Protector Dragon Leggings"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\protector_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon Boots"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\strong_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon Chestplate"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\strong_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Strong Dragon Leggings"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\strong_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon Boots"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\superior_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon Chestplate"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\superior_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Superior Dragon Leggings"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\superior_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon Boots"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\unstable_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon Chestplate"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\unstable_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Unstable Dragon Leggings"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\unstable_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon Boots"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\wise_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon Chestplate"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\wise_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wise Dragon Leggings"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\wise_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon Boots"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\young_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon Chestplate"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\young_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Young Dragon Leggings"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\young_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\dragon\\blank_overlay.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Elegant Tuxedo*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Elegant Tuxedo Oxfords*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Elegant Tuxedo Jacket*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Elegant Tuxedo Pants*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\eleganttuxedo\\eleganttuxedo_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ember Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\ember\\ember_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ember Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\ember\\ember_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ember Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\ember\\ember_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Armor Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\emerald\\emerald_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\ender\\ender_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\ender\\ender_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\ender\\ender_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fairy's Galoshes*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\overlay.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\fairy_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fairy's Fedora*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\overlay.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\fairy_hat.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fairy's Trousers*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\overlay.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\fairy_pants.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fairy's Polo*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\overlay.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fairy\\fairy_shirt.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fancy Tuxedo*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fancy Tuxedo Oxfords*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fancy Tuxedo Jacket*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fancy Tuxedo Pants*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\fancytuxedo\\fancytuxedo_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Armor Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Armor Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Armor Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Armor Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmarmor\\farmarmor_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Suit Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Suit Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Suit Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farm Suit Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer\\farmer_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farmer Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\farmer_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golem Armor Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\golem\\golem_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golem Armor Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\golem\\golem_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golem Armor Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\golem\\golem_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golem Armor Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\golem\\golem_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Boots of Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Chestplate of Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Helmet of Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leggings of Growth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\growth\\growth_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\hardened\\hardened_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\hardened\\hardened_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\hardened\\hardened_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hardened Diamond Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\hardened\\hardened_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\lapis\\lapis_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\lapis\\lapis_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\lapis\\lapis_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\lapis\\lapis_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Lapis Armor Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\lapis\\lapis_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\lapis\\lapis_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet Sandals*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\leaflet\\leaflet_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\leaflet\\leaflet_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet Tunic*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\leaflet\\leaflet_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\leaflet\\leaflet_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaflet Pants*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\leaflet\\leaflet_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\leaflet\\leaflet_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Armor of Magma Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\magma\\magma_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mastiff Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "diamond_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mastiff\\mastiff_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mastiff Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "gold_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mastiff\\mastiff_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mastiff Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "diamond_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mastiff\\mastiff_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\miner\\miner_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\miner\\miner_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\miner\\miner_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\miner\\miner_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Miner's Outfit Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mineroutfit\\mineroutfit_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Creeper Pants*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mob\\creeper_pants.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mob\\creeper_pants.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Guardian Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mob\\guardian_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mob\\guardian_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Skeleton's Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mob\\skeleton_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider's Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mob\\spider_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mushroom Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\mushroom\\mushroom_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Obsidian Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\obsidian_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\obsidian_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Boots of the Pack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\packarmor\\packarmor_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Chestplate of the Pack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\packarmor\\packarmor_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\packarmor\\packarmor_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Helmet of the Pack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\packarmor\\packarmor_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\packarmor\\packarmor_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leggings of the Pack*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\packarmor\\packarmor_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 10*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 11*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 12*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 1*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 2*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 3*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 4*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 5*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 6*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 7*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 8*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier 9*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\numbers\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier I*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier X*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier XI*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier XII*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier II*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier III*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier IV*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier V*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier VI*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier VII*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier VIII*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Chestplate - Tier IX*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_chestplate_tier4.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\perfect\\perfect_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pumpkin Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pumpkin Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pumpkin Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pumpkin Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\pumpkin\\pumpkin_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\revenant\\revenant_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\revenant\\revenant_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "chainmail_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\revenant\\revenant_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Snow Suit Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\snowsuit\\snowsuit_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\snowsuit\\snowsuit_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Snow Suit Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\snowsuit\\snowsuit_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\snowsuit\\snowsuit_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Snow Suit Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\snowsuit\\snowsuit_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\snowsuit\\snowsuit_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\speedster\\speedster_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sponge Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sponge Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sponge Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sponge Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\sponge\\sponge_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spooky Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\spooky\\spooky_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\spooky\\spooky_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spooky Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_chestplate_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\spooky\\spooky_chestplate.png",
+      "leather_chestplate": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\spooky\\spooky_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spooky Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\spooky\\spooky_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\spooky\\spooky_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Squid Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_boots_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\squid_boots.png",
+      "leather_boots": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\squid_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Stereo Pants*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\stereo_pants.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\stereo_pants.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\tarantula\\tarantula_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chainmail_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\tarantula\\tarantula_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_helmet"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Helmet*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_helmet_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\tarantula\\tarantula_helmet.png",
+      "leather_helmet": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\tarantula\\tarantula_helmet.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:leather_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "leather_leggings_overlay": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\tarantula\\tarantula_leggings.png",
+      "leather_leggings": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\tarantula\\tarantula_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Boots*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\zombie\\zombie_boots.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Chestplate*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\zombie\\zombie_chestplate.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Leggings*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\armor icon\\zombie\\zombie_leggings.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Birch Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_birch.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Deep Ocean Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_deep_ocean.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Desert Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_desert.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*End Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_end.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Forest Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_forest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Jungle Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_jungle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Nether Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_nether.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Roofed Forest Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_roofed_forest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Savanna Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_savanna.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Taiga Biome Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\biome_stick_taiga.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Weather Stick*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\biomesticks\\weather_stick.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Decent Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\decent_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\decent_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\decent_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\decent_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ender Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\ender_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\ender_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\ender_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\ender_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*End Stone Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\endstone_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\endstone_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\endstone_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\endstone_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Explosive Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\explosive_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\explosive_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\explosive_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\explosive_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hurricane Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\hurricane_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\hurricane_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\hurricane_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\hurricane_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Magma Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\magma_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\magma_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\magma_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\magma_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Mosquito Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\mosquito_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\mosquito_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\mosquito_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\mosquito_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Prismarine Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\prismarine_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\prismarine_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\prismarine_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\prismarine_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Runaan's Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\runaan's_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\runaan's_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\runaan's_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\runaan's_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Savanna Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\savanna_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\savanna_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\savanna_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\savanna_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Scorpion Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\scorpion_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\scorpion_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\scorpion_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\scorpion_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Slime Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\slime_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\slime_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\slime_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\slime_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bow"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wither Bow*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "bow_standby": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\wither_bow.png",
+      "bow_pulling_0": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\wither_bow_0.png",
+      "bow_pulling_1": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\wither_bow_1.png",
+      "bow_pulling_2": "packs\\ectoplasm\\mcpatcher\\cit\\bows\\wither_bow_2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Arrow Poison*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\arrow_poison.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_13"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Battle Disc*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\battle_disc.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fireworks"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat Firework*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\bat_firework.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:egg"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bridge Egg*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\bridge_egg.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Catalyst*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\catalyst.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Crystal Fragment*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\crystal_shard.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Day Crystal*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\day_crystal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Digested Mosquito*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\digested_mosquito.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Eternal Crystal*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\eternal_crystal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:enchanted_book"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Experience Artifact*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\experience_artifact.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Flycatcher*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\fly_catcher.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_shovel"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fly Swatter*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\fly_swatter.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:coal"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Foul Flesh*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\foul_flesh.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:glowstone_dust"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golden Powder*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\golden_powder.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_nugget"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golden Tooth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\golden_tooth.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Grand Experience Bottle*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\grand_xp_bottle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:book"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hot Potato Book*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\hot_potato_book.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:water_bucket"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Magical Water Bucket*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\magical_water_bucket.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Night Crystal*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\night_crystal.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:quartz"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Overflux Capacitor*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\overflux_capacitor.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spawn_egg"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Red Claw Egg*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\red_claw_egg.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:rotten_flesh"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Flesh*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\revenant_flesh.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_porkchop"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Viscera*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\revenant_viscera.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:nether_star"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Saving Grace*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\saving_grace.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Scythe Blade*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\scythe_blade.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_nugget"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Shiny Rock of Love*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\shiny_rock_of_love.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:gold_nugget"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Shiny Yellow Rock*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\shiny_yellow_rock.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_pearl"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Silent Pearl*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\silent_pearl.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dye"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Silky Lichen*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\silky_lichen.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_cat"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spooky Disc*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\spooky_disc.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:egg"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Stone Platform*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\stone_platform.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:web"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Silk*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\tarantula_silk.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:string"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tarantula Web*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\tarantula_web.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:experience_bottle"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Titanic Experience Bottle*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\titanic_xp_bottle.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:spawn_egg"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Training Dummy*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\training_dummy.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fish"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Voodoo Doll*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\voodoo_doll.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:bone"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Weak Wolf Catalyst*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\weak_wolf_catalyst.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:record_strad"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Winter Disc*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\winter_disc.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ghast_tear"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wolf Tooth*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\items\\wolf_tooth.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Budget Hopper*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\minionupgrades\\budget_hopper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Diamond Spreading*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\minionupgrades\\diamond_spreading.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Enchanted Hopper*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\minionupgrades\\enchanted_hopper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:lava_bucket"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Enchanted Lava Bucket*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\minionupgrades\\enchanted_lava_bucket.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Perfect Hopper*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\minionupgrades\\perfect_hopper.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Auger Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\auger_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\auger_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Challenging Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\challenging_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\challenging_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Farmer's Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\farmers_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\farmers_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Grappling Hook*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\grappling_hook.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\grappling_hook_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ice Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\ice_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\ice_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Prismarine Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\prismarine_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\prismarine_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rod of Champions*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\rod_of_champions.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\rod_of_champions_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rod of Legends*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\rod_of_legends.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\rod_of_legends_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Shredder*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\shredder.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\shredder_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Speedster Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\speedster_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\speedster_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sponge Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\sponge_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\sponge_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Winter Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\winter_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\winter_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fishing_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Yeti Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\yeti_rod.png",
+      "fishing_rod_cast": "packs\\ectoplasm\\mcpatcher\\cit\\rods\\yeti_rod_cast.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_fish"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Bat The Fish*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\bat_the_fish.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:painting"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Creative Mind*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\creative_mind.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:dead_bush"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Dead Bush of Love*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\dead_bush_of_love.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cooked_fish"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Flake The Fish*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\flake_the_fish.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fish"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Gift The Fish*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\gift_the_fish.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:cake"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*New Year Cake*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\new_year_cake.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fish"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Nope The Fish*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\nope_the_fish.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:map"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Quality Map*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\quality_map.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:fish"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Shrimp The Fish*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\shrimp_the_fish.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:pumpkin_pie"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spooky Pie*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\special\\spooky_pie.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Aspect of the Dragons*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\ectoplasm\\mcpatcher\\cit\\swords\\aspect_of_the_dragons.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Aspect of the End*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\aspect_of_the_end.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Aspect of the Jerry*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\aspect_of_the_jerry.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Cleaver*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\cleaver.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:mutton"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Edible Mace*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\edible_mace.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:blaze_rod"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ember Rod*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\ember_rod.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:emerald"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Emerald Blade*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\emerald_blade.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*End Stone Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\endstone_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*End Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\end_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Fancy Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\fancy_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Flaming Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\flaming_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Frozen Scythe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\frozen_scythe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Golem Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\golem_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Hunter Knife*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\hunter_knife.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Jungle Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\jungle_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Leaping Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\leaping_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Midas' Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\midas_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ornate Zombie Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\ornate_zombie_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pigman Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "renders\\ectoplasm\\mcpatcher\\cit\\swords\\pigman_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Pooch Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\pooch_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:prismarine_shard"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Prismarine Blade*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\prismarine_blade.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Raider Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\raider_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Reaper Falchion*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\reaper_falchion.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Reaper Scythe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\reaper_scythe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Recluse Fang*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\recluse_fang.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Revenant Falchion*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\revenant_falchion.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rogue Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\rogue_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Scorpion Foil*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\scorpion_foil.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Shaman Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\shaman_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Silk-Edge Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\silk_edge_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ghast_tear"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Silver Fang*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\silver_fang.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Spider Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\spider_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Tactician's Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\tacticians_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Undead Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\undead_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Yeti Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\yeti_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_sword"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Sword*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\swords\\zombie_sword.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Efficient Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\efficient_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_shovel"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Flint Shovel*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\flint_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wand of Healing*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\healing_wand.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Ink Wand*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\ink_wand.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:wooden_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Jungle Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\jungle_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wand Of Mending*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\mending_wand.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_axe_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Axe*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "1"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_axe_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Axe*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "2"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_axe_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Hoe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_hoe_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Hoe*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "1"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_hoe_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Hoe*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "2"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_hoe_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Pickaxe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_pickaxe_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Pickaxe*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "1"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_pickaxe_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Pickaxe*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "2"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_pickaxe_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_shovel"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Shovel*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_shovel_tier1.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_shovel"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Shovel*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "1"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_shovel_tier2.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_shovel"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Promising Shovel*"
+        },
+        "ExtraAttributes": {
+          "enchantments": {
+            "efficiency": "2"
+          }
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\promising_shovel_tier3.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stick"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Wand Of Restoration*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\restoration_wand.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rookie Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\rookie_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_hoe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rookie Hoe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\rookie_hoe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rookie Pickaxe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\rookie_pickaxe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_shovel"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Rookie Shovel*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\rookie_shovel.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:stone_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sculptor's Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\sculptors_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:golden_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Stonk*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\stonk.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_axe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Sweet Axe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\sweet_axe.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:hopper"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Weird Tuba*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\weird_tuba.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:iron_pickaxe"
+      ],
+      "nbt": {
+        "display": {
+          "Name": "ipattern:*Zombie Pickaxe*"
+        }
+      },
+      "type": "item"
+    },
+    "textures": {
+      "texture": "packs\\ectoplasm\\mcpatcher\\cit\\tools\\zombie_pickaxe.png"
+    }
+  }
+]

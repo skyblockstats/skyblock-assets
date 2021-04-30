@@ -82,7 +82,7 @@ async function* getFiles(dir: string): AsyncGenerator<string> {
 /** Parse a key=value file */
 async function readPropertiesFile(fileDir: string): Promise<{ [ key: string]: any }> {
 	const contents = {}
-	const fileContents = await fs.readFile(fileDir, { encoding: 'utf8' })
+	let fileContents: string = await fs.readFile(fileDir, { encoding: 'utf8' })
 	for (const line of fileContents.split('\n')) {
 		const [ key, value ] = line.split('=', 2)
 		if (!value) continue
@@ -129,10 +129,18 @@ function deepAssign(target, ...sources) {
 }
 
 async function readFullModel(baseDir: string, modelName: string, vanillaModelsDir: string, backupDir?: string): Promise<Model> {
-	let model = await readModelJson(baseDir, modelName, vanillaModelsDir, backupDir)
+	let model: Model
+	try {
+		model = await readModelJson(baseDir, modelName, vanillaModelsDir, backupDir)
+	} catch (err) {
+		console.warn(err)
+		return {
+			parent: null
+		}
+	}
 
 	// if the model has a parent, merge it with this model
-	if (model.parent && !model.parent.startsWith('builtin/')) {
+	if (model.parent && !model.parent.startsWith('builtin/') && model.parent !== 'item/generated') {
 		const modelParentName = model.parent.startsWith('minecraft:') ? model.parent.slice('minecraft:'.length) : model.parent
 		const modelParent = await readFullModel(baseDir, modelParentName, vanillaModelsDir, backupDir)
 
@@ -163,9 +171,10 @@ async function readModelJson(baseDir: string, modelName: string, vanillaModelsDi
 		return await readJsonFile(path.join(vanillaModelsDir, modelNameJson))
 	} catch {}
 	if (backupDir)
-		return await readJsonFile(path.join(backupDir, modelNameJson))
-	else
-		throw Error(`Couldn\'t find model. baseDir: ${baseDir}, modelName: ${modelName}, vanillaModelsDir: ${vanillaModelsDir}`)
+		try {
+			return await readJsonFile(path.join(backupDir, modelNameJson))
+		} catch {}
+	throw Error(`Couldn\'t find model. baseDir: ${baseDir}, modelName: ${modelName}, vanillaModelsDir: ${vanillaModelsDir}, backupDir: ${backupDir}`)
 }
 
 function setDotNotationAttribute(obj: any, path: string, value: any) {
@@ -335,6 +344,7 @@ async function addPack(packName: string) {
 	const customItemTextureDirs = await getFiles(`${packSourceDir}/mcpatcher/cit`)
 	for await (const textureDir of customItemTextureDirs) {
 		if (textureDir.endsWith('.properties')) {
+			console
 			const item = await getItemFromCIT(packSourceDir, outputDir, textureDir, vanillaDir)
 			matchers.push(item)
 		}
@@ -438,7 +448,7 @@ async function addPack(packName: string) {
 
 async function makeDir(dir) {
 	try {
-		await fs.rmdir(dir, { recursive: true })
+		await fs.rm(dir, { recursive: true })
 	} catch {}
 	await fs.mkdir(dir)
 }
@@ -452,8 +462,11 @@ async function main() {
 	await makeDir('./textures')
 	await makeDir(`./matchers`)
 
-	await addPack('packshq')
-	await addPack('furfsky')
+	await addPack('ectoplasm') // completionists update
+	await addPack('furfsky') // idk
+	await addPack('furfsky_reborn') // 1.2.6
+	await addPack('packshq') // idk
+	await addPack('rnbw') // 0.6.0
 	await addPack('vanilla')
 }
 
