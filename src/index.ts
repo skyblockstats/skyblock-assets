@@ -24,7 +24,7 @@ interface Matcher {
 }
 
 export interface Options {
-	pack: 'vanilla' | 'packshq' | 'furfsky'
+	pack: 'ectoplasn' | 'furfsky_reborn' | 'furfsky' | 'packshq' | 'rnbw' | 'vanilla' | string
 	id: string
 	damage?: number
 	nbt: NBT

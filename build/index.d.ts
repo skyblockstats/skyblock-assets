@@ -9,8 +9,9 @@ export interface NBT {
     [key: string]: string | number | any;
 }
 export interface Options {
-    pack: 'vanilla' | 'packshq' | 'furfsky';
+    pack: 'ectoplasn' | 'furfsky_reborn' | 'furfsky' | 'packshq' | 'rnbw' | 'vanilla' | string;
     id: string;
+    damage?: number;
     nbt: NBT;
 }
 /** Get the URL for the texture for a SkyBlock item */
