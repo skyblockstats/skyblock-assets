@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/skyblockstats/skyblock-assets#readme",
   "devDependencies": {
+    "@types/node": "^15.0.1",
     "canvas": "^2.7.0",
-    "crc": "^3.8.0"
+    "crc": "^3.8.0",
+    "typescript": "^4.2.4"
   }
 }
