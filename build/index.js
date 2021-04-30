@@ -62,11 +62,23 @@ function objectsPartiallyMatch(obj, checkerObj) {
             const checkerPattern = checkerValue.slice('ipattern:'.length);
             checkerRegex = new RegExp('^' + checkerPattern
                 .replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
+                .replace(/\*/g, '.*') + '$', 'i');
+        }
+        else if (typeof checkerValue === 'string' && checkerValue.startsWith('pattern:')) {
+            // creating a bunch of regexps is fine since v8 caches them
+            const checkerPattern = checkerValue.slice('pattern:'.length);
+            checkerRegex = new RegExp('^' + checkerPattern
+                .replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
                 .replace(/\*/g, '.*') + '$');
         }
         else if (typeof checkerValue === 'string' && checkerValue.startsWith('iregex:')) {
             // creating a bunch of regexps is fine since v8 caches them
             const checkerPattern = checkerValue.slice('iregex:'.length);
+            checkerRegex = new RegExp('^' + checkerPattern + '$', 'i');
+        }
+        else if (typeof checkerValue === 'string' && checkerValue.startsWith('regex:')) {
+            // creating a bunch of regexps is fine since v8 caches them
+            const checkerPattern = checkerValue.slice('regex:'.length);
             checkerRegex = new RegExp('^' + checkerPattern + '$');
         }
         if (checkerRegex) {
