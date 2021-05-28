@@ -441,6 +441,12 @@ async function addPack(packName: string) {
 				texture: path.join('renders', 'vanilla', 'creeper_head.png')
 			}
 		})
+		matchers.push({
+			matcher: { items: [ 'minecraft:chest' ] },
+			textures: {
+				texture: path.join('renders', 'vanilla', 'chest.png')
+			}
+		})
 	}
 
 	await writeJsonFile(path.join(outputDir, `${packName}.json`), matchers)

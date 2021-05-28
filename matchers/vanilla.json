@@ -7098,5 +7098,15 @@
     "textures": {
       "texture": "renders\\vanilla\\creeper_head.png"
     }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:chest"
+      ]
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\chest.png"
+    }
   }
 ]

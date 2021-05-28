@@ -1,15 +1,20 @@
 {
     "parent": "block/orientable",
     "textures": {
-        "top": "mcpatcher/cit/armor/lapis/lapis_helm_top",
-        "front": "mcpatcher/cit/armor/lapis/lapis_helm_front",
-        "side": "mcpatcher/cit/armor/lapis/lapis_helm_side"
+        "top": "./lapis_helm_top",
+        "front": "./lapis_helm_front",
+        "side": "./lapis_helm_side"
     },
     "display": {
         "thirdperson": {
-            "rotation": [ 10, -45, 170 ],
-            "translation": [ 0, 1.5, -2.75 ],
-            "scale": [ 0.375, 0.375, 0.375 ]
+            "rotation": [ 0, -45, 180 ],
+            "translation": [ 0, 1, -2.75 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+    "firstperson": {
+            "rotation": [ 0, -90, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
         },
         "gui": {
             "rotation": [ 0, 0, 0 ],
