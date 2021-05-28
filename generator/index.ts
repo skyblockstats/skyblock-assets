@@ -469,7 +469,7 @@ async function main() {
 	await makeDir(`./matchers`)
 
 	await addPack('ectoplasm') // completionists update
-	await addPack('furfsky') // idk
+	await addPack('furfsky') // 1.7.1
 	await addPack('furfsky_reborn') // 1.2.6
 	await addPack('packshq') // idk
 	await addPack('rnbw') // 0.6.0
