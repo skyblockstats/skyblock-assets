@@ -1,6 +1,6 @@
 {
   "name": "skyblock-assets",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "TypeScript library for getting urls (hosted on GitHub) to Hypixel SkyBlock item images from several resource packs.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
