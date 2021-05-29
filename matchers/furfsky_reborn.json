@@ -8506,7 +8506,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\item\\accessories\\melody_hair\\melody_hair.png.png"
+      "texture": "renders\\furfsky_reborn\\mcpatcher\\cit\\item\\accessories\\melody_hair\\melody_hair.png"
     }
   },
   {

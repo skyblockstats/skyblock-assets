@@ -267,12 +267,14 @@ async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir:
 
 	if (typeof propertiesTexture === 'string') {
 		let newTexture = path.join(path.dirname(propertiesDir), propertiesTexture)
-		if (!newTexture.endsWith('.png')) newTexture += '.png'
+		if (newTexture.endsWith('.png.png')) newTexture = newTexture.slice(0, newTexture.length - 4)
+		else if (!newTexture.endsWith('.png')) newTexture += '.png'
 		textures.texture = newTexture
 	} else if (propertiesTexture) {
 		const newTextures = {}
 		for (let [ key, value ] of Object.entries(propertiesTexture)) {
-			if (!value.endsWith('.png')) value += '.png'
+			if (value.endsWith('.png.png')) value = value.slice(0, value.length - 4)
+			else if (!value.endsWith('.png')) value += '.png'
 			newTextures[key] = path.join(path.dirname(propertiesDir), value as string)
 		}
 		textures = { ...newTextures }
@@ -358,7 +360,8 @@ async function addPack(packName: string) {
 		if (model.textures) {
 			const newTextures = {}
 			for (let [ key, value ] of Object.entries(model.textures)) {
-				if (!value.endsWith('.png')) value += '.png'
+				if (value.endsWith('.png.png')) value = value.slice(0, value.length - 4)
+				else if (!value.endsWith('.png')) value += '.png'
 				newTextures[key] = path.join(packSourceDir, 'textures', value)
 			}
 			model.textures = { ...newTextures }
