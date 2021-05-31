@@ -19,10 +19,10 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getTextureUrl = exports.waitUntilReady = exports.minecraftIds = void 0;
+exports.getTextureUrl = exports.waitUntilReady = exports.minecraftIds = exports.baseUrl = void 0;
 const fs_1 = require("fs");
 const path = __importStar(require("path"));
-const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main';
+exports.baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main';
 /** Read the contents of a json file */
 async function readJsonFile(fileDir) {
     const fileContents = await fs_1.promises.readFile(path.join(__dirname, fileDir), { encoding: 'utf8' });
@@ -164,8 +164,9 @@ async function getTextureUrl(options) {
         });
     }
     if (!texturePath)
-        return null;
-    return baseUrl + '/' + texturePath.replace(/\\/g, '/');
+        return exports.baseUrl + '/renders/error.png';
+    else
+        return exports.baseUrl + '/' + texturePath.replace(/\\/g, '/');
 }
 exports.getTextureUrl = getTextureUrl;
 init();

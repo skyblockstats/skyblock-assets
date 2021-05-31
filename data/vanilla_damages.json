@@ -71,12 +71,16 @@
 	"pink_tulip": "red_flower:7",
 	"oxeye_daisy": "red_flower:8",
 
+	"dandelion": "yellow_flower:0",
+
 	"sandstone_slab": "stone_slab:1",
 	"cobblestone_slab": "stone_slab:3",
 	"brick_slab": "stone_slab:4",
 	"stone_brick_slab": "stone_slab:5",
 	"nether_brick_slab": "stone_slab:6",
 	"quartz_slab": "stone_slab:7",
+
+	"red_sandstone_slab": "stone_slab2:0",
 
 	"white_stained_glass": "stained_glass:0",
 	"orange_stained_glass": "stained_glass:1",
@@ -220,5 +224,27 @@
 
 	"dead_bush": "deadbush",
 
-	"oak_fence": "fence"
+	"oak_fence": "fence",
+
+	"oak_door": "wooden_door",
+
+	"oak_fence_gate": "fence_gate",
+
+	"banner": "banner:0",
+	"black_banner": "banner:0",
+	"red_banner": "banner:1",
+	"green_banner": "banner:2",
+	"brown_banner": "banner:3",
+	"blue_banner": "banner:4",
+	"purple_banner": "banner:5",
+	"cyan_banner": "banner:6",
+	"light_gray_banner": "banner:7",
+	"gray_banner": "banner:8",
+	"pink_banner": "banner:9",
+	"lime_banner": "banner:10",
+	"yellow_banner": "banner:11",
+	"light_blue_banner": "banner:12",
+	"magenta_banner": "banner:13",
+	"orange_banner": "banner:14",
+	"white_banner": "banner:15"
 }

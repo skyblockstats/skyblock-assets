@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs'
 import * as path from 'path'
 
-const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
 
 
 
@@ -200,8 +200,10 @@ export async function getTextureUrl(options: Options): Promise<string> {
 			pack: 'vanilla'
 		})
 	}
-	if (!texturePath) return null
-	return baseUrl + '/' + texturePath.replace(/\\/g, '/')
+	if (!texturePath)
+		return baseUrl + '/renders/error.png'
+	else
+		return baseUrl + '/' + texturePath.replace(/\\/g, '/')
 }
 
 init()

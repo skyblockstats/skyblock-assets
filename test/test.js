@@ -5,17 +5,33 @@ describe('skyblock-assets', () => {
     describe('#getTextureUrl()', () => {
         it('Checks every vanilla item', async() => {
             await skyblockAssets.waitUntilReady()
-            const texturelessItems = new Set([ 'minecraft:air' ])
+            const itemlessBlocks = new Set([
+                'air', 'water', 'flowing_water', 'lava', 'flowing_lava', 'piston_head', 'double_stone_slab',
+                'fire', 'redstone_wire', 'lit_furnace', 'standing_sign', 'wall_sign', 'lit_redstone_ore',
+                'unlit_redstone_torch', 'portal', 'unpowered_repeater', 'powered_repeater', 'pumpkin_stem',
+                'melon_stem', 'end_portal', 'lit_redstone_lamp', 'double_wooden_slab', 'cocoa', 'carrots',
+                'potatoes', 'unpowered_comparator', 'powered_comparator', 'standing_banner', 'wall_banner',
+                'daylight_detector_inverted', 'double_stone_slab2'
+            ])
             for (const item of Object.values(skyblockAssets.minecraftIds)) {
-                if (texturelessItems.has(item)) continue
+                if (itemlessBlocks.has(item.slice('minecraft:'.length))) continue
                 const itemTextureUrl = await skyblockAssets.getTextureUrl({
                     id: item,
                     nbt: {},
                     pack: 'vanilla',
                 })
-                console.log(item, itemTextureUrl)
-                assert.ok(itemTextureUrl, `Couldn't find texture for ${item}`)
+                assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png', `Couldn't find texture for ${item}`)
             }
+        })
+
+        it('Make sure lit furnace is null', async() => {
+            // not like anyone's actually gonna have this, but i want it to be 100% correct
+            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                id: 'minecraft:lit_furnace',
+                nbt: {},
+                pack: 'vanilla',
+            })
+            assert.strictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png')
         })
     })
 })

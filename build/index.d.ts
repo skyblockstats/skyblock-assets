@@ -1,3 +1,4 @@
+export declare const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main";
 export interface NBT {
     ExtraAttributes?: {
         id?: string;

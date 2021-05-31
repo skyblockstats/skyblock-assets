@@ -222,6 +222,15 @@ async function createAPng(textureFileName: string, frameTime: number): Promise<B
 	return await makeApng(frameBuffers, (index) => ({ numerator: frameTime, denominator: 20 * 1000 }))
 }
 
+async function makeAnimationFromMcmeta(textureFileName: string): Promise<string> {
+	const textureProperties = await readJsonFile(textureFileName + '.mcmeta')
+	const apng = await createAPng(textureFileName, textureProperties.animation.frametime)
+	const apngDir = textureFileName.replace(/^packs\\/, 'renders\\')
+	await fs.mkdir(path.dirname(apngDir), { recursive: true })
+	await fs.writeFile(apngDir, apng)
+	return apngDir
+}
+
 async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir: string): Promise<MatcherTextures> {
 	const properties = await readPropertiesFile(propertiesDir)
 
@@ -283,11 +292,7 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 	// we read the .png.mcmeta file to see if there's animations
 	for (const [ textureName, textureFileName ] of Object.entries(textures)) {
 		try {
-			const textureProperties = await readJsonFile(textureFileName + '.mcmeta')
-			const apng = await createAPng(textureFileName, textureProperties.animation.frametime)
-			const apngDir = textureFileName.replace(/^packs\\/, 'renders\\')
-			await fs.mkdir(path.dirname(apngDir), { recursive: true })
-			await fs.writeFile(apngDir, apng)
+			const apngDir = await makeAnimationFromMcmeta(textureFileName)
 			textures[textureName] = apngDir
 		} catch {
 			continue
@@ -333,6 +338,17 @@ async function combineLayers(directories: string[]): Promise<Buffer> {
 	return canvas.toBuffer()
 }
 
+/*
+How it finds matchers:
+- Check /mcpatcher/cit and get all the files that end in .properties, this is easy
+- Check /models/item and extract the entire models from there
+	- Get the textures from here, these might be replaced
+	- Extract the item name from the model file name
+		- If the model file name is in vanilla_damages, use the one from there as the item name
+		- If the model file name is in renders, use that as the texture
+		- If the pack is vanilla and layer1 is a texture, render it as an apng
+- If it's vanilla, manually add some
+*/
 
 async function addPack(packName: string) {
 	const packSourceDir = `./packs/${packName}`
@@ -346,7 +362,6 @@ async function addPack(packName: string) {
 	const customItemTextureDirs = await getFiles(`${packSourceDir}/mcpatcher/cit`)
 	for await (const textureDir of customItemTextureDirs) {
 		if (textureDir.endsWith('.properties')) {
-			console
 			const item = await getItemFromCIT(packSourceDir, textureDir, vanillaDir)
 			matchers.push(item)
 		}
@@ -357,6 +372,12 @@ async function addPack(packName: string) {
 	for await (const modelDir of itemModelDirs) {
 		let itemName: string = path.basename(modelDir).split('.')[0]
 		const model = await readFullModel(packSourceDir, `item/${itemName}`, path.join(vanillaDir, 'models'))
+
+		const fileItemName = itemName
+
+		let minecraftItemName: string = `minecraft:${itemName}`
+		let damage: number = 0
+
 		if (model.textures) {
 			const newTextures = {}
 			for (let [ key, value ] of Object.entries(model.textures)) {
@@ -366,10 +387,6 @@ async function addPack(packName: string) {
 			}
 			model.textures = { ...newTextures }
 
-			let minecraftItemName: string
-			let damage: number = 0
-
-			const fileItemName = itemName
 
 			// if possible, convert stuff like "pufferfish" to "fish" and 3
 			if (vanillaDamages[itemName]) {
@@ -384,11 +401,7 @@ async function addPack(packName: string) {
 
 			minecraftItemName = `minecraft:${itemName}`
 
-			if (vanillaRenders.includes(path.join('renders', 'vanilla', `${fileItemName}.png`))) {
-				model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
-			}
-
-			else if (packName === 'vanilla' && !model.textures.texture && model.textures.layer1) {
+			if (packName === 'vanilla' && !model.textures.texture && model.textures.layer1) {
 				const layerDirs = []
 				for (let i = 0; i < Object.keys(model.textures).length; i ++) {
 					if (model.textures[`layer${i}`]) {
@@ -402,54 +415,70 @@ async function addPack(packName: string) {
 				model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
 			}
 
-			matchers.push({
-				matcher: {
-					items: [ minecraftItemName ],
-					damage: damage
-				},
-				textures: model.textures
-			})
+		} else {
+			model.textures = {}
 		}
+		if (vanillaRenders.includes(path.join('renders', 'vanilla', `${fileItemName}.png`))) {
+			model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
+		}
+
+		matchers.push({
+			matcher: {
+				items: [ minecraftItemName ],
+				damage: damage
+			},
+			textures: model.textures
+		})
 	}
 
-	// add vanilla skulls that weren't auto matched
+	/** Add an item to the matchers while potentially rendering the animation if necessary */
+	async function addItemToMatchers(matcher: Matcher, textureDir: string) {
+		try {
+			textureDir = await makeAnimationFromMcmeta(textureDir)
+		} catch {}
+		matchers.push({
+			matcher,
+			textures: {
+				texture: textureDir
+			}
+		})
+	}
+
+	// add wacky items that aren't in models
 	if (packName === 'vanilla') {
-		matchers.push({
-			matcher: { items: [ 'minecraft:skull' ], damage: 0 },
-			textures: {
-				texture: path.join('renders', 'vanilla', 'skeleton_skull.png')
-			}
-		})
-		matchers.push({
-			matcher: { items: [ 'minecraft:skull' ], damage: 1 },
-			textures: {
-				texture: path.join('renders', 'vanilla', 'wither_skeleton_skull.png')
-			}
-		})
-		matchers.push({
-			matcher: { items: [ 'minecraft:skull' ], damage: 2 },
-			textures: {
-				texture: path.join('renders', 'vanilla', 'zombie_head.png')
-			}
-		})
-		matchers.push({
-			matcher: { items: [ 'minecraft:skull' ], damage: 3 },
-			textures: {
-				texture: path.join('renders', 'vanilla', 'head.png')
-			}
-		})
-		matchers.push({
-			matcher: { items: [ 'minecraft:skull' ], damage: 4 },
-			textures: {
-				texture: path.join('renders', 'vanilla', 'creeper_head.png')
-			}
-		})
-		matchers.push({
-			matcher: { items: [ 'minecraft:chest' ] },
-			textures: {
-				texture: path.join('renders', 'vanilla', 'chest.png')
-			}
-		})
+		await addItemToMatchers(
+			{ items: [ 'minecraft:skull' ], damage: 0 },
+			path.join('renders', 'vanilla', 'skeleton_skull.png')
+		)
+		await addItemToMatchers(
+			{ items: [ 'minecraft:skull' ], damage: 1 },
+			path.join('renders', 'vanilla', 'wither_skeleton_skull.png')
+		)
+		await addItemToMatchers(
+			{ items: [ 'minecraft:skull' ], damage: 2 },
+			path.join('renders', 'vanilla', 'zombie_head.png')
+		)
+		await addItemToMatchers(
+			{ items: [ 'minecraft:skull' ], damage: 3 },
+			path.join('renders', 'vanilla', 'head.png')
+		)
+		await addItemToMatchers(
+			{ items: [ 'minecraft:skull' ], damage: 4 },
+			path.join('renders', 'vanilla', 'creeper_head.png')
+		)
+		// for some reason mojang decided to not put chests in models
+		await addItemToMatchers(
+			{ items: [ 'minecraft:chest' ] },
+			path.join('renders', 'vanilla', 'chest.png')
+		)
+		await addItemToMatchers(
+			{ items: [ 'minecraft:ender_chest' ] },
+			path.join('renders', 'vanilla', 'ender_chest.png')
+		)
+		await addItemToMatchers(
+			{ items: [ 'minecraft:trapped_chest' ] },
+			path.join('renders', 'vanilla', 'trapped_chest.png')
+		)
 	}
 
 	await writeJsonFile(path.join(outputDir, `${packName}.json`), matchers)

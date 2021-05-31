@@ -7,8 +7,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\door_acacia.png",
-      "texture": "renders\\vanilla\\acacia_door.png"
+      "layer0": "packs\\vanilla\\textures\\items\\door_acacia.png"
     }
   },
   {
@@ -270,6 +269,17 @@
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\potato_baked.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:banner"
+      ],
+      "damage": 0
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\banner.png"
     }
   },
   {
@@ -847,7 +857,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\brick.png",
       "east": "packs\\vanilla\\textures\\blocks\\brick.png",
       "south": "packs\\vanilla\\textures\\blocks\\brick.png",
-      "west": "packs\\vanilla\\textures\\blocks\\brick.png"
+      "west": "packs\\vanilla\\textures\\blocks\\brick.png",
+      "texture": "renders\\vanilla\\brick_block.png"
     }
   },
   {
@@ -1121,6 +1132,17 @@
   {
     "matcher": {
       "items": [
+        "minecraft:chest"
+      ],
+      "damage": 0
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
         "minecraft:chest_minecart"
       ],
       "damage": 0
@@ -1253,7 +1275,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\clay.png",
       "east": "packs\\vanilla\\textures\\blocks\\clay.png",
       "south": "packs\\vanilla\\textures\\blocks\\clay.png",
-      "west": "packs\\vanilla\\textures\\blocks\\clay.png"
+      "west": "packs\\vanilla\\textures\\blocks\\clay.png",
+      "texture": "renders\\vanilla\\clay.png"
     }
   },
   {
@@ -1714,7 +1737,7 @@
   {
     "matcher": {
       "items": [
-        "minecraft:dandelion"
+        "minecraft:yellow_flower"
       ],
       "damage": 0
     },
@@ -2467,7 +2490,19 @@
       "particle": "packs\\vanilla\\textures\\blocks\\enchanting_table_bottom.png",
       "bottom": "packs\\vanilla\\textures\\blocks\\enchanting_table_bottom.png",
       "top": "packs\\vanilla\\textures\\blocks\\enchanting_table_top.png",
-      "side": "packs\\vanilla\\textures\\blocks\\enchanting_table_side.png"
+      "side": "packs\\vanilla\\textures\\blocks\\enchanting_table_side.png",
+      "texture": "renders\\vanilla\\enchanting_table.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_chest"
+      ],
+      "damage": 0
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\ender_chest.png"
     }
   },
   {
@@ -4060,7 +4095,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\pumpkin_face_on.png",
       "east": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
       "south": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
-      "west": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png"
+      "west": "packs\\vanilla\\textures\\blocks\\pumpkin_side.png",
+      "texture": "renders\\vanilla\\lit_pumpkin.png"
     }
   },
   {
@@ -4246,7 +4282,8 @@
       "north": "packs\\vanilla\\textures\\blocks\\mob_spawner.png",
       "east": "packs\\vanilla\\textures\\blocks\\mob_spawner.png",
       "south": "packs\\vanilla\\textures\\blocks\\mob_spawner.png",
-      "west": "packs\\vanilla\\textures\\blocks\\mob_spawner.png"
+      "west": "packs\\vanilla\\textures\\blocks\\mob_spawner.png",
+      "texture": "renders\\vanilla\\mob_spawner.png"
     }
   },
   {
@@ -4501,15 +4538,16 @@
       "north": "packs\\vanilla\\textures\\blocks\\noteblock.png",
       "east": "packs\\vanilla\\textures\\blocks\\noteblock.png",
       "south": "packs\\vanilla\\textures\\blocks\\noteblock.png",
-      "west": "packs\\vanilla\\textures\\blocks\\noteblock.png"
+      "west": "packs\\vanilla\\textures\\blocks\\noteblock.png",
+      "texture": "renders\\vanilla\\noteblock.png"
     }
   },
   {
     "matcher": {
       "items": [
-        "minecraft:oak_door"
+        "minecraft:wooden_door"
       ],
-      "damage": 0
+      "damage": null
     },
     "textures": {
       "layer0": "packs\\vanilla\\textures\\items\\door_wood.png"
@@ -4530,12 +4568,12 @@
   {
     "matcher": {
       "items": [
-        "minecraft:oak_fence_gate"
+        "minecraft:fence_gate"
       ],
-      "damage": 0
+      "damage": null
     },
     "textures": {
-      "texture": "renders\\vanilla\\oak_fence_gate.png",
+      "texture": "packs\\vanilla\\textures\\blocks\\planks_oak.png",
       "particle": "packs\\vanilla\\textures\\blocks\\planks_oak.png"
     }
   },
@@ -5646,7 +5684,7 @@
   {
     "matcher": {
       "items": [
-        "minecraft:red_sandstone_slab"
+        "minecraft:stone_slab2"
       ],
       "damage": 0
     },
@@ -5998,6 +6036,51 @@
       "west": "packs\\vanilla\\textures\\blocks\\wool_colored_silver.png",
       "texture": "renders\\vanilla\\silver_wool.png"
     }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull_char"
+      ],
+      "damage": 0
+    },
+    "textures": {}
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull_creeper"
+      ],
+      "damage": 0
+    },
+    "textures": {}
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull_skeleton"
+      ],
+      "damage": 0
+    },
+    "textures": {}
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull_wither"
+      ],
+      "damage": 0
+    },
+    "textures": {}
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:skull_zombie"
+      ],
+      "damage": 0
+    },
+    "textures": {}
   },
   {
     "matcher": {
@@ -6555,7 +6638,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
       "top": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
       "side": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
-      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone.png"
+      "particle": "packs\\vanilla\\textures\\blocks\\cobblestone.png",
+      "texture": "renders\\vanilla\\stone_stairs.png"
     }
   },
   {
@@ -6677,6 +6761,17 @@
     "textures": {
       "texture": "packs\\vanilla\\textures\\blocks\\trapdoor.png",
       "particle": "packs\\vanilla\\textures\\blocks\\trapdoor.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:trapped_chest"
+      ],
+      "damage": 0
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\trapped_chest.png"
     }
   },
   {
@@ -7108,6 +7203,26 @@
     },
     "textures": {
       "texture": "renders\\vanilla\\chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:ender_chest"
+      ]
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\ender_chest.png"
+    }
+  },
+  {
+    "matcher": {
+      "items": [
+        "minecraft:trapped_chest"
+      ]
+    },
+    "textures": {
+      "texture": "renders\\vanilla\\trapped_chest.png"
     }
   }
 ]
