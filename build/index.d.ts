@@ -14,5 +14,9 @@ export interface Options {
     damage?: number;
     nbt: NBT;
 }
+export declare let minecraftIds: {
+    [key: string]: string;
+};
+export declare function waitUntilReady(): Promise<void>;
 /** Get the URL for the texture for a SkyBlock item */
 export declare function getTextureUrl(options: Options): Promise<string>;

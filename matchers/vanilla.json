@@ -3052,7 +3052,8 @@
       "bottom": "packs\\vanilla\\textures\\blocks\\dirt.png",
       "top": "packs\\vanilla\\textures\\blocks\\grass_top.png",
       "side": "packs\\vanilla\\textures\\blocks\\grass_side.png",
-      "overlay": "packs\\vanilla\\textures\\blocks\\grass_side_overlay.png"
+      "overlay": "packs\\vanilla\\textures\\blocks\\grass_side_overlay.png",
+      "texture": "renders\\vanilla\\grass.png"
     }
   },
   {

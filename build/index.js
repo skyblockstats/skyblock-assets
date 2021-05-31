@@ -19,7 +19,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getTextureUrl = void 0;
+exports.getTextureUrl = exports.waitUntilReady = exports.minecraftIds = void 0;
 const fs_1 = require("fs");
 const path = __importStar(require("path"));
 const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main';
@@ -43,10 +43,10 @@ async function readPacksMatchers() {
     return matchers;
 }
 let matchers = {};
-let minecraftIds = {};
+exports.minecraftIds = {};
 async function init() {
     matchers = await readPacksMatchers();
-    minecraftIds = await readJsonFile('../data/minecraft_ids.json');
+    exports.minecraftIds = await readJsonFile('../data/minecraft_ids.json');
 }
 /** Check if all the values from checkerObj are the same in obj */
 function objectsPartiallyMatch(obj, checkerObj) {
@@ -109,9 +109,9 @@ async function getTextures(options) {
         // no matchers found, continue in 200ms because it'll probably have the matchers by then
         await new Promise(resolve => setTimeout(resolve, 200));
     }
-    if (minecraftIds[options.id.split(':')[0]]) {
+    if (exports.minecraftIds[options.id.split(':')[0]]) {
         options.damage = parseInt(options.id.split(':')[1]);
-        options.id = minecraftIds[options.id.split(':')[0]];
+        options.id = exports.minecraftIds[options.id.split(':')[0]];
     }
     if (options.damage === undefined || isNaN(options.damage))
         options.damage = 0;
@@ -142,9 +142,18 @@ async function getTextures(options) {
         }
     }
 }
+async function waitUntilReady() {
+    if (Object.keys(exports.minecraftIds).length === 0) {
+        // wait for it to init
+        while (Object.keys(exports.minecraftIds).length === 0)
+            await new Promise(resolve => setTimeout(resolve, 50));
+    }
+}
+exports.waitUntilReady = waitUntilReady;
 /** Get the URL for the texture for a SkyBlock item */
 async function getTextureUrl(options) {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j;
+    await waitUntilReady();
     const textures = (_a = await getTextures(options)) !== null && _a !== void 0 ? _a : {};
     const texturePath = (_j = (_h = (_g = (_f = (_e = (_d = (_c = (_b = textures.texture) !== null && _b !== void 0 ? _b : textures.layer0) !== null && _c !== void 0 ? _c : textures.fishing_rod) !== null && _d !== void 0 ? _d : textures.leather_boots_overlay) !== null && _e !== void 0 ? _e : textures.leather_chestplate_overlay) !== null && _f !== void 0 ? _f : textures.leather_helmet_overlay) !== null && _g !== void 0 ? _g : textures.leather_leggings_overlay) !== null && _h !== void 0 ? _h : textures.leather_layer_1) !== null && _j !== void 0 ? _j : textures.leather_layer_2;
     // if it can't find a texture for this pack, just check using vanilla

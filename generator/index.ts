@@ -222,7 +222,7 @@ async function createAPng(textureFileName: string, frameTime: number): Promise<B
 	return await makeApng(frameBuffers, (index) => ({ numerator: frameTime, denominator: 20 * 1000 }))
 }
 
-async function getItemFromCIT(baseDir: string, outputDir: string, propertiesDir: string, vanillaDir: string): Promise<MatcherTextures> {
+async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir: string): Promise<MatcherTextures> {
 	const properties = await readPropertiesFile(propertiesDir)
 
 	// It can be either `items` or `matchItems`, and it's split by spaces
@@ -347,7 +347,7 @@ async function addPack(packName: string) {
 	for await (const textureDir of customItemTextureDirs) {
 		if (textureDir.endsWith('.properties')) {
 			console
-			const item = await getItemFromCIT(packSourceDir, outputDir, textureDir, vanillaDir)
+			const item = await getItemFromCIT(packSourceDir, textureDir, vanillaDir)
 			matchers.push(item)
 		}
 	}

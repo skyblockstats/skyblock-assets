@@ -53,7 +53,7 @@ async function readPacksMatchers(): Promise<{ [key: string]: any[] }> {
 }
 
 let matchers: { [key: string]: any[] } = {}
-let minecraftIds: { [key: string]: string } = {}
+export let minecraftIds: { [key: string]: string } = {}
 
 async function init() {
 	matchers = await readPacksMatchers()
@@ -169,8 +169,17 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 	}
 }
 
+export async function waitUntilReady() {
+	if (Object.keys(minecraftIds).length === 0) {
+		// wait for it to init
+		while (Object.keys(minecraftIds).length === 0)
+			await new Promise(resolve => setTimeout(resolve, 50))
+	}
+}
+
 /** Get the URL for the texture for a SkyBlock item */
 export async function getTextureUrl(options: Options): Promise<string> {
+	await waitUntilReady()
 	const textures = await getTextures(options) ?? {}
 	const texturePath: string = textures.texture
 		?? textures.layer0
@@ -196,3 +205,4 @@ export async function getTextureUrl(options: Options): Promise<string> {
 }
 
 init()
+
