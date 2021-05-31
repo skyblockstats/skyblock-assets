@@ -4939,7 +4939,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\armor\\armor_icons\\ender\\ender_helmet.png"
+    }
   },
   {
     "matcher": {
@@ -17859,7 +17861,9 @@
       "damage": "5",
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\item\\other\\the_end\\dragonhead\\dragonhead.png"
+    }
   },
   {
     "matcher": {
@@ -23334,7 +23338,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\how_much_coins\\custom_amount\\click_to_proceed\\customamount_proceed.png"
+    }
   },
   {
     "matcher": {
@@ -23351,7 +23357,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\how_much_coins\\percent_spread\\cant_afford\\percentspread_cantafford.png"
+    }
   },
   {
     "matcher": {
@@ -23368,7 +23376,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\how_much_coins\\percent_spread\\click_to_proceed\\percentspread_proceed.png"
+    }
   },
   {
     "matcher": {
@@ -23385,7 +23395,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\how_much_coins\\zero_point_one\\cant_afford\\zeropointone_cantafford.png"
+    }
   },
   {
     "matcher": {
@@ -23402,7 +23414,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\how_much_coins\\zero_point_one\\click_to_proceed\\zeropointone_proceed.png"
+    }
   },
   {
     "matcher": {
@@ -23416,7 +23430,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\ironman_stuff\\buy_cookie\\buy_cookie.png"
+    }
   },
   {
     "matcher": {
@@ -23430,7 +23446,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\ironman_stuff\\buy_half_dozen_cookies\\buy_half_dozen_cookies.png"
+    }
   },
   {
     "matcher": {
@@ -23485,7 +23503,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\manage_orders\\nothing_to_manage\\texture.png"
+    }
   },
   {
     "matcher": {
@@ -23502,7 +23522,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\manage_orders\\orders_in_progress\\nothing_to_claim\\texture.png"
+    }
   },
   {
     "matcher": {
@@ -23519,7 +23541,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\manage_orders\\orders_in_progress\\something_to_claim\\claim_coins_only\\texture.png"
+    }
   },
   {
     "matcher": {
@@ -23536,7 +23560,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\manage_orders\\orders_in_progress\\something_to_claim\\claim_items_coins\\texture.png"
+    }
   },
   {
     "matcher": {
@@ -23553,7 +23579,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\manage_orders\\orders_in_progress\\something_to_claim\\claim_items_only\\texture.png"
+    }
   },
   {
     "matcher": {
@@ -23664,7 +23692,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\sell_inventory_warning\\sell_inventory_warning.png"
+    }
   },
   {
     "matcher": {
@@ -23738,7 +23768,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\bazaar_ui\\sell_inven_empty\\sell_offer_empty.png"
+    }
   },
   {
     "matcher": {
@@ -25280,7 +25312,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\create_auction\\create_auction_block.png"
+    }
   },
   {
     "matcher": {
@@ -25313,7 +25347,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\create_bin_auction\\create_bin_auction_block.png"
+    }
   },
   {
     "matcher": {
@@ -25410,7 +25446,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\account_profile_upgrades_icons\\account_upgrades.png"
+    }
   },
   {
     "matcher": {
@@ -25456,7 +25494,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\bits_gems_ranks\\bits_gems_ranks.png"
+    }
   },
   {
     "matcher": {
@@ -25530,7 +25570,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\fire_sales\\firesales_past.png"
+    }
   },
   {
     "matcher": {
@@ -25604,7 +25646,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\bits_shop\\bits_shop.png"
+    }
   },
   {
     "matcher": {
@@ -25621,7 +25665,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\bits_shop\\bits_shop_viewing.png"
+    }
   },
   {
     "matcher": {
@@ -25676,7 +25722,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\city_projects\\cityprojects.png"
+    }
   },
   {
     "matcher": {
@@ -25693,7 +25741,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\city_projects\\cityprojects_viewing.png"
+    }
   },
   {
     "matcher": {
@@ -25710,7 +25760,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\fire_sales\\firesales.png"
+    }
   },
   {
     "matcher": {
@@ -25746,7 +25798,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\fire_sales\\firesales_viewing.png"
+    }
   },
   {
     "matcher": {
@@ -25763,7 +25817,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\hypixel_ranks\\ranks.png"
+    }
   },
   {
     "matcher": {
@@ -25780,7 +25836,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\elizabeth_community\\tabs\\hypixel_ranks\\ranks_viewing.png"
+    }
   },
   {
     "matcher": {
@@ -25817,7 +25875,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\chronomatron\\difficulties\\grand\\grand_chrono.png"
+    }
   },
   {
     "matcher": {
@@ -25835,7 +25895,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\chronomatron\\difficulties\\high\\high_chrono.png"
+    }
   },
   {
     "matcher": {
@@ -25853,7 +25915,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\chronomatron\\difficulties\\metaphysical\\meta_chrono.png"
+    }
   },
   {
     "matcher": {
@@ -25871,7 +25935,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\chronomatron\\difficulties\\supreme\\supreme_chrono.png"
+    }
   },
   {
     "matcher": {
@@ -25889,7 +25955,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\chronomatron\\difficulties\\transcendent\\trans_chrono.png"
+    }
   },
   {
     "matcher": {
@@ -26039,7 +26107,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\misc\\locked_experiment\\locked_experiment.png"
+    }
   },
   {
     "matcher": {
@@ -26179,7 +26249,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\superpairs\\difficulties\\beginner\\beginner_super.png"
+    }
   },
   {
     "matcher": {
@@ -26197,7 +26269,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\superpairs\\difficulties\\grand\\grand_super.png"
+    }
   },
   {
     "matcher": {
@@ -26215,7 +26289,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\superpairs\\difficulties\\high\\high_super.png"
+    }
   },
   {
     "matcher": {
@@ -26233,7 +26309,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\superpairs\\difficulties\\metaphysical\\meta_super.png"
+    }
   },
   {
     "matcher": {
@@ -26251,7 +26329,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\superpairs\\difficulties\\supreme\\supreme_super.png"
+    }
   },
   {
     "matcher": {
@@ -26269,7 +26349,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\superpairs\\difficulties\\transcendent\\trans_super.png"
+    }
   },
   {
     "matcher": {
@@ -26387,7 +26469,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\ultrasequencer\\difficulties\\metaphysical\\metaphy_ultra.png"
+    }
   },
   {
     "matcher": {
@@ -26405,7 +26489,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\ultrasequencer\\difficulties\\supreme\\supreme_ultra.png"
+    }
   },
   {
     "matcher": {
@@ -26423,7 +26509,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\enchantment_ui\\ultrasequencer\\difficulties\\transcendent\\transcendent_ultra.png"
+    }
   },
   {
     "matcher": {
@@ -26535,7 +26623,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\harp_ui\\easy\\easy.png"
+    }
   },
   {
     "matcher": {
@@ -26551,7 +26641,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\harp_ui\\expert\\expert.png"
+    }
   },
   {
     "matcher": {
@@ -26695,7 +26787,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\harp_ui\\hard\\hard.png"
+    }
   },
   {
     "matcher": {
@@ -26855,7 +26949,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\harp_ui\\prodigy\\prodigy.png"
+    }
   },
   {
     "matcher": {
@@ -26871,7 +26967,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\harp_ui\\virtuoso\\virtuoso.png"
+    }
   },
   {
     "matcher": {
@@ -27596,7 +27694,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\d\\tier1.png"
+    }
   },
   {
     "matcher": {
@@ -27611,7 +27711,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\d\\tier2.png"
+    }
   },
   {
     "matcher": {
@@ -27626,7 +27728,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\d\\tier3.png"
+    }
   },
   {
     "matcher": {
@@ -27641,7 +27745,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\d\\tier4.png"
+    }
   },
   {
     "matcher": {
@@ -27656,7 +27762,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\d\\tier5.png"
+    }
   },
   {
     "matcher": {
@@ -27671,7 +27779,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\nd\\tier1.png"
+    }
   },
   {
     "matcher": {
@@ -27686,7 +27796,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\nd\\tier2.png"
+    }
   },
   {
     "matcher": {
@@ -27701,7 +27813,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\nd\\tier3.png"
+    }
   },
   {
     "matcher": {
@@ -27716,7 +27830,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\nd\\tier4.png"
+    }
   },
   {
     "matcher": {
@@ -27731,7 +27847,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\nd\\tier5.png"
+    }
   },
   {
     "matcher": {
@@ -27746,7 +27864,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\p\\tier1.png"
+    }
   },
   {
     "matcher": {
@@ -27761,7 +27881,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\p\\tier2.png"
+    }
   },
   {
     "matcher": {
@@ -27776,7 +27898,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\p\\tier3.png"
+    }
   },
   {
     "matcher": {
@@ -27791,7 +27915,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\p\\tier4.png"
+    }
   },
   {
     "matcher": {
@@ -27806,7 +27932,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\hotm\\tier\\p\\tier5.png"
+    }
   },
   {
     "matcher": {
@@ -28906,7 +29034,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\misc\\combat_xp_buff.png"
+    }
   },
   {
     "matcher": {
@@ -28987,7 +29117,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "renders\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\misc\\random_quest.png"
+    }
   },
   {
     "matcher": {
@@ -29001,7 +29133,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "renders\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\misc\\slayer_bonuses.png"
+    }
   },
   {
     "matcher": {
@@ -29015,7 +29149,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "renders\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\misc\\slayer_leaderboards.png"
+    }
   },
   {
     "matcher": {
@@ -29029,7 +29165,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "renders\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\random_quest_icons\\tier_four\\tier_four_random.png"
+    }
   },
   {
     "matcher": {
@@ -29043,7 +29181,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "renders\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\random_quest_icons\\tier_three\\tier_three_random.png"
+    }
   },
   {
     "matcher": {
@@ -29060,7 +29200,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\rngesus_meter\\rev\\rev_bar.png"
+    }
   },
   {
     "matcher": {
@@ -29077,7 +29219,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\rngesus_meter\\sven\\sven_bar.png"
+    }
   },
   {
     "matcher": {
@@ -29094,7 +29238,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\maddox_trashdox\\rngesus_meter\\tara\\tara_bar.png"
+    }
   },
   {
     "matcher": {
@@ -30896,7 +31042,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\reforge_icons\\advanced_menu\\stone_notready.png"
+    }
   },
   {
     "matcher": {
@@ -30911,7 +31059,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\reforge_icons\\advanced_menu\\stone_ready.png"
+    }
   },
   {
     "matcher": {
@@ -31806,7 +31956,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\booster_cookie_menu\\bits\\bits.png"
+    }
   },
   {
     "matcher": {
@@ -31949,7 +32101,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\10\\10compete.png"
+    }
   },
   {
     "matcher": {
@@ -31967,7 +32121,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\10\\10empty.png"
+    }
   },
   {
     "matcher": {
@@ -31985,7 +32141,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\10\\10progress.png"
+    }
   },
   {
     "matcher": {
@@ -32003,7 +32161,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\1end\\1endcomplete.png"
+    }
   },
   {
     "matcher": {
@@ -32021,7 +32181,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\1end\\1endprogress.png"
+    }
   },
   {
     "matcher": {
@@ -32039,7 +32201,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\1end\\1endprogressempty.png"
+    }
   },
   {
     "matcher": {
@@ -32057,7 +32221,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\1start\\1startcomplete.png"
+    }
   },
   {
     "matcher": {
@@ -32075,7 +32241,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\1start\\1startempty.png"
+    }
   },
   {
     "matcher": {
@@ -32093,7 +32261,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\1start\\1startprogress.png"
+    }
   },
   {
     "matcher": {
@@ -32111,7 +32281,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\2end\\2endcomplete.png"
+    }
   },
   {
     "matcher": {
@@ -32129,7 +32301,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\2end\\2endempty.png"
+    }
   },
   {
     "matcher": {
@@ -32147,7 +32321,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\2end\\2endpr.png"
+    }
   },
   {
     "matcher": {
@@ -32165,7 +32341,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\2start\\2startcomplete.png"
+    }
   },
   {
     "matcher": {
@@ -32183,7 +32361,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\2start\\2startempty.png"
+    }
   },
   {
     "matcher": {
@@ -32201,7 +32381,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\2start\\2startprogress.png"
+    }
   },
   {
     "matcher": {
@@ -32218,7 +32400,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\complete.png"
+    }
   },
   {
     "matcher": {
@@ -32235,7 +32419,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\notcomplete.png"
+    }
   },
   {
     "matcher": {
@@ -32252,7 +32438,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\collections\\progress.png"
+    }
   },
   {
     "matcher": {
@@ -32496,7 +32684,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\general\\own_skull.png"
+    }
   },
   {
     "matcher": {
@@ -32788,7 +32978,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\pets_button\\pets_equipped.png"
+    }
   },
   {
     "matcher": {
@@ -32803,7 +32995,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "renders\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\pets_button\\pets_none_equipped.png"
+    }
   },
   {
     "matcher": {
@@ -33114,7 +33308,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\60\\p60.png"
+    }
   },
   {
     "matcher": {
@@ -33132,7 +33328,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\begin\\cbegin.png"
+    }
   },
   {
     "matcher": {
@@ -33150,7 +33348,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\begin\\pbegin.png"
+    }
   },
   {
     "matcher": {
@@ -33205,7 +33405,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\corner_dr\\pcdr.png"
+    }
   },
   {
     "matcher": {
@@ -33276,7 +33478,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\corner_lu\\pclu.png"
+    }
   },
   {
     "matcher": {
@@ -33347,7 +33551,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\corner_rd\\pcrd.png"
+    }
   },
   {
     "matcher": {
@@ -33402,7 +33608,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\corner_ur\\pcur.png"
+    }
   },
   {
     "matcher": {
@@ -33471,7 +33679,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\end\\p2550.png"
+    }
   },
   {
     "matcher": {
@@ -33485,7 +33695,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\skills_progress\\extra\\h\\2550.png"
+    }
   },
   {
     "matcher": {
@@ -34076,7 +34288,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\stats\\texture.png"
+    }
   },
   {
     "matcher": {
@@ -34208,7 +34422,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\wardrobe\\empty_slot.png"
+    }
   },
   {
     "matcher": {
@@ -34224,7 +34440,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\wardrobe\\equipped_slot.png"
+    }
   },
   {
     "matcher": {
@@ -34240,7 +34458,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\wardrobe\\locked_slot.png"
+    }
   },
   {
     "matcher": {
@@ -34256,7 +34476,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky_reborn\\mcpatcher\\cit\\uielements\\skyblock_menu\\wardrobe\\ready_slot.png"
+    }
   },
   {
     "matcher": {

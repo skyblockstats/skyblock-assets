@@ -832,7 +832,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\armor\\ender\\ender_helmet.png"
+    }
   },
   {
     "matcher": {

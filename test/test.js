@@ -3,6 +3,13 @@ const assert = require('assert')
 const path = require('path')
 const fs = require('fs')
 
+function assertIsPack(textureUrl, packName) {
+    assert.ok(
+        textureUrl.startsWith(`${skyblockAssets.baseUrl}/packs/${packName}/`)
+        || textureUrl.startsWith(`${skyblockAssets.baseUrl}/renders/${packName}/`)
+    )
+}
+
 describe('skyblock-assets', () => {
     describe('#getTextureUrl()', () => {
         it('Checks every vanilla item', async() => {
@@ -42,7 +49,6 @@ describe('skyblock-assets', () => {
         })
 
         it('Check SkyBlock menu on PacksHQ', async() => {
-            // not like anyone's actually gonna have this, but i want it to be 100% correct
             const itemTextureUrl = await skyblockAssets.getTextureUrl({
                 id: 'minecraft:nether_star',
                 nbt: {
@@ -55,11 +61,10 @@ describe('skyblock-assets', () => {
                 },
                 pack: 'packshq',
             })
-            assert.ok(itemTextureUrl.startsWith(skyblockAssets.baseUrl + '/packs/packshq/'))
+            assertIsPack(itemTextureUrl, 'packshq')
         })
 
         it('Check SkyBlock menu on Furfsky Reborn', async() => {
-            // not like anyone's actually gonna have this, but i want it to be 100% correct
             const itemTextureUrl = await skyblockAssets.getTextureUrl({
                 id: 'minecraft:nether_star',
                 nbt: {
@@ -72,7 +77,25 @@ describe('skyblock-assets', () => {
                 },
                 pack: 'furfsky_reborn',
             })
-            assert.ok(itemTextureUrl.startsWith(skyblockAssets.baseUrl + '/packs/furfsky_reborn/'))
+            assertIsPack(itemTextureUrl, 'furfsky_reborn')
         })
+
+        it('Check AOTD on PacksHQ', async() => {
+            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                id: 'minecraft:diamond_sword',
+                nbt: {
+                    ExtraAttributes: {
+                        id: 'ASPECT_OF_THE_DRAGON'
+                    },
+                    display: {
+                        Name: 'Legendary Aspect of the Dragons'
+                    }
+                },
+                pack: 'packshq',
+            })
+
+            assertIsPack(itemTextureUrl, 'packshq')
+        })
+
     })
 })

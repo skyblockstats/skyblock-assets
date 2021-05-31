@@ -299,6 +299,17 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		}
 	}
 
+	if (Object.keys(textures).length === 0) {
+		// some properties are weird and just don't put a model or texture, so we just assume it's fine if we replace .properties with .png
+		console.log('no textures for', propertiesDir)
+		let textureDir = propertiesDir.replace(/(\.properties)$/, '.png')
+		try {
+			textureDir = await makeAnimationFromMcmeta(textureDir)
+		} catch {}
+
+		textures.texture = textureDir
+	}
+
 	return {
 		matcher,
 		textures
@@ -340,7 +351,7 @@ async function combineLayers(directories: string[]): Promise<Buffer> {
 
 /*
 How it finds matchers:
-- Check /mcpatcher/cit and get all the files that end in .properties, this is easy
+- Check /mcpatcher/cit and get all the files that end in .properties
 - Check /models/item and extract the entire models from there
 	- Get the textures from here, these might be replaced
 	- Extract the item name from the model file name
@@ -503,7 +514,7 @@ async function main() {
 	await addPack('ectoplasm') // completionists update
 	await addPack('furfsky') // 1.7.1
 	await addPack('furfsky_reborn') // 1.2.6
-	await addPack('packshq') // idk
+	await addPack('packshq') // v13
 	await addPack('rnbw') // 0.6.0
 	await addPack('vanilla')
 }

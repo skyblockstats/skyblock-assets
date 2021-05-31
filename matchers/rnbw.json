@@ -1608,7 +1608,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\armor\\lapis\\lapis_helm.png"
+    }
   },
   {
     "matcher": {
@@ -5429,7 +5431,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\coll_complete.png"
+    }
   },
   {
     "matcher": {
@@ -5446,7 +5450,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\coll_incomplete.png"
+    }
   },
   {
     "matcher": {
@@ -5464,7 +5470,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\coll_end_complete.png"
+    }
   },
   {
     "matcher": {
@@ -5482,7 +5490,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\coll_end_empty.png"
+    }
   },
   {
     "matcher": {
@@ -5500,7 +5510,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\progress\\coll_end_ii.png"
+    }
   },
   {
     "matcher": {
@@ -5518,7 +5530,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\progress\\coll_end_iv.png"
+    }
   },
   {
     "matcher": {
@@ -5536,7 +5550,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\progress\\coll_end_vi.png"
+    }
   },
   {
     "matcher": {
@@ -5554,7 +5570,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\progress\\coll_end_viii.png"
+    }
   },
   {
     "matcher": {
@@ -5572,7 +5590,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\progress\\coll_end_x.png"
+    }
   },
   {
     "matcher": {
@@ -5590,7 +5610,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\progress\\coll_end_xii.png"
+    }
   },
   {
     "matcher": {
@@ -5608,7 +5630,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\end\\progress\\coll_end_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -5626,7 +5650,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\coll_start_complete.png"
+    }
   },
   {
     "matcher": {
@@ -5644,7 +5670,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\coll_start_empty.png"
+    }
   },
   {
     "matcher": {
@@ -5662,7 +5690,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\progress\\coll_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -5680,7 +5710,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\progress\\coll_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -5698,7 +5730,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\progress\\coll_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -5716,7 +5750,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\progress\\coll_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -5734,7 +5770,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\progress\\coll_progress_x.png"
+    }
   },
   {
     "matcher": {
@@ -5752,7 +5790,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\progress\\coll_progress_xii.png"
+    }
   },
   {
     "matcher": {
@@ -5770,7 +5810,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\levelx\\progress\\coll_progress_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -5787,7 +5829,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\progress\\coll_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -5804,7 +5848,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\progress\\coll_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -5821,7 +5867,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\progress\\coll_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -5838,7 +5886,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\progress\\coll_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -5855,7 +5905,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\progress\\coll_progress_x.png"
+    }
   },
   {
     "matcher": {
@@ -5872,7 +5924,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\progress\\coll_progress_xii.png"
+    }
   },
   {
     "matcher": {
@@ -5889,7 +5943,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\progress\\coll_progress_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -5907,7 +5963,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\coll_end_complete.png"
+    }
   },
   {
     "matcher": {
@@ -5925,7 +5983,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\coll_end_empty.png"
+    }
   },
   {
     "matcher": {
@@ -5943,7 +6003,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\progress\\coll_end_ii.png"
+    }
   },
   {
     "matcher": {
@@ -5961,7 +6023,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\progress\\coll_end_iv.png"
+    }
   },
   {
     "matcher": {
@@ -5979,7 +6043,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\progress\\coll_end_vi.png"
+    }
   },
   {
     "matcher": {
@@ -5997,7 +6063,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\progress\\coll_end_viii.png"
+    }
   },
   {
     "matcher": {
@@ -6015,7 +6083,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\progress\\coll_end_x.png"
+    }
   },
   {
     "matcher": {
@@ -6033,7 +6103,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\progress\\coll_end_xii.png"
+    }
   },
   {
     "matcher": {
@@ -6051,7 +6123,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_end\\progress\\coll_end_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -6069,7 +6143,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\coll_special_start_complete.png"
+    }
   },
   {
     "matcher": {
@@ -6087,7 +6163,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\coll_special_start_empty.png"
+    }
   },
   {
     "matcher": {
@@ -6105,7 +6183,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\progress\\coll_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -6123,7 +6203,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\progress\\coll_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -6141,7 +6223,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\progress\\coll_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -6159,7 +6243,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\progress\\coll_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -6177,7 +6263,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\progress\\coll_progress_x.png"
+    }
   },
   {
     "matcher": {
@@ -6195,7 +6283,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\progress\\coll_progress_xii.png"
+    }
   },
   {
     "matcher": {
@@ -6213,7 +6303,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\special_start\\progress\\coll_progress_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -6231,7 +6323,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\coll_start_complete.png"
+    }
   },
   {
     "matcher": {
@@ -6249,7 +6343,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\coll_start_empty.png"
+    }
   },
   {
     "matcher": {
@@ -6267,7 +6363,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\progress\\coll_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -6285,7 +6383,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\progress\\coll_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -6303,7 +6403,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\progress\\coll_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -6321,7 +6423,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\progress\\coll_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -6339,7 +6443,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\progress\\coll_progress_x.png"
+    }
   },
   {
     "matcher": {
@@ -6357,7 +6463,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\progress\\coll_progress_xii.png"
+    }
   },
   {
     "matcher": {
@@ -6375,7 +6483,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\collection\\start\\progress\\coll_progress_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -6561,7 +6671,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\heart_end_complete.png"
+    }
   },
   {
     "matcher": {
@@ -6579,7 +6691,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\heart_end_empty.png"
+    }
   },
   {
     "matcher": {
@@ -6597,7 +6711,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\progress\\heart_end_ii.png"
+    }
   },
   {
     "matcher": {
@@ -6615,7 +6731,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\progress\\heart_end_iv.png"
+    }
   },
   {
     "matcher": {
@@ -6633,7 +6751,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\progress\\heart_end_vi.png"
+    }
   },
   {
     "matcher": {
@@ -6651,7 +6771,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\progress\\heart_end_viii.png"
+    }
   },
   {
     "matcher": {
@@ -6669,7 +6791,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\progress\\heart_end_x.png"
+    }
   },
   {
     "matcher": {
@@ -6687,7 +6811,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\progress\\heart_end_xii.png"
+    }
   },
   {
     "matcher": {
@@ -6705,7 +6831,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\end\\progress\\heart_end_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -6754,7 +6882,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\heart_complete.png"
+    }
   },
   {
     "matcher": {
@@ -6771,7 +6901,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\heart_incomplete.png"
+    }
   },
   {
     "matcher": {
@@ -6854,7 +6986,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_base.png"
+    }
   },
   {
     "matcher": {
@@ -6871,7 +7005,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -6888,7 +7024,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -6905,7 +7043,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -6922,7 +7062,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -6939,7 +7081,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -6956,7 +7100,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -6973,7 +7119,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -6987,7 +7135,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\crystallized\\c_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -7004,7 +7154,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_base.png"
+    }
   },
   {
     "matcher": {
@@ -7021,7 +7173,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -7038,7 +7192,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -7055,7 +7211,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -7072,7 +7230,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -7089,7 +7249,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -7106,7 +7268,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -7123,7 +7287,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -7137,7 +7303,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\daily_powder\\dp_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -7154,7 +7322,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\efficient_miner\\em_base.png"
+    }
   },
   {
     "matcher": {
@@ -7171,7 +7341,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\efficient_miner\\em_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -7188,7 +7360,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\efficient_miner\\em_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -7202,7 +7376,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\efficient_miner\\em_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -7291,7 +7467,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\empty\\cross_locked.png"
+    }
   },
   {
     "matcher": {
@@ -7324,7 +7502,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\empty\\side_locked.png"
+    }
   },
   {
     "matcher": {
@@ -7341,7 +7521,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\empty\\tee_locked.png"
+    }
   },
   {
     "matcher": {
@@ -7358,7 +7540,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\empty\\tip_left_locked.png"
+    }
   },
   {
     "matcher": {
@@ -7375,7 +7559,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\empty\\tip_right_locked.png"
+    }
   },
   {
     "matcher": {
@@ -7392,7 +7578,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\empty\\tip_up_locked.png"
+    }
   },
   {
     "matcher": {
@@ -7409,7 +7597,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\empty\\up_locked.png"
+    }
   },
   {
     "matcher": {
@@ -7445,7 +7635,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_base.png"
+    }
   },
   {
     "matcher": {
@@ -7462,7 +7654,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -7479,7 +7673,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -7496,7 +7692,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -7513,7 +7711,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -7530,7 +7730,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -7547,7 +7749,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -7564,7 +7768,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -7578,7 +7784,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\luck_of_cave\\lc_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -7595,7 +7803,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_fortune\\mf_base.png"
+    }
   },
   {
     "matcher": {
@@ -7612,7 +7822,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_fortune\\mf_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -7629,7 +7841,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_fortune\\mf_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -7646,7 +7860,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_fortune\\mf_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -7660,7 +7876,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_fortune\\mf_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -7677,7 +7895,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_base.png"
+    }
   },
   {
     "matcher": {
@@ -7694,7 +7914,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -7711,7 +7933,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -7728,7 +7952,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -7745,7 +7971,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -7762,7 +7990,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -7779,7 +8009,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -7796,7 +8028,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -7813,7 +8047,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\mining_speed\\ms_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -7830,7 +8066,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_base.png"
+    }
   },
   {
     "matcher": {
@@ -7847,7 +8085,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -7864,7 +8104,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -7881,7 +8123,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -7898,7 +8142,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -7915,7 +8161,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -7932,7 +8180,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -7949,7 +8199,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -7963,7 +8215,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\orbiter\\o_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -8065,7 +8319,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_base.png"
+    }
   },
   {
     "matcher": {
@@ -8082,7 +8338,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -8099,7 +8357,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -8116,7 +8376,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -8133,7 +8395,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -8150,7 +8414,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -8167,7 +8433,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -8184,7 +8452,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -8198,7 +8468,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\quick_forge\\qf_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -8215,7 +8487,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_base.png"
+    }
   },
   {
     "matcher": {
@@ -8232,7 +8506,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -8249,7 +8525,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -8266,7 +8544,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -8283,7 +8563,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -8300,7 +8582,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -8317,7 +8601,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -8334,7 +8620,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -8348,7 +8636,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\seasoned_mineman\\sm_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -8365,7 +8655,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\single\\cross.png"
+    }
   },
   {
     "matcher": {
@@ -8382,7 +8674,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\single\\tip_left.png"
+    }
   },
   {
     "matcher": {
@@ -8399,7 +8693,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\single\\tip_right.png"
+    }
   },
   {
     "matcher": {
@@ -8416,7 +8712,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\single\\tip_up.png"
+    }
   },
   {
     "matcher": {
@@ -8433,7 +8731,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_base.png"
+    }
   },
   {
     "matcher": {
@@ -8450,7 +8750,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_i.png"
+    }
   },
   {
     "matcher": {
@@ -8467,7 +8769,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -8484,7 +8788,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_iii.png"
+    }
   },
   {
     "matcher": {
@@ -8501,7 +8807,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -8518,7 +8826,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_v.png"
+    }
   },
   {
     "matcher": {
@@ -8535,7 +8845,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -8552,7 +8864,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_vii.png"
+    }
   },
   {
     "matcher": {
@@ -8566,7 +8880,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\perks\\titanium_insanium\\ti_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -8584,7 +8900,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\progress\\heart_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -8602,7 +8920,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\progress\\heart_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -8620,7 +8940,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\progress\\heart_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -8638,7 +8960,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\progress\\heart_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -8656,7 +8980,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\progress\\heart_progress_x.png"
+    }
   },
   {
     "matcher": {
@@ -8674,7 +9000,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\progress\\heart_progress_xii.png"
+    }
   },
   {
     "matcher": {
@@ -8692,7 +9020,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\progress\\heart_progress_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -8724,7 +9054,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\heart_start_complete.png"
+    }
   },
   {
     "matcher": {
@@ -8741,7 +9073,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\heart_start_empty.png"
+    }
   },
   {
     "matcher": {
@@ -8759,7 +9093,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\progress\\heart_progress_ii.png"
+    }
   },
   {
     "matcher": {
@@ -8777,7 +9113,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\progress\\heart_progress_iv.png"
+    }
   },
   {
     "matcher": {
@@ -8795,7 +9133,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\progress\\heart_progress_vi.png"
+    }
   },
   {
     "matcher": {
@@ -8813,7 +9153,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\progress\\heart_progress_viii.png"
+    }
   },
   {
     "matcher": {
@@ -8831,7 +9173,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\progress\\heart_progress_x.png"
+    }
   },
   {
     "matcher": {
@@ -8849,7 +9193,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\progress\\heart_progress_xii.png"
+    }
   },
   {
     "matcher": {
@@ -8867,7 +9213,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\mountain_heart\\start\\progress\\heart_progress_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -9221,7 +9569,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\collection_painting\\collection_bronze.png"
+    }
   },
   {
     "matcher": {
@@ -9237,7 +9587,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\collection_painting\\collection_diamond.png"
+    }
   },
   {
     "matcher": {
@@ -9253,7 +9605,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\collection_painting\\collection_emerald.png"
+    }
   },
   {
     "matcher": {
@@ -9269,7 +9623,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\collection_painting\\collection_gold.png"
+    }
   },
   {
     "matcher": {
@@ -9285,7 +9641,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\collection_painting\\collection_iron.png"
+    }
   },
   {
     "matcher": {
@@ -9546,7 +9904,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\recipe_book\\recipe_bronze.png"
+    }
   },
   {
     "matcher": {
@@ -9562,7 +9922,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\recipe_book\\recipe_diamond.png"
+    }
   },
   {
     "matcher": {
@@ -9578,7 +9940,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\recipe_book\\recipe_emerald.png"
+    }
   },
   {
     "matcher": {
@@ -9594,7 +9958,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\recipe_book\\recipe_gold.png"
+    }
   },
   {
     "matcher": {
@@ -9610,7 +9976,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\sb_menu\\recipe_book\\recipe_iron.png"
+    }
   },
   {
     "matcher": {
@@ -9820,7 +10188,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\coll_complete.png"
+    }
   },
   {
     "matcher": {
@@ -9837,7 +10207,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\coll_incomplete.png"
+    }
   },
   {
     "matcher": {
@@ -9906,7 +10278,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\end\\skill_progress_e_ii.png"
+    }
   },
   {
     "matcher": {
@@ -9924,7 +10298,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\end\\skill_progress_e_iv.png"
+    }
   },
   {
     "matcher": {
@@ -9942,7 +10318,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\end\\skill_progress_e_vi.png"
+    }
   },
   {
     "matcher": {
@@ -9960,7 +10338,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\end\\skill_progress_e_viii.png"
+    }
   },
   {
     "matcher": {
@@ -9978,7 +10358,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\end\\skill_progress_e_x.png"
+    }
   },
   {
     "matcher": {
@@ -9996,7 +10378,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\end\\skill_progress_e_xii.png"
+    }
   },
   {
     "matcher": {
@@ -10014,7 +10398,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\end\\skill_progress_e_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -10069,7 +10455,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_1\\skill_progress_c1_ii.png"
+    }
   },
   {
     "matcher": {
@@ -10087,7 +10475,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_1\\skill_progress_c1_iv.png"
+    }
   },
   {
     "matcher": {
@@ -10105,7 +10495,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_1\\skill_progress_c1_vi.png"
+    }
   },
   {
     "matcher": {
@@ -10123,7 +10515,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_1\\skill_progress_c1_viii.png"
+    }
   },
   {
     "matcher": {
@@ -10141,7 +10535,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_1\\skill_progress_c1_x.png"
+    }
   },
   {
     "matcher": {
@@ -10159,7 +10555,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_1\\skill_progress_c1_xii.png"
+    }
   },
   {
     "matcher": {
@@ -10177,7 +10575,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_1\\skill_progress_c1_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -10287,7 +10687,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_2\\skill_progress_c2_ii.png"
+    }
   },
   {
     "matcher": {
@@ -10305,7 +10707,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_2\\skill_progress_c2_iv.png"
+    }
   },
   {
     "matcher": {
@@ -10323,7 +10727,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_2\\skill_progress_c2_vi.png"
+    }
   },
   {
     "matcher": {
@@ -10341,7 +10747,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_2\\skill_progress_c2_viii.png"
+    }
   },
   {
     "matcher": {
@@ -10359,7 +10767,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_2\\skill_progress_c2_x.png"
+    }
   },
   {
     "matcher": {
@@ -10377,7 +10787,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_2\\skill_progress_c2_xii.png"
+    }
   },
   {
     "matcher": {
@@ -10395,7 +10807,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_2\\skill_progress_c2_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -10450,7 +10864,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_3\\skill_progress_c3_ii.png"
+    }
   },
   {
     "matcher": {
@@ -10468,7 +10884,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_3\\skill_progress_c3_iv.png"
+    }
   },
   {
     "matcher": {
@@ -10486,7 +10904,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_3\\skill_progress_c3_vi.png"
+    }
   },
   {
     "matcher": {
@@ -10504,7 +10924,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_3\\skill_progress_c3_viii.png"
+    }
   },
   {
     "matcher": {
@@ -10522,7 +10944,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_3\\skill_progress_c3_x.png"
+    }
   },
   {
     "matcher": {
@@ -10540,7 +10964,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_3\\skill_progress_c3_xii.png"
+    }
   },
   {
     "matcher": {
@@ -10558,7 +10984,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_3\\skill_progress_c3_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -10668,7 +11096,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_4\\skill_progress_c4_ii.png"
+    }
   },
   {
     "matcher": {
@@ -10686,7 +11116,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_4\\skill_progress_c4_iv.png"
+    }
   },
   {
     "matcher": {
@@ -10704,7 +11136,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_4\\skill_progress_c4_vi.png"
+    }
   },
   {
     "matcher": {
@@ -10722,7 +11156,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_4\\skill_progress_c4_viii.png"
+    }
   },
   {
     "matcher": {
@@ -10740,7 +11176,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_4\\skill_progress_c4_x.png"
+    }
   },
   {
     "matcher": {
@@ -10758,7 +11196,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_4\\skill_progress_c4_xii.png"
+    }
   },
   {
     "matcher": {
@@ -10776,7 +11216,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_corner_4\\skill_progress_c4_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -10831,7 +11273,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_down\\skill_progress_d_ii.png"
+    }
   },
   {
     "matcher": {
@@ -10849,7 +11293,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_down\\skill_progress_d_iv.png"
+    }
   },
   {
     "matcher": {
@@ -10867,7 +11313,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_down\\skill_progress_d_vi.png"
+    }
   },
   {
     "matcher": {
@@ -10885,7 +11333,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_down\\skill_progress_d_viii.png"
+    }
   },
   {
     "matcher": {
@@ -10903,7 +11353,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_down\\skill_progress_d_x.png"
+    }
   },
   {
     "matcher": {
@@ -10921,7 +11373,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_down\\skill_progress_d_xii.png"
+    }
   },
   {
     "matcher": {
@@ -10939,7 +11393,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_down\\skill_progress_d_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -10994,7 +11450,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_horizontal\\skill_progress_h_ii.png"
+    }
   },
   {
     "matcher": {
@@ -11012,7 +11470,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_horizontal\\skill_progress_h_iv.png"
+    }
   },
   {
     "matcher": {
@@ -11030,7 +11490,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_horizontal\\skill_progress_h_vi.png"
+    }
   },
   {
     "matcher": {
@@ -11048,7 +11510,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_horizontal\\skill_progress_h_viii.png"
+    }
   },
   {
     "matcher": {
@@ -11066,7 +11530,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_horizontal\\skill_progress_h_x.png"
+    }
   },
   {
     "matcher": {
@@ -11084,7 +11550,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_horizontal\\skill_progress_h_xii.png"
+    }
   },
   {
     "matcher": {
@@ -11102,7 +11570,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_horizontal\\skill_progress_h_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -11157,7 +11627,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_up\\skill_progress_u_ii.png"
+    }
   },
   {
     "matcher": {
@@ -11175,7 +11647,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_up\\skill_progress_u_iv.png"
+    }
   },
   {
     "matcher": {
@@ -11193,7 +11667,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_up\\skill_progress_u_vi.png"
+    }
   },
   {
     "matcher": {
@@ -11211,7 +11687,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_up\\skill_progress_u_viii.png"
+    }
   },
   {
     "matcher": {
@@ -11229,7 +11707,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_up\\skill_progress_u_x.png"
+    }
   },
   {
     "matcher": {
@@ -11247,7 +11727,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_up\\skill_progress_u_xii.png"
+    }
   },
   {
     "matcher": {
@@ -11265,7 +11747,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\progress_up\\skill_progress_u_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -11283,7 +11767,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\progress\\skill_progress_start_ii.png"
+    }
   },
   {
     "matcher": {
@@ -11301,7 +11787,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\progress\\skill_progress_start_iv.png"
+    }
   },
   {
     "matcher": {
@@ -11319,7 +11807,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\progress\\skill_progress_start_vi.png"
+    }
   },
   {
     "matcher": {
@@ -11337,7 +11827,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\progress\\skill_progress_start_viii.png"
+    }
   },
   {
     "matcher": {
@@ -11355,7 +11847,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\progress\\skill_progress_start_x.png"
+    }
   },
   {
     "matcher": {
@@ -11373,7 +11867,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\progress\\skill_progress_start_xii.png"
+    }
   },
   {
     "matcher": {
@@ -11391,7 +11887,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\progress\\skill_progress_start_xiv.png"
+    }
   },
   {
     "matcher": {
@@ -11409,7 +11907,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\gui_icons\\skills\\start\\skill_start_complete.png"
+    }
   },
   {
     "matcher": {
@@ -13307,7 +13807,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\books_vi_fishing.png"
+    }
   },
   {
     "matcher": {
@@ -13323,7 +13825,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\books_vi_generic.png"
+    }
   },
   {
     "matcher": {
@@ -13339,7 +13843,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_iv_experience.png"
+    }
   },
   {
     "matcher": {
@@ -13355,7 +13861,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_iv_lifesteal.png"
+    }
   },
   {
     "matcher": {
@@ -13371,7 +13879,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_iv_looting.png"
+    }
   },
   {
     "matcher": {
@@ -13387,7 +13897,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_iv_scavenger.png"
+    }
   },
   {
     "matcher": {
@@ -13403,7 +13915,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_boa.png"
+    }
   },
   {
     "matcher": {
@@ -13419,7 +13933,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_critical.png"
+    }
   },
   {
     "matcher": {
@@ -13435,7 +13951,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_ender_slayer.png"
+    }
   },
   {
     "matcher": {
@@ -13451,7 +13969,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_giant_killer.png"
+    }
   },
   {
     "matcher": {
@@ -13467,7 +13987,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_growth.png"
+    }
   },
   {
     "matcher": {
@@ -13483,7 +14005,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_luck.png"
+    }
   },
   {
     "matcher": {
@@ -13499,7 +14023,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_power.png"
+    }
   },
   {
     "matcher": {
@@ -13515,7 +14041,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_protection.png"
+    }
   },
   {
     "matcher": {
@@ -13531,7 +14059,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_sharpness.png"
+    }
   },
   {
     "matcher": {
@@ -13547,7 +14077,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_smite.png"
+    }
   },
   {
     "matcher": {
@@ -13563,7 +14095,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\book_vi_vampirism.png"
+    }
   },
   {
     "matcher": {
@@ -13579,7 +14113,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\dragon_hunter_book.png"
+    }
   },
   {
     "matcher": {
@@ -13595,7 +14131,9 @@
       },
       "type": "item"
     },
-    "textures": {}
+    "textures": {
+      "texture": "packs\\rnbw\\mcpatcher\\cit\\misc_items\\books\\true_protection_book.png"
+    }
   },
   {
     "matcher": {
