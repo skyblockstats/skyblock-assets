@@ -24,6 +24,7 @@ describe('skyblock-assets', () => {
                     nbt: {},
                     pack: 'vanilla',
                 })
+                assert.ok(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png', `${item} doesn't even have an error texture???`)
                 assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png', `Couldn't find texture for ${item}`)
                 const itemTexturePath = path.join(__dirname, '..', itemTextureUrl.slice(skyblockAssets.baseUrl.length))
                 await fs.promises.access(itemTexturePath, fs.F_OK)
@@ -38,6 +39,40 @@ describe('skyblock-assets', () => {
                 pack: 'vanilla',
             })
             assert.strictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png')
+        })
+
+        it('Check SkyBlock menu on PacksHQ', async() => {
+            // not like anyone's actually gonna have this, but i want it to be 100% correct
+            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                id: 'minecraft:nether_star',
+                nbt: {
+                    ExtraAttributes: {
+                        id: 'SKYBLOCK_MENU'
+                    },
+                    display: {
+                        Name: 'SkyBlock Menu (Right Click)'
+                    }
+                },
+                pack: 'packshq',
+            })
+            assert.ok(itemTextureUrl.startsWith(skyblockAssets.baseUrl + '/packs/packshq/'))
+        })
+
+        it('Check SkyBlock menu on Furfsky Reborn', async() => {
+            // not like anyone's actually gonna have this, but i want it to be 100% correct
+            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                id: 'minecraft:nether_star',
+                nbt: {
+                    ExtraAttributes: {
+                        id: 'SKYBLOCK_MENU'
+                    },
+                    display: {
+                        Name: 'SkyBlock Menu (Right Click)'
+                    }
+                },
+                pack: 'furfsky_reborn',
+            })
+            assert.ok(itemTextureUrl.startsWith(skyblockAssets.baseUrl + '/packs/furfsky_reborn/'))
         })
     })
 })
