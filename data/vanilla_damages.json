@@ -71,12 +71,16 @@
 	"pink_tulip": "red_flower:7",
 	"oxeye_daisy": "red_flower:8",
 
+	"dandelion": "yellow_flower:0",
+
 	"sandstone_slab": "stone_slab:1",
 	"cobblestone_slab": "stone_slab:3",
 	"brick_slab": "stone_slab:4",
 	"stone_brick_slab": "stone_slab:5",
 	"nether_brick_slab": "stone_slab:6",
 	"quartz_slab": "stone_slab:7",
+
+	"red_sandstone_slab": "stone_slab2:0",
 
 	"white_stained_glass": "stained_glass:0",
 	"orange_stained_glass": "stained_glass:1",
@@ -220,5 +224,67 @@
 
 	"dead_bush": "deadbush",
 
-	"oak_fence": "fence"
+	"oak_fence": "fence",
+
+	"oak_door": "wooden_door",
+
+	"oak_fence_gate": "fence_gate",
+
+	"banner": "banner:0",
+	"black_banner": "banner:0",
+	"red_banner": "banner:1",
+	"green_banner": "banner:2",
+	"brown_banner": "banner:3",
+	"blue_banner": "banner:4",
+	"purple_banner": "banner:5",
+	"cyan_banner": "banner:6",
+	"light_gray_banner": "banner:7",
+	"gray_banner": "banner:8",
+	"pink_banner": "banner:9",
+	"lime_banner": "banner:10",
+	"yellow_banner": "banner:11",
+	"light_blue_banner": "banner:12",
+	"magenta_banner": "banner:13",
+	"orange_banner": "banner:14",
+	"white_banner": "banner:15",
+
+	"end_stone_bricks": "end_bricks",
+	"magma_block": "magma",
+	"red_nether_bricks": "red_nether_brick",
+	
+	"light_gray_shulker_box": "silver_shulker_box",
+
+	"white_concrete": "concrete:0",
+	"orange_concrete": "concrete:1",
+	"magenta_concrete": "concrete:2",
+	"light_blue_concrete": "concrete:3",
+	"yellow_concrete": "concrete:4",
+	"lime_concrete": "concrete:5",
+	"pink_concrete": "concrete:6",
+	"gray_concrete": "concrete:7",
+	"light_gray_concrete": "concrete:8",
+	"cyan_concrete": "concrete:9",
+	"purple_concrete": "concrete:10",
+	"blue_concrete": "concrete:11",
+	"brown_concrete": "concrete:12",
+	"green_concrete": "concrete:13",
+	"red_concrete": "concrete:14",
+	"black_concrete": "concrete:15",
+
+	"white_concrete_powder": "concrete_powder:0",
+	"orange_concrete_powder": "concrete_powder:1",
+	"magenta_concrete_powder": "concrete_powder:2",
+	"light_blue_concrete_powder": "concrete_powder:3",
+	"yellow_concrete_powder": "concrete_powder:4",
+	"lime_concrete_powder": "concrete_powder:5",
+	"pink_concrete_powder": "concrete_powder:6",
+	"gray_concrete_powder": "concrete_powder:7",
+	"light_gray_concrete_powder": "concrete_powder:8",
+	"cyan_concrete_powder": "concrete_powder:9",
+	"purple_concrete_powder": "concrete_powder:10",
+	"blue_concrete_powder": "concrete_powder:11",
+	"brown_concrete_powder": "concrete_powder:12",
+	"green_concrete_powder": "concrete_powder:13",
+	"red_concrete_powder": "concrete_powder:14",
+	"black_concrete_powder": "concrete_powder:15"
 }

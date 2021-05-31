@@ -1,3 +1,4 @@
+export declare const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main";
 export interface NBT {
     ExtraAttributes?: {
         id?: string;
@@ -14,5 +15,9 @@ export interface Options {
     damage?: number;
     nbt: NBT;
 }
+export declare let minecraftIds: {
+    [key: string]: string;
+};
+export declare function waitUntilReady(): Promise<void>;
 /** Get the URL for the texture for a SkyBlock item */
 export declare function getTextureUrl(options: Options): Promise<string>;
