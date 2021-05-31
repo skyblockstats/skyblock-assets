@@ -11,7 +11,9 @@ describe('skyblock-assets', () => {
                 'unlit_redstone_torch', 'portal', 'unpowered_repeater', 'powered_repeater', 'pumpkin_stem',
                 'melon_stem', 'end_portal', 'lit_redstone_lamp', 'double_wooden_slab', 'cocoa', 'carrots',
                 'potatoes', 'unpowered_comparator', 'powered_comparator', 'standing_banner', 'wall_banner',
-                'daylight_detector_inverted', 'double_stone_slab2'
+                'daylight_detector_inverted', 'double_stone_slab2',
+
+                'purpur_double_slab', 'end_gateway', 'frosted_ice', 'beetroots'
             ])
             for (const item of Object.values(skyblockAssets.minecraftIds)) {
                 if (itemlessBlocks.has(item.slice('minecraft:'.length))) continue
