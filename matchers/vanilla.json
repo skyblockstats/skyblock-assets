@@ -7,7 +7,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\acacia_boat.png"
+      "layer0": "packs\\vanilla\\textures\\items\\acacia_boat.png"
     }
   },
   {
@@ -140,7 +140,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\acacia_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\acacia_sign.png"
     }
   },
   {
@@ -445,7 +445,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\bamboo.png"
+      "layer0": "packs\\vanilla\\textures\\items\\bamboo.png"
     }
   },
   {
@@ -608,7 +608,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\beetroot.png"
+      "layer0": "packs\\vanilla\\textures\\items\\beetroot.png"
     }
   },
   {
@@ -619,7 +619,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\beetroot_seeds.png"
+      "layer0": "packs\\vanilla\\textures\\items\\beetroot_seeds.png"
     }
   },
   {
@@ -630,7 +630,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\beetroot_soup.png"
+      "layer0": "packs\\vanilla\\textures\\items\\beetroot_soup.png"
     }
   },
   {
@@ -675,7 +675,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\bell.png"
+      "layer0": "packs\\vanilla\\textures\\items\\bell.png"
     }
   },
   {
@@ -686,7 +686,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\birch_boat.png"
+      "layer0": "packs\\vanilla\\textures\\items\\birch_boat.png"
     }
   },
   {
@@ -819,7 +819,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\birch_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\birch_sign.png"
     }
   },
   {
@@ -1023,7 +1023,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\black_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\black_dye.png"
     }
   },
   {
@@ -1275,7 +1275,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\blue_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\blue_dye.png"
     }
   },
   {
@@ -1469,7 +1469,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\bone_meal.png"
+      "layer0": "packs\\vanilla\\textures\\items\\bone_meal.png"
     }
   },
   {
@@ -1829,7 +1829,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\brown_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\brown_dye.png"
     }
   },
   {
@@ -2060,7 +2060,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\campfire.png"
+      "layer0": "packs\\vanilla\\textures\\items\\campfire.png"
     }
   },
   {
@@ -2167,7 +2167,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\chain.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chain.png"
     }
   },
   {
@@ -2478,7 +2478,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\chorus_fruit.png"
+      "layer0": "packs\\vanilla\\textures\\items\\chorus_fruit.png"
     }
   },
   {
@@ -2543,7 +2543,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_01.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_01.png"
     }
   },
   {
@@ -2554,7 +2554,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_02.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_02.png"
     }
   },
   {
@@ -2565,7 +2565,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_03.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_03.png"
     }
   },
   {
@@ -2576,7 +2576,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_04.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_04.png"
     }
   },
   {
@@ -2587,7 +2587,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_05.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_05.png"
     }
   },
   {
@@ -2598,7 +2598,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_06.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_06.png"
     }
   },
   {
@@ -2609,7 +2609,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_07.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_07.png"
     }
   },
   {
@@ -2620,7 +2620,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_08.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_08.png"
     }
   },
   {
@@ -2631,7 +2631,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_09.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_09.png"
     }
   },
   {
@@ -2642,7 +2642,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_10.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_10.png"
     }
   },
   {
@@ -2653,7 +2653,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_11.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_11.png"
     }
   },
   {
@@ -2664,7 +2664,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_12.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_12.png"
     }
   },
   {
@@ -2675,7 +2675,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_13.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_13.png"
     }
   },
   {
@@ -2686,7 +2686,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_14.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_14.png"
     }
   },
   {
@@ -2697,7 +2697,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_15.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_15.png"
     }
   },
   {
@@ -2708,7 +2708,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_16.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_16.png"
     }
   },
   {
@@ -2719,7 +2719,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_17.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_17.png"
     }
   },
   {
@@ -2730,7 +2730,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_18.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_18.png"
     }
   },
   {
@@ -2741,7 +2741,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_19.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_19.png"
     }
   },
   {
@@ -2752,7 +2752,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_20.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_20.png"
     }
   },
   {
@@ -2763,7 +2763,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_21.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_21.png"
     }
   },
   {
@@ -2774,7 +2774,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_22.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_22.png"
     }
   },
   {
@@ -2785,7 +2785,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_23.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_23.png"
     }
   },
   {
@@ -2796,7 +2796,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_24.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_24.png"
     }
   },
   {
@@ -2807,7 +2807,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_25.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_25.png"
     }
   },
   {
@@ -2818,7 +2818,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_26.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_26.png"
     }
   },
   {
@@ -2829,7 +2829,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_27.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_27.png"
     }
   },
   {
@@ -2840,7 +2840,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_28.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_28.png"
     }
   },
   {
@@ -2851,7 +2851,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_29.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_29.png"
     }
   },
   {
@@ -2862,7 +2862,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_30.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_30.png"
     }
   },
   {
@@ -2873,7 +2873,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_31.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_31.png"
     }
   },
   {
@@ -2884,7 +2884,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_32.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_32.png"
     }
   },
   {
@@ -2895,7 +2895,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_33.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_33.png"
     }
   },
   {
@@ -2906,7 +2906,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_34.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_34.png"
     }
   },
   {
@@ -2917,7 +2917,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_35.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_35.png"
     }
   },
   {
@@ -2928,7 +2928,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_36.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_36.png"
     }
   },
   {
@@ -2939,7 +2939,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_37.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_37.png"
     }
   },
   {
@@ -2950,7 +2950,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_38.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_38.png"
     }
   },
   {
@@ -2961,7 +2961,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_39.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_39.png"
     }
   },
   {
@@ -2972,7 +2972,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_40.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_40.png"
     }
   },
   {
@@ -2983,7 +2983,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_41.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_41.png"
     }
   },
   {
@@ -2994,7 +2994,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_42.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_42.png"
     }
   },
   {
@@ -3005,7 +3005,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_43.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_43.png"
     }
   },
   {
@@ -3016,7 +3016,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_44.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_44.png"
     }
   },
   {
@@ -3027,7 +3027,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_45.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_45.png"
     }
   },
   {
@@ -3038,7 +3038,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_46.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_46.png"
     }
   },
   {
@@ -3049,7 +3049,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_47.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_47.png"
     }
   },
   {
@@ -3060,7 +3060,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_48.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_48.png"
     }
   },
   {
@@ -3071,7 +3071,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_49.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_49.png"
     }
   },
   {
@@ -3082,7 +3082,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_50.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_50.png"
     }
   },
   {
@@ -3093,7 +3093,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_51.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_51.png"
     }
   },
   {
@@ -3104,7 +3104,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_52.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_52.png"
     }
   },
   {
@@ -3115,7 +3115,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_53.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_53.png"
     }
   },
   {
@@ -3126,7 +3126,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_54.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_54.png"
     }
   },
   {
@@ -3137,7 +3137,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_55.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_55.png"
     }
   },
   {
@@ -3148,7 +3148,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_56.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_56.png"
     }
   },
   {
@@ -3159,7 +3159,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_57.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_57.png"
     }
   },
   {
@@ -3170,7 +3170,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_58.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_58.png"
     }
   },
   {
@@ -3181,7 +3181,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_59.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_59.png"
     }
   },
   {
@@ -3192,7 +3192,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_60.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_60.png"
     }
   },
   {
@@ -3203,7 +3203,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_61.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_61.png"
     }
   },
   {
@@ -3214,7 +3214,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_62.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_62.png"
     }
   },
   {
@@ -3225,7 +3225,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\clock_63.png"
+      "layer0": "packs\\vanilla\\textures\\items\\clock_63.png"
     }
   },
   {
@@ -3406,7 +3406,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\cocoa_beans.png"
+      "layer0": "packs\\vanilla\\textures\\items\\cocoa_beans.png"
     }
   },
   {
@@ -3428,7 +3428,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\cod_bucket.png"
+      "layer0": "packs\\vanilla\\textures\\items\\cod_bucket.png"
     }
   },
   {
@@ -3504,7 +3504,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_00.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_00.png"
     }
   },
   {
@@ -3515,7 +3515,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_01.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_01.png"
     }
   },
   {
@@ -3526,7 +3526,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_02.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_02.png"
     }
   },
   {
@@ -3537,7 +3537,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_03.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_03.png"
     }
   },
   {
@@ -3548,7 +3548,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_04.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_04.png"
     }
   },
   {
@@ -3559,7 +3559,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_05.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_05.png"
     }
   },
   {
@@ -3570,7 +3570,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_06.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_06.png"
     }
   },
   {
@@ -3581,7 +3581,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_07.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_07.png"
     }
   },
   {
@@ -3592,7 +3592,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_08.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_08.png"
     }
   },
   {
@@ -3603,7 +3603,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_09.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_09.png"
     }
   },
   {
@@ -3614,7 +3614,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_10.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_10.png"
     }
   },
   {
@@ -3625,7 +3625,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_11.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_11.png"
     }
   },
   {
@@ -3636,7 +3636,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_12.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_12.png"
     }
   },
   {
@@ -3647,7 +3647,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_13.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_13.png"
     }
   },
   {
@@ -3658,7 +3658,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_14.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_14.png"
     }
   },
   {
@@ -3669,7 +3669,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_15.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_15.png"
     }
   },
   {
@@ -3680,7 +3680,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_17.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_17.png"
     }
   },
   {
@@ -3691,7 +3691,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_18.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_18.png"
     }
   },
   {
@@ -3702,7 +3702,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_19.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_19.png"
     }
   },
   {
@@ -3713,7 +3713,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_20.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_20.png"
     }
   },
   {
@@ -3724,7 +3724,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_21.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_21.png"
     }
   },
   {
@@ -3735,7 +3735,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_22.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_22.png"
     }
   },
   {
@@ -3746,7 +3746,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_23.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_23.png"
     }
   },
   {
@@ -3757,7 +3757,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_24.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_24.png"
     }
   },
   {
@@ -3768,7 +3768,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_25.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_25.png"
     }
   },
   {
@@ -3779,7 +3779,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_26.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_26.png"
     }
   },
   {
@@ -3790,7 +3790,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_27.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_27.png"
     }
   },
   {
@@ -3801,7 +3801,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_28.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_28.png"
     }
   },
   {
@@ -3812,7 +3812,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_29.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_29.png"
     }
   },
   {
@@ -3823,7 +3823,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_30.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_30.png"
     }
   },
   {
@@ -3834,7 +3834,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\compass_31.png"
+      "layer0": "packs\\vanilla\\textures\\items\\compass_31.png"
     }
   },
   {
@@ -4093,7 +4093,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\creeper_banner_pattern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\creeper_banner_pattern.png"
     }
   },
   {
@@ -4141,7 +4141,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\crimson_door.png"
+      "layer0": "packs\\vanilla\\textures\\items\\crimson_door.png"
     }
   },
   {
@@ -4267,7 +4267,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\crimson_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\crimson_sign.png"
     }
   },
   {
@@ -4561,7 +4561,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\cyan_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\cyan_dye.png"
     }
   },
   {
@@ -4708,7 +4708,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\dark_oak_boat.png"
+      "layer0": "packs\\vanilla\\textures\\items\\dark_oak_boat.png"
     }
   },
   {
@@ -4841,7 +4841,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\dark_oak_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\dark_oak_sign.png"
     }
   },
   {
@@ -5186,7 +5186,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\stick.png"
+      "layer0": "packs\\vanilla\\textures\\items\\stick.png"
     }
   },
   {
@@ -5544,7 +5544,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\dragon_breath.png"
+      "layer0": "packs\\vanilla\\textures\\items\\dragon_breath.png"
     }
   },
   {
@@ -5580,7 +5580,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\dried_kelp.png"
+      "layer0": "packs\\vanilla\\textures\\items\\dried_kelp.png"
     }
   },
   {
@@ -5913,7 +5913,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\golden_apple.png"
+      "layer0": "packs\\vanilla\\textures\\items\\golden_apple.png"
     }
   },
   {
@@ -5998,7 +5998,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\end_crystal.png"
+      "layer0": "packs\\vanilla\\textures\\items\\end_crystal.png"
     }
   },
   {
@@ -6221,7 +6221,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\firework_rocket.png"
+      "layer0": "packs\\vanilla\\textures\\items\\firework_rocket.png"
     }
   },
   {
@@ -6357,7 +6357,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\flower_banner_pattern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\flower_banner_pattern.png"
     }
   },
   {
@@ -6516,7 +6516,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\glistering_melon_slice.png"
+      "layer0": "packs\\vanilla\\textures\\items\\glistering_melon_slice.png"
     }
   },
   {
@@ -6527,7 +6527,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\globe_banner_pattern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\globe_banner_pattern.png"
     }
   },
   {
@@ -6988,7 +6988,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\gray_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\gray_dye.png"
     }
   },
   {
@@ -7184,7 +7184,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\green_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\green_dye.png"
     }
   },
   {
@@ -7402,7 +7402,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\heart_of_the_sea.png"
+      "layer0": "packs\\vanilla\\textures\\items\\heart_of_the_sea.png"
     }
   },
   {
@@ -7438,7 +7438,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\honeycomb.png"
+      "layer0": "packs\\vanilla\\textures\\items\\honeycomb.png"
     }
   },
   {
@@ -7481,7 +7481,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\honey_bottle.png"
+      "layer0": "packs\\vanilla\\textures\\items\\honey_bottle.png"
     }
   },
   {
@@ -7720,7 +7720,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\ink_sac.png"
+      "layer0": "packs\\vanilla\\textures\\items\\ink_sac.png"
     }
   },
   {
@@ -7860,7 +7860,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\iron_nugget.png"
+      "layer0": "packs\\vanilla\\textures\\items\\iron_nugget.png"
     }
   },
   {
@@ -8003,7 +8003,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\jungle_boat.png"
+      "layer0": "packs\\vanilla\\textures\\items\\jungle_boat.png"
     }
   },
   {
@@ -8136,7 +8136,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\jungle_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\jungle_sign.png"
     }
   },
   {
@@ -8209,7 +8209,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\kelp.png"
+      "layer0": "packs\\vanilla\\textures\\items\\kelp.png"
     }
   },
   {
@@ -8220,7 +8220,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\knowledge_book.png"
+      "layer0": "packs\\vanilla\\textures\\items\\knowledge_book.png"
     }
   },
   {
@@ -8242,7 +8242,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\lantern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\lantern.png"
     }
   },
   {
@@ -8272,7 +8272,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\lapis_lazuli.png"
+      "layer0": "packs\\vanilla\\textures\\items\\lapis_lazuli.png"
     }
   },
   {
@@ -8385,7 +8385,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\leather_horse_armor.png"
+      "layer0": "packs\\vanilla\\textures\\items\\leather_horse_armor.png"
     }
   },
   {
@@ -8511,7 +8511,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\light_blue_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\light_blue_dye.png"
     }
   },
   {
@@ -8702,7 +8702,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\light_gray_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\light_gray_dye.png"
     }
   },
   {
@@ -8922,7 +8922,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\lime_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\lime_dye.png"
     }
   },
   {
@@ -9225,7 +9225,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\magenta_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\magenta_dye.png"
     }
   },
   {
@@ -9444,7 +9444,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\melon_slice.png"
+      "layer0": "packs\\vanilla\\textures\\items\\melon_slice.png"
     }
   },
   {
@@ -9496,7 +9496,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\mojang_banner_pattern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\mojang_banner_pattern.png"
     }
   },
   {
@@ -9718,7 +9718,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_11.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_11.png"
     }
   },
   {
@@ -9729,7 +9729,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_13.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_13.png"
     }
   },
   {
@@ -9740,7 +9740,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_blocks.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_blocks.png"
     }
   },
   {
@@ -9751,7 +9751,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_cat.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_cat.png"
     }
   },
   {
@@ -9762,7 +9762,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_chirp.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_chirp.png"
     }
   },
   {
@@ -9773,7 +9773,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_far.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_far.png"
     }
   },
   {
@@ -9784,7 +9784,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_mall.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_mall.png"
     }
   },
   {
@@ -9795,7 +9795,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_mellohi.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_mellohi.png"
     }
   },
   {
@@ -9806,7 +9806,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_pigstep.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_pigstep.png"
     }
   },
   {
@@ -9817,7 +9817,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_stal.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_stal.png"
     }
   },
   {
@@ -9828,7 +9828,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_strad.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_strad.png"
     }
   },
   {
@@ -9839,7 +9839,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_wait.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_wait.png"
     }
   },
   {
@@ -9850,7 +9850,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\music_disc_ward.png"
+      "layer0": "packs\\vanilla\\textures\\items\\music_disc_ward.png"
     }
   },
   {
@@ -9904,7 +9904,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\nautilus_shell.png"
+      "layer0": "packs\\vanilla\\textures\\items\\nautilus_shell.png"
     }
   },
   {
@@ -9926,7 +9926,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_axe.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_axe.png"
     }
   },
   {
@@ -9955,7 +9955,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_boots.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_boots.png"
     }
   },
   {
@@ -9966,7 +9966,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_chestplate.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_chestplate.png"
     }
   },
   {
@@ -9977,7 +9977,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_helmet.png"
     }
   },
   {
@@ -9988,7 +9988,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_hoe.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_hoe.png"
     }
   },
   {
@@ -9999,7 +9999,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_ingot.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_ingot.png"
     }
   },
   {
@@ -10010,7 +10010,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_leggings.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_leggings.png"
     }
   },
   {
@@ -10021,7 +10021,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_pickaxe.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_pickaxe.png"
     }
   },
   {
@@ -10032,7 +10032,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_scrap.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_scrap.png"
     }
   },
   {
@@ -10043,7 +10043,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_shovel.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_shovel.png"
     }
   },
   {
@@ -10054,7 +10054,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\netherite_sword.png"
+      "layer0": "packs\\vanilla\\textures\\items\\netherite_sword.png"
     }
   },
   {
@@ -10211,7 +10211,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\nether_sprouts.png"
+      "layer0": "packs\\vanilla\\textures\\items\\nether_sprouts.png"
     }
   },
   {
@@ -10300,7 +10300,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\oak_boat.png"
+      "layer0": "packs\\vanilla\\textures\\items\\oak_boat.png"
     }
   },
   {
@@ -10433,7 +10433,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\oak_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\oak_sign.png"
     }
   },
   {
@@ -10642,7 +10642,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\orange_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\orange_dye.png"
     }
   },
   {
@@ -10889,7 +10889,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\phantom_membrane.png"
+      "layer0": "packs\\vanilla\\textures\\items\\phantom_membrane.png"
     }
   },
   {
@@ -10913,7 +10913,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\piglin_banner_pattern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\piglin_banner_pattern.png"
     }
   },
   {
@@ -11050,7 +11050,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\pink_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\pink_dye.png"
     }
   },
   {
@@ -11558,7 +11558,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\popped_chorus_fruit.png"
+      "layer0": "packs\\vanilla\\textures\\items\\popped_chorus_fruit.png"
     }
   },
   {
@@ -11765,7 +11765,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\pufferfish_bucket.png"
+      "layer0": "packs\\vanilla\\textures\\items\\pufferfish_bucket.png"
     }
   },
   {
@@ -11906,7 +11906,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\purple_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\purple_dye.png"
     }
   },
   {
@@ -12600,7 +12600,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\red_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\red_dye.png"
     }
   },
   {
@@ -13011,7 +13011,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\salmon_bucket.png"
+      "layer0": "packs\\vanilla\\textures\\items\\salmon_bucket.png"
     }
   },
   {
@@ -13131,7 +13131,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\scute.png"
+      "layer0": "packs\\vanilla\\textures\\items\\scute.png"
     }
   },
   {
@@ -13142,7 +13142,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\seagrass.png"
+      "layer0": "packs\\vanilla\\textures\\items\\seagrass.png"
     }
   },
   {
@@ -13172,7 +13172,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\sea_pickle.png"
+      "layer0": "packs\\vanilla\\textures\\items\\sea_pickle.png"
     }
   },
   {
@@ -13259,7 +13259,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\shulker_shell.png"
+      "layer0": "packs\\vanilla\\textures\\items\\shulker_shell.png"
     }
   },
   {
@@ -13426,7 +13426,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\skull_banner_pattern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\skull_banner_pattern.png"
     }
   },
   {
@@ -13804,7 +13804,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\soul_campfire.png"
+      "layer0": "packs\\vanilla\\textures\\items\\soul_campfire.png"
     }
   },
   {
@@ -13815,7 +13815,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\soul_lantern.png"
+      "layer0": "packs\\vanilla\\textures\\items\\soul_lantern.png"
     }
   },
   {
@@ -13916,7 +13916,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\spectral_arrow.png"
+      "layer0": "packs\\vanilla\\textures\\items\\spectral_arrow.png"
     }
   },
   {
@@ -14001,7 +14001,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\spruce_boat.png"
+      "layer0": "packs\\vanilla\\textures\\items\\spruce_boat.png"
     }
   },
   {
@@ -14134,7 +14134,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\spruce_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\spruce_sign.png"
     }
   },
   {
@@ -14872,7 +14872,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\structure_void.png"
+      "layer0": "packs\\vanilla\\textures\\items\\structure_void.png"
     }
   },
   {
@@ -14894,7 +14894,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\sugar_cane.png"
+      "layer0": "packs\\vanilla\\textures\\items\\sugar_cane.png"
     }
   },
   {
@@ -14916,7 +14916,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\suspicious_stew.png"
+      "layer0": "packs\\vanilla\\textures\\items\\suspicious_stew.png"
     }
   },
   {
@@ -14927,7 +14927,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\sweet_berries.png"
+      "layer0": "packs\\vanilla\\textures\\items\\sweet_berries.png"
     }
   },
   {
@@ -15106,7 +15106,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\totem_of_undying.png"
+      "layer0": "packs\\vanilla\\textures\\items\\totem_of_undying.png"
     }
   },
   {
@@ -15153,7 +15153,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\trident.png"
+      "layer0": "packs\\vanilla\\textures\\items\\trident.png"
     }
   },
   {
@@ -15197,7 +15197,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\tropical_fish.png"
+      "layer0": "packs\\vanilla\\textures\\items\\tropical_fish.png"
     }
   },
   {
@@ -15208,7 +15208,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\tropical_fish_bucket.png"
+      "layer0": "packs\\vanilla\\textures\\items\\tropical_fish_bucket.png"
     }
   },
   {
@@ -15272,7 +15272,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\turtle_egg.png"
+      "layer0": "packs\\vanilla\\textures\\items\\turtle_egg.png"
     }
   },
   {
@@ -15283,7 +15283,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\turtle_helmet.png"
+      "layer0": "packs\\vanilla\\textures\\items\\turtle_helmet.png"
     }
   },
   {
@@ -15393,7 +15393,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\warped_door.png"
+      "layer0": "packs\\vanilla\\textures\\items\\warped_door.png"
     }
   },
   {
@@ -15439,7 +15439,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\warped_fungus_on_a_stick.png"
+      "layer0": "packs\\vanilla\\textures\\items\\warped_fungus_on_a_stick.png"
     }
   },
   {
@@ -15530,7 +15530,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\warped_sign.png"
+      "layer0": "packs\\vanilla\\textures\\items\\warped_sign.png"
     }
   },
   {
@@ -15778,7 +15778,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\white_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\white_dye.png"
     }
   },
   {
@@ -16162,7 +16162,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\minecraft:item\\yellow_dye.png"
+      "layer0": "packs\\vanilla\\textures\\items\\yellow_dye.png"
     }
   },
   {

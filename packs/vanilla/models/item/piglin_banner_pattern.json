@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/piglin_banner_pattern"
+    "layer0": "items/piglin_banner_pattern"
   }
 }

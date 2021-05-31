@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/netherite_hoe"
+    "layer0": "items/netherite_hoe"
   }
 }

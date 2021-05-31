@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/chorus_fruit"
+    "layer0": "items/chorus_fruit"
   }
 }

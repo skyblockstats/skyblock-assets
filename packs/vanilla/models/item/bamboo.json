@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/bamboo"
+    "layer0": "items/bamboo"
   }
 }

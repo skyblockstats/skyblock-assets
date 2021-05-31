@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/clock_15"
+    "layer0": "items/clock_15"
   }
 }

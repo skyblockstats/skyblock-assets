@@ -1,5 +1,7 @@
 const skyblockAssets = require('../build/index')
 const assert = require('assert')
+const path = require('path')
+const fs = require('fs')
 
 describe('skyblock-assets', () => {
     describe('#getTextureUrl()', () => {
@@ -23,6 +25,8 @@ describe('skyblock-assets', () => {
                     pack: 'vanilla',
                 })
                 assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png', `Couldn't find texture for ${item}`)
+                const itemTexturePath = path.join(__dirname, '..', itemTextureUrl.slice(skyblockAssets.baseUrl.length))
+                await fs.promises.access(itemTexturePath, fs.F_OK)
             }
         })
 

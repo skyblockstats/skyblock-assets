@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/glistering_melon_slice"
+    "layer0": "items/glistering_melon_slice"
   }
 }
