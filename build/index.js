@@ -163,7 +163,7 @@ async function getTextureUrl(options) {
             pack: 'vanilla'
         });
     }
-    if (!texturePath)
+    if (!texturePath && !options.noNullTexture)
         return exports.baseUrl + '/renders/vanilla/error.png';
     else
         return exports.baseUrl + '/' + texturePath.replace(/\\/g, '/');

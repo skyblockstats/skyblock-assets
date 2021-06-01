@@ -28,6 +28,7 @@ export interface Options {
 	id: string
 	damage?: number
 	nbt: NBT
+	noNullTexture?: boolean
 }
 
 /** Read the contents of a json file */
@@ -200,7 +201,7 @@ export async function getTextureUrl(options: Options): Promise<string> {
 			pack: 'vanilla'
 		})
 	}
-	if (!texturePath)
+	if (!texturePath && !options.noNullTexture)
 		return baseUrl + '/renders/vanilla/error.png'
 	else
 		return baseUrl + '/' + texturePath.replace(/\\/g, '/')
