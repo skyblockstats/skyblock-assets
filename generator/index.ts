@@ -301,7 +301,6 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 
 	if (Object.keys(textures).length === 0) {
 		// some properties are weird and just don't put a model or texture, so we just assume it's fine if we replace .properties with .png
-		console.log('no textures for', propertiesDir)
 		let textureDir = propertiesDir.replace(/(\.properties)$/, '.png')
 		try {
 			textureDir = await makeAnimationFromMcmeta(textureDir)
@@ -508,7 +507,6 @@ async function main() {
 	for await (const dir of await getFiles('renders/vanilla'))
 		vanillaRenders.push(dir)
 
-	await makeDir('./textures')
 	await makeDir(`./matchers`)
 
 	await addPack('ectoplasm') // completionists update

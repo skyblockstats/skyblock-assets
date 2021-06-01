@@ -114,5 +114,15 @@ describe('skyblock-assets', () => {
 
             assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_black.png`)
         })
+
+        it('Check melon slice', async() => {
+            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                id: 'minecraft:melon',
+                pack: 'vanilla',
+            })
+            console.log(itemTextureUrl)
+
+            // assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_black.png`)
+        })
     })
 })

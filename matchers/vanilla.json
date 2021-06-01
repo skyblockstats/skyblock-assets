@@ -9401,8 +9401,7 @@
       "damage": 0
     },
     "textures": {
-      "layer0": "packs\\vanilla\\textures\\items\\melon.png",
-      "texture": "renders\\vanilla\\melon.png"
+      "layer0": "packs\\vanilla\\textures\\items\\melon.png"
     }
   },
   {
