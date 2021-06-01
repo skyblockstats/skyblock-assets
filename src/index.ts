@@ -133,9 +133,13 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 		// no matchers found, continue in 200ms because it'll probably have the matchers by then
 		await new Promise(resolve => setTimeout(resolve, 200))
 	}
-	if (minecraftIds[options.id.split(':')[0]]) {
-		options.damage = parseInt(options.id.split(':')[1])
-		options.id = minecraftIds[options.id.split(':')[0]]
+	const splitId = options.id.split(/:(?=[^:]+$)/)
+	if (minecraftIds[splitId[0]]) {
+		options.damage = parseInt(splitId[1])
+		options.id = minecraftIds[splitId[0]]
+	} else if (options.damage == null && parseInt(splitId[1])) {
+		options.id = splitId[0]
+		options.damage = parseInt(splitId[1])
 	}
 	if (options.damage === undefined || isNaN(options.damage))
 		options.damage = 0

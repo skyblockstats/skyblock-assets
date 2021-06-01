@@ -97,5 +97,22 @@ describe('skyblock-assets', () => {
             assertIsPack(itemTextureUrl, 'packshq')
         })
 
+        it('Check minecraft:item:id', async() => {
+            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                id: 'minecraft:dye:3',
+                pack: 'vanilla',
+            })
+
+            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_black.png`)
+        })
+
+        it('Check itemid:id', async() => {
+            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                id: '351:3',
+                pack: 'vanilla',
+            })
+
+            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_black.png`)
+        })
     })
 })
