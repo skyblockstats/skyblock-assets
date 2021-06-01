@@ -120,9 +120,8 @@ describe('skyblock-assets', () => {
                 id: 'minecraft:melon',
                 pack: 'vanilla',
             })
-            console.log(itemTextureUrl)
 
-            // assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_black.png`)
+            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/melon.png`)
         })
     })
 })
