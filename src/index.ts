@@ -201,8 +201,11 @@ export async function getTextureUrl(options: Options): Promise<string> {
 			pack: 'vanilla'
 		})
 	}
-	if (!texturePath && !options.noNullTexture)
-		return baseUrl + '/renders/vanilla/error.png'
+	if (!texturePath)
+		if (options.noNullTexture)
+			return null
+		else
+			return baseUrl + '/renders/vanilla/error.png'
 	else
 		return baseUrl + '/' + texturePath.replace(/\\/g, '/')
 }
