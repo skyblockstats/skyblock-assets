@@ -164,7 +164,7 @@ async function getTextureUrl(options) {
         });
     }
     if (!texturePath)
-        return exports.baseUrl + '/renders/error.png';
+        return exports.baseUrl + '/renders/vanilla/error.png';
     else
         return exports.baseUrl + '/' + texturePath.replace(/\\/g, '/');
 }

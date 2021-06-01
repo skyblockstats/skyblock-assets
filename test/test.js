@@ -31,8 +31,8 @@ describe('skyblock-assets', () => {
                     nbt: {},
                     pack: 'vanilla',
                 })
-                assert.ok(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png', `${item} doesn't even have an error texture???`)
-                assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png', `Couldn't find texture for ${item}`)
+                assert.ok(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `${item} doesn't even have an error texture???`)
+                assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `Couldn't find texture for ${item}`)
                 const itemTexturePath = path.join(__dirname, '..', itemTextureUrl.slice(skyblockAssets.baseUrl.length))
                 await fs.promises.access(itemTexturePath, fs.F_OK)
             }
@@ -45,7 +45,7 @@ describe('skyblock-assets', () => {
                 nbt: {},
                 pack: 'vanilla',
             })
-            assert.strictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/error.png')
+            assert.strictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png')
         })
 
         it('Check SkyBlock menu on PacksHQ', async() => {
