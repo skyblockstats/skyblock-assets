@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/enrichments/health_enrichment/health_enrichment.png"
+        "layer0": "./health_enrichment"
     },
     "display": {
         "thirdperson": {

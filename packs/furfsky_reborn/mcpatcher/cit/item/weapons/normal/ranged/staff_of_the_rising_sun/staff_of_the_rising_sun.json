@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/weapons/normal/ranged/staff_of_the_rising_sun/staff_of_the_rising_sun.png"
+        "layer0": "./staff_of_the_rising_sun"
     },
     "display": {
         "thirdperson": {

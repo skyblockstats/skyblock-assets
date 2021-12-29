@@ -27447,7 +27447,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\bee\\bee.png"
+      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\bee\\bee.png"
     }
   },
   {
@@ -28114,7 +28114,7 @@
       "type": "item"
     },
     "textures": {
-      "0": "renders\\packshq\\mcpatcher\\cit\\pets\\parrot\\parrot_red_blue.png"
+      "0": "packs\\packshq\\mcpatcher\\cit\\pets\\parrot\\parrot_red_blue.png"
     }
   },
   {

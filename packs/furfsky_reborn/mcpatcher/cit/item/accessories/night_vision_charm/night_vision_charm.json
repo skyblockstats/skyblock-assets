@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/night_vision_charm/night_vision_charm.png"
+        "layer0": "./night_vision_charm"
     },
     "display": {
         "thirdperson": {

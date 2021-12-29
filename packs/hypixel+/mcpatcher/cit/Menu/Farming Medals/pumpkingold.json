@@ -1,0 +1,7 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "items/pumpkin_pie",
+        "layer1": "./goldbutton"
+    }
+}

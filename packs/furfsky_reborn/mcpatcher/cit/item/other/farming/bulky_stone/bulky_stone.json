@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/farming/bulky_stone/bulky_stone.png"
+        "layer0": "./bulky_stone"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/farming/lucky_dice/lucky_dice.png"
+        "layer0": "./lucky_dice"
     },
     "display": {
         "thirdperson": {

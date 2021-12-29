@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/campfire_scion_badge/campfire_scion_badge.png"
+        "layer0": "./campfire_scion_badge"
     },
     "display": {
         "thirdperson": {

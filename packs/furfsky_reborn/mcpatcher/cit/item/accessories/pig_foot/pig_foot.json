@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/pig_foot/pig_foot.png"
+        "layer0": "./pig_foot"
     },
     "display": {
         "thirdperson": {

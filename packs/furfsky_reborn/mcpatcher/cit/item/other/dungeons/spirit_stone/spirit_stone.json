@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/spirit_stone/spirit_stone.png"
+        "layer0": "./spirit_stone"
     },
     "display": {
         "thirdperson": {

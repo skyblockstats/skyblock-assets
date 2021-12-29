@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/wither_artifact/wither_artifact.png"
+        "layer0": "./wither_artifact"
     },
     "display": {
         "thirdperson": {

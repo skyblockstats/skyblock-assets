@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/weapons/dungeons/ranged/flower_of_truth/flower_of_truth.png"
+        "layer0": "./flower_of_truth"
     },
     "display": {
         "thirdperson": {

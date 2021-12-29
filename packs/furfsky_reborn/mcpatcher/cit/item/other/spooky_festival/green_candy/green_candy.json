@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/spooky_festival/green_candy/green_candy.png"
+        "layer0": "./green_candy"
     },
     "display": {
         "thirdperson": {

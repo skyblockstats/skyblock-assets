@@ -24,7 +24,7 @@ interface Matcher {
 }
 
 export interface Options {
-	pack: 'ectoplasn' | 'furfsky_reborn' | 'furfsky' | 'packshq' | 'rnbw' | 'vanilla' | string
+	pack: 'ectoplasm' | 'furfsky_reborn' | 'furfsky' | 'hypixel+' | 'packshq' | 'rnbw' | 'vanilla' | 'worlds_and_beyond' | string
 	id: string
 	damage?: number
 	nbt: NBT

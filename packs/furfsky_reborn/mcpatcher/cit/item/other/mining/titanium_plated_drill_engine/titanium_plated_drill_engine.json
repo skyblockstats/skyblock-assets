@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/titanium_plated_drill_engine/titanium_plated_drill_engine.png"
+        "layer0": "./titanium_plated_drill_engine"
     },
     "display": {
         "thirdperson": {

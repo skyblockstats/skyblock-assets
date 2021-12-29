@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/titanium_infused_fuel_tank/titanium_infused_fuel_tank.png"
+        "layer0": "./titanium_infused_fuel_tank"
     },
     "display": {
         "thirdperson": {

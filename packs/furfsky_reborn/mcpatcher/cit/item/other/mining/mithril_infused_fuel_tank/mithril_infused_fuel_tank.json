@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/mithril_infused_fuel_tank/mithril_infused_fuel_tank.png"
+        "layer0": "./mithril_infused_fuel_tank"
     },
     "display": {
         "thirdperson": {

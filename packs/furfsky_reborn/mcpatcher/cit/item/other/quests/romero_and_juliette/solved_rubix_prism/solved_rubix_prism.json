@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/quests/romero_and_juliette/solved_rubix_prism/solved_rubix_prism.png"
+        "layer0": "./solved_rubix_prism"
     },
     "display": {
         "thirdperson": {

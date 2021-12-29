@@ -1,0 +1,7 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "blocks/mushroom_red",
+        "layer1": "./bronzebutton"
+    }
+}

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/petrified_starfall/petrified_starfall.png"
+        "layer0": "./petrified_starfall"
     },
     "display": {
         "thirdperson": {

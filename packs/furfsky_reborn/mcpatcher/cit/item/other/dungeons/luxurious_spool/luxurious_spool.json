@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/luxurious_spool/luxurious_spool.png"
+        "layer0": "./luxurious_spool"
     },
     "display": {
         "thirdperson": {

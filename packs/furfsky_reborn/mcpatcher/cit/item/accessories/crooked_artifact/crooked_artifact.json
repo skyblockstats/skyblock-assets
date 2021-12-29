@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/crooked_artifact/crooked_artifact.png"
+        "layer0": "./crooked_artifact"
     },
     "display": {
         "thirdperson": {

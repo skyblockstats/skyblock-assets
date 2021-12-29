@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/blood_god_crest/blood_god_crest.png"
+        "layer0": "./blood_god_crest"
     },
     "display": {
         "thirdperson": {

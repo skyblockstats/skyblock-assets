@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/enrichments/defense_enrichment/defense_enrichment.png"
+        "layer0": "./defense_enrichment"
     },
     "display": {
         "thirdperson": {

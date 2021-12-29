@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/mine_affinity_talisman/mine_affinity_talisman.png"
+        "layer0": "./mine_affinity_talisman"
     },
     "display": {
         "thirdperson": {

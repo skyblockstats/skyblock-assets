@@ -4955,7 +4955,7 @@
       "type": "item"
     },
     "textures": {
-      "bow_standby": "renders\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_standby.png",
+      "bow_standby": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_standby.png",
       "bow_pulling_0": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_1.png",
       "bow_pulling_1": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_2.png",
       "bow_pulling_2": "packs\\furfsky\\mcpatcher\\cit\\items\\bows\\magma\\magma_bow_3.png"
@@ -5123,7 +5123,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\catalyst.png"
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\catalyst.png"
     }
   },
   {
@@ -5252,7 +5252,7 @@
       "type": "item"
     },
     "textures": {
-      "layer0": "renders\\furfsky\\mcpatcher\\cit\\items\\items\\hamster_wheel.png"
+      "layer0": "packs\\furfsky\\mcpatcher\\cit\\items\\items\\hamster_wheel.png"
     }
   },
   {
@@ -5827,7 +5827,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\pigman_sword.png"
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\pigman_sword.png"
     }
   },
   {
@@ -5859,7 +5859,7 @@
       "type": "item"
     },
     "textures": {
-      "texture": "renders\\furfsky\\mcpatcher\\cit\\items\\melee\\prismarine_blade.png"
+      "texture": "packs\\furfsky\\mcpatcher\\cit\\items\\melee\\prismarine_blade.png"
     }
   },
   {

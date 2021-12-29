@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/brews/wolf_fur_mixin/wolf_fur_mixin.png"
+        "layer0": "./wolf_fur_mixin"
     },
     "display": {
         "thirdperson": {

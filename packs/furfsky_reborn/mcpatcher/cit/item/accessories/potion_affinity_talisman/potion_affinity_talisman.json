@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/potion_affinity_talisman/potion_affinity_talisman.png"
+        "layer0": "./potion_affinity_talisman"
     },
     "display": {
         "thirdperson": {

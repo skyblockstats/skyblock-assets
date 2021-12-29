@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/enrichments/intellegence_enrichment/intellegence_enrichment.png"
+        "layer0": "./intellegence_enrichment"
     },
     "display": {
         "thirdperson": {

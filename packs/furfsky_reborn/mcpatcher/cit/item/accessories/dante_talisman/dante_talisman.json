@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/dante_talisman/dante_talisman.png"
+        "layer0": "./dante_talisman"
     },
     "display": {
         "thirdperson": {

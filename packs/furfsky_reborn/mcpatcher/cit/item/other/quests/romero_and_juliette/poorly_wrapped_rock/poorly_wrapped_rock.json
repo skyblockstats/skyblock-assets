@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/quests/romero_and_juliette/poorly_wrapped_rock/poorly_wrapped_rock.png"
+        "layer0": "./poorly_wrapped_rock"
     },
     "display": {
         "thirdperson": {

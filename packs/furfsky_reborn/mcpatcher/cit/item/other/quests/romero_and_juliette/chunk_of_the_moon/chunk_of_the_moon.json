@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/quests/romero_and_juliette/chunk_of_the_moon/chunk_of_the_moon.png"
+        "layer0": "./chunk_of_the_moon"
     },
     "display": {
         "thirdperson": {

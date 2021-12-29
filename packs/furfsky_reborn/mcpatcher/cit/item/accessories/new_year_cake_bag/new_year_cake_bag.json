@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/new_year_cake_bag/new_year_cake_bag.png"
+        "layer0": "./new_year_cake_bag"
     },
     "display": {
         "thirdperson": {

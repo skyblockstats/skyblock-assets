@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/intimidation_ring/intimidation_ring.png"
+        "layer0": "./intimidation_ring"
     },
     "display": {
         "thirdperson": {

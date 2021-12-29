@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/glacite_jewel/glacite_jewel.png"
+        "layer0": "./glacite_jewel"
     },
     "display": {
         "thirdperson": {

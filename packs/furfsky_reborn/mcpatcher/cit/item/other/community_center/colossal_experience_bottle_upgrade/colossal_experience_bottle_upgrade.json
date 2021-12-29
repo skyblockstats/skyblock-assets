@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/colossal_experience_bottle_upgrade/colossal_experience_bottle_upgrade.png"
+        "layer0": "./colossal_experience_bottle_upgrade"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/season_of_jerry/green_gift/green_gift.png"
+        "layer0": "./green_gift"
     },
     "display": {
         "thirdperson": {

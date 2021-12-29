@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/spiked_atrocity/spiked_atrocity.png"
+        "layer0": "./spiked_atrocity"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/salmon_opal/salmon_opal.png"
+        "layer0": "./salmon_opal"
     },
     "display": {
         "thirdperson": {

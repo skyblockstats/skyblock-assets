@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/weapons/dungeons/ranged/spirit_sceptre/spirit_sceptre.png"
+        "layer0": "./spirit_sceptre"
     },
     "display": {
         "thirdperson": {

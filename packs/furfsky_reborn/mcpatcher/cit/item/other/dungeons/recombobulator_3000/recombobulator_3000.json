@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/recombobulator_3000/recombobulator_3000.png"
+        "layer0": "./recombobulator_3000"
     },
     "display": {
         "thirdperson": {

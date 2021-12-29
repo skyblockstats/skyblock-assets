@@ -509,11 +509,14 @@ async function main() {
 
 	await makeDir(`./matchers`)
 
-	await addPack('ectoplasm') // completionists update
-	await addPack('furfsky') // 1.7.1
-	await addPack('furfsky_reborn') // 1.2.6
-	await addPack('packshq') // v13
-	await addPack('rnbw') // 0.6.0
+	await addPack('ectoplasm')
+	await addPack('furfsky')
+	await addPack('furfsky_reborn')
+	await addPack('hypixel+')
+	await addPack('packshq')
+	await addPack('rnbw')
+	await addPack('worlds_and_beyond')
+
 	await addPack('vanilla')
 }
 

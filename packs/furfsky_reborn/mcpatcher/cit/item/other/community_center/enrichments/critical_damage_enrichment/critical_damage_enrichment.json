@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/enrichments/critical_damage_enrichment/critical_damage_enrichment.png"
+        "layer0": "./critical_damage_enrichment"
     },
     "display": {
         "thirdperson": {

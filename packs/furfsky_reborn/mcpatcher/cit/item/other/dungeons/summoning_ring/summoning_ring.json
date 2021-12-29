@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/summoning_ring/summoning_ring.png"
+        "layer0": "./summoning_ring"
     },
     "display": {
         "thirdperson": {

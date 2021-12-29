@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/dirt_bottle/dirt_bottle.png"
+        "layer0": "./dirt_bottle"
     },
     "display": {
         "thirdperson": {

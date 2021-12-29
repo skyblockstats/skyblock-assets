@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/minion/potato_spreading/potato_spreading.png"
+        "layer0": "./potato_spreading"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/shiny_shard/shiny_shard.png"
+        "layer0": "./shiny_shard"
     },
     "display": {
         "thirdperson": {

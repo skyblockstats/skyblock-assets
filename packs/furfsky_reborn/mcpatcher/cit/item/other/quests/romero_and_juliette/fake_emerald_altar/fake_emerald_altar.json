@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/quests/romero_and_juliette/fake_emerald_altar/fake_emerald_altar.png"
+        "layer0": "./fake_emerald_altar"
     },
     "display": {
         "thirdperson": {

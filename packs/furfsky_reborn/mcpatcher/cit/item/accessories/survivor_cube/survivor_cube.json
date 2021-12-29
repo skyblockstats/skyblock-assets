@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/survivor_cube/survivor_cube.png"
+        "layer0": "./survivor_cube"
     },
     "display": {
         "thirdperson": {

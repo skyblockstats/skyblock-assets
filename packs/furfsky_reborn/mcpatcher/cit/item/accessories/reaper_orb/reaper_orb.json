@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/reaper_orb/reaper_orb.png"
+        "layer0": "./reaper_orb"
     },
     "display": {
         "thirdperson": {

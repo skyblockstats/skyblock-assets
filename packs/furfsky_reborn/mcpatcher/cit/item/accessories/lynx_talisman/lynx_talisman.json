@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/lynx_talisman/lynx_talisman.png"
+        "layer0": "./lynx_talisman"
     },
     "display": {
         "thirdperson": {

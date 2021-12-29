@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/sharp_shark_tooth_necklace/sharp_shark_tooth_necklace.png"
+        "layer0": "./sharp_shark_tooth_necklace"
     },
     "display": {
         "thirdperson": {

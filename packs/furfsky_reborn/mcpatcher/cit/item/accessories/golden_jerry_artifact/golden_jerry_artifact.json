@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/golden_jerry_artifact/golden_jerry_artifact.png"
+        "layer0": "./golden_jerry_artifact"
     },
     "display": {
         "thirdperson": {

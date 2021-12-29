@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/speed_talisman/speed_talisman.png"
+        "layer0": "./speed_talisman"
     },
     "display": {
         "thirdperson": {

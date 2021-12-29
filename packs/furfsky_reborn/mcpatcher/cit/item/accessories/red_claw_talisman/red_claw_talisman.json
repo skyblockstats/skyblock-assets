@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/red_claw_talisman/red_claw_talisman.png"
+        "layer0": "./red_claw_talisman"
     },
     "display": {
         "thirdperson": {

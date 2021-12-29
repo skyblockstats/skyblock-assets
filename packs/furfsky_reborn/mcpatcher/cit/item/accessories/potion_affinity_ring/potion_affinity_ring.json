@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/potion_affinity_ring/potion_affinity_ring.png"
+        "layer0": "./potion_affinity_ring"
     },
     "display": {
         "thirdperson": {

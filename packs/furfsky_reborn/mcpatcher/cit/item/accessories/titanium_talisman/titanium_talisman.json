@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/titanium_talisman/titanium_talisman.png"
+        "layer0": "./titanium_talisman"
     },
     "display": {
         "thirdperson": {

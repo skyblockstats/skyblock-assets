@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/zombie_talisman/zombie_talisman.png"
+        "layer0": "./zombie_talisman"
     },
     "display": {
         "thirdperson": {

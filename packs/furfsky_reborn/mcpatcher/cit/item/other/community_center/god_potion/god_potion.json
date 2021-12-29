@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/community_center/god_potion/god_potion.png"
+        "layer0": "./god_potion"
     },
     "display": {
         "thirdperson": {

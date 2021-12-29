@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/revive_stone/revive_stone.png"
+        "layer0": "./revive_stone"
     },
     "display": {
         "thirdperson": {

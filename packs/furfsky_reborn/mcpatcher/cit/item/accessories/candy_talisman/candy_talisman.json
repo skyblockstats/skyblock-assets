@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/candy_talisman/candy_talisman.png"
+        "layer0": "./candy_talisman"
     },
     "display": {
         "thirdperson": {

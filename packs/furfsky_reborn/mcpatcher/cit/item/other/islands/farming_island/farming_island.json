@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/islands/farming_island/farming_island.png"
+        "layer0": "./farming_island"
     },
     "display": {
         "thirdperson": {

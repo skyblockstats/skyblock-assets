@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/tools/drills/titanium_drill_dr_x455/titanium_drill_dr_x455.png"
+        "layer0": "./titanium_drill_dr_x455"
     },
     "display": {
         "thirdperson": {

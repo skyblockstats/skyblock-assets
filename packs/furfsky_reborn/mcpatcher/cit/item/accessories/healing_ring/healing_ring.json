@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/healing_ring/healing_ring.png"
+        "layer0": "./healing_ring"
     },
     "display": {
         "thirdperson": {

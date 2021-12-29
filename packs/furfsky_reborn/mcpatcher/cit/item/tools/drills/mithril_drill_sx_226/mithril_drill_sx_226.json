@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/tools/drills/mithril_drill_sx_226/mithril_drill_sx_226.png"
+        "layer0": "./mithril_drill_sx_226"
     },
     "display": {
         "thirdperson": {

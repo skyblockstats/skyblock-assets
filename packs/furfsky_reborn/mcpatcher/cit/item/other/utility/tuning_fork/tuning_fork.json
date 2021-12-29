@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/utility/tuning_fork/tuning_fork.png"
+        "layer0": "./tuning_fork"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/rubbish_ring_of_love/rubbish_ring_of_love.png"
+        "layer0": "./rubbish_ring_of_love"
     },
     "display": {
         "thirdperson": {

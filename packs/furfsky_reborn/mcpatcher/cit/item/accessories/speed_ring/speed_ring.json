@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/speed_ring/speed_ring.png"
+        "layer0": "./speed_ring"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/foraging/moil_log/moil_log.png"
+        "layer0": "./moil_log"
     },
     "display": {
         "thirdperson": {

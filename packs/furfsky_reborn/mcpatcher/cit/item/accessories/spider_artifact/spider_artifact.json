@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/spider_artifact/spider_artifact.png"
+        "layer0": "./spider_artifact"
     },
     "display": {
         "thirdperson": {

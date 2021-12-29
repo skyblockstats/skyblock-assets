@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/spider_den/arachne_fragment/arachne_fragment.png"
+        "layer0": "./arachne_fragment"
     },
     "display": {
         "thirdperson": {

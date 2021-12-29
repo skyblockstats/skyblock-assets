@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/diamonite/diamonite.png"
+        "layer0": "./diamonite"
     },
     "display": {
         "thirdperson": {

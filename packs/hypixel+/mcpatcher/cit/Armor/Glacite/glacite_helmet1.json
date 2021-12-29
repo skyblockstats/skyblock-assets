@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"1": "./glacite_helmet_back",
+		"2": "./glacite_helmet_top",
+		"3": "./glacite_helmet_side",
+		"4": "./glacite_helmet_front",
+		"5": "./glacite_helmet_side2",
+		"6": "./glacite_helmet_bottom",
+		"particle": "./side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#6"}
+			}
+		}
+	],
+	"display": {
+        "thirdperson": {
+            "rotation": [ 0, -45, 180 ],
+            "translation": [ 0, 1, -2.5 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "firstperson": {
+            "rotation": [ 0, -180, 0 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "gui": {
+            "rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 0, 0 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+		"fixed": {
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 1, 1, 1 ]
+		},
+		"ground":{
+			"scale": [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

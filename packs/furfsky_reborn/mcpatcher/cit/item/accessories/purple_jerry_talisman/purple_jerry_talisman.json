@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/purple_jerry_talisman/purple_jerry_talisman.png"
+        "layer0": "./purple_jerry_talisman"
     },
     "display": {
         "thirdperson": {

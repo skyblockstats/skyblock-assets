@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/mineral_talisman/mineral_talisman.png"
+        "layer0": "./mineral_talisman"
     },
     "display": {
         "thirdperson": {

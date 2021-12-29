@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/seal_of_the_family/seal_of_the_family.png"
+        "layer0": "./seal_of_the_family"
     },
     "display": {
         "thirdperson": {

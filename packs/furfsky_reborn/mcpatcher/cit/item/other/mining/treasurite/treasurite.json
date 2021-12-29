@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/treasurite/treasurite.png"
+        "layer0": "./treasurite"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/fish_affinity_talisman/fish_affinity_talisman.png"
+        "layer0": "./fish_affinity_talisman"
     },
     "display": {
         "thirdperson": {

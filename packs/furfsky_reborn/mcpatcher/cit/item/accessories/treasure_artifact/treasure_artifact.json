@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/treasure_artifact/treasure_artifact.png"
+        "layer0": "./treasure_artifact"
     },
     "display": {
         "thirdperson": {

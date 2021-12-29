@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/personal_deletor_4000/personal_deletor_4000.png"
+        "layer0": "./personal_deletor_4000"
     },
     "display": {
         "thirdperson": {

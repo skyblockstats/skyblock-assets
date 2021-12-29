@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/mimic_fragment/mimic_fragment.png"
+        "layer0": "./mimic_fragment"
     },
     "display": {
         "thirdperson": {

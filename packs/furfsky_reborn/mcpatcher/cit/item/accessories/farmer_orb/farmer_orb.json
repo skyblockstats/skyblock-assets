@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/farmer_orb/farmer_orb.png"
+        "layer0": "./farmer_orb"
     },
     "display": {
         "thirdperson": {

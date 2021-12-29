@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/spooky_festival/pumpkin_launcher/pumpkin_launcher.png"
+        "layer0": "./pumpkin_launcher"
     },
     "display": {
         "thirdperson": {

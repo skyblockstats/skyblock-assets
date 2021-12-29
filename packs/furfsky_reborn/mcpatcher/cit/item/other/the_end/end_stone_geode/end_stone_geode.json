@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/the_end/end_stone_geode/end_stone_geode.png"
+        "layer0": "./end_stone_geode"
     },
     "display": {
         "thirdperson": {

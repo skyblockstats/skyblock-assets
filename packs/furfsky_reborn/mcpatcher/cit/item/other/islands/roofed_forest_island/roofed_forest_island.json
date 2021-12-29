@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/islands/roofed_forest_island/roofed_forest_island.png"
+        "layer0": "./roofed_forest_island"
     },
     "display": {
         "thirdperson": {

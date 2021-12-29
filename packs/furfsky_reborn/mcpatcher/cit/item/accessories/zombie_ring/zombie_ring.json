@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/zombie_ring/zombie_ring.png"
+        "layer0": "./zombie_ring"
     },
     "display": {
         "thirdperson": {

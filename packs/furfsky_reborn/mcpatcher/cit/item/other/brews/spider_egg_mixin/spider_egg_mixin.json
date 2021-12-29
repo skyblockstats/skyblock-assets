@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/brews/spider_egg_mixin/spider_egg_mixin.png"
+        "layer0": "./spider_egg_mixin"
     },
     "display": {
         "thirdperson": {

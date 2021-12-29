@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/volta/volta.png"
+        "layer0": "./volta"
     },
     "display": {
         "thirdperson": {

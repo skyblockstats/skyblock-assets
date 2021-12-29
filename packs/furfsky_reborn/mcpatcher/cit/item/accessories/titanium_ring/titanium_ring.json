@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/titanium_ring/titanium_ring.png"
+        "layer0": "./titanium_ring"
     },
     "display": {
         "thirdperson": {

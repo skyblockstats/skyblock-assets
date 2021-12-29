@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/hunter_talisman/hunter_talisman.png"
+        "layer0": "./hunter_talisman"
     },
     "display": {
         "thirdperson": {

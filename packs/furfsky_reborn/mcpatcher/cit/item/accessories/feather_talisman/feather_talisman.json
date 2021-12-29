@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/feather_talisman/feather_talisman.png"
+        "layer0": "./feather_talisman"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/brews/zombie_brain_mixin/zombie_brain_mixin.png"
+        "layer0": "./zombie_brain_mixin"
     },
     "display": {
         "thirdperson": {

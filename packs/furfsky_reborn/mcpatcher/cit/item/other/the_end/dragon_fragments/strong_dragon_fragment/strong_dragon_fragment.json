@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/the_end/dragon_fragments/strong_dragon_fragment/strong_dragon_fragment.png"
+        "layer0": "./strong_dragon_fragment"
     },
     "display": {
         "thirdperson": {

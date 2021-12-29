@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/training_weights/training_weights.png"
+        "layer0": "./training_weights"
     },
     "display": {
         "thirdperson": {

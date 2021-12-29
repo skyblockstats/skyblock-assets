@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/gravity_talisman/gravity_talisman.png"
+        "layer0": "./gravity_talisman"
     },
     "display": {
         "thirdperson": {

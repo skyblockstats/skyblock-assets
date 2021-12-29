@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/wolf_ring/wolf_ring.png"
+        "layer0": "./wolf_ring"
     },
     "display": {
         "thirdperson": {

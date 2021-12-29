@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/minion/dwarven_super_compactor/dwarven_super_compactor.png"
+        "layer0": "./dwarven_super_compactor"
     },
     "display": {
         "thirdperson": {

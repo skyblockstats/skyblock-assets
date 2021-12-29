@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/slayers/shard_of_the_shredded/shard_of_the_shredded.png"
+        "layer0": "./shard_of_the_shredded"
     },
     "display": {
         "thirdperson": {

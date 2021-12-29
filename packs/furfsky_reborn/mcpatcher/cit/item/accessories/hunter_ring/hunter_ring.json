@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/hunter_ring/hunter_ring.png"
+        "layer0": "./hunter_ring"
     },
     "display": {
         "thirdperson": {

@@ -1,0 +1,18 @@
+{
+    "parent": "block/orientable2",
+    "textures": {
+        "top": "./compactor_top",
+        "front": "./compactor_front",
+        "side": "./compactor_side1",
+	"side1": "./compactor_side",
+	"back": "./compactor_back",
+	"down": "./compactor_bottom"
+    },
+    "display": {
+        "thirdperson": {
+            "rotation": [ 10, -45, 170 ],
+            "translation": [ 0, 1.5, -2.75 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    }
+}

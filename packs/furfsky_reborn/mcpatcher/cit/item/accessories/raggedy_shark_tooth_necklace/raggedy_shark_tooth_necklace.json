@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/raggedy_shark_tooth_necklace/raggedy_shark_tooth_necklace.png"
+        "layer0": "./raggedy_shark_tooth_necklace"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/vaccine_talisman/vaccine_talisman.png"
+        "layer0": "./vaccine_talisman"
     },
     "display": {
         "thirdperson": {

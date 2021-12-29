@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/emerald_ring/emerald_ring.png"
+        "layer0": "./emerald_ring"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/wither_catalyst/wither_catalyst.png"
+        "layer0": "./wither_catalyst"
     },
     "display": {
         "thirdperson": {

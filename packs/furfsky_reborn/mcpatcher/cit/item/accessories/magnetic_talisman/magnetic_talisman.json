@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/magnetic_talisman/magnetic_talisman.png"
+        "layer0": "./magnetic_talisman"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/piggy_bank/piggy_bank.png"
+        "layer0": "./piggy_bank"
     },
     "display": {
         "thirdperson": {

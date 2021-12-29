@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/slayers/weird_tuba/weird_tuba.png"
+        "layer0": "./weird_tuba"
     },
     "display": {
         "thirdperson": {

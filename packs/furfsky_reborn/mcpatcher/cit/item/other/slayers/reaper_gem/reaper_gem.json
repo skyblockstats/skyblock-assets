@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/slayers/reaper_gem/reaper_gem.png"
+        "layer0": "./reaper_gem"
     },
     "display": {
         "thirdperson": {

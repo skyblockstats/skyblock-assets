@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/dungeons/necromancer_brooch/necromancer_brooch.png"
+        "layer0": "./necromancer_brooch"
     },
     "display": {
         "thirdperson": {

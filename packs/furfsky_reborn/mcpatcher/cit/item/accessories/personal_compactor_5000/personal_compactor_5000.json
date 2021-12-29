@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/personal_compactor_5000/personal_compactor_5000.png"
+        "layer0": "./personal_compactor_5000"
     },
     "display": {
         "thirdperson": {

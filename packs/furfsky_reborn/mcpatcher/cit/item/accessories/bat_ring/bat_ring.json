@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/bat_ring/bat_ring.png"
+        "layer0": "./bat_ring"
     },
     "display": {
         "thirdperson": {

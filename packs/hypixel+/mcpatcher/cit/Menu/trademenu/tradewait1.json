@@ -1,0 +1,11 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "./tradewait1"
+    },
+    "display": {
+        "gui": {
+            "scale": [ 4, 4, 4]
+        }
+    }
+}

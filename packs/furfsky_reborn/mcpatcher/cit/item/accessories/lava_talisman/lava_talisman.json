@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/lava_talisman/lava_talisman.png"
+        "layer0": "./lava_talisman"
     },
     "display": {
         "thirdperson": {

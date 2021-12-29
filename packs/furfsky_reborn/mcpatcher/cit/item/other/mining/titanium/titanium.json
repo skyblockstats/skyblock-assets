@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/titanium/titanium.png"
+        "layer0": "./titanium"
     },
     "display": {
         "thirdperson": {

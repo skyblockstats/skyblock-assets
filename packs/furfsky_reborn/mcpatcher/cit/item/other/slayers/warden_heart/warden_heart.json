@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/slayers/warden_heart/warden_heart.png"
+        "layer0": "./warden_heart"
     },
     "display": {
         "thirdperson": {

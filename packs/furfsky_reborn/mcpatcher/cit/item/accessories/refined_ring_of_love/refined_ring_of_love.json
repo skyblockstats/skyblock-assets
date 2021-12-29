@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/refined_ring_of_love/refined_ring_of_love.png"
+        "layer0": "./refined_ring_of_love"
     },
     "display": {
         "thirdperson": {

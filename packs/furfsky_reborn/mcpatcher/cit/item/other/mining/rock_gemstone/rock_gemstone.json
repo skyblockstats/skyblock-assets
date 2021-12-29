@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/rock_gemstone/rock_gemstone.png"
+        "layer0": "./rock_gemstone"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/islands/nether_wart_island/nether_wart_island.png"
+        "layer0": "./nether_wart_island"
     },
     "display": {
         "thirdperson": {

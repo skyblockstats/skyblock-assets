@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/campfire_god_badge/campfire_god_badge.png"
+        "layer0": "./campfire_god_badge"
     },
     "display": {
         "thirdperson": {

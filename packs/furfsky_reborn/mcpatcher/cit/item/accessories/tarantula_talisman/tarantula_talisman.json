@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/tarantula_talisman/tarantula_talisman.png"
+        "layer0": "./tarantula_talisman"
     },
     "display": {
         "thirdperson": {

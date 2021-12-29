@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/other/mining/fuel_tank/fuel_tank.png"
+        "layer0": "./fuel_tank"
     },
     "display": {
         "thirdperson": {

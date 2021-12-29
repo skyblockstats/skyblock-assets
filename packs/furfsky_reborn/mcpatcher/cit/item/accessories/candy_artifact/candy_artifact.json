@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/candy_artifact/candy_artifact.png"
+        "layer0": "./candy_artifact"
     },
     "display": {
         "thirdperson": {

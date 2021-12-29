@@ -1,7 +1,7 @@
 {
         "parent": "builtin/generated",
     "textures": {
-        "layer0": "mcpatcher/cit/item/accessories/wolf_paw/wolf_paw.png"
+        "layer0": "./wolf_paw"
     },
     "display": {
         "thirdperson": {
