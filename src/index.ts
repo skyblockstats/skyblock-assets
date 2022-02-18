@@ -8,12 +8,12 @@ export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock
 export interface NBT {
 	ExtraAttributes?: {
 		id?: string
-		[ key: string ]: string | number | any
+		[key: string]: string | number | any
 	},
 	display?: {
 		Name?: string
 	}
-	[ key: string ]: string | number | any
+	[key: string]: string | number | any
 }
 
 interface Matcher {
@@ -63,21 +63,21 @@ async function init() {
 
 /** Check if all the values from checkerObj are the same in obj */
 function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
-	for (const [ attribute, checkerValue ] of Object.entries(checkerObj)) {
+	for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
 		if (checkerValue === obj[attribute]) continue
 
 		if (typeof checkerValue === 'object' && typeof obj[attribute] === 'object') {
 			return objectsPartiallyMatch(obj[attribute], checkerValue)
 		}
-		
+
 		let checkerRegex: RegExp
 		if (typeof checkerValue === 'string' && checkerValue.startsWith('ipattern:')) {
 			// creating a bunch of regexps is fine since v8 caches them
 			const checkerPattern: string = checkerValue.slice('ipattern:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern
-				.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
-				.replace(/\*/g, '.*') + '$',
+					.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
+					.replace(/\*/g, '.*') + '$',
 				'i'
 			)
 		} else if (typeof checkerValue === 'string' && checkerValue.startsWith('pattern:')) {
@@ -85,8 +85,8 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 			const checkerPattern: string = checkerValue.slice('pattern:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern
-				.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
-				.replace(/\*/g, '.*') + '$',
+					.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
+					.replace(/\*/g, '.*') + '$',
 			)
 		} else if (typeof checkerValue === 'string' && checkerValue.startsWith('iregex:')) {
 			// creating a bunch of regexps is fine since v8 caches them
@@ -197,7 +197,7 @@ export async function getTextureUrl(options: Options): Promise<string> {
 
 		?? textures.leather_layer_1
 		?? textures.leather_layer_2
-	
+
 	// if it can't find a texture for this pack, just check using vanilla
 	if (!texturePath && options.pack !== 'vanilla') {
 		return await getTextureUrl({

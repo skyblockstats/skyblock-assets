@@ -3,12 +3,12 @@ import { promises as fs, Dirent } from 'fs'
 import { makeApng } from './apng'
 import * as path from 'path'
 
-type XYZArray = [ number, number, number ]
-type XYXYArray = [ number, number, number, number ]
+type XYZArray = [number, number, number]
+type XYXYArray = [number, number, number, number]
 
 type Direction = 'down' | 'up' | 'north' | 'south' | 'west' | 'east'
 
-let vanillaDamages: { [ key: string ]: string }
+let vanillaDamages: { [key: string]: string }
 let vanillaRenders: string[] = []
 
 interface ModelFace {
@@ -29,7 +29,7 @@ interface ModelElement {
 	from: XYZArray
 	to: XYZArray
 	faces: {
-		[ direction in Direction ]: ModelFace
+		[direction in Direction]: ModelFace
 	}
 }
 
@@ -46,7 +46,7 @@ interface ModelTextures {
 	rail?: string
 	particle?: string
 	body?: string
-	[ name: string ]: string
+	[name: string]: string
 }
 
 interface Model {
@@ -65,26 +65,26 @@ interface Model {
 async function* getFiles(dir: string): AsyncGenerator<string> {
 	let entries: Dirent[]
 	try {
-	    entries = await fs.readdir(dir, { withFileTypes: true })
+		entries = await fs.readdir(dir, { withFileTypes: true })
 	} catch {
 		return []
 	}
-    for (const entry of entries) {
-        const res = path.join(dir, entry.name)
-        if (entry.isDirectory()) {
-            yield* getFiles(res)
-        } else {
-            yield res
-        }
-    }
+	for (const entry of entries) {
+		const res = path.join(dir, entry.name)
+		if (entry.isDirectory()) {
+			yield* getFiles(res)
+		} else {
+			yield res
+		}
+	}
 }
 
 /** Parse a key=value file */
-async function readPropertiesFile(fileDir: string): Promise<{ [ key: string]: any }> {
+async function readPropertiesFile(fileDir: string): Promise<{ [key: string]: any }> {
 	const contents = {}
 	let fileContents: string = await fs.readFile(fileDir, { encoding: 'utf8' })
 	for (const line of fileContents.split('\n')) {
-		const [ key, value ] = line.split('=', 2)
+		const [key, value] = line.split('=', 2)
 		if (!value) continue
 		contents[key] = value.trim()
 	}
@@ -147,7 +147,7 @@ async function readFullModel(baseDir: string, modelName: string, vanillaModelsDi
 		deepAssign(model, modelParent)
 
 		if (model.textures)
-			for (const [ key, value ] of Object.entries(model.textures)) {
+			for (const [key, value] of Object.entries(model.textures)) {
 				if (value.startsWith('#')) {
 					const copyKey = value.substring(1)
 					const copyValue = model.textures[copyKey]
@@ -166,14 +166,14 @@ async function readModelJson(baseDir: string, modelName: string, vanillaModelsDi
 	// it's always one of these
 	try {
 		return await readJsonFile(path.join(baseDir, modelNameJson))
-	} catch {}
+	} catch { }
 	try {
 		return await readJsonFile(path.join(vanillaModelsDir, modelNameJson))
-	} catch {}
+	} catch { }
 	if (backupDir)
 		try {
 			return await readJsonFile(path.join(backupDir, modelNameJson))
-		} catch {}
+		} catch { }
 	throw Error(`Couldn\'t find model. baseDir: ${baseDir}, modelName: ${modelName}, vanillaModelsDir: ${vanillaModelsDir}, backupDir: ${backupDir}`)
 }
 
@@ -204,7 +204,7 @@ function setDotNotationAttribute(obj: any, path: string, value: any) {
 
 interface MatcherTextures {
 	matcher: Matcher
-	textures: { [ key: string ]: string }
+	textures: { [key: string]: string }
 }
 
 async function createAPng(textureFileName: string, frameTime: number): Promise<Buffer> {
@@ -213,7 +213,7 @@ async function createAPng(textureFileName: string, frameTime: number): Promise<B
 	const frameSize = sourceImage.width
 	const frameBuffers = []
 
-	for (let frameNumber = 0; frameNumber < frames; frameNumber ++) {
+	for (let frameNumber = 0; frameNumber < frames; frameNumber++) {
 		const canvas = createCanvas(frameSize, frameSize)
 		const ctx = canvas.getContext('2d')
 		ctx.drawImage(sourceImage, 0, -frameNumber * frameSize)
@@ -238,8 +238,8 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 	/** The Minecraft item ids that are allowed */
 	const matchItems = (properties?.items ?? properties?.matchItems)
 		?.split(' ')
-		?.map(item => item.startsWith('minecraft:') ? item : `minecraft:${item}` )
-	?? null
+		?.map(item => item.startsWith('minecraft:') ? item : `minecraft:${item}`)
+		?? null
 
 	const matcher: Matcher = {
 		items: matchItems,
@@ -248,14 +248,14 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		type: properties?.type ?? null
 	}
 
-	let textures: { [ key: string]: string } = {}
-	
+	let textures: { [key: string]: string } = {}
+
 	if (properties.model) {
 		const model = await readFullModel(path.dirname(propertiesDir), properties.model, path.join(vanillaDir, 'models'), path.join(baseDir, './models'))
 
 		if (model.textures) {
 			const newTextures = {}
-			for (let [ key, value ] of Object.entries(model.textures)) {
+			for (let [key, value] of Object.entries(model.textures)) {
 				if (!value.endsWith('.png')) value += '.png'
 
 				let newDirectory: string = path.join(path.dirname(propertiesDir), value as string)
@@ -272,7 +272,7 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		}
 	}
 
-	const propertiesTexture: string | { [ key: string ]: string} = properties.texture
+	const propertiesTexture: string | { [key: string]: string } = properties.texture
 
 	if (typeof propertiesTexture === 'string') {
 		let newTexture = path.join(path.dirname(propertiesDir), propertiesTexture)
@@ -281,7 +281,7 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		textures.texture = newTexture
 	} else if (propertiesTexture) {
 		const newTextures = {}
-		for (let [ key, value ] of Object.entries(propertiesTexture)) {
+		for (let [key, value] of Object.entries(propertiesTexture)) {
 			if (value.endsWith('.png.png')) value = value.slice(0, value.length - 4)
 			else if (!value.endsWith('.png')) value += '.png'
 			newTextures[key] = path.join(path.dirname(propertiesDir), value as string)
@@ -290,7 +290,7 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 	}
 
 	// we read the .png.mcmeta file to see if there's animations
-	for (const [ textureName, textureFileName ] of Object.entries(textures)) {
+	for (const [textureName, textureFileName] of Object.entries(textures)) {
 		try {
 			const apngDir = await makeAnimationFromMcmeta(textureFileName)
 			textures[textureName] = apngDir
@@ -304,7 +304,7 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		let textureDir = propertiesDir.replace(/(\.properties)$/, '.png')
 		try {
 			textureDir = await makeAnimationFromMcmeta(textureDir)
-		} catch {}
+		} catch { }
 
 		textures.texture = textureDir
 	}
@@ -323,9 +323,9 @@ interface Matcher {
 	nbt?: {
 		ExtraAttributes?: {
 			id?: string
-			[ key: string ]: any
+			[key: string]: any
 		},
-		[ key: string ]: any
+		[key: string]: any
 	}
 }
 
@@ -390,7 +390,7 @@ async function addPack(packName: string) {
 
 		if (model.textures) {
 			const newTextures = {}
-			for (let [ key, value ] of Object.entries(model.textures)) {
+			for (let [key, value] of Object.entries(model.textures)) {
 				if (value.endsWith('.png.png')) value = value.slice(0, value.length - 4)
 				else if (!value.endsWith('.png')) value += '.png'
 				newTextures[key] = path.join(packSourceDir, 'textures', value)
@@ -400,7 +400,7 @@ async function addPack(packName: string) {
 
 			// if possible, convert stuff like "pufferfish" to "fish" and 3
 			if (vanillaDamages[itemName]) {
-				const [ tempItemName, damageString ] = vanillaDamages[itemName].split(':')
+				const [tempItemName, damageString] = vanillaDamages[itemName].split(':')
 				itemName = tempItemName
 				try {
 					damage = parseInt(damageString)
@@ -413,7 +413,7 @@ async function addPack(packName: string) {
 
 			if (packName === 'vanilla' && !model.textures.texture && model.textures.layer1) {
 				const layerDirs = []
-				for (let i = 0; i < Object.keys(model.textures).length; i ++) {
+				for (let i = 0; i < Object.keys(model.textures).length; i++) {
 					if (model.textures[`layer${i}`]) {
 						layerDirs.push(model.textures[`layer${i}`])
 					}
@@ -434,7 +434,7 @@ async function addPack(packName: string) {
 
 		matchers.push({
 			matcher: {
-				items: [ minecraftItemName ],
+				items: [minecraftItemName],
 				damage: damage
 			},
 			textures: model.textures
@@ -445,7 +445,7 @@ async function addPack(packName: string) {
 	async function addItemToMatchers(matcher: Matcher, textureDir: string) {
 		try {
 			textureDir = await makeAnimationFromMcmeta(textureDir)
-		} catch {}
+		} catch { }
 		matchers.push({
 			matcher,
 			textures: {
@@ -457,36 +457,36 @@ async function addPack(packName: string) {
 	// add wacky items that aren't in models
 	if (packName === 'vanilla') {
 		await addItemToMatchers(
-			{ items: [ 'minecraft:skull' ], damage: 0 },
+			{ items: ['minecraft:skull'], damage: 0 },
 			path.join('renders', 'vanilla', 'skeleton_skull.png')
 		)
 		await addItemToMatchers(
-			{ items: [ 'minecraft:skull' ], damage: 1 },
+			{ items: ['minecraft:skull'], damage: 1 },
 			path.join('renders', 'vanilla', 'wither_skeleton_skull.png')
 		)
 		await addItemToMatchers(
-			{ items: [ 'minecraft:skull' ], damage: 2 },
+			{ items: ['minecraft:skull'], damage: 2 },
 			path.join('renders', 'vanilla', 'zombie_head.png')
 		)
 		await addItemToMatchers(
-			{ items: [ 'minecraft:skull' ], damage: 3 },
+			{ items: ['minecraft:skull'], damage: 3 },
 			path.join('renders', 'vanilla', 'head.png')
 		)
 		await addItemToMatchers(
-			{ items: [ 'minecraft:skull' ], damage: 4 },
+			{ items: ['minecraft:skull'], damage: 4 },
 			path.join('renders', 'vanilla', 'creeper_head.png')
 		)
 		// for some reason mojang decided to not put chests in models
 		await addItemToMatchers(
-			{ items: [ 'minecraft:chest' ] },
+			{ items: ['minecraft:chest'] },
 			path.join('renders', 'vanilla', 'chest.png')
 		)
 		await addItemToMatchers(
-			{ items: [ 'minecraft:ender_chest' ] },
+			{ items: ['minecraft:ender_chest'] },
 			path.join('renders', 'vanilla', 'ender_chest.png')
 		)
 		await addItemToMatchers(
-			{ items: [ 'minecraft:trapped_chest' ] },
+			{ items: ['minecraft:trapped_chest'] },
 			path.join('renders', 'vanilla', 'trapped_chest.png')
 		)
 	}
@@ -497,7 +497,7 @@ async function addPack(packName: string) {
 async function makeDir(dir) {
 	try {
 		await fs.rm(dir, { recursive: true })
-	} catch {}
+	} catch { }
 	await fs.mkdir(dir)
 }
 
