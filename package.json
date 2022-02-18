@@ -1,12 +1,13 @@
 {
   "name": "skyblock-assets",
-  "version": "1.1.12",
+  "version": "1.2.0",
   "description": "TypeScript library for getting urls (hosted on GitHub) to Hypixel SkyBlock item images from several resource packs.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
     "test": "mocha",
-    "compile": "tsc"
+    "compile": "tsc",
+    "generate": "tsc generator/index.ts --outDir generator-build && node generator-build && oxipng -o 3 -i 0 --strip safe **/*.png"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "canvas": "^2.7.0",
     "crc": "^3.8.0",
     "mocha": "^9.1.2",
+    "ts-node": "^10.5.0",
     "typescript": "^4.2.4"
   }
 }

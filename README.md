@@ -2,6 +2,8 @@
 
 TypeScript library for getting urls (hosted on GitHub) to Hypixel SkyBlock item images from several resource packs.
 
+To generate and optimize the texture packs, run `npm run generate`. This requires [Oxipng](https://github.com/shssoichiro/oxipng) to be installed. Optimization will take a few minutes.
+
 ## Pack versions
 
 [Ectoplasm](https://hypixel.net/threads/2239953) - Completionist's Update 

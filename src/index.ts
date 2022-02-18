@@ -1,5 +1,5 @@
-import { promises as fs } from 'fs'
-import * as path from 'path'
+import minecraftIds from '../data/minecraft_ids.json'
+import matchers from '../matchers.json'
 
 export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
 
@@ -8,19 +8,23 @@ export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock
 export interface NBT {
 	ExtraAttributes?: {
 		id?: string
-		[ key: string ]: string | number | any
+		[key: string]: string | number | any
 	},
 	display?: {
 		Name?: string
 	}
-	[ key: string ]: string | number | any
+	[key: string]: string | number | any
 }
 
 interface Matcher {
-	type: string
-	items: string[]
-	damage?: number
-	nbt: NBT
+	/** Type */
+	t?: string
+	/** Items */
+	i?: string[]
+	/** Damage */
+	d?: number
+	/** NBT */
+	n?: NBT
 }
 
 export interface Options {
@@ -31,53 +35,24 @@ export interface Options {
 	noNullTexture?: boolean
 }
 
-/** Read the contents of a json file */
-async function readJsonFile(fileDir: string): Promise<any> {
-	const fileContents = await fs.readFile(path.join(__dirname, fileDir), { encoding: 'utf8' })
-	return JSON.parse(fileContents)
-}
-
-/** Get the matchers for a pack */
-async function readPackMatchers(packName: string): Promise<any[]> {
-	return await readJsonFile(`../matchers/${packName}.json`)
-}
-
-/** Get all the matchers for each pack */
-async function readPacksMatchers(): Promise<{ [key: string]: any[] }> {
-	const dirFiles = await fs.readdir(path.join(__dirname, '../matchers'))
-	const matchers = {}
-	for (const fileName of dirFiles) {
-		const packName = fileName.slice(0, (fileName.length) - ('.json'.length))
-		matchers[packName] = await readPackMatchers(packName)
-	}
-	return matchers
-}
-
-let matchers: { [key: string]: any[] } = {}
-export let minecraftIds: { [key: string]: string } = {}
-
-async function init() {
-	matchers = await readPacksMatchers()
-	minecraftIds = await readJsonFile('../data/minecraft_ids.json')
-}
 
 /** Check if all the values from checkerObj are the same in obj */
 function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
-	for (const [ attribute, checkerValue ] of Object.entries(checkerObj)) {
+	for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
 		if (checkerValue === obj[attribute]) continue
 
 		if (typeof checkerValue === 'object' && typeof obj[attribute] === 'object') {
 			return objectsPartiallyMatch(obj[attribute], checkerValue)
 		}
-		
+
 		let checkerRegex: RegExp
 		if (typeof checkerValue === 'string' && checkerValue.startsWith('ipattern:')) {
 			// creating a bunch of regexps is fine since v8 caches them
 			const checkerPattern: string = checkerValue.slice('ipattern:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern
-				.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
-				.replace(/\*/g, '.*') + '$',
+					.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
+					.replace(/\*/g, '.*') + '$',
 				'i'
 			)
 		} else if (typeof checkerValue === 'string' && checkerValue.startsWith('pattern:')) {
@@ -85,8 +60,8 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 			const checkerPattern: string = checkerValue.slice('pattern:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern
-				.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
-				.replace(/\*/g, '.*') + '$',
+					.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
+					.replace(/\*/g, '.*') + '$',
 			)
 		} else if (typeof checkerValue === 'string' && checkerValue.startsWith('iregex:')) {
 			// creating a bunch of regexps is fine since v8 caches them
@@ -112,27 +87,23 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 	return true
 }
 
-async function checkMatches(options: Options, matcher: Matcher): Promise<boolean> {
+function checkMatches(options: Options, matcher: Matcher): boolean {
 	// check 'items'
-	if (matcher.type === 'armor')
+	if (matcher.t === 'armor')
 		return false
-	if (matcher.items && !matcher.items.includes(options.id))
+	if (matcher.i && !matcher.i.includes(options.id))
 		return false
-	if (options.damage !== undefined && matcher.damage != undefined && options.damage !== matcher.damage)
+	if (options.damage !== undefined && matcher.d != undefined && options.damage !== matcher.d)
 		return false
 	// check nbt
-	if (matcher.nbt) {
-		if (!objectsPartiallyMatch(options.nbt, matcher.nbt))
+	if (matcher.n) {
+		if (!objectsPartiallyMatch(options.nbt, matcher.n))
 			return false
 	}
 	return true
 }
 
-async function getTextures(options: Options): Promise<{ [key: string]: string }> {
-	if (Object.keys(matchers).length === 0) {
-		// no matchers found, continue in 200ms because it'll probably have the matchers by then
-		await new Promise(resolve => setTimeout(resolve, 200))
-	}
+function getTextures(options: Options): { [key: string]: string } {
 	const splitId = options.id.split(/:(?=[^:]+$)/)
 	if (minecraftIds[splitId[0]]) {
 		options.damage = parseInt(splitId[1])
@@ -144,14 +115,14 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 	if (options.damage === undefined || isNaN(options.damage))
 		options.damage = 0
 
-	for (const packName in matchers) {
+	for (const packName in matchers as any) {
 		// only check the matchers if we're checking this pack
 		if (options.pack === packName) {
-			const packMatchers = matchers[packName]
+			const packMatchers = (matchers as any)[packName]
 			for (const packMatcherData of packMatchers) {
 				const packMatcher: Matcher = packMatcherData.matcher
 
-				const matches = await checkMatches(options, packMatcher)
+				const matches = checkMatches(options, packMatcher)
 				if (matches)
 					return packMatcherData.textures
 			}
@@ -159,14 +130,14 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 	}
 
 	// couldn't find anything the first time, we'll try again but without damages
-	for (const packName in matchers) {
+	for (const packName in matchers as any) {
 		// only check the matchers if we're checking this pack
 		if (options.pack === packName) {
-			const packMatchers = matchers[packName]
+			const packMatchers = (matchers as any)[packName]
 			for (const packMatcherData of packMatchers) {
 				const packMatcher: Matcher = packMatcherData.matcher
-				packMatcher.damage = undefined
-				const matches = await checkMatches(options, packMatcher)
+				packMatcher.d = undefined
+				const matches = checkMatches(options, packMatcher)
 				if (matches)
 					return packMatcherData.textures
 			}
@@ -174,18 +145,9 @@ async function getTextures(options: Options): Promise<{ [key: string]: string }>
 	}
 }
 
-export async function waitUntilReady() {
-	if (Object.keys(minecraftIds).length === 0) {
-		// wait for it to init
-		while (Object.keys(minecraftIds).length === 0)
-			await new Promise(resolve => setTimeout(resolve, 50))
-	}
-}
-
 /** Get the URL for the texture for a SkyBlock item */
-export async function getTextureUrl(options: Options): Promise<string> {
-	await waitUntilReady()
-	const textures = await getTextures(options) ?? {}
+export function getTextureUrl(options: Options): string {
+	const textures = getTextures(options) ?? {}
 	const texturePath: string = textures.texture
 		?? textures.layer0
 
@@ -197,10 +159,10 @@ export async function getTextureUrl(options: Options): Promise<string> {
 
 		?? textures.leather_layer_1
 		?? textures.leather_layer_2
-	
+
 	// if it can't find a texture for this pack, just check using vanilla
 	if (!texturePath && options.pack !== 'vanilla') {
-		return await getTextureUrl({
+		return getTextureUrl({
 			...options,
 			pack: 'vanilla'
 		})
@@ -214,5 +176,4 @@ export async function getTextureUrl(options: Options): Promise<string> {
 		return baseUrl + '/' + texturePath.replace(/\\/g, '/')
 }
 
-init()
 
