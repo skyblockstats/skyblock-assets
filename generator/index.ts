@@ -522,7 +522,7 @@ async function main() {
 		vanilla: await addPack('vanilla')
 	}
 
-	await writeJsonFile('./matchers.json', combinedMatchers)
+	await writeJsonFile('./src/matchers.json', combinedMatchers)
 }
 
 main()

@@ -13,7 +13,6 @@ function assertIsPack(textureUrl, packName) {
 describe('skyblock-assets', () => {
     describe('#getTextureUrl()', () => {
         it('Checks every vanilla item', async() => {
-            await skyblockAssets.waitUntilReady()
             const itemlessBlocks = new Set([
                 'air', 'water', 'flowing_water', 'lava', 'flowing_lava', 'piston_head', 'double_stone_slab',
                 'fire', 'redstone_wire', 'lit_furnace', 'standing_sign', 'wall_sign', 'lit_redstone_ore',
@@ -26,7 +25,7 @@ describe('skyblock-assets', () => {
             ])
             for (const item of Object.values(skyblockAssets.minecraftIds)) {
                 if (itemlessBlocks.has(item.slice('minecraft:'.length))) continue
-                const itemTextureUrl = await skyblockAssets.getTextureUrl({
+                const itemTextureUrl = skyblockAssets.getTextureUrl({
                     id: item,
                     nbt: {},
                     pack: 'vanilla',
@@ -38,9 +37,9 @@ describe('skyblock-assets', () => {
             }
         })
 
-        it('Make sure lit furnace is null', async() => {
+        it('Make sure lit furnace is null', () => {
             // not like anyone's actually gonna have this, but i want it to be 100% correct
-            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:lit_furnace',
                 nbt: {},
                 pack: 'vanilla',
@@ -48,8 +47,8 @@ describe('skyblock-assets', () => {
             assert.strictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png')
         })
 
-        it('Check SkyBlock menu on PacksHQ', async() => {
-            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+        it('Check SkyBlock menu on PacksHQ', () => {
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:nether_star',
                 nbt: {
                     ExtraAttributes: {
@@ -64,8 +63,8 @@ describe('skyblock-assets', () => {
             assertIsPack(itemTextureUrl, 'packshq')
         })
 
-        it('Check SkyBlock menu on Furfsky Reborn', async() => {
-            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+        it('Check SkyBlock menu on Furfsky Reborn', () => {
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:nether_star',
                 nbt: {
                     ExtraAttributes: {
@@ -80,8 +79,8 @@ describe('skyblock-assets', () => {
             assertIsPack(itemTextureUrl, 'furfsky_reborn')
         })
 
-        it('Check AOTD on PacksHQ', async() => {
-            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+        it('Check AOTD on PacksHQ', () => {
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:diamond_sword',
                 nbt: {
                     ExtraAttributes: {
@@ -97,26 +96,26 @@ describe('skyblock-assets', () => {
             assertIsPack(itemTextureUrl, 'packshq')
         })
 
-        it('Check minecraft:item:id', async() => {
-            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+        it('Check minecraft:item:id', () => {
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:dye:3',
                 pack: 'vanilla',
             })
 
-            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_black.png`)
+            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_brown.png`)
         })
 
-        it('Check itemid:id', async() => {
-            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+        it('Check itemid:id', () => {
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: '351:3',
                 pack: 'vanilla',
             })
 
-            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_black.png`)
+            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_brown.png`)
         })
 
-        it('Check melon slice', async() => {
-            const itemTextureUrl = await skyblockAssets.getTextureUrl({
+        it('Check melon slice', () => {
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:melon',
                 pack: 'vanilla',
             })

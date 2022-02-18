@@ -1,8 +1,9 @@
 import minecraftIds from '../data/minecraft_ids.json'
-import matchers from '../matchers.json'
+import * as matchers from './matchers.json'
+
+export { minecraftIds }
 
 export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
-
 
 
 export interface NBT {
@@ -46,9 +47,9 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 		}
 
 		let checkerRegex: RegExp
+		// creating a bunch of regexps is fine since v8 caches them
 		if (typeof checkerValue === 'string' && checkerValue.startsWith('ipattern:')) {
-			// creating a bunch of regexps is fine since v8 caches them
-			const checkerPattern: string = checkerValue.slice('ipattern:'.length)
+			const checkerPattern = checkerValue.slice('ipattern:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern
 					.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
@@ -56,23 +57,20 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 				'i'
 			)
 		} else if (typeof checkerValue === 'string' && checkerValue.startsWith('pattern:')) {
-			// creating a bunch of regexps is fine since v8 caches them
-			const checkerPattern: string = checkerValue.slice('pattern:'.length)
+			const checkerPattern = checkerValue.slice('pattern:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern
 					.replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
 					.replace(/\*/g, '.*') + '$',
 			)
 		} else if (typeof checkerValue === 'string' && checkerValue.startsWith('iregex:')) {
-			// creating a bunch of regexps is fine since v8 caches them
-			const checkerPattern: string = checkerValue.slice('iregex:'.length)
+			const checkerPattern = checkerValue.slice('iregex:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern + '$',
 				'i'
 			)
 		} else if (typeof checkerValue === 'string' && checkerValue.startsWith('regex:')) {
-			// creating a bunch of regexps is fine since v8 caches them
-			const checkerPattern: string = checkerValue.slice('regex:'.length)
+			const checkerPattern = checkerValue.slice('regex:'.length)
 			checkerRegex = new RegExp(
 				'^' + checkerPattern + '$',
 			)
@@ -88,6 +86,7 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 }
 
 function checkMatches(options: Options, matcher: Matcher): boolean {
+	
 	// check 'items'
 	if (matcher.t === 'armor')
 		return false
@@ -105,24 +104,37 @@ function checkMatches(options: Options, matcher: Matcher): boolean {
 
 function getTextures(options: Options): { [key: string]: string } {
 	const splitId = options.id.split(/:(?=[^:]+$)/)
+
+	let damage: null | number = options.damage
+	let id: string = options.id
+
 	if (minecraftIds[splitId[0]]) {
-		options.damage = parseInt(splitId[1])
-		options.id = minecraftIds[splitId[0]]
+		damage = parseInt(splitId[1])
+		id = minecraftIds[splitId[0]]
 	} else if (options.damage == null && parseInt(splitId[1])) {
-		options.id = splitId[0]
-		options.damage = parseInt(splitId[1])
+		id = splitId[0]
+		damage = parseInt(splitId[1])
 	}
-	if (options.damage === undefined || isNaN(options.damage))
-		options.damage = 0
+	if (damage === undefined || isNaN(damage))
+		damage = 0
+	
+	// we do this so we don't modify the user's options object that they passed
+	const updatedOptions: Options = {
+		damage,
+		id,
+		nbt: options.nbt,
+		pack: options.pack,
+		noNullTexture: options.noNullTexture
+	}
 
 	for (const packName in matchers as any) {
 		// only check the matchers if we're checking this pack
-		if (options.pack === packName) {
+		if (updatedOptions.pack === packName) {
 			const packMatchers = (matchers as any)[packName]
 			for (const packMatcherData of packMatchers) {
 				const packMatcher: Matcher = packMatcherData.matcher
 
-				const matches = checkMatches(options, packMatcher)
+				const matches = checkMatches(updatedOptions, packMatcher)
 				if (matches)
 					return packMatcherData.textures
 			}
@@ -132,12 +144,14 @@ function getTextures(options: Options): { [key: string]: string } {
 	// couldn't find anything the first time, we'll try again but without damages
 	for (const packName in matchers as any) {
 		// only check the matchers if we're checking this pack
-		if (options.pack === packName) {
+		if (updatedOptions.pack === packName) {
 			const packMatchers = (matchers as any)[packName]
 			for (const packMatcherData of packMatchers) {
-				const packMatcher: Matcher = packMatcherData.matcher
-				packMatcher.d = undefined
-				const matches = checkMatches(options, packMatcher)
+				const packMatcher: Matcher = {
+					...packMatcherData.matcher,
+					d: undefined,
+				}
+				const matches = checkMatches(updatedOptions, packMatcher)
 				if (matches)
 					return packMatcherData.textures
 			}
