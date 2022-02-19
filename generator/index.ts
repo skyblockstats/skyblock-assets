@@ -1,5 +1,5 @@
-import minecraftIds from '../src/data/minecraft_ids.json'
-import vanillaDamages from '../src/data/vanilla_damages.json'
+import minecraftIds from '../data/minecraft_ids.json'
+import vanillaDamages from '../data/vanilla_damages.json'
 import { loadImage, createCanvas, Image } from 'canvas'
 import { promises as fs, Dirent } from 'fs'
 import { makeApng } from './apng'
@@ -596,7 +596,7 @@ async function addPack(packName: string) {
 	}
 
 	await writeJsonFile(
-		`src/matchers/${packName}.json`,
+		`matchers/${packName}.json`,
 		{ dir: `textures/${packName}`, matchers }
 	)
 
@@ -615,7 +615,7 @@ async function main() {
 		vanillaRenders.push(dir)
 	
 	await makeDir('textures')
-	await makeDir('src/matchers')
+	await makeDir('matchers')
 
 	await addPack('ectoplasm')
 	await addPack('furfsky')
