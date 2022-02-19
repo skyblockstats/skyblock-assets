@@ -33,8 +33,8 @@ __export(src_exports, {
   minecraftIds: () => import_minecraft_ids.default
 });
 var import_minecraft_ids = __toESM(require("../data/minecraft_ids.json"));
-var matchers = __toESM(require("./matchers.json"));
-const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.2.1";
+var import_matchers = __toESM(require("./matchers.json"));
+const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.3.2";
 function objectsPartiallyMatch(obj, checkerObj) {
   for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
     if (checkerValue === obj[attribute])
@@ -92,37 +92,33 @@ function getTextures(options) {
     damage = 0;
   if (id.startsWith("minecraft:"))
     id = id.slice("minecraft:".length);
+  let pack;
+  if (typeof options.pack === "string") {
+    pack = import_matchers.default[options.pack];
+  } else {
+    pack = options.pack;
+  }
   const updatedOptions = {
     damage,
     id,
     nbt: options.nbt,
-    pack: options.pack,
+    pack,
     noNullTexture: options.noNullTexture
   };
-  for (const packName in matchers) {
-    if (updatedOptions.pack === packName) {
-      const packMatchers = matchers[packName];
-      for (const packMatcherData of packMatchers) {
-        const packMatcher = packMatcherData.m;
-        const matches = checkMatches(updatedOptions, packMatcher);
-        if (matches)
-          return packMatcherData.t;
-      }
-    }
+  for (const packMatcherData of updatedOptions.pack) {
+    const packMatcher = packMatcherData.m;
+    const matches = checkMatches(updatedOptions, packMatcher);
+    if (matches)
+      return packMatcherData.t;
   }
-  for (const packName in matchers) {
-    if (updatedOptions.pack === packName) {
-      const packMatchers = matchers[packName];
-      for (const packMatcherData of packMatchers) {
-        const packMatcher = {
-          ...packMatcherData.m,
-          d: void 0
-        };
-        const matches = checkMatches(updatedOptions, packMatcher);
-        if (matches)
-          return packMatcherData.t;
-      }
-    }
+  for (const packMatcherData of updatedOptions.pack) {
+    const packMatcher = {
+      ...packMatcherData.m,
+      d: void 0
+    };
+    const matches = checkMatches(updatedOptions, packMatcher);
+    if (matches)
+      return packMatcherData.t;
   }
 }
 function getTextureDir(options) {

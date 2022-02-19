@@ -1,8 +1,8 @@
 import minecraftIds from '../data/minecraft_ids.json'
-import * as matchers from './matchers.json'
+import matchers from './matchers.json'
 export { minecraftIds }
 
-export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.2.1'
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.3.2'
 
 export interface NBT {
 	ExtraAttributes?: {
@@ -26,8 +26,23 @@ interface Matcher {
 	n?: NBT
 }
 
+interface MatcherTextures {
+	/** Matcher */
+	m: Matcher
+	/** Textures */
+	t: { [key: string]: string }
+}
+
+export interface UnambiguousOptions {
+	pack: MatcherTextures[]
+	id: string
+	damage?: number
+	nbt: NBT
+	noNullTexture?: boolean
+}
+
 export interface Options {
-	pack: 'ectoplasm' | 'furfsky_reborn' | 'furfsky' | 'hypixel+' | 'packshq' | 'rnbw' | 'vanilla' | 'worlds_and_beyond' | string
+	pack: 'ectoplasm' | 'furfsky_reborn' | 'furfsky' | 'hypixel+' | 'packshq' | 'rnbw' | 'vanilla' | 'worlds_and_beyond' | string | MatcherTextures[]
 	id: string
 	damage?: number
 	nbt: NBT
@@ -83,8 +98,7 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 	return true
 }
 
-function checkMatches(options: Options, matcher: Matcher): boolean {
-	
+function checkMatches(options: UnambiguousOptions, matcher: Matcher): boolean {
 	// check 'items'
 	if (matcher.t === 'armor')
 		return false
@@ -119,44 +133,39 @@ function getTextures(options: Options): { [key: string]: string } {
 	if (id.startsWith('minecraft:'))
 		id = id.slice('minecraft:'.length)
 	
+	let pack: MatcherTextures[]
+	
+	if (typeof options.pack === 'string') {
+		pack = matchers[options.pack]
+	} else {
+		pack = options.pack
+	}
+	
 	// we do this so we don't modify the user's options object that they passed
-	const updatedOptions: Options = {
+	const updatedOptions: UnambiguousOptions = {
 		damage,
 		id,
 		nbt: options.nbt,
-		pack: options.pack,
+		pack,
 		noNullTexture: options.noNullTexture
 	}
 
-	for (const packName in matchers as any) {
-		// only check the matchers if we're checking this pack
-		if (updatedOptions.pack === packName) {
-			const packMatchers = (matchers as any)[packName]
-			for (const packMatcherData of packMatchers) {
-				const packMatcher: Matcher = packMatcherData.m
+	for (const packMatcherData of updatedOptions.pack) {
+		const packMatcher: Matcher = packMatcherData.m
 
-				const matches = checkMatches(updatedOptions, packMatcher)
-				if (matches)
-					return packMatcherData.t
-			}
-		}
+		const matches = checkMatches(updatedOptions, packMatcher)
+		if (matches)
+			return packMatcherData.t
 	}
 
-	// couldn't find anything the first time, we'll try again but without damages
-	for (const packName in matchers as any) {
-		// only check the matchers if we're checking this pack
-		if (updatedOptions.pack === packName) {
-			const packMatchers = (matchers as any)[packName]
-			for (const packMatcherData of packMatchers) {
-				const packMatcher: Matcher = {
-					...packMatcherData.m,
-					d: undefined,
-				}
-				const matches = checkMatches(updatedOptions, packMatcher)
-				if (matches)
-					return packMatcherData.t
-			}
+	for (const packMatcherData of updatedOptions.pack) {
+		const packMatcher: Matcher = {
+			...packMatcherData.m,
+			d: undefined,
 		}
+		const matches = checkMatches(updatedOptions, packMatcher)
+		if (matches)
+			return packMatcherData.t
 	}
 }
 
