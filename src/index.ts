@@ -1,7 +1,7 @@
 import minecraftIds from './data/minecraft_ids.json'
 export { minecraftIds }
 
-export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.0'
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.1'
 
 export interface NBT {
 	ExtraAttributes?: {
@@ -28,8 +28,8 @@ interface Matcher {
 interface MatcherTextures {
 	/** Matcher */
 	m: Matcher
-	/** Textures */
-	t: { [key: string]: string }
+	/** Texture */
+	t: string
 }
 
 type MatcherFile = { dir: string, matchers: MatcherTextures[] }
@@ -106,7 +106,7 @@ function checkMatches(options: Options, matcher: Matcher): boolean {
 	return true
 }
 
-function getTextures(options: Options): { dir: string, textures: { [key: string]: string } } {
+function getTextures(options: Options): { dir: string, texture: string } {
 	const splitId = options.id.split(/:(?=[^:]+$)/)
 
 	let damage: null | number = options.damage
@@ -140,7 +140,7 @@ function getTextures(options: Options): { dir: string, textures: { [key: string]
 
 			const matches = checkMatches(updatedOptions, packMatcher)
 			if (matches)
-				return { textures: packMatcherData.t, dir: pack.dir }
+				return { texture: packMatcherData.t, dir: pack.dir }
 		}
 	}
 
@@ -152,33 +152,22 @@ function getTextures(options: Options): { dir: string, textures: { [key: string]
 			}
 			const matches = checkMatches(updatedOptions, packMatcher)
 			if (matches)
-				return { textures: packMatcherData.t, dir: pack.dir }
+				return { texture: packMatcherData.t, dir: pack.dir }
 		}
 	}
 }
 
 /** Get the directory for the texture for a SkyBlock item */
 export function getTextureDir(options: Options): string {
-	const { dir, textures } = getTextures(options) ?? { dir: '', textures: {} }
-	const shortTextureDir: string = textures.texture
-		?? textures.layer0
-
-		?? textures.fishing_rod
-		?? textures.leather_boots_overlay
-		?? textures.leather_chestplate_overlay
-		?? textures.leather_helmet_overlay
-		?? textures.leather_leggings_overlay
-
-		?? textures.leather_layer_1
-		?? textures.leather_layer_2
+	const { dir, texture } = getTextures(options) ?? { dir: '', texture: null }
 	
-	if (!shortTextureDir)
+	if (!texture)
 		if (options.noNullTexture)
 			return null
 		else
 			return 'renders/vanilla/error.png'
 	else {
-		const textureDir = `${dir}/${shortTextureDir}.png`
+		const textureDir = `${dir}/${texture}.png`
 		return textureDir.replace(/\\/g, '/')
 	}
 }

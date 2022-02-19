@@ -1,138 +1,147 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.getTextureUrl = exports.getTextureDir = exports.baseUrl = exports.minecraftIds = void 0;
-const minecraft_ids_json_1 = __importDefault(require("./data/minecraft_ids.json"));
-exports.minecraftIds = minecraft_ids_json_1.default;
-exports.baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.0';
-/** Check if all the values from checkerObj are the same in obj */
+var __reExport = (target, module2, copyDefault, desc) => {
+  if (module2 && typeof module2 === "object" || typeof module2 === "function") {
+    for (let key of __getOwnPropNames(module2))
+      if (!__hasOwnProp.call(target, key) && (copyDefault || key !== "default"))
+        __defProp(target, key, { get: () => module2[key], enumerable: !(desc = __getOwnPropDesc(module2, key)) || desc.enumerable });
+  }
+  return target;
+};
+var __toESM = (module2, isNodeMode) => {
+  return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", !isNodeMode && module2 && module2.__esModule ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
+};
+var __toCommonJS = /* @__PURE__ */ ((cache) => {
+  return (module2, temp) => {
+    return cache && cache.get(module2) || (temp = __reExport(__markAsModule({}), module2, 1), cache && cache.set(module2, temp), temp);
+  };
+})(typeof WeakMap !== "undefined" ? /* @__PURE__ */ new WeakMap() : 0);
+var src_exports = {};
+__export(src_exports, {
+  baseUrl: () => baseUrl,
+  getTextureDir: () => getTextureDir,
+  getTextureUrl: () => getTextureUrl,
+  minecraftIds: () => import_minecraft_ids.default
+});
+var import_minecraft_ids = __toESM(require("./data/minecraft_ids.json"));
+const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.0";
 function objectsPartiallyMatch(obj, checkerObj) {
-    for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
-        if (checkerValue === obj[attribute])
-            continue;
-        if (typeof checkerValue === 'object' && typeof obj[attribute] === 'object') {
-            return objectsPartiallyMatch(obj[attribute], checkerValue);
-        }
-        let checkerRegex;
-        // creating a bunch of regexps is fine since v8 caches them
-        if (typeof checkerValue === 'string' && checkerValue.startsWith('ipattern:')) {
-            const checkerPattern = checkerValue.slice('ipattern:'.length);
-            checkerRegex = new RegExp('^' + checkerPattern
-                .replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
-                .replace(/\*/g, '.*') + '$', 'i');
-        }
-        else if (typeof checkerValue === 'string' && checkerValue.startsWith('pattern:')) {
-            const checkerPattern = checkerValue.slice('pattern:'.length);
-            checkerRegex = new RegExp('^' + checkerPattern
-                .replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
-                .replace(/\*/g, '.*') + '$');
-        }
-        else if (typeof checkerValue === 'string' && checkerValue.startsWith('iregex:')) {
-            const checkerPattern = checkerValue.slice('iregex:'.length);
-            checkerRegex = new RegExp('^' + checkerPattern + '$', 'i');
-        }
-        else if (typeof checkerValue === 'string' && checkerValue.startsWith('regex:')) {
-            const checkerPattern = checkerValue.slice('regex:'.length);
-            checkerRegex = new RegExp('^' + checkerPattern + '$');
-        }
-        if (checkerRegex) {
-            if (checkerRegex.test(obj[attribute]))
-                return true;
-        }
-        return false;
+  for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
+    if (checkerValue === obj[attribute])
+      continue;
+    if (typeof checkerValue === "object" && typeof obj[attribute] === "object") {
+      return objectsPartiallyMatch(obj[attribute], checkerValue);
     }
-    return true;
+    let checkerRegex;
+    if (typeof checkerValue === "string" && checkerValue.startsWith("ipattern:")) {
+      const checkerPattern = checkerValue.slice("ipattern:".length);
+      checkerRegex = new RegExp("^" + checkerPattern.replace(/[-\/\\^$+?.()|[\]{}]/g, "\\$&").replace(/\*/g, ".*") + "$", "i");
+    } else if (typeof checkerValue === "string" && checkerValue.startsWith("pattern:")) {
+      const checkerPattern = checkerValue.slice("pattern:".length);
+      checkerRegex = new RegExp("^" + checkerPattern.replace(/[-\/\\^$+?.()|[\]{}]/g, "\\$&").replace(/\*/g, ".*") + "$");
+    } else if (typeof checkerValue === "string" && checkerValue.startsWith("iregex:")) {
+      const checkerPattern = checkerValue.slice("iregex:".length);
+      checkerRegex = new RegExp("^" + checkerPattern + "$", "i");
+    } else if (typeof checkerValue === "string" && checkerValue.startsWith("regex:")) {
+      const checkerPattern = checkerValue.slice("regex:".length);
+      checkerRegex = new RegExp("^" + checkerPattern + "$");
+    }
+    if (checkerRegex) {
+      if (checkerRegex.test(obj[attribute]))
+        return true;
+    }
+    return false;
+  }
+  return true;
 }
 function checkMatches(options, matcher) {
-    // check 'items'
-    if (matcher.t === 'armor')
-        return false;
-    if (matcher.i && !matcher.i.includes(options.id))
-        return false;
-    if (options.damage !== undefined && matcher.d != undefined && options.damage !== matcher.d)
-        return false;
-    // check nbt
-    if (matcher.n) {
-        if (!objectsPartiallyMatch(options.nbt, matcher.n))
-            return false;
-    }
-    return true;
+  if (matcher.t === "armor")
+    return false;
+  if (matcher.i && !matcher.i.includes(options.id))
+    return false;
+  if (options.damage !== void 0 && matcher.d != void 0 && options.damage !== matcher.d)
+    return false;
+  if (matcher.n) {
+    if (!objectsPartiallyMatch(options.nbt, matcher.n))
+      return false;
+  }
+  return true;
 }
 function getTextures(options) {
-    const splitId = options.id.split(/:(?=[^:]+$)/);
-    let damage = options.damage;
-    let id = options.id;
-    if (minecraft_ids_json_1.default[splitId[0]]) {
-        damage = parseInt(splitId[1]);
-        id = minecraft_ids_json_1.default[splitId[0]];
+  const splitId = options.id.split(/:(?=[^:]+$)/);
+  let damage = options.damage;
+  let id = options.id;
+  if (import_minecraft_ids.default[splitId[0]]) {
+    damage = parseInt(splitId[1]);
+    id = import_minecraft_ids.default[splitId[0]];
+  } else if (options.damage == null && parseInt(splitId[1])) {
+    id = splitId[0];
+    damage = parseInt(splitId[1]);
+  }
+  if (damage === void 0 || isNaN(damage))
+    damage = 0;
+  if (id.startsWith("minecraft:"))
+    id = id.slice("minecraft:".length);
+  const updatedOptions = {
+    damage,
+    id,
+    nbt: options.nbt,
+    packs: options.packs,
+    noNullTexture: options.noNullTexture
+  };
+  for (const pack of updatedOptions.packs) {
+    for (const packMatcherData of pack.matchers) {
+      const packMatcher = packMatcherData.m;
+      const matches = checkMatches(updatedOptions, packMatcher);
+      if (matches)
+        return { texture: packMatcherData.t, dir: pack.dir };
     }
-    else if (options.damage == null && parseInt(splitId[1])) {
-        id = splitId[0];
-        damage = parseInt(splitId[1]);
+  }
+  for (const pack of updatedOptions.packs) {
+    for (const packMatcherData of pack.matchers) {
+      const packMatcher = {
+        ...packMatcherData.m,
+        d: void 0
+      };
+      const matches = checkMatches(updatedOptions, packMatcher);
+      if (matches)
+        return { texture: packMatcherData.t, dir: pack.dir };
     }
-    if (damage === undefined || isNaN(damage))
-        damage = 0;
-    if (id.startsWith('minecraft:'))
-        id = id.slice('minecraft:'.length);
-    // we do this so we don't modify the user's options object that they passed
-    const updatedOptions = {
-        damage,
-        id,
-        nbt: options.nbt,
-        packs: options.packs,
-        noNullTexture: options.noNullTexture
-    };
-    for (const pack of updatedOptions.packs) {
-        for (const packMatcherData of pack.matchers) {
-            const packMatcher = packMatcherData.m;
-            const matches = checkMatches(updatedOptions, packMatcher);
-            if (matches)
-                return { textures: packMatcherData.t, dir: pack.dir };
-        }
-    }
-    for (const pack of updatedOptions.packs) {
-        for (const packMatcherData of pack.matchers) {
-            const packMatcher = {
-                ...packMatcherData.m,
-                d: undefined,
-            };
-            const matches = checkMatches(updatedOptions, packMatcher);
-            if (matches)
-                return { textures: packMatcherData.t, dir: pack.dir };
-        }
-    }
+  }
 }
-/** Get the directory for the texture for a SkyBlock item */
 function getTextureDir(options) {
-    const { dir, textures } = getTextures(options) ?? { dir: '', textures: {} };
-    const shortTextureDir = textures.texture
-        ?? textures.layer0
-        ?? textures.fishing_rod
-        ?? textures.leather_boots_overlay
-        ?? textures.leather_chestplate_overlay
-        ?? textures.leather_helmet_overlay
-        ?? textures.leather_leggings_overlay
-        ?? textures.leather_layer_1
-        ?? textures.leather_layer_2;
-    if (!shortTextureDir)
-        if (options.noNullTexture)
-            return null;
-        else
-            return 'renders/vanilla/error.png';
-    else {
-        const textureDir = `${dir}/${shortTextureDir}.png`;
-        return textureDir.replace(/\\/g, '/');
-    }
-}
-exports.getTextureDir = getTextureDir;
-/** Get the URL for the texture for a SkyBlock item */
-function getTextureUrl(options) {
-    const textureDir = getTextureDir(options);
-    if (!textureDir)
-        return null;
+  const { dir, texture } = getTextures(options) ?? { dir: "", texture: null };
+  if (!texture)
+    if (options.noNullTexture)
+      return null;
     else
-        return exports.baseUrl + '/' + textureDir;
+      return "renders/vanilla/error.png";
+  else {
+    const textureDir = `${dir}/${texture}.png`;
+    return textureDir.replace(/\\/g, "/");
+  }
 }
-exports.getTextureUrl = getTextureUrl;
+function getTextureUrl(options) {
+  const textureDir = getTextureDir(options);
+  if (!textureDir)
+    return null;
+  else
+    return baseUrl + "/" + textureDir;
+}
+module.exports = __toCommonJS(src_exports);
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  baseUrl,
+  getTextureDir,
+  getTextureUrl,
+  minecraftIds
+});

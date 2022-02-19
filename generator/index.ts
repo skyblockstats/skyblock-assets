@@ -1,3 +1,5 @@
+import minecraftIds from '../src/data/minecraft_ids.json'
+import vanillaDamages from '../src/data/vanilla_damages.json'
 import { loadImage, createCanvas, Image } from 'canvas'
 import { promises as fs, Dirent } from 'fs'
 import { makeApng } from './apng'
@@ -8,7 +10,6 @@ type XYXYArray = [number, number, number, number]
 
 type Direction = 'down' | 'up' | 'north' | 'south' | 'west' | 'east'
 
-let vanillaDamages: { [key: string]: string }
 let vanillaRenders: string[] = []
 
 interface ModelFace {
@@ -217,8 +218,8 @@ function setDotNotationAttribute(obj: any, path: string, value: any) {
 interface MatcherTextures {
 	/** Matcher */
 	m: Matcher
-	/** Textures */
-	t: { [key: string]: string }
+	/** Texture */
+	t: string
 }
 
 async function createAPng(textureFileName: string, frameTime: number): Promise<Buffer> {
@@ -335,7 +336,7 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 
 	return {
 		m: matcher,
-		t: textures
+		t: getUsedTexture(textures)
 	}
 }
 
@@ -397,9 +398,23 @@ How it finds matchers:
 - If it's vanilla, manually add some
 */
 
+
+function getUsedTexture(textures: { [key: string]: string }): string | null {
+	return textures.texture
+		?? textures.layer0
+
+		?? textures.fishing_rod
+		?? textures.leather_boots_overlay
+		?? textures.leather_chestplate_overlay
+		?? textures.leather_helmet_overlay
+		?? textures.leather_leggings_overlay
+
+		?? textures.leather_layer_1
+		?? textures.leather_layer_2
+}
+
 async function addPack(packName: string) {
 	const packSourceDir = `./packs/${packName}`
-	const outputDir = `./matchers/`
 
 	const texturesDir = `./textures/${packName}`
 	await makeDir(texturesDir)
@@ -413,31 +428,43 @@ async function addPack(packName: string) {
 	
 	/** Simply add an item to the list of matchers. Some details will be changed in order to make the matchers smaller. */
 	async function addMatcherTextures(matcherTextures: MatcherTextures) {
-		const newTextures = matcherTextures.t
-		for (let [textureName, textureDirectory] of Object.entries(matcherTextures.t)) {
-			if (!usefulTextures.includes(textureName)) {
-				delete newTextures[textureName]
-				continue
-			}
+		const newTextureDir = matcherTextures.t
+		if (!newTextureDir)
+			return
+
+		// for (let [textureName, textureDirectory] of Object.entries(matcherTextures.t)) {/
+			// if (!usefulTextures.includes(textureName)) {
+			// 	delete newTextures[textureName]
+			// 	continue
+			// }
 			const thisItemIndex = itemIndex ++
 			try {
-				await fs.copyFile(textureDirectory, path.join(texturesDir, `${integerToId(thisItemIndex)}.png`))
+				await fs.copyFile(newTextureDir, path.join(texturesDir, `${integerToId(thisItemIndex)}.png`))
 			} catch (e) {
 				// console.warn('Missing texture:', textureDirectory, matcherTextures)
-				delete newTextures[textureName]
-				continue
+				return
 			}
-			newTextures[textureName] = integerToId(thisItemIndex)
-		}
+			const newTextureId = integerToId(thisItemIndex)
+			// newTextures[textureName] = integerToId(thisItemIndex)
+		// }
 		
 		let newItems = matcherTextures.m.i
 		
 		// remove the minecraft: namespace from matcher items
 		if (newItems)
 			newItems = newItems.map(item => item.replace(/^minecraft:/, ''))
+		
+		// remove items that aren't in minecraftItemNames
+		const minecraftItemNames = Object.values(minecraftIds).map(item => item.replace(/^minecraft:/, ''))
+		if (newItems && newItems.length > 0) {
+			newItems = newItems.filter(item => minecraftItemNames.includes(item))
+			if (newItems.length === 0)
+				// none of the items were valid, oh well!
+				return
+		}
 
 		matchers.push({
-			t: newTextures,
+			t: newTextureId,
 			m: {
 				...matcherTextures.m,
 				// sort so it's easier to compress or something idk
@@ -516,7 +543,7 @@ async function addPack(packName: string) {
 				i: [minecraftItemName],
 				d: damage
 			},
-			t: model.textures
+			t: getUsedTexture(model.textures)
 		})
 	}
 
@@ -527,9 +554,7 @@ async function addPack(packName: string) {
 		} catch { }
 		await addMatcherTextures({
 			m: matcher,
-			t: {
-				texture: textureDir
-			}
+			t: textureDir
 		})
 	}
 
@@ -586,8 +611,6 @@ async function makeDir(dir) {
 }
 
 async function main() {
-	vanillaDamages = await readJsonFile('data/vanilla_damages.json')
-
 	for await (const dir of await getFiles('renders/vanilla'))
 		vanillaRenders.push(dir)
 	

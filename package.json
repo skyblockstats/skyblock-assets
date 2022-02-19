@@ -1,6 +1,6 @@
 {
   "name": "skyblock-assets",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Library for getting URLs to Hypixel SkyBlock item textures from several resource packs.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
