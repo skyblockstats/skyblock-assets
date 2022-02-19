@@ -136,7 +136,7 @@ function getTextures(options) {
 /** Get the directory for the texture for a SkyBlock item */
 function getTextureDir(options) {
     const textures = getTextures(options) ?? {};
-    const textureDir = textures.texture
+    const shortTextureDir = textures.texture
         ?? textures.layer0
         ?? textures.fishing_rod
         ?? textures.leather_boots_overlay
@@ -146,19 +146,21 @@ function getTextureDir(options) {
         ?? textures.leather_layer_1
         ?? textures.leather_layer_2;
     // if it can't find a texture for this pack, just check using vanilla
-    if (!textureDir && options.pack !== 'vanilla') {
+    if (!shortTextureDir && options.pack !== 'vanilla') {
         return getTextureDir({
             ...options,
             pack: 'vanilla'
         });
     }
-    if (!textureDir)
+    if (!shortTextureDir)
         if (options.noNullTexture)
             return null;
         else
             return 'renders/vanilla/error.png';
-    else
+    else {
+        const textureDir = `t/${options.pack}/${shortTextureDir}.png`;
         return textureDir.replace(/\\/g, '/');
+    }
 }
 exports.getTextureDir = getTextureDir;
 /** Get the URL for the texture for a SkyBlock item */
