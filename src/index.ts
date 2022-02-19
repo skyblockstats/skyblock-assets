@@ -1,10 +1,8 @@
 import minecraftIds from '../data/minecraft_ids.json'
 import * as matchers from './matchers.json'
-
 export { minecraftIds }
 
-export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main'
-
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.2.1'
 
 export interface NBT {
 	ExtraAttributes?: {
@@ -118,6 +116,9 @@ function getTextures(options: Options): { [key: string]: string } {
 	if (damage === undefined || isNaN(damage))
 		damage = 0
 	
+	if (id.startsWith('minecraft:'))
+		id = id.slice('minecraft:'.length)
+	
 	// we do this so we don't modify the user's options object that they passed
 	const updatedOptions: Options = {
 		damage,
@@ -132,11 +133,11 @@ function getTextures(options: Options): { [key: string]: string } {
 		if (updatedOptions.pack === packName) {
 			const packMatchers = (matchers as any)[packName]
 			for (const packMatcherData of packMatchers) {
-				const packMatcher: Matcher = packMatcherData.matcher
+				const packMatcher: Matcher = packMatcherData.m
 
 				const matches = checkMatches(updatedOptions, packMatcher)
 				if (matches)
-					return packMatcherData.textures
+					return packMatcherData.t
 			}
 		}
 	}
@@ -148,21 +149,21 @@ function getTextures(options: Options): { [key: string]: string } {
 			const packMatchers = (matchers as any)[packName]
 			for (const packMatcherData of packMatchers) {
 				const packMatcher: Matcher = {
-					...packMatcherData.matcher,
+					...packMatcherData.m,
 					d: undefined,
 				}
 				const matches = checkMatches(updatedOptions, packMatcher)
 				if (matches)
-					return packMatcherData.textures
+					return packMatcherData.t
 			}
 		}
 	}
 }
 
-/** Get the URL for the texture for a SkyBlock item */
-export function getTextureUrl(options: Options): string {
+/** Get the directory for the texture for a SkyBlock item */
+export function getTextureDir(options: Options): string {
 	const textures = getTextures(options) ?? {}
-	const texturePath: string = textures.texture
+	const textureDir: string = textures.texture
 		?? textures.layer0
 
 		?? textures.fishing_rod
@@ -173,21 +174,30 @@ export function getTextureUrl(options: Options): string {
 
 		?? textures.leather_layer_1
 		?? textures.leather_layer_2
-
+	
 	// if it can't find a texture for this pack, just check using vanilla
-	if (!texturePath && options.pack !== 'vanilla') {
-		return getTextureUrl({
+	if (!textureDir && options.pack !== 'vanilla') {
+		return getTextureDir({
 			...options,
 			pack: 'vanilla'
 		})
 	}
-	if (!texturePath)
+	if (!textureDir)
 		if (options.noNullTexture)
 			return null
 		else
-			return baseUrl + '/renders/vanilla/error.png'
+			return 'renders/vanilla/error.png'
 	else
-		return baseUrl + '/' + texturePath.replace(/\\/g, '/')
+		return textureDir.replace(/\\/g, '/')
+}
+
+/** Get the URL for the texture for a SkyBlock item */
+export function getTextureUrl(options: Options): string {
+	const textureDir = getTextureDir(options)
+	if (!textureDir)
+		return null
+	else
+		return baseUrl + '/' + textureDir
 }
 
 

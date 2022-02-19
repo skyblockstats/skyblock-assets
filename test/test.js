@@ -5,9 +5,15 @@ const fs = require('fs')
 
 function assertIsPack(textureUrl, packName) {
     assert.ok(
-        textureUrl.startsWith(`${skyblockAssets.baseUrl}/packs/${packName}/`)
-        || textureUrl.startsWith(`${skyblockAssets.baseUrl}/renders/${packName}/`)
+        textureUrl.startsWith(`${skyblockAssets.baseUrl}/t/${packName}/`)
     )
+}
+
+// check if the two files are identical
+function checkFilesMatch(file1, file2) {
+    const hash1 = fs.readFileSync(file1, 'utf8')
+    const hash2 = fs.readFileSync(file2, 'utf8')
+    return hash1 === hash2
 }
 
 describe('skyblock-assets', () => {
@@ -97,30 +103,30 @@ describe('skyblock-assets', () => {
         })
 
         it('Check minecraft:item:id', () => {
-            const itemTextureUrl = skyblockAssets.getTextureUrl({
+            const itemTextureDir = skyblockAssets.getTextureDir({
                 id: 'minecraft:dye:3',
                 pack: 'vanilla',
             })
 
-            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_brown.png`)
+            assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/dye_powder_brown.png`))
         })
 
         it('Check itemid:id', () => {
-            const itemTextureUrl = skyblockAssets.getTextureUrl({
+            const itemTextureDir = skyblockAssets.getTextureDir({
                 id: '351:3',
                 pack: 'vanilla',
             })
 
-            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/dye_powder_brown.png`)
+            assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/dye_powder_brown.png`))
         })
 
         it('Check melon slice', () => {
-            const itemTextureUrl = skyblockAssets.getTextureUrl({
+            const itemTextureDir = skyblockAssets.getTextureDir({
                 id: 'minecraft:melon',
                 pack: 'vanilla',
             })
 
-            assert.strictEqual(itemTextureUrl, `${skyblockAssets.baseUrl}/packs/vanilla/textures/items/melon.png`)
+            assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/melon.png`))
         })
     })
 })

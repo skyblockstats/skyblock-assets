@@ -28,12 +28,13 @@ var __toCommonJS = /* @__PURE__ */ ((cache) => {
 var src_exports = {};
 __export(src_exports, {
   baseUrl: () => baseUrl,
+  getTextureDir: () => getTextureDir,
   getTextureUrl: () => getTextureUrl,
   minecraftIds: () => import_minecraft_ids.default
 });
 var import_minecraft_ids = __toESM(require("../data/minecraft_ids.json"));
 var matchers = __toESM(require("./matchers.json"));
-const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/main";
+const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.2.1";
 function objectsPartiallyMatch(obj, checkerObj) {
   for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
     if (checkerValue === obj[attribute])
@@ -89,6 +90,8 @@ function getTextures(options) {
   }
   if (damage === void 0 || isNaN(damage))
     damage = 0;
+  if (id.startsWith("minecraft:"))
+    id = id.slice("minecraft:".length);
   const updatedOptions = {
     damage,
     id,
@@ -100,10 +103,10 @@ function getTextures(options) {
     if (updatedOptions.pack === packName) {
       const packMatchers = matchers[packName];
       for (const packMatcherData of packMatchers) {
-        const packMatcher = packMatcherData.matcher;
+        const packMatcher = packMatcherData.m;
         const matches = checkMatches(updatedOptions, packMatcher);
         if (matches)
-          return packMatcherData.textures;
+          return packMatcherData.t;
       }
     }
   }
@@ -112,37 +115,45 @@ function getTextures(options) {
       const packMatchers = matchers[packName];
       for (const packMatcherData of packMatchers) {
         const packMatcher = {
-          ...packMatcherData.matcher,
+          ...packMatcherData.m,
           d: void 0
         };
         const matches = checkMatches(updatedOptions, packMatcher);
         if (matches)
-          return packMatcherData.textures;
+          return packMatcherData.t;
       }
     }
   }
 }
-function getTextureUrl(options) {
+function getTextureDir(options) {
   const textures = getTextures(options) ?? {};
-  const texturePath = textures.texture ?? textures.layer0 ?? textures.fishing_rod ?? textures.leather_boots_overlay ?? textures.leather_chestplate_overlay ?? textures.leather_helmet_overlay ?? textures.leather_leggings_overlay ?? textures.leather_layer_1 ?? textures.leather_layer_2;
-  if (!texturePath && options.pack !== "vanilla") {
-    return getTextureUrl({
+  const textureDir = textures.texture ?? textures.layer0 ?? textures.fishing_rod ?? textures.leather_boots_overlay ?? textures.leather_chestplate_overlay ?? textures.leather_helmet_overlay ?? textures.leather_leggings_overlay ?? textures.leather_layer_1 ?? textures.leather_layer_2;
+  if (!textureDir && options.pack !== "vanilla") {
+    return getTextureDir({
       ...options,
       pack: "vanilla"
     });
   }
-  if (!texturePath)
+  if (!textureDir)
     if (options.noNullTexture)
       return null;
     else
-      return baseUrl + "/renders/vanilla/error.png";
+      return "renders/vanilla/error.png";
   else
-    return baseUrl + "/" + texturePath.replace(/\\/g, "/");
+    return textureDir.replace(/\\/g, "/");
+}
+function getTextureUrl(options) {
+  const textureDir = getTextureDir(options);
+  if (!textureDir)
+    return null;
+  else
+    return baseUrl + "/" + textureDir;
 }
 module.exports = __toCommonJS(src_exports);
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   baseUrl,
+  getTextureDir,
   getTextureUrl,
   minecraftIds
 });

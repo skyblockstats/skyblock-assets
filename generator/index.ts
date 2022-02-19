@@ -101,7 +101,7 @@ async function readJsonFile(fileDir: string): Promise<any> {
 }
 
 async function writeJsonFile(fileDir: string, contents: any): Promise<void> {
-	await fs.writeFile(fileDir, JSON.stringify(contents, null, 2), { encoding: 'utf8' })
+	await fs.writeFile(fileDir, JSON.stringify(contents), { encoding: 'utf8' })
 }
 
 /** Returns whether a file exists */
@@ -203,8 +203,10 @@ function setDotNotationAttribute(obj: any, path: string, value: any) {
 }
 
 interface MatcherTextures {
-	matcher: Matcher
-	textures: { [key: string]: string }
+	/** Matcher */
+	m: Matcher
+	/** Textures */
+	t: { [key: string]: string }
 }
 
 async function createAPng(textureFileName: string, frameTime: number): Promise<Buffer> {
@@ -231,7 +233,7 @@ async function makeAnimationFromMcmeta(textureFileName: string): Promise<string>
 	return apngDir
 }
 
-async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir: string): Promise<MatcherTextures> {
+async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir: string): Promise<MatcherTextures | null> {
 	const properties = await readPropertiesFile(propertiesDir)
 
 	// It can be either `items` or `matchItems`, and it's split by spaces
@@ -259,7 +261,6 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 				if (!value.endsWith('.png')) value += '.png'
 
 				let newDirectory: string = path.join(path.dirname(propertiesDir), value as string)
-
 				if (!value.startsWith('/') && !value.startsWith('./')) {
 					if (await fileExists(path.join(baseDir, value)))
 						newDirectory = path.join(baseDir, value)
@@ -278,6 +279,14 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		let newTexture = path.join(path.dirname(propertiesDir), propertiesTexture)
 		if (newTexture.endsWith('.png.png')) newTexture = newTexture.slice(0, newTexture.length - 4)
 		else if (!newTexture.endsWith('.png')) newTexture += '.png'
+	
+		// if the file doesn't exist, try checking the parent directory
+		if (!(await fileExists(newTexture))) {
+			const parentDirectory = path.join(path.dirname(propertiesDir), '..', propertiesTexture)
+			if (await fileExists(parentDirectory))
+				newTexture = parentDirectory
+		}
+	
 		textures.texture = newTexture
 	} else if (propertiesTexture) {
 		const newTextures = {}
@@ -304,14 +313,17 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		let textureDir = propertiesDir.replace(/(\.properties)$/, '.png')
 		try {
 			textureDir = await makeAnimationFromMcmeta(textureDir)
-		} catch { }
+		} catch {
+			// this texture is broken!!! or maybe the texture is a model or something idk.
+			return null
+		}
 
 		textures.texture = textureDir
 	}
 
 	return {
-		matcher,
-		textures
+		m: matcher,
+		t: textures
 	}
 }
 
@@ -357,6 +369,10 @@ async function combineLayers(directories: string[]): Promise<Buffer> {
 	return canvas.toBuffer()
 }
 
+function integerToId(id: number): string {
+	return id.toString(36)
+}
+
 /*
 How it finds matchers:
 - Check /mcpatcher/cit and get all the files that end in .properties
@@ -373,16 +389,53 @@ async function addPack(packName: string) {
 	const packSourceDir = `./packs/${packName}`
 	const outputDir = `./matchers/`
 
+	const texturesDir = `./t/${packName}`
+	await makeDir(texturesDir)
+
 	const vanillaDir = path.join(path.dirname(__dirname), './packs/vanilla')
 
 	const matchers: MatcherTextures[] = []
+
+	let itemIndex = 0
+
+	
+	/** Simply add an item to the list of matchers. The texture file locations will be changed. */
+	async function addMatcherTextures(matcherTextures: MatcherTextures) {
+		const newTextures = matcherTextures.t
+		for (let [textureName, textureDirectory] of Object.entries(matcherTextures.t)) {
+			const thisItemIndex = itemIndex ++
+			const newDirectory = path.join(texturesDir, `${integerToId(thisItemIndex)}.png`)
+			try {
+				await fs.copyFile(textureDirectory, newDirectory)
+			} catch (e) {
+				// console.warn('Missing texture:', textureDirectory, matcherTextures)
+				delete newTextures[textureName]
+			}
+			newTextures[textureName] = newDirectory
+		}
+		
+		let newItems = matcherTextures.m.i
+		
+		// remove the minecraft: namespace from matcher items
+		if (newItems)
+			newItems = newItems.map(item => item.replace(/^minecraft:/, ''))
+
+		matchers.push({
+			t: newTextures,
+			m: {
+				...matcherTextures.m,
+				i: newItems
+			}
+		})
+	}
 
 	// add cit
 	const customItemTextureDirs = await getFiles(`${packSourceDir}/mcpatcher/cit`)
 	for await (const textureDir of customItemTextureDirs) {
 		if (textureDir.endsWith('.properties')) {
 			const item = await getItemFromCIT(packSourceDir, textureDir, vanillaDir)
-			matchers.push(item)
+			if (item)
+				await addMatcherTextures(item)
 		}
 	}
 
@@ -441,12 +494,12 @@ async function addPack(packName: string) {
 			model.textures.texture = path.join('renders', 'vanilla', `${fileItemName}.png`)
 		}
 
-		matchers.push({
-			matcher: {
+		await addMatcherTextures({
+			m: {
 				i: [minecraftItemName],
 				d: damage
 			},
-			textures: model.textures
+			t: model.textures
 		})
 	}
 
@@ -455,9 +508,9 @@ async function addPack(packName: string) {
 		try {
 			textureDir = await makeAnimationFromMcmeta(textureDir)
 		} catch { }
-		matchers.push({
-			matcher,
-			textures: {
+		await addMatcherTextures({
+			m: matcher,
+			t: {
 				texture: textureDir
 			}
 		})
@@ -503,12 +556,21 @@ async function addPack(packName: string) {
 	return matchers
 }
 
+async function makeDir(dir) {
+	try {
+		await fs.rm(dir, { recursive: true })
+	} catch {}
+	await fs.mkdir(dir)
+}
 
 async function main() {
 	vanillaDamages = await readJsonFile('data/vanilla_damages.json')
 
 	for await (const dir of await getFiles('renders/vanilla'))
 		vanillaRenders.push(dir)
+	
+	// t for textures, we want it to be short so it doesn't use a lot of space
+	await makeDir('t')
 
 	const combinedMatchers: Record<string, any> = {
 		ectoplasm: await addPack('ectoplasm'),
