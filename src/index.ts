@@ -1,8 +1,7 @@
-import minecraftIds from '../data/minecraft_ids.json'
-import matchers from './matchers.json'
+import minecraftIds from './data/minecraft_ids.json'
 export { minecraftIds }
 
-export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.3.2'
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.0'
 
 export interface NBT {
 	ExtraAttributes?: {
@@ -33,22 +32,15 @@ interface MatcherTextures {
 	t: { [key: string]: string }
 }
 
-export interface UnambiguousOptions {
-	pack: MatcherTextures[]
-	id: string
-	damage?: number
-	nbt: NBT
-	noNullTexture?: boolean
-}
+type MatcherFile = { dir: string, matchers: MatcherTextures[] }
 
 export interface Options {
-	pack: 'ectoplasm' | 'furfsky_reborn' | 'furfsky' | 'hypixel+' | 'packshq' | 'rnbw' | 'vanilla' | 'worlds_and_beyond' | string | MatcherTextures[]
+	packs: MatcherFile[]
 	id: string
 	damage?: number
 	nbt: NBT
 	noNullTexture?: boolean
 }
-
 
 /** Check if all the values from checkerObj are the same in obj */
 function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
@@ -98,7 +90,7 @@ function objectsPartiallyMatch(obj: NBT, checkerObj: NBT): boolean {
 	return true
 }
 
-function checkMatches(options: UnambiguousOptions, matcher: Matcher): boolean {
+function checkMatches(options: Options, matcher: Matcher): boolean {
 	// check 'items'
 	if (matcher.t === 'armor')
 		return false
@@ -114,7 +106,7 @@ function checkMatches(options: UnambiguousOptions, matcher: Matcher): boolean {
 	return true
 }
 
-function getTextures(options: Options): { [key: string]: string } {
+function getTextures(options: Options): { dir: string, textures: { [key: string]: string } } {
 	const splitId = options.id.split(/:(?=[^:]+$)/)
 
 	let damage: null | number = options.damage
@@ -133,45 +125,41 @@ function getTextures(options: Options): { [key: string]: string } {
 	if (id.startsWith('minecraft:'))
 		id = id.slice('minecraft:'.length)
 	
-	let pack: MatcherTextures[]
-	
-	if (typeof options.pack === 'string') {
-		pack = matchers[options.pack]
-	} else {
-		pack = options.pack
-	}
-	
 	// we do this so we don't modify the user's options object that they passed
-	const updatedOptions: UnambiguousOptions = {
+	const updatedOptions: Options = {
 		damage,
 		id,
 		nbt: options.nbt,
-		pack,
+		packs: options.packs,
 		noNullTexture: options.noNullTexture
 	}
 
-	for (const packMatcherData of updatedOptions.pack) {
-		const packMatcher: Matcher = packMatcherData.m
+	for (const pack of updatedOptions.packs) {
+		for (const packMatcherData of pack.matchers) {
+			const packMatcher: Matcher = packMatcherData.m
 
-		const matches = checkMatches(updatedOptions, packMatcher)
-		if (matches)
-			return packMatcherData.t
+			const matches = checkMatches(updatedOptions, packMatcher)
+			if (matches)
+				return { textures: packMatcherData.t, dir: pack.dir }
+		}
 	}
 
-	for (const packMatcherData of updatedOptions.pack) {
-		const packMatcher: Matcher = {
-			...packMatcherData.m,
-			d: undefined,
+	for (const pack of updatedOptions.packs) {
+		for (const packMatcherData of pack.matchers) {
+			const packMatcher: Matcher = {
+				...packMatcherData.m,
+				d: undefined,
+			}
+			const matches = checkMatches(updatedOptions, packMatcher)
+			if (matches)
+				return { textures: packMatcherData.t, dir: pack.dir }
 		}
-		const matches = checkMatches(updatedOptions, packMatcher)
-		if (matches)
-			return packMatcherData.t
 	}
 }
 
 /** Get the directory for the texture for a SkyBlock item */
 export function getTextureDir(options: Options): string {
-	const textures = getTextures(options) ?? {}
+	const { dir, textures } = getTextures(options) ?? { dir: '', textures: {} }
 	const shortTextureDir: string = textures.texture
 		?? textures.layer0
 
@@ -184,20 +172,13 @@ export function getTextureDir(options: Options): string {
 		?? textures.leather_layer_1
 		?? textures.leather_layer_2
 	
-	// if it can't find a texture for this pack, just check using vanilla
-	if (!shortTextureDir && options.pack !== 'vanilla') {
-		return getTextureDir({
-			...options,
-			pack: 'vanilla'
-		})
-	}
 	if (!shortTextureDir)
 		if (options.noNullTexture)
 			return null
 		else
 			return 'renders/vanilla/error.png'
 	else {
-		const textureDir = `t/${options.pack}/${shortTextureDir}.png`
+		const textureDir = `${dir}/${shortTextureDir}.png`
 		return textureDir.replace(/\\/g, '/')
 	}
 }

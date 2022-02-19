@@ -33,6 +33,18 @@ interface ModelElement {
 	}
 }
 
+const usefulTextures = [
+	'texture',
+	'layer0',
+	'fishing_rod',
+	'leather_boots_overlay',
+	'leather_chestplate_overlay',
+	'leather_helmet_overlay',
+	'leather_leggings_overlay',
+	'leather_layer_1',
+	'leather_layer_2',
+]
+
 interface ModelTextures {
 	layer0?: string
 	layer1?: string
@@ -389,7 +401,7 @@ async function addPack(packName: string) {
 	const packSourceDir = `./packs/${packName}`
 	const outputDir = `./matchers/`
 
-	const texturesDir = `./t/${packName}`
+	const texturesDir = `./textures/${packName}`
 	await makeDir(texturesDir)
 
 	const vanillaDir = path.join(path.dirname(__dirname), './packs/vanilla')
@@ -399,16 +411,21 @@ async function addPack(packName: string) {
 	let itemIndex = 0
 
 	
-	/** Simply add an item to the list of matchers. The texture file locations will be changed. */
+	/** Simply add an item to the list of matchers. Some details will be changed in order to make the matchers smaller. */
 	async function addMatcherTextures(matcherTextures: MatcherTextures) {
 		const newTextures = matcherTextures.t
 		for (let [textureName, textureDirectory] of Object.entries(matcherTextures.t)) {
+			if (!usefulTextures.includes(textureName)) {
+				delete newTextures[textureName]
+				continue
+			}
 			const thisItemIndex = itemIndex ++
 			try {
 				await fs.copyFile(textureDirectory, path.join(texturesDir, `${integerToId(thisItemIndex)}.png`))
 			} catch (e) {
 				// console.warn('Missing texture:', textureDirectory, matcherTextures)
 				delete newTextures[textureName]
+				continue
 			}
 			newTextures[textureName] = integerToId(thisItemIndex)
 		}
@@ -423,7 +440,8 @@ async function addPack(packName: string) {
 			t: newTextures,
 			m: {
 				...matcherTextures.m,
-				i: newItems
+				// sort so it's easier to compress or something idk
+				i: newItems.sort()
 			}
 		})
 	}
@@ -552,6 +570,11 @@ async function addPack(packName: string) {
 		)
 	}
 
+	await writeJsonFile(
+		`src/matchers/${packName}.json`,
+		{ dir: `textures/${packName}`, matchers }
+	)
+
 	return matchers
 }
 
@@ -568,22 +591,20 @@ async function main() {
 	for await (const dir of await getFiles('renders/vanilla'))
 		vanillaRenders.push(dir)
 	
-	// t for textures, we want it to be short so it doesn't use a lot of space
-	await makeDir('t')
+	await makeDir('textures')
+	await makeDir('src/matchers')
 
-	const combinedMatchers: Record<string, any> = {
-		ectoplasm: await addPack('ectoplasm'),
-		furfsky: await addPack('furfsky'),
-		furfsky_reborn: await addPack('furfsky_reborn'),
-		'hypixel+': await addPack('hypixel+'),
-		packshq: await addPack('packshq'),
-		rnbw: await addPack('rnbw'),
-		worlds_and_beyond: await addPack('worlds_and_beyond'),
+	await addPack('ectoplasm')
+	await addPack('furfsky')
+	await addPack('furfsky_reborn')
+	await addPack('hypixel+')
+	await addPack('packshq')
+	await addPack('rnbw')
+	await addPack('worlds_and_beyond')
 
-		vanilla: await addPack('vanilla')
-	}
+	await addPack('vanilla')
 
-	await writeJsonFile('./src/matchers.json', combinedMatchers)
+	// await writeJsonFile('./src/matchers.json', combinedMatchers)
 }
 
 main()

@@ -3,9 +3,13 @@ const assert = require('assert')
 const path = require('path')
 const fs = require('fs')
 
+const vanilla = require('../build/matchers/vanilla.json')
+const packshq = require('../build/matchers/packshq.json')
+const furfsky_reborn = require('../build/matchers/furfsky_reborn.json')
+
 function assertIsPack(textureUrl, packName) {
     assert.ok(
-        textureUrl.startsWith(`${skyblockAssets.baseUrl}/t/${packName}/`)
+        textureUrl.startsWith(`${skyblockAssets.baseUrl}/textures/${packName}/`)
     )
 }
 
@@ -34,7 +38,7 @@ describe('skyblock-assets', () => {
                 const itemTextureUrl = skyblockAssets.getTextureUrl({
                     id: item,
                     nbt: {},
-                    pack: 'vanilla',
+                    packs: [ vanilla ],
                 })
                 assert.ok(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `${item} doesn't even have an error texture???`)
                 assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `Couldn't find texture for ${item}`)
@@ -48,7 +52,7 @@ describe('skyblock-assets', () => {
             const itemTextureUrl = skyblockAssets.getTextureUrl({
                 id: 'minecraft:lit_furnace',
                 nbt: {},
-                pack: 'vanilla',
+                packs: [ vanilla ],
             })
             assert.strictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png')
         })
@@ -64,7 +68,7 @@ describe('skyblock-assets', () => {
                         Name: 'SkyBlock Menu (Right Click)'
                     }
                 },
-                pack: 'packshq',
+                packs: [ packshq, vanilla ],
             })
             assertIsPack(itemTextureUrl, 'packshq')
         })
@@ -80,7 +84,7 @@ describe('skyblock-assets', () => {
                         Name: 'SkyBlock Menu (Right Click)'
                     }
                 },
-                pack: 'furfsky_reborn',
+                packs: [ furfsky_reborn, vanilla ],
             })
             assertIsPack(itemTextureUrl, 'furfsky_reborn')
         })
@@ -96,7 +100,7 @@ describe('skyblock-assets', () => {
                         Name: 'Legendary Aspect of the Dragons'
                     }
                 },
-                pack: 'packshq',
+                packs: [ packshq, vanilla ],
             })
 
             assertIsPack(itemTextureUrl, 'packshq')
@@ -105,7 +109,7 @@ describe('skyblock-assets', () => {
         it('Check minecraft:item:id', () => {
             const itemTextureDir = skyblockAssets.getTextureDir({
                 id: 'minecraft:dye:3',
-                pack: 'vanilla',
+                packs: [ vanilla ],
             })
 
             assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/dye_powder_brown.png`))
@@ -114,7 +118,7 @@ describe('skyblock-assets', () => {
         it('Check itemid:id', () => {
             const itemTextureDir = skyblockAssets.getTextureDir({
                 id: '351:3',
-                pack: 'vanilla',
+                packs: [ vanilla ],
             })
 
             assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/dye_powder_brown.png`))
@@ -123,7 +127,7 @@ describe('skyblock-assets', () => {
         it('Check melon slice', () => {
             const itemTextureDir = skyblockAssets.getTextureDir({
                 id: 'minecraft:melon',
-                pack: 'vanilla',
+                packs: [ vanilla ],
             })
 
             assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/melon.png`))

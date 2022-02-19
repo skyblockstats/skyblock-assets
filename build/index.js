@@ -32,9 +32,8 @@ __export(src_exports, {
   getTextureUrl: () => getTextureUrl,
   minecraftIds: () => import_minecraft_ids.default
 });
-var import_minecraft_ids = __toESM(require("../data/minecraft_ids.json"));
-var import_matchers = __toESM(require("./matchers.json"));
-const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/1.3.2";
+var import_minecraft_ids = __toESM(require("./data/minecraft_ids.json"));
+const baseUrl = "https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.0";
 function objectsPartiallyMatch(obj, checkerObj) {
   for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
     if (checkerValue === obj[attribute])
@@ -92,51 +91,43 @@ function getTextures(options) {
     damage = 0;
   if (id.startsWith("minecraft:"))
     id = id.slice("minecraft:".length);
-  let pack;
-  if (typeof options.pack === "string") {
-    pack = import_matchers.default[options.pack];
-  } else {
-    pack = options.pack;
-  }
   const updatedOptions = {
     damage,
     id,
     nbt: options.nbt,
-    pack,
+    packs: options.packs,
     noNullTexture: options.noNullTexture
   };
-  for (const packMatcherData of updatedOptions.pack) {
-    const packMatcher = packMatcherData.m;
-    const matches = checkMatches(updatedOptions, packMatcher);
-    if (matches)
-      return packMatcherData.t;
+  for (const pack of updatedOptions.packs) {
+    for (const packMatcherData of pack.matchers) {
+      const packMatcher = packMatcherData.m;
+      const matches = checkMatches(updatedOptions, packMatcher);
+      if (matches)
+        return { textures: packMatcherData.t, dir: pack.dir };
+    }
   }
-  for (const packMatcherData of updatedOptions.pack) {
-    const packMatcher = {
-      ...packMatcherData.m,
-      d: void 0
-    };
-    const matches = checkMatches(updatedOptions, packMatcher);
-    if (matches)
-      return packMatcherData.t;
+  for (const pack of updatedOptions.packs) {
+    for (const packMatcherData of pack.matchers) {
+      const packMatcher = {
+        ...packMatcherData.m,
+        d: void 0
+      };
+      const matches = checkMatches(updatedOptions, packMatcher);
+      if (matches)
+        return { textures: packMatcherData.t, dir: pack.dir };
+    }
   }
 }
 function getTextureDir(options) {
-  const textures = getTextures(options) ?? {};
+  const { dir, textures } = getTextures(options) ?? { dir: "", textures: {} };
   const shortTextureDir = textures.texture ?? textures.layer0 ?? textures.fishing_rod ?? textures.leather_boots_overlay ?? textures.leather_chestplate_overlay ?? textures.leather_helmet_overlay ?? textures.leather_leggings_overlay ?? textures.leather_layer_1 ?? textures.leather_layer_2;
-  if (!shortTextureDir && options.pack !== "vanilla") {
-    return getTextureDir({
-      ...options,
-      pack: "vanilla"
-    });
-  }
   if (!shortTextureDir)
     if (options.noNullTexture)
       return null;
     else
       return "renders/vanilla/error.png";
   else {
-    const textureDir = `t/${options.pack}/${shortTextureDir}.png`;
+    const textureDir = `${dir}/${shortTextureDir}.png`;
     return textureDir.replace(/\\/g, "/");
   }
 }
