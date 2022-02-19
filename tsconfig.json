@@ -6,6 +6,7 @@
 	  "esModuleInterop": true,
 	  "outDir": "build",
 	  "resolveJsonModule": true,
+	  "declaration": true,
 	},
 	"include": ["src"],
 	"exclude": ["**/node_modules"],
