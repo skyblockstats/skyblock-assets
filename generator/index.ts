@@ -404,14 +404,13 @@ async function addPack(packName: string) {
 		const newTextures = matcherTextures.t
 		for (let [textureName, textureDirectory] of Object.entries(matcherTextures.t)) {
 			const thisItemIndex = itemIndex ++
-			const newDirectory = path.join(texturesDir, `${integerToId(thisItemIndex)}.png`)
 			try {
-				await fs.copyFile(textureDirectory, newDirectory)
+				await fs.copyFile(textureDirectory, path.join(texturesDir, `${integerToId(thisItemIndex)}.png`))
 			} catch (e) {
 				// console.warn('Missing texture:', textureDirectory, matcherTextures)
 				delete newTextures[textureName]
 			}
-			newTextures[textureName] = newDirectory
+			newTextures[textureName] = integerToId(thisItemIndex)
 		}
 		
 		let newItems = matcherTextures.m.i

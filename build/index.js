@@ -127,20 +127,22 @@ function getTextures(options) {
 }
 function getTextureDir(options) {
   const textures = getTextures(options) ?? {};
-  const textureDir = textures.texture ?? textures.layer0 ?? textures.fishing_rod ?? textures.leather_boots_overlay ?? textures.leather_chestplate_overlay ?? textures.leather_helmet_overlay ?? textures.leather_leggings_overlay ?? textures.leather_layer_1 ?? textures.leather_layer_2;
-  if (!textureDir && options.pack !== "vanilla") {
+  const shortTextureDir = textures.texture ?? textures.layer0 ?? textures.fishing_rod ?? textures.leather_boots_overlay ?? textures.leather_chestplate_overlay ?? textures.leather_helmet_overlay ?? textures.leather_leggings_overlay ?? textures.leather_layer_1 ?? textures.leather_layer_2;
+  if (!shortTextureDir && options.pack !== "vanilla") {
     return getTextureDir({
       ...options,
       pack: "vanilla"
     });
   }
-  if (!textureDir)
+  if (!shortTextureDir)
     if (options.noNullTexture)
       return null;
     else
       return "renders/vanilla/error.png";
-  else
+  else {
+    const textureDir = `t/${options.pack}/${shortTextureDir}.png`;
     return textureDir.replace(/\\/g, "/");
+  }
 }
 function getTextureUrl(options) {
   const textureDir = getTextureDir(options);
