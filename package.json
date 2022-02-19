@@ -5,7 +5,9 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
-    "build", "data", "matchers"
+    "build",
+    "data",
+    "matchers"
   ],
   "scripts": {
     "test": "mocha",
