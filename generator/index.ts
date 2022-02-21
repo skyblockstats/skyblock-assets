@@ -97,14 +97,20 @@ async function readPropertiesFile(fileDir: string): Promise<{ [key: string]: any
 	const contents = {}
 	let fileContents: string = await fs.readFile(fileDir, { encoding: 'utf8' })
 	for (const line of fileContents.split('\n')) {
-		const [key, value] = line.split('=', 2)
-		if (!value) continue
+		const keyvalue = line.split('=', 2)
+		if (keyvalue.length !== 2) continue
+		const [ key, value ] = keyvalue
 		contents[key] = value.trim()
 	}
 	const dotNotationContents = {}
 	for (const property of Object.keys(contents)) {
 		setDotNotationAttribute(dotNotationContents, property, contents[property])
 	}
+
+	if (fileDir === 'packs\\furfsky_reborn\\mcpatcher\\cit\\item\\tools\\drills\\titanium_drill_dr_x555\\titanium_drill_dr_x555_display.properties') {
+		console.log(fileContents, dotNotationContents)
+	}
+
 	return dotNotationContents
 }
 
@@ -262,6 +268,7 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		n: properties.nbt,
 		t: properties?.type ?? null
 	}
+
 
 	let textures: { [key: string]: string } = {}
 
@@ -626,8 +633,6 @@ async function main() {
 	await addPack('worlds_and_beyond')
 
 	await addPack('vanilla')
-
-	// await writeJsonFile('./src/matchers.json', combinedMatchers)
 }
 
 main()

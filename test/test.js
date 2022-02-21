@@ -1,11 +1,11 @@
-const skyblockAssets = require('../build/index')
+const skyblockAssets = require('../build')
 const assert = require('assert')
 const path = require('path')
 const fs = require('fs')
 
-const vanilla = require('../build/matchers/vanilla.json')
-const packshq = require('../build/matchers/packshq.json')
-const furfsky_reborn = require('../build/matchers/furfsky_reborn.json')
+const vanilla = require('../matchers/vanilla.json')
+const packshq = require('../matchers/packshq.json')
+const furfsky_reborn = require('../matchers/furfsky_reborn.json')
 
 function assertIsPack(textureUrl, packName) {
     assert.ok(
@@ -21,7 +21,7 @@ function checkFilesMatch(file1, file2) {
 }
 
 describe('skyblock-assets', () => {
-    describe('#getTextureUrl()', () => {
+    describe('Get texture URL/dir', () => {
         it('Checks every vanilla item', async() => {
             const itemlessBlocks = new Set([
                 'air', 'water', 'flowing_water', 'lava', 'flowing_lava', 'piston_head', 'double_stone_slab',
@@ -39,6 +39,31 @@ describe('skyblock-assets', () => {
                     id: item,
                     nbt: {},
                     packs: [ vanilla ],
+                })
+                assert.ok(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `${item} doesn't even have an error texture???`)
+                assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `Couldn't find texture for ${item}`)
+                const itemTexturePath = path.join(__dirname, '..', itemTextureUrl.slice(skyblockAssets.baseUrl.length))
+                await fs.promises.access(itemTexturePath, fs.F_OK)
+            }
+        })
+
+        it('Checks every vanilla item but with FurfSky Reborn enabled', async() => {
+            const itemlessBlocks = new Set([
+                'air', 'water', 'flowing_water', 'lava', 'flowing_lava', 'piston_head', 'double_stone_slab',
+                'fire', 'redstone_wire', 'lit_furnace', 'standing_sign', 'wall_sign', 'lit_redstone_ore',
+                'unlit_redstone_torch', 'portal', 'unpowered_repeater', 'powered_repeater', 'pumpkin_stem',
+                'melon_stem', 'end_portal', 'lit_redstone_lamp', 'double_wooden_slab', 'cocoa', 'carrots',
+                'potatoes', 'unpowered_comparator', 'powered_comparator', 'standing_banner', 'wall_banner',
+                'daylight_detector_inverted', 'double_stone_slab2',
+
+                'purpur_double_slab', 'end_gateway', 'frosted_ice', 'beetroots'
+            ])
+            for (const item of Object.values(skyblockAssets.minecraftIds)) {
+                if (itemlessBlocks.has(item.slice('minecraft:'.length))) continue
+                const itemTextureUrl = skyblockAssets.getTextureUrl({
+                    id: item,
+                    nbt: {},
+                    packs: [ furfsky_reborn, vanilla ],
                 })
                 assert.ok(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `${item} doesn't even have an error texture???`)
                 assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png', `Couldn't find texture for ${item}`)
@@ -104,6 +129,24 @@ describe('skyblock-assets', () => {
             })
 
             assertIsPack(itemTextureUrl, 'packshq')
+        })
+
+        it('Check Titanium Drill DR x555 on FurfSky Reborn', () => {
+            // this checks that the first lore line is empty
+            const itemTextureDir = skyblockAssets.getTextureDir({
+                id: 'minecraft:prismarine_shard',
+                nbt: {
+                    display: {
+                        Lore: [
+                            '',
+                            'dsasdfasdfasdf'
+                        ]
+                    }
+                },
+                packs: [ furfsky_reborn ],
+            })
+
+            assert.ok(checkFilesMatch(itemTextureDir, 'renders/furfsky_reborn/mcpatcher/cit/item/tools/drills/titanium_drill_dr_x555/titanium_drill_dr_x555.png'))
         })
 
         it('Check minecraft:item:id', () => {

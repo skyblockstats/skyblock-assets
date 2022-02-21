@@ -1,3 +1,4 @@
+// @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
 import minecraftIds from '../data/minecraft_ids.json'
 export { minecraftIds }
 
