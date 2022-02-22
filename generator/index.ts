@@ -455,21 +455,9 @@ async function addPack(packName: string) {
 		
 		// remove the minecraft: namespace from matcher items
 		if (newItems)
-			newItems = newItems.map(item => item.replace(/^(minecraft:)+/, ''))
-		
-		// remove/fix items that aren't in minecraftItemNames
-		const minecraftItemNames = Object.values(minecraftIds).map(item => item.replace(/^minecraft:/, ''))
-		if (newItems && newItems.length > 0) {
-			let originalItems = newItems
 			newItems = newItems
 				.map(item => (item in minecraftIds) ? minecraftIds[item].replace(/^minecraft:/, '') : item)
-				.filter(item => minecraftItemNames.includes(item))
-			if (newItems.length === 0) {
-				// none of the items were valid, oh well!
-				console.log('invalid item??', originalItems, matcherTextures)
-				return
-			}
-		}
+				.map(item => item.replace(/^(minecraft:)+/, ''))
 
 		matchers.push({
 			t: newTextureId,

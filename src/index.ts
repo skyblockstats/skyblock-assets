@@ -2,7 +2,7 @@
 import minecraftIds from '../data/minecraft_ids.json'
 export { minecraftIds }
 
-export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.5'
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.6'
 
 export interface NBT {
 	ExtraAttributes?: {
