@@ -7,7 +7,7 @@ exports.getTextureUrl = exports.getTextureDir = exports.baseUrl = exports.minecr
 // @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
 const minecraft_ids_json_1 = __importDefault(require("../data/minecraft_ids.json"));
 exports.minecraftIds = minecraft_ids_json_1.default;
-exports.baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.5';
+exports.baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.6';
 /** Check if all the values from checkerObj are the same in obj */
 function objectsPartiallyMatch(obj, checkerObj) {
     for (const [attribute, checkerValue] of Object.entries(checkerObj)) {
