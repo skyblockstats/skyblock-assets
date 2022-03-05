@@ -33,7 +33,7 @@ interface MatcherTextures {
 	t: string
 }
 
-type MatcherFile = { dir: string, matchers: MatcherTextures[] }
+export type MatcherFile = { dir: string, matchers: MatcherTextures[] }
 
 export interface Options {
 	packs: MatcherFile[]

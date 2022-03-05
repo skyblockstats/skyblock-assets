@@ -27,7 +27,7 @@ interface MatcherTextures {
     /** Texture */
     t: string;
 }
-declare type MatcherFile = {
+export declare type MatcherFile = {
     dir: string;
     matchers: MatcherTextures[];
 };
