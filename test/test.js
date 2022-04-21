@@ -17,6 +17,9 @@ function assertIsPack(textureUrl, packName) {
 function checkFilesMatch(file1, file2) {
     const hash1 = fs.readFileSync(file1, 'utf8')
     const hash2 = fs.readFileSync(file2, 'utf8')
+    if (hash1 !== hash2) {
+        console.log(`${file1} and ${file2} do not match`)
+    }
     return hash1 === hash2
 }
 
@@ -80,6 +83,15 @@ describe('skyblock-assets', () => {
                 packs: [ vanilla ],
             })
             assert.strictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png')
+        })
+
+        it('Make sure red sand is not null', () => {
+            const itemTextureUrl = skyblockAssets.getTextureUrl({
+                id: 'minecraft:red_sand',
+                nbt: {},
+                packs: [ vanilla ],
+            })
+            assert.notStrictEqual(itemTextureUrl, skyblockAssets.baseUrl + '/renders/vanilla/error.png')
         })
 
         it('Check SkyBlock menu on PacksHQ', () => {
@@ -155,7 +167,7 @@ describe('skyblock-assets', () => {
                 packs: [ vanilla ],
             })
 
-            assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/dye_powder_brown.png`))
+            assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/brown_dye.png`))
         })
 
         it('Check itemid:id', () => {
@@ -164,7 +176,7 @@ describe('skyblock-assets', () => {
                 packs: [ vanilla ],
             })
 
-            assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/dye_powder_brown.png`))
+            assert.ok(checkFilesMatch(itemTextureDir, `packs/vanilla/textures/items/brown_dye.png`))
         })
 
         it('Check melon slice', () => {

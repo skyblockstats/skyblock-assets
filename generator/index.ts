@@ -1,4 +1,6 @@
+// @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
 import minecraftIds from '../data/minecraft_ids.json'
+// @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
 import vanillaDamages from '../data/vanilla_damages.json'
 import { loadImage, createCanvas, Image } from 'canvas'
 import { promises as fs, Dirent } from 'fs'

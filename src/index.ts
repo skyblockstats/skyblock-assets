@@ -1,5 +1,7 @@
 // @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
 import minecraftIds from '../data/minecraft_ids.json'
+// @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
+import vanillaDamages from '../data/vanilla_damages.json'
 export { minecraftIds }
 
 export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.6'
@@ -108,23 +110,29 @@ function checkMatches(options: Options, matcher: Matcher): boolean {
 }
 
 function getTextures(options: Options): { dir: string, texture: string } {
-	const splitId = options.id.split(/:(?=[^:]+$)/)
+	let idWithoutNamespace = options.id.startsWith('minecraft:') ? options.id.slice('minecraft:'.length) : options.id
 
-	let damage: null | number = options.damage
+	const splitId = idWithoutNamespace.split(/:(?=[^:]+$)/)
+
+	let damage: undefined | number = options.damage
 	let id: string = options.id
 
-	if (minecraftIds[splitId[0]]) {
+
+	if (idWithoutNamespace in vanillaDamages && damage === undefined) {
+		[id, damage] = vanillaDamages[idWithoutNamespace].split(':')
+	} else if (minecraftIds[splitId[0]]) {
 		damage = parseInt(splitId[1])
 		id = minecraftIds[splitId[0]]
 	} else if (options.damage == null && parseInt(splitId[1])) {
 		id = splitId[0]
 		damage = parseInt(splitId[1])
 	}
+
 	if (damage === undefined || isNaN(damage))
 		damage = 0
-	
-	if (id.startsWith('minecraft:'))
-		id = id.slice('minecraft:'.length)
+
+	// we don't use idWithoutNamespace because it might've changed
+	id = id.startsWith('minecraft:') ? id.slice('minecraft:'.length) : id
 	
 	// we do this so we don't modify the user's options object that they passed
 	const updatedOptions: Options = {

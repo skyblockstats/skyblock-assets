@@ -7,6 +7,8 @@ exports.getTextureUrl = exports.getTextureDir = exports.baseUrl = exports.minecr
 // @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
 const minecraft_ids_json_1 = __importDefault(require("../data/minecraft_ids.json"));
 exports.minecraftIds = minecraft_ids_json_1.default;
+// @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
+const vanilla_damages_json_1 = __importDefault(require("../data/vanilla_damages.json"));
 exports.baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.6';
 /** Check if all the values from checkerObj are the same in obj */
 function objectsPartiallyMatch(obj, checkerObj) {
@@ -62,10 +64,14 @@ function checkMatches(options, matcher) {
     return true;
 }
 function getTextures(options) {
-    const splitId = options.id.split(/:(?=[^:]+$)/);
+    let idWithoutNamespace = options.id.startsWith('minecraft:') ? options.id.slice('minecraft:'.length) : options.id;
+    const splitId = idWithoutNamespace.split(/:(?=[^:]+$)/);
     let damage = options.damage;
     let id = options.id;
-    if (minecraft_ids_json_1.default[splitId[0]]) {
+    if (idWithoutNamespace in vanilla_damages_json_1.default && damage === undefined) {
+        [id, damage] = vanilla_damages_json_1.default[idWithoutNamespace].split(':');
+    }
+    else if (minecraft_ids_json_1.default[splitId[0]]) {
         damage = parseInt(splitId[1]);
         id = minecraft_ids_json_1.default[splitId[0]];
     }
@@ -75,8 +81,8 @@ function getTextures(options) {
     }
     if (damage === undefined || isNaN(damage))
         damage = 0;
-    if (id.startsWith('minecraft:'))
-        id = id.slice('minecraft:'.length);
+    // we don't use idWithoutNamespace because it might've changed
+    id = id.startsWith('minecraft:') ? id.slice('minecraft:'.length) : id;
     // we do this so we don't modify the user's options object that they passed
     const updatedOptions = {
         damage,

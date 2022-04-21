@@ -1,6 +1,6 @@
 {
   "name": "skyblock-assets",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Library for getting URLs to Hypixel SkyBlock item textures from several resource packs.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -12,7 +12,7 @@
   "scripts": {
     "test": "mocha",
     "compile": "tsc",
-    "generate": "tsc generator/index.ts --outDir generator-build && node generator-build && oxipng -o 3 -i 0 --strip safe **/*.png"
+    "generate": "tsc generator/index.ts --outDir generator-build --resolveJsonModule --esModuleInterop --rootDir generator && node generator-build && oxipng -o 3 -i 0 --strip safe **/*.png"
   },
   "repository": {
     "type": "git",
