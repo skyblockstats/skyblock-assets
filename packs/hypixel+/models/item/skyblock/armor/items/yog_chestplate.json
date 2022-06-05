@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armor/items/yog_chestplate",
+        "layer1": "skyblock/armor/items/yog_chestplate"
+    }
+}

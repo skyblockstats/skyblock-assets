@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armordyed/items/wise_dragon_chestplate_underlay",
+        "layer1": "skyblock/armordyed/items/wise_dragon_chestplate_overlay"
+    }
+}

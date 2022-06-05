@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "gui/current_ban",
+        "layer1": "gui/no_ban"
+    }
+}

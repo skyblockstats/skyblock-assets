@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/gui/pets",
+        "layer1": "skyblock/gui/statistic_pet_luck"
+    }
+}

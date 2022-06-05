@@ -101,7 +101,7 @@ async function readPropertiesFile(fileDir: string): Promise<{ [key: string]: any
 	for (const line of fileContents.split('\n')) {
 		const keyvalue = line.split('=', 2)
 		if (keyvalue.length !== 2) continue
-		const [ key, value ] = keyvalue
+		const [key, value] = keyvalue
 		contents[key] = value.trim()
 	}
 	const dotNotationContents = {}
@@ -297,14 +297,14 @@ async function getItemFromCIT(baseDir: string, propertiesDir: string, vanillaDir
 		let newTexture = path.join(path.dirname(propertiesDir), propertiesTexture)
 		if (newTexture.endsWith('.png.png')) newTexture = newTexture.slice(0, newTexture.length - 4)
 		else if (!newTexture.endsWith('.png')) newTexture += '.png'
-	
+
 		// if the file doesn't exist, try checking the parent directory
 		if (!(await fileExists(newTexture))) {
 			const parentDirectory = path.join(path.dirname(propertiesDir), '..', propertiesTexture)
 			if (await fileExists(parentDirectory))
 				newTexture = parentDirectory
 		}
-	
+
 		textures.texture = newTexture
 	} else if (propertiesTexture) {
 		const newTextures = {}
@@ -430,7 +430,7 @@ async function addPack(packName: string) {
 
 	let itemIndex = 0
 
-	
+
 	/** Simply add an item to the list of matchers. Some details will be changed in order to make the matchers smaller. */
 	async function addMatcherTextures(matcherTextures: MatcherTextures) {
 		const newTextureDir = matcherTextures.t
@@ -438,23 +438,27 @@ async function addPack(packName: string) {
 			return
 
 		// for (let [textureName, textureDirectory] of Object.entries(matcherTextures.t)) {/
-			// if (!usefulTextures.includes(textureName)) {
-			// 	delete newTextures[textureName]
-			// 	continue
-			// }
-			const thisItemIndex = itemIndex ++
-			try {
-				await fs.copyFile(newTextureDir, path.join(texturesDir, `${integerToId(thisItemIndex)}.png`))
-			} catch (e) {
-				// console.warn('Missing texture:', textureDirectory, matcherTextures)
-				return
-			}
-			const newTextureId = integerToId(thisItemIndex)
-			// newTextures[textureName] = integerToId(thisItemIndex)
+		// if (!usefulTextures.includes(textureName)) {
+		// 	delete newTextures[textureName]
+		// 	continue
 		// }
-		
+		const thisItemIndex = itemIndex++
+		try {
+			await fs.copyFile(newTextureDir, path.join(texturesDir, `${integerToId(thisItemIndex)}.png`))
+		} catch (e) {
+			// console.warn('Missing texture:', textureDirectory, matcherTextures)
+			return
+		}
+		const newTextureId = integerToId(thisItemIndex)
+		// newTextures[textureName] = integerToId(thisItemIndex)
+		// }
+
 		let newItems = matcherTextures.m.i
-		
+		if (!newItems) {
+			console.warn('No items for matcher:', matcherTextures)
+			return
+		}
+
 		// remove the minecraft: namespace from matcher items
 		if (newItems)
 			newItems = newItems
@@ -604,14 +608,14 @@ async function addPack(packName: string) {
 async function makeDir(dir) {
 	try {
 		await fs.rm(dir, { recursive: true })
-	} catch {}
+	} catch { }
 	await fs.mkdir(dir)
 }
 
 async function main() {
 	for await (const dir of await getFiles('renders/vanilla'))
 		vanillaRenders.push(dir)
-	
+
 	await makeDir('textures')
 	await makeDir('matchers')
 

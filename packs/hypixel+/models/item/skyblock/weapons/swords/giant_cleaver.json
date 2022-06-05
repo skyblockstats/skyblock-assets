@@ -1,0 +1,6 @@
+{
+    "parent": "item/giant_handheld",
+    "textures": {
+        "layer0": "skyblock/weapons/swords/giant_cleaver"
+    }
+}

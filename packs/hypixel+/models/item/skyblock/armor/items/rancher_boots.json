@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armor/items/rancher_boots",
+        "layer1": "items/leather_boots_overlay"
+    }
+}

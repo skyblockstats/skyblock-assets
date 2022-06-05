@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armor/items/armor_of_the_stars_helmet",
+        "layer1": "skyblock/armor/items/armor_of_the_stars_helmet"
+    }
+}

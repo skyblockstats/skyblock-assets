@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_staff",
+    "textures": {
+        "layer0": "skyblock/weapons/other/great_spook_staff_1st"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/gui/statistic_speed_icon",
+        "layer1": "skyblock/gui/statistic_speed"
+    }
+}

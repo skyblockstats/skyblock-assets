@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/tools/mesa_biome_stick"
+    }
+}

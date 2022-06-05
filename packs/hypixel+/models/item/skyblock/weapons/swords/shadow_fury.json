@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/weapons/swords/shadow_fury",
+        "layer1": "skyblock/weapons/swords/shadow_fury_flames"
+    }
+}

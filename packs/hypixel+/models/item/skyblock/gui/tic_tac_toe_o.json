@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/gui/tic_tac_toe_o"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 0, -10, 0 ],
+            "scale": [ 2, 2, 2 ]
+        }
+    }
+}

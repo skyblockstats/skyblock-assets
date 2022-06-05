@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/items/reforgestones/candy_corn"
+    }
+}

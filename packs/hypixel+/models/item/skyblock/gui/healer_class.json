@@ -1,0 +1,8 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "gui/achoo",
+        "layer1": "skyblock/gui/healer_class",
+        "layer2": "items/potion_bottle_splash"
+    }
+}

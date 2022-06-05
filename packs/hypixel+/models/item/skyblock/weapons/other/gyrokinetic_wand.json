@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_staff",
+    "textures": {
+        "layer0": "skyblock/weapons/other/gyrokinetic_wand"
+    }
+}

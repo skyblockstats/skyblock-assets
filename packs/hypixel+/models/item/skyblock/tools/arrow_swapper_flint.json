@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/tools/arrow_swapper",
+        "layer1": "skyblock/tools/arrow_swapper_flint.png"
+    }
+}

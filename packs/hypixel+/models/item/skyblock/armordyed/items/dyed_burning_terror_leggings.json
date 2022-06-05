@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armordyed/items/burning_terror_leggings_underlay",
+        "layer1": "skyblock/armordyed/items/burning_terror_leggings_overlay"
+    }
+}

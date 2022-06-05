@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armor/items/glacite_boots",
+        "layer1": "skyblock/armor/items/glacite_boots"
+    }
+}

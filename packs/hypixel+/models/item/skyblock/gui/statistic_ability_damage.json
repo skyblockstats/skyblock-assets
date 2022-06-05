@@ -1,0 +1,8 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/iron_sword",
+        "layer1": "skyblock/gui/statistic_ability_damage_icon",
+        "layer2": "skyblock/gui/statistic_ability_damage"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/tools/gemstone_drill_lt_522",
+        "layer1": "skyblock/tools/gold_drill_yellow"
+    }
+}

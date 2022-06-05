@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/weapons/swords/blade_of_the_volcano"
+    }
+}

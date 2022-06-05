@@ -1,0 +1,6 @@
+{
+    "parent": "item/giant_generated",
+    "textures": {
+        "layer0": "lobby/mystery_box5"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armordyed/items/heavy_boots_underlay",
+        "layer1": "skyblock/armordyed/items/heavy_boots_overlay"
+    }
+}

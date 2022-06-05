@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/gui/trade_timer1",
+        "layer1": "skyblock/gui/trade_left"
+    },
+    "display": {
+        "gui": {
+            "scale": [ 4, 4, 4]
+        }
+    }
+}

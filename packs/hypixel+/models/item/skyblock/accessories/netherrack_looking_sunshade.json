@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/accessories/netherrack_looking_sunshade"
+    }
+}

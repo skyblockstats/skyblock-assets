@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld_gauntlet",
+	"textures": {
+		"0": "skyblock/equipment/flaming_fist_hand",
+		"1": "skyblock/equipment/flaming_fist"
+	}
+}

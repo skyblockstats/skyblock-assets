@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/items/gemstones/flawless_amethyst_gem",
+        "layer1": "skyblock/gui/statistic_pristine"
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld_gauntlet",
+	"textures": {
+		"0": "skyblock/equipment/glowstone_gauntlet_hand",
+		"1": "skyblock/equipment/vanquished_glowstone_gauntlet"
+	}
+}

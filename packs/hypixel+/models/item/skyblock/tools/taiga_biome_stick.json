@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/tools/taiga_biome_stick"
+    }
+}

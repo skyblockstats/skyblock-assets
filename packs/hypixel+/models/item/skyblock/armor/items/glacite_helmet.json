@@ -1,0 +1,6 @@
+{
+	"parent": "item/skull_item",
+	"textures": {
+		"0": "skyblock/armor/glacite_helmet_armor"
+	}
+}

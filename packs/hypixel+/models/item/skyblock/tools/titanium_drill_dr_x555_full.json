@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/tools/titanium_drill_dr_x555",
+        "layer1": "skyblock/tools/diamond_drill_full"
+    }
+}

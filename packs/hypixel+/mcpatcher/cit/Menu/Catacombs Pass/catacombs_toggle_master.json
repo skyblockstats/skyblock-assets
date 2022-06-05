@@ -1,6 +1,0 @@
-{
-    "parent": "builtin/generated",
-    "textures": {
-        "layer0": "./catacombs_toggle_master"
-    }
-}

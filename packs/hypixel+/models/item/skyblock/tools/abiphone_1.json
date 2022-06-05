@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld_abiphone",
+	"textures": {
+		"0": "skyblock/tools/abiphone_1",
+		"1": "skyblock/tools/abiphone_1_back"
+	}
+}

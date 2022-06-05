@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/accessories/talisman_of_coins"
+    }
+}

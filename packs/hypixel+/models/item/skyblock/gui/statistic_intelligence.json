@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/book_enchanted",
+        "layer1": "skyblock/gui/statistic_intelligence"
+    }
+}

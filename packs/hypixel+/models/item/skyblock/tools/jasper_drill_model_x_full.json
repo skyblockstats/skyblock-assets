@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/tools/jasper_drill_model_x",
+        "layer1": "skyblock/tools/ruby_drill_full"
+    }
+}

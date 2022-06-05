@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/weapons/swords/wither_cloak_sword",
+        "layer1": "skyblock/weapons/swords/wither_cloak_sword_flames"
+    }
+}

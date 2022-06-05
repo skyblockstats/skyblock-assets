@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/items/petitems/pet_exp_rare",
+        "layer1": "items/iron_axe"
+    }
+}

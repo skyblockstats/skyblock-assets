@@ -1,0 +1,6 @@
+{
+    "parent": "item/giant_generated",
+    "textures": {
+        "layer0": "gui/spectator_speed1"
+    }
+}

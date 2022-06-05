@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_gun",
+    "textures": {
+        "layer0": "zombies/flamethrower"
+    }
+}

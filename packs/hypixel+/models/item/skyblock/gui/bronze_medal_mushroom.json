@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "blocks/mushroom_red",
+        "layer1": "skyblock/gui/bronze_medal_small"
+    }
+}

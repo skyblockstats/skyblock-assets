@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/gui/ah_buy_stats"
+    },
+    "display": {
+        "gui": {
+            "scale": [ 1.55, 1.55, 1.55]
+        }
+    }
+}

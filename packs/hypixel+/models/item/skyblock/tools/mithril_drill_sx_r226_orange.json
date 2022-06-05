@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/tools/mithril_drill_sx_r226",
+        "layer1": "skyblock/tools/iron_drill_orange"
+    }
+}

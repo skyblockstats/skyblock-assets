@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/weapons/swords/frozen_scythe",
+        "layer1": "skyblock/weapons/swords/frozen_scythe_blade"
+    }
+}

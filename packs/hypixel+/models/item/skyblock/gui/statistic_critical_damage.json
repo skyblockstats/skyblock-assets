@@ -1,0 +1,8 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/diamond_sword",
+        "layer1": "skyblock/gui/statistic_critical_damage_icon",
+        "layer2": "skyblock/gui/statistic_critical_damage"
+    }
+}

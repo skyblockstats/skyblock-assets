@@ -1,0 +1,6 @@
+{
+    "parent": "item/katana",
+    "textures": {
+        "layer0": "skyblock/weapons/swords/voidedge_katana"
+    }
+}

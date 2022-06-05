@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/gui/catacombs_pass",
+        "layer1": "skyblock/gui/floor_1_master"
+    }
+}

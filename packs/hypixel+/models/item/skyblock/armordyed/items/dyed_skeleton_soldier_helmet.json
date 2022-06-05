@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armordyed/items/skeleton_soldier_helmet_underlay",
+        "layer1": "gui/achoo"
+    }
+}

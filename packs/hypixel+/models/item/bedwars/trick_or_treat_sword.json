@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "bedwars/trick_or_treat_sword"
+    }
+}

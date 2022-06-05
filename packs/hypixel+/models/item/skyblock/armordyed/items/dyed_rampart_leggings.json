@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armordyed/items/rampart_leggings_underlay",
+        "layer1": "skyblock/armordyed/items/rampart_leggings_overlay"
+    }
+}

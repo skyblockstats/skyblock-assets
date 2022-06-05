@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "skyblock/weapons/swords/necromancer_sword",
+        "layer1": "skyblock/weapons/swords/necromancer_sword_flames"
+    }
+}

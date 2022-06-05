@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "skyblock/armor/items/mercenary_leggings",
+        "layer1": "skyblock/armor/items/mercenary_leggings"
+    }
+}
