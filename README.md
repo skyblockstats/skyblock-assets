@@ -33,11 +33,11 @@ The order in which you provide packs is the order in which they will be searched
 
 ## Pack versions
 
-[Ectoplasm](https://hypixel.net/threads/2239953) - Completionist's Update 
-[Furfsky Reborn](https://furfsky.net) - v1.5.1
-[Furfsky](https://hypixel.net/threads/2138599) - v1.7.1
-[PacksHQ](https://packshq.com) - v13
-[RNBW](https://hypixel.net/threads/3470904) - v0.7.0
-[Hypixel+](https://hypixel.net/threads/4174260) - v0.13.0
-[Worlds and Beyond](https://hypixel.net/threads/3597207) - v1.5
+[Ectoplasm](https://hypixel.net/threads/2239953) - Completionist's Update\
+[Furfsky Reborn](https://furfsky.net) - v1.5.1\
+[Furfsky](https://hypixel.net/threads/2138599) - v1.7.1\
+[PacksHQ](https://packshq.com) - v13\
+[RNBW](https://hypixel.net/threads/3470904) - v0.7.0\
+[Hypixel+](https://hypixel.net/threads/4174260) - v0.13.0\
+[Worlds and Beyond](https://hypixel.net/threads/3597207) - v1.5\
 
