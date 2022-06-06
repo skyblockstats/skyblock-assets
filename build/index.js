@@ -9,7 +9,7 @@ const minecraft_ids_json_1 = __importDefault(require("../data/minecraft_ids.json
 exports.minecraftIds = minecraft_ids_json_1.default;
 // @ts-ignore This is outside the rootdir so technically it's illegal but also it's fine
 const vanilla_damages_json_1 = __importDefault(require("../data/vanilla_damages.json"));
-exports.baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.10';
+exports.baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.11';
 /** Check if all the values from checkerObj are the same in obj */
 function objectsPartiallyMatch(obj, checkerObj) {
     for (const [attribute, checkerValue] of Object.entries(checkerObj)) {

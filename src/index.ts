@@ -4,7 +4,7 @@ import minecraftIds from '../data/minecraft_ids.json'
 import vanillaDamages from '../data/vanilla_damages.json'
 export { minecraftIds }
 
-export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.10'
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.11'
 
 export interface NBT {
 	ExtraAttributes?: {
