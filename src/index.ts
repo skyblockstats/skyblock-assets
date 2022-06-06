@@ -4,7 +4,7 @@ import minecraftIds from '../data/minecraft_ids.json'
 import vanillaDamages from '../data/vanilla_damages.json'
 export { minecraftIds }
 
-export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.6'
+export const baseUrl = 'https://raw.githubusercontent.com/skyblockstats/skyblock-assets/2.0.10'
 
 export interface NBT {
 	ExtraAttributes?: {
@@ -133,7 +133,7 @@ function getTextures(options: Options): { dir: string, texture: string } {
 
 	// we don't use idWithoutNamespace because it might've changed
 	id = id.startsWith('minecraft:') ? id.slice('minecraft:'.length) : id
-	
+
 	// we do this so we don't modify the user's options object that they passed
 	const updatedOptions: Options = {
 		damage,
@@ -169,7 +169,7 @@ function getTextures(options: Options): { dir: string, texture: string } {
 /** Get the directory for the texture for a SkyBlock item */
 export function getTextureDir(options: Options): string {
 	const { dir, texture } = getTextures(options) ?? { dir: '', texture: null }
-	
+
 	if (!texture)
 		if (options.noNullTexture)
 			return null
