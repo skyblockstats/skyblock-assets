@@ -39,5 +39,5 @@ The order in which you provide packs is the order in which they will be searched
 [PacksHQ](https://packshq.com) - v13\
 [RNBW](https://hypixel.net/threads/3470904) - v0.7.0\
 [Hypixel+](https://hypixel.net/threads/4174260) - v0.13.0\
-[Worlds and Beyond](https://hypixel.net/threads/3597207) - v1.5\
+[Worlds and Beyond](https://hypixel.net/threads/3597207) - v1.5
 
