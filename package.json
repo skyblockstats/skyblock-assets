@@ -26,7 +26,7 @@
   "homepage": "https://github.com/skyblockstats/skyblock-assets#readme",
   "devDependencies": {
     "@types/mocha": "^8.2.2",
-    "@types/node": "^16.10.2",
+    "@types/node": "^18.14.1",
     "canvas": "^2.7.0",
     "crc": "^3.8.0",
     "mocha": "^9.1.2",
